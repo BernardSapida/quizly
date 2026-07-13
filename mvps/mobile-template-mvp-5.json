@@ -1,0 +1,198 @@
+{
+  "mvp_number": 5,
+  "mvp_title": "Real-Time & Query Architecture Completion",
+  "feature_name": "Mobile Template",
+  "description": "Completes the data layer architecture. Wires Pusher (or compatible service) for real-time events, connects invalidation strategy to the query key registry, and establishes the per-feature realtime.ts pattern. Also finalises the query config with all stale time tiers applied across existing queries. This MVP delivers infrastructure only — no new screens.",
+  "depends_on_mvp": 4,
+
+  "database": {
+    "models": []
+  },
+
+  "api": [],
+
+  "realtime_architecture": {
+    "service": "Pusher Channels (or Ably/Soketi as drop-in replacements)",
+    "package": "pusher-js",
+    "installation": "expo install pusher-js",
+    "env_vars": {
+      "EXPO_PUBLIC_PUSHER_KEY": "your-pusher-app-key",
+      "EXPO_PUBLIC_PUSHER_CLUSTER": "ap1"
+    },
+    "pattern": {
+      "description": "Each feature owns its realtime.ts file. It subscribes to Pusher channels and invalidates the relevant TanStack Query keys. The Pusher client is a singleton in src/lib/realtime/pusher.ts.",
+      "files": {
+        "src/lib/realtime/pusher.ts": "Singleton Pusher client. Initialized once. Exported as pusher.",
+        "src/lib/realtime/index.ts": "Re-exports pusher and useRealtimeConnection hook.",
+        "src/features/<feature>/realtime.ts": "Per-feature hook. Subscribes on mount, unsubscribes on unmount. Calls queryClient.invalidateQueries with keys from src/lib/query/keys.ts."
+      }
+    },
+    "connection_lifecycle": [
+      "Pusher client initialized in src/lib/realtime/pusher.ts on import — not on component mount",
+      "useRealtimeConnection hook in root layout: connects on mount, disconnects on unmount",
+      "On app background (AppState inactive): pusher.disconnect()",
+      "On app foreground (AppState active): pusher.connect()",
+      "On reconnect: invalidate all active queries — queryClient.invalidateQueries()",
+      "Connection state logged via logger.info on connect/disconnect/error"
+    ],
+    "auth": {
+      "description": "If using private/presence channels, Pusher needs an auth endpoint on your backend.",
+      "endpoint": "/api/pusher/auth",
+      "auth_required": true,
+      "note": "Public channels require no auth — use for template default. Private channels wired per-app."
+    }
+  },
+
+  "query_architecture_completion": {
+    "description": "Apply stale time tiers from src/lib/query/config.ts to all existing and future queries. Document the decision for each.",
+    "query_assignments": [
+      {
+        "query": "auth.session",
+        "stale_tier": "STALE.low",
+        "reason": "Session data changes only on login/logout/profile update — 10min cache is safe",
+        "refetch_on_focus": false,
+        "refetch_on_reconnect": true
+      },
+      {
+        "query": "auth.me",
+        "stale_tier": "STALE.low",
+        "reason": "User profile rarely changes mid-session",
+        "refetch_on_focus": false,
+        "refetch_on_reconnect": true
+      }
+    ],
+    "rules": [
+      "Every useQuery hook must reference a key from src/lib/query/keys.ts — no inline string arrays",
+      "Every useQuery hook must set staleTime from src/lib/query/config.ts STALE constants — no hardcoded ms values",
+      "Real-time data: staleTime=STALE.realtime + Pusher invalidation — never poll",
+      "Static/config data: staleTime=STALE.static, fetched once per session",
+      "Form screens: set enabled:false or staleTime=STALE.static to prevent background refetch mid-fill"
+    ]
+  },
+
+  "feature_realtime_pattern": {
+    "description": "Template for any feature that needs real-time. Copy this pattern per feature.",
+    "example_file": "src/features/notifications/realtime.ts",
+    "example_code": {
+      "description": "useNotificationsRealtime() subscribes to user-specific Pusher channel and invalidates notification queries on events",
+      "channel_pattern": "private-user-{userId}",
+      "events": [
+        {
+          "event": "notification.created",
+          "action": "invalidateQueries(keys.notifications.all())"
+        },
+        {
+          "event": "notification.read",
+          "action": "invalidateQueries(keys.notifications.unread())"
+        }
+      ]
+    }
+  },
+
+  "query_keys_expansion": {
+    "description": "Expand src/lib/query/keys.ts with all keys needed by MVP 1-5. Future features add their own keys here.",
+    "keys_to_add": {
+      "appConfig": {
+        "root": "() => ['appConfig']"
+      },
+      "notifications": {
+        "all": "() => ['notifications']",
+        "unread": "() => ['notifications', 'unread']"
+      }
+    }
+  },
+
+  "frontend": {
+    "pages": [],
+    "forms": [],
+    "files_to_create": [
+      {
+        "path": "src/lib/realtime/pusher.ts",
+        "description": "Singleton Pusher client. Reads EXPO_PUBLIC_PUSHER_KEY and EXPO_PUBLIC_PUSHER_CLUSTER from env. Exports pusher instance.",
+        "exports": ["pusher"]
+      },
+      {
+        "path": "src/lib/realtime/index.ts",
+        "description": "Exports pusher and useRealtimeConnection. useRealtimeConnection manages connect/disconnect on AppState changes and logs connection events.",
+        "exports": ["pusher", "useRealtimeConnection"]
+      }
+    ],
+    "files_to_modify": [
+      {
+        "path": "app/_layout.tsx",
+        "changes": [
+          "Import useRealtimeConnection from src/lib/realtime/index.ts",
+          "Call useRealtimeConnection() inside RootLayout to manage Pusher lifecycle"
+        ]
+      },
+      {
+        "path": "src/lib/query/keys.ts",
+        "changes": [
+          "Add appConfig keys",
+          "Add notifications keys"
+        ]
+      },
+      {
+        "path": "src/lib/query-client.ts",
+        "changes": [
+          "Add refetchOnReconnect: true to defaultOptions.queries — TanStack Query resumes on reconnect automatically"
+        ]
+      }
+    ]
+  },
+
+  "data_flow": [
+    "1. App boots — useRealtimeConnection initializes Pusher connection",
+    "2. User authenticates — feature realtime hooks mount and subscribe to user-specific channels",
+    "3. Backend emits Pusher event on data change",
+    "4. Feature realtime.ts receives event, calls queryClient.invalidateQueries with specific key",
+    "5. TanStack Query refetches the stale query in background",
+    "6. UI updates automatically via useQuery subscriber",
+    "7. App backgrounds — Pusher disconnects, TanStack Query pauses background refetch",
+    "8. App foregrounds — Pusher reconnects, queryClient.invalidateQueries() triggers full refresh"
+  ],
+
+  "acceptance_criteria": [
+    {
+      "given": "Pusher credentials are configured in .env",
+      "when": "App boots",
+      "then": "Pusher connection is established. Connection state logged as info."
+    },
+    {
+      "given": "A feature component mounts with useNotificationsRealtime()",
+      "when": "Backend emits notification.created on the user's channel",
+      "then": "notifications query is invalidated and UI updates without manual refresh"
+    },
+    {
+      "given": "App goes to background",
+      "when": "AppState changes to inactive/background",
+      "then": "Pusher disconnects. Logged as info."
+    },
+    {
+      "given": "App returns to foreground after background",
+      "when": "AppState changes to active",
+      "then": "Pusher reconnects and queryClient.invalidateQueries() triggers a full refresh of active queries"
+    },
+    {
+      "given": "A new feature query is added to the codebase",
+      "when": "Code review checks are applied",
+      "then": "Query key is in src/lib/query/keys.ts and staleTime references STALE constants — no inline values"
+    }
+  ],
+
+  "edge_cases": [
+    "Pusher connection may fail on first connect (bad key, network) — log error, do not crash app. Real-time is enhancement, not critical path.",
+    "On reconnect, invalidateQueries() is broad — for high-frequency apps, scope it to only active query keys using queryClient.getQueryCache().getAll()",
+    "pusher-js uses XMLHttpRequest which may be blocked by Android cleartext policy on dev — ensure dev backend uses HTTPS or configure network_security_config.xml",
+    "Multiple feature realtime hooks subscribing to the same channel is fine — Pusher deduplicates channel subscriptions",
+    "If Pusher is not configured (no env vars), useRealtimeConnection should silently no-op — never throw on missing config"
+  ],
+
+  "out_of_scope": [
+    "Pusher presence channels — template uses public/private channels only",
+    "WebSocket fallback if Pusher is unavailable — use Pusher's built-in transport fallback",
+    "tRPC subscriptions — Pusher is the real-time layer, tRPC handles request/response only",
+    "Per-feature realtime implementations beyond the template pattern — apps add their own",
+    "Offline queue (sending mutations while offline and replaying on reconnect) — app-level concern"
+  ]
+}

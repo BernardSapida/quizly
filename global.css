@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "uniwind";
+
+@import 'heroui-native/styles';
+
+@source './node_modules/heroui-native/lib';
+
+@theme {
+  --color-app-base: #ffffff;
+  --color-app-brand: #5465FF;
+  --color-app-secondary: #788BFF;
+  --color-app-accent: #9BB1FF;
+}
+
+/* Map HeroUI Native's accent token to the brand color.
+   Everything that reads --accent (buttons, focus rings, active states) follows automatically. */
+@layer theme {
+  :root {
+    @variant light {
+      --accent: var(--color-app-brand);
+      --accent-foreground: #ffffff;
+    }
+    @variant dark {
+      --accent: var(--color-app-brand);
+      --accent-foreground: #ffffff;
+    }
+  }
+}

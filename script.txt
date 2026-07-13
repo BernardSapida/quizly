@@ -1,0 +1,38 @@
+# ============================================================
+# BEFORE BUILDING APK — CHECKLIST
+# ============================================================
+# 1. Update .env with your deployed API URL (NOT local IP):
+#    EXPO_PUBLIC_PUSHER_KEY=<your-key>
+#    EXPO_PUBLIC_PUSHER_CLUSTER=ap1
+#    EXPO_PUBLIC_API_URL=https://your-app-name.netlify.app
+#
+# 2. Update app.json intentFilters host:
+#    "host": "your-app-name.netlify.app"
+#    (search for "yourdomain.com" and replace it)
+#
+# 3. Verify tRPC endpoint is reachable + CORS is allowed:
+#    https://your-app-name.netlify.app/api/trpc
+#
+# 4. EXPO_PUBLIC_* vars are baked in at build time.
+#    Whatever is in .env when you run the build is permanent in that APK.
+# ============================================================
+
+# BUILD COMMANDS
+npm install -g eas-cli
+eas login
+eas build --profile preview --platform android     # internal testing — gives direct .apk download
+eas build --profile production --platform android  # production — builds .aab for Play Store
+
+npx expo prebuild --platform android
+cd android
+.\gradlew assembleRelease
+.\gradlew release
+.\gradlew stop
+.\gradlew clean
+
+npx expo run:android
+
+/android/build.gradle
+ext {
+    ndkVersion = "30.0.14904198"
+}

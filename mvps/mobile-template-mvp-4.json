@@ -1,0 +1,289 @@
+{
+  "mvp_number": 4,
+  "mvp_title": "System States, Connectivity & App Lifecycle",
+  "feature_name": "Mobile Template",
+  "description": "Delivers all system-level screens and states: offline detection (full screen + inline banner), server error screen, maintenance mode, force update screen, and Android background kill recovery. This MVP makes the app production-hardened for real-world network and lifecycle conditions. Android-first priority.",
+  "depends_on_mvp": 3,
+
+  "database": {
+    "models": []
+  },
+
+  "api": [
+    {
+      "name": "getAppConfig",
+      "method": "GET",
+      "endpoint": "/api/app/config",
+      "auth_required": false,
+      "roles": ["*"],
+      "description": "Returns app config flags: maintenanceMode (boolean), minimumVersion (string), currentVersion (string). Called on cold start before auth bootstrap.",
+      "request_body": {},
+      "response": {
+        "maintenanceMode": "boolean",
+        "maintenanceMessage": "string | null",
+        "minimumVersion": "string",
+        "currentVersion": "string"
+      }
+    }
+  ],
+
+  "connectivity": {
+    "detection_library": "@react-native-community/netinfo",
+    "installation_note": "Add to package.json dependencies. Requires expo install @react-native-community/netinfo",
+    "patterns": {
+      "launch_with_no_internet": {
+        "description": "App opens with zero connectivity. Full-screen NoInternetScreen shown. Retry button re-checks connection.",
+        "component": "src/components/ui/NoInternetScreen.tsx",
+        "behavior": [
+          "Check connectivity before auth bootstrap runs",
+          "If offline: show NoInternetScreen, block auth bootstrap",
+          "Retry button: re-check NetInfo, if online resume bootstrap",
+          "If cached session exists and offline: allow app access with stale data badge (optional — see out_of_scope)"
+        ]
+      },
+      "mid_session_drop": {
+        "description": "User is in the app and loses internet. Inline banner appears at top of screen. Does not navigate away.",
+        "component": "src/components/ui/OfflineBanner.tsx",
+        "behavior": [
+          "NetInfo event listener in root layout",
+          "On disconnect: set isOffline=true in useUIStore, OfflineBanner slides down",
+          "On reconnect: set isOffline=false, OfflineBanner slides up and disappears",
+          "Banner is non-interactive — just informs the user",
+          "TanStack Query pauses background refetch while offline — refetchOnReconnect: true handles resume"
+        ]
+      }
+    }
+  },
+
+  "app_lifecycle": {
+    "force_update": {
+      "description": "Backend returns minimumVersion in /api/app/config. If installed app version < minimumVersion, show ForceUpdateScreen. Non-dismissable.",
+      "version_comparison": "Use semver comparison. expo-constants provides Constants.expoConfig.version.",
+      "component": "src/components/ui/ForceUpdateScreen.tsx",
+      "android_behavior": "Use Linking.openURL to deep link to Play Store listing. URL: market://details?id=<package_name>",
+      "check_timing": "On cold start, after connectivity check, before auth bootstrap"
+    },
+    "maintenance_mode": {
+      "description": "Backend returns maintenanceMode=true in /api/app/config. Show MaintenanceModeScreen. Non-dismissable. Shows maintenanceMessage if provided.",
+      "component": "src/components/ui/MaintenanceModeScreen.tsx",
+      "check_timing": "Same as force update — on cold start app config fetch"
+    },
+    "server_error": {
+      "description": "Backend returns 5xx on critical calls (app config, session). Show ServerErrorScreen with retry.",
+      "component": "src/components/ui/ServerErrorScreen.tsx",
+      "behavior": [
+        "Distinguish from no-internet — device is online, backend is down",
+        "Show retry button — re-attempts the failed call",
+        "Log to logger.error with response status and endpoint"
+      ]
+    },
+    "android_background_kill_recovery": {
+      "description": "Android OS kills the app in background. On resume, React Navigation state may be stale. Session must be revalidated.",
+      "behavior": [
+        "AppState 'active' listener in root layout",
+        "On resume from background: check token expiry via secureStore",
+        "If expired: attempt silent refresh",
+        "If refresh fails: sessionExpiredModalVisible=true (wired in MVP 2)",
+        "Navigation state: Expo Router handles persistence via AsyncStorage by default — verify this is enabled",
+        "Do not re-run full bootstrap on resume — only token expiry check"
+      ]
+    }
+  },
+
+  "ui_store_additions": {
+    "description": "Add these fields to src/store/slices/ui.slice.ts in this MVP",
+    "new_fields": [
+      { "name": "isOffline", "type": "boolean", "default": false },
+      { "name": "maintenanceModeActive", "type": "boolean", "default": false },
+      { "name": "maintenanceMessage", "type": "string | null", "default": null },
+      { "name": "forceUpdateRequired", "type": "boolean", "default": false },
+      { "name": "serverErrorActive", "type": "boolean", "default": false }
+    ]
+  },
+
+  "boot_sequence": {
+    "description": "Complete cold start sequence incorporating all MVP 4 checks. This replaces the MVP 1 bootstrap.",
+    "steps": [
+      "1. expo-splash-screen.preventAutoHideAsync()",
+      "2. Check NetInfo.fetch() — if offline: show NoInternetScreen, stop here",
+      "3. Fetch GET /api/app/config",
+      "4. If fetch fails (5xx or network error): show ServerErrorScreen with retry, stop here",
+      "5. If config.maintenanceMode=true: show MaintenanceModeScreen, stop here",
+      "6. If semver(appVersion) < semver(config.minimumVersion): show ForceUpdateScreen, stop here",
+      "7. Run auth bootstrap (MVP 2 session hydration sequence)",
+      "8. expo-splash-screen.hideAsync()",
+      "9. AuthGate renders correct route"
+    ]
+  },
+
+  "frontend": {
+    "pages": [
+      {
+        "name": "NoInternetScreen",
+        "route": "full-screen overlay — rendered in app/_layout.tsx",
+        "description": "Shown on launch with zero connectivity. Full screen. Retry button.",
+        "requires_auth": false,
+        "role": "all",
+        "components": [
+          {
+            "name": "NoInternetScreen",
+            "type": "layout",
+            "features": ["offline illustration", "title", "description", "retry button"],
+            "props": ["onRetry"]
+          }
+        ],
+        "actions": [
+          {
+            "name": "retry",
+            "type": "button",
+            "description": "Re-check connectivity and resume boot sequence",
+            "triggers": "calls NetInfo.fetch then resumes bootstrap",
+            "api_call": null
+          }
+        ]
+      },
+      {
+        "name": "OfflineBanner",
+        "route": "inline — rendered at top of RootLayout below status bar",
+        "description": "Slides down when mid-session connectivity drops. Slides up on reconnect. Never full-screen.",
+        "requires_auth": false,
+        "role": "all",
+        "components": [
+          {
+            "name": "OfflineBanner",
+            "type": "widget",
+            "features": ["Reanimated slide animation", "wifi-off icon", "No internet connection text"],
+            "props": ["visible"]
+          }
+        ],
+        "actions": []
+      },
+      {
+        "name": "ServerErrorScreen",
+        "route": "full-screen overlay — rendered in app/_layout.tsx",
+        "description": "Shown when backend is reachable but returns 5xx. Retry re-attempts app config fetch.",
+        "requires_auth": false,
+        "role": "all",
+        "components": [
+          {
+            "name": "ServerErrorScreen",
+            "type": "layout",
+            "features": ["error illustration", "title", "description", "retry button"],
+            "props": ["onRetry"]
+          }
+        ],
+        "actions": [
+          {
+            "name": "retry",
+            "type": "button",
+            "description": "Re-attempt GET /api/app/config",
+            "triggers": "calls API",
+            "api_call": "/api/app/config"
+          }
+        ]
+      },
+      {
+        "name": "MaintenanceModeScreen",
+        "route": "full-screen overlay — rendered in app/_layout.tsx",
+        "description": "Non-dismissable. Shows maintenanceMessage from backend if provided.",
+        "requires_auth": false,
+        "role": "all",
+        "components": [
+          {
+            "name": "MaintenanceModeScreen",
+            "type": "layout",
+            "features": ["maintenance illustration", "title", "dynamic message from backend"],
+            "props": ["message"]
+          }
+        ],
+        "actions": []
+      },
+      {
+        "name": "ForceUpdateScreen",
+        "route": "full-screen overlay — rendered in app/_layout.tsx",
+        "description": "Non-dismissable. Update Now button deep-links to Play Store (Android) or App Store (iOS).",
+        "requires_auth": false,
+        "role": "all",
+        "components": [
+          {
+            "name": "ForceUpdateScreen",
+            "type": "layout",
+            "features": ["update illustration", "version info", "Update Now button"],
+            "props": ["onUpdate"]
+          }
+        ],
+        "actions": [
+          {
+            "name": "openStore",
+            "type": "button",
+            "description": "Open Play Store or App Store to update the app",
+            "triggers": "Linking.openURL to store",
+            "api_call": null
+          }
+        ]
+      }
+    ],
+    "forms": []
+  },
+
+  "data_flow": [
+    "1. App cold starts",
+    "2. NetInfo check: if offline → NoInternetScreen",
+    "3. GET /api/app/config: if 5xx → ServerErrorScreen; if maintenanceMode → MaintenanceModeScreen; if outdated version → ForceUpdateScreen",
+    "4. All checks pass → auth bootstrap runs (MVP 2 sequence)",
+    "5. Mid-session: NetInfo listener fires on disconnect → isOffline=true → OfflineBanner slides down",
+    "6. On reconnect: isOffline=false → OfflineBanner slides up → TanStack Query refetchOnReconnect triggers",
+    "7. App resumes from background → AppState listener → token expiry check → silent refresh or sessionExpiredModal"
+  ],
+
+  "acceptance_criteria": [
+    {
+      "given": "Device has no internet when app launches",
+      "when": "RootLayout boots",
+      "then": "NoInternetScreen is shown. Auth bootstrap does not run. Retry button re-checks connectivity."
+    },
+    {
+      "given": "User is on the home screen and loses internet",
+      "when": "NetInfo detects disconnect",
+      "then": "OfflineBanner slides in from top. User remains on home screen. Navigation is not interrupted."
+    },
+    {
+      "given": "Backend returns maintenanceMode=true",
+      "when": "App config is fetched on cold start",
+      "then": "MaintenanceModeScreen is shown. User cannot proceed into the app."
+    },
+    {
+      "given": "Installed app version is 1.0.0 and minimumVersion is 2.0.0",
+      "when": "App config is fetched",
+      "then": "ForceUpdateScreen is shown with Update Now button. App is unusable until updated."
+    },
+    {
+      "given": "Android OS kills the app in background",
+      "when": "User returns to the app",
+      "then": "Token expiry is checked. If valid, app resumes normally. If expired, SessionExpiredModal appears."
+    },
+    {
+      "given": "Backend returns 500 on app config fetch",
+      "when": "Cold start runs",
+      "then": "ServerErrorScreen shown. Error logged via logger.error. Retry button re-attempts the fetch."
+    }
+  ],
+
+  "edge_cases": [
+    "OfflineBanner animation must use Reanimated withTiming on UI thread — JS thread jank during scroll is unacceptable",
+    "ForceUpdateScreen on Android: market:// deep link may fail on emulators without Play Store — fallback to https://play.google.com/store/apps/details?id=<package>",
+    "NetInfo on Android may report isConnected=true but no actual internet (captive portal) — use isInternetReachable for more accurate check",
+    "App config fetch timeout: set 5s AbortController timeout — don't hang the boot sequence on a slow backend",
+    "If /api/app/config endpoint doesn't exist yet on backend: catch 404 and treat as no maintenance/no force update — don't block boot",
+    "OfflineBanner and SessionExpiredModal could theoretically both be visible — OfflineBanner takes precedence visually (z-index)",
+    "Android back button on ForceUpdateScreen and MaintenanceModeScreen must exit the app — handle with BackHandler.exitApp()"
+  ],
+
+  "out_of_scope": [
+    "Offline data access with cached TanStack Query data — template shows offline screen only, offline-first caching is app-level concern",
+    "Push notification permission primer screen — not in this MVP",
+    "Slow connection / timeout state UI — server error screen covers the failure case",
+    "In-app review (rate app) — not in template scope",
+    "Changelog / what's new screen — not in template scope"
+  ]
+}

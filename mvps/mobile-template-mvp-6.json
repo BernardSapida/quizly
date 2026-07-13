@@ -1,0 +1,301 @@
+{
+  "mvp_number": 6,
+  "mvp_title": "Security Hardening",
+  "feature_name": "Mobile Template",
+  "description": "Addresses all Android-priority security vulnerabilities discussed in architecture review. Covers: root detection, JS bundle secret hygiene, production log stripping verification, Android App Links setup, deep link intent validation, and a security checklist for each new app built from the template. No new screens. Infrastructure and config only.",
+  "depends_on_mvp": 5,
+
+  "database": {
+    "models": []
+  },
+
+  "api": [],
+
+  "security_areas": [
+    {
+      "area": "Root Detection",
+      "priority": "HIGH — Android first",
+      "description": "Detect rooted Android devices and warn or restrict the app. expo-secure-store's EncryptedSharedPreferences is accessible on rooted devices.",
+      "package": "expo-device",
+      "implementation": {
+        "file": "src/lib/security/root-detection.ts",
+        "exports": ["isDeviceRooted", "useRootDetection"],
+        "behavior": [
+          "Call Device.isRootedExperimentalAsync() from expo-device on cold start",
+          "If rooted: log warning via logger.warn with context",
+          "For the template: warn only — do not block. Individual apps can choose to block.",
+          "Add isRootedDevice: boolean to useUIStore so app-level code can react",
+          "Root check runs after connectivity check, before auth bootstrap in boot sequence"
+        ],
+        "note": "expo-device.isRootedExperimentalAsync() is heuristic-based — not 100% accurate. It is a deterrent, not a guarantee."
+      }
+    },
+    {
+      "area": "JS Bundle Secret Hygiene",
+      "priority": "CRITICAL",
+      "description": "The JS bundle in a React Native APK can be extracted and read. Any secret in the bundle is a leaked secret.",
+      "rules": [
+        "EXPO_PUBLIC_* env vars are embedded in the bundle — only use for non-secret config (API URL, Pusher cluster, feature flags)",
+        "Never put API keys, signing secrets, private keys, or auth credentials in EXPO_PUBLIC_* or hardcoded in source",
+        "Secrets needed at runtime must be fetched from a backend endpoint after authentication",
+        "Pusher app key is public-facing by design — EXPO_PUBLIC_PUSHER_KEY is acceptable",
+        "Audit checklist: grep codebase for patterns: 'sk_', 'secret', 'private_key', 'password =' hardcoded strings before every release"
+      ],
+      "file": "src/lib/security/secrets-audit.md",
+      "content": "Markdown checklist Claude Code generates documenting what is and is not safe to put in env vars for this template"
+    },
+    {
+      "area": "Production Log Stripping",
+      "priority": "HIGH",
+      "description": "Android logcat output is readable by other apps in debug builds. Logger must be a no-op in production for debug/info levels.",
+      "verification": {
+        "file": "src/lib/logger/logger.ts",
+        "rules": [
+          "debug level: only outputs in __DEV__ — verified",
+          "info level: only outputs in __DEV__ — verified",
+          "warn level: console.warn in __DEV__, remote transport in production",
+          "error level: console.error in __DEV__, remote transport in production",
+          "Production build test: run npx expo build and verify no console output in logcat for debug/info"
+        ],
+        "build_plugin": "Add @expo/config-plugins transform to strip console.log in production via babel-plugin-transform-remove-console in babel.config.js"
+      },
+      "files_to_modify": [
+        {
+          "path": "babel.config.js",
+          "changes": [
+            "Add env check: if process.env.NODE_ENV === 'production', include babel-plugin-transform-remove-console",
+            "This is a safety net — the logger __DEV__ gate is primary, babel plugin is secondary"
+          ]
+        }
+      ],
+      "package": "babel-plugin-transform-remove-console",
+      "installation": "npm install --save-dev babel-plugin-transform-remove-console"
+    },
+    {
+      "area": "Android App Links vs Custom Scheme",
+      "priority": "HIGH — Android first",
+      "description": "Custom URI schemes (myapp://) can be registered by any app on Android — enables deep link hijacking. App Links (https:// with verified domain) require domain ownership proof and cannot be spoofed.",
+      "recommendation": "Use App Links for all deep links in production. Custom schemes acceptable in development only.",
+      "implementation": {
+        "file": "app.json",
+        "changes": [
+          "Add intentFilters in android.intentFilters for App Links",
+          "Set autoVerify: true on the intent filter",
+          "Add /.well-known/assetlinks.json to your backend domain — format documented in secrets-audit.md"
+        ],
+        "expo_router_config": {
+          "scheme": "myapp — keep for dev/Expo Go only",
+          "app_links": "https://yourdomain.com — production deep links"
+        },
+        "assetlinks_format": {
+          "description": "Must be served at https://yourdomain.com/.well-known/assetlinks.json",
+          "content_template": "[{ 'relation': ['delegate_permission/common.handle_all_urls'], 'target': { 'namespace': 'android_app', 'package_name': '<your.package.name>', 'sha256_cert_fingerprints': ['<your_signing_cert_sha256>'] } }]"
+        }
+      }
+    },
+    {
+      "area": "Deep Link Intent Validation",
+      "priority": "MEDIUM",
+      "description": "Validate incoming deep link URLs before processing them. Malicious links could attempt path traversal or inject unexpected routes.",
+      "implementation": {
+        "file": "src/lib/security/deep-link-validator.ts",
+        "exports": ["validateDeepLink"],
+        "behavior": [
+          "Accept allowlist of valid route patterns",
+          "Reject any URL not matching allowlist",
+          "Log rejected URLs via logger.warn",
+          "Called in (auth)/_layout.tsx before storing pendingDeepLink in UIStore"
+        ],
+        "allowlist_example": [
+          "/(app)/",
+          "/(app)/profile",
+          "/(app)/notifications/:id"
+        ]
+      }
+    },
+    {
+      "area": "Network Security Config (Android)",
+      "priority": "MEDIUM",
+      "description": "Android API 28+ blocks cleartext HTTP by default. Enforce HTTPS and optionally add certificate pinning.",
+      "files_to_create": [
+        {
+          "path": "android/app/src/main/res/xml/network_security_config.xml",
+          "description": "Android network security config. Blocks cleartext in production. Allows cleartext for local dev IP in debug builds only.",
+          "note": "With Expo managed workflow, use expo-build-properties plugin to inject this config without ejecting"
+        }
+      ],
+      "expo_plugin": {
+        "package": "expo-build-properties",
+        "config": {
+          "android": {
+            "networkSecurityConfig": "./network_security_config.xml"
+          }
+        }
+      },
+      "certificate_pinning": {
+        "status": "Not available in Expo managed workflow without bare/custom native code",
+        "recommendation": "Document this limitation. Apps requiring pinning must eject to bare workflow or use a custom dev client."
+      }
+    },
+    {
+      "area": "SecureStore Access Level Configuration",
+      "priority": "MEDIUM — Android first",
+      "description": "expo-secure-store supports requireAuthentication option which requires biometric or device PIN to read the stored value. Apply to high-sensitivity keys only.",
+      "implementation": {
+        "file": "src/lib/secure-store/index.ts",
+        "changes": [
+          "Add optional requireAuthentication parameter to get/set methods",
+          "For TOKEN_KEY: requireAuthentication: false — token must be readable without biometric (app resumes silently)",
+          "For future high-sensitivity keys (e.g. full card number, private key): requireAuthentication: true",
+          "Document which keys use which access level in a comment block at top of file"
+        ]
+      }
+    }
+  ],
+
+  "security_checklist_for_new_apps": {
+    "description": "Generated file that every new app cloned from this template should complete before going to production.",
+    "file": "SECURITY_CHECKLIST.md",
+    "checklist": [
+      "□ Replace EXPO_PUBLIC_API_URL with production HTTPS URL — never ship with local IP",
+      "□ Confirm no sk_, secret, private_key hardcoded values in source — run grep check",
+      "□ Configure /.well-known/assetlinks.json on your backend domain for Android App Links",
+      "□ Update app.json intentFilters with your production domain for App Links",
+      "□ Set up remote.transport.ts with your error tracking service (Sentry/Datadog)",
+      "□ Verify __DEV__ blocks strip correctly in production build — check logcat output",
+      "□ Configure EXPO_PUBLIC_PUSHER_KEY and EXPO_PUBLIC_PUSHER_CLUSTER for your Pusher account",
+      "□ Review SecureStore keys — any high-sensitivity data should use requireAuthentication: true",
+      "□ Test on non-rooted AND rooted Android device — verify root detection warning fires",
+      "□ Verify App Links work by testing https:// deep links on physical Android device",
+      "□ Confirm force update version check is wired to your backend /api/app/config",
+      "□ Confirm maintenance mode is wired and backend can toggle it",
+      "□ Run expo build (production) and verify no sensitive data in the JS bundle"
+    ]
+  },
+
+  "frontend": {
+    "pages": [],
+    "forms": [],
+    "files_to_create": [
+      {
+        "path": "src/lib/security/root-detection.ts",
+        "description": "useRootDetection() hook and isDeviceRooted() utility. Calls expo-device.isRootedExperimentalAsync(). Logs warning if rooted. Sets isRootedDevice in UIStore.",
+        "exports": ["isDeviceRooted", "useRootDetection"]
+      },
+      {
+        "path": "src/lib/security/deep-link-validator.ts",
+        "description": "validateDeepLink(url, allowlist) returns boolean. Rejects URLs not matching the allowlist. Logs rejected URLs.",
+        "exports": ["validateDeepLink", "DEFAULT_DEEP_LINK_ALLOWLIST"]
+      },
+      {
+        "path": "SECURITY_CHECKLIST.md",
+        "description": "Pre-production security checklist for apps built from this template. Markdown format."
+      },
+      {
+        "path": "docs/SECRETS_AUDIT.md",
+        "description": "Documents what is safe vs unsafe to put in EXPO_PUBLIC_* env vars. Includes grep commands to audit the codebase."
+      }
+    ],
+    "files_to_modify": [
+      {
+        "path": "src/lib/secure-store/index.ts",
+        "changes": [
+          "Add requireAuthentication option to set/get methods",
+          "Document access levels for each key in comment block"
+        ]
+      },
+      {
+        "path": "app/_layout.tsx",
+        "changes": [
+          "Call useRootDetection() in RootLayout",
+          "Root detection runs after connectivity check in boot sequence"
+        ]
+      },
+      {
+        "path": "app/(auth)/_layout.tsx",
+        "changes": [
+          "Call validateDeepLink() on incoming URL before storing as pendingDeepLink",
+          "Reject and log invalid deep links"
+        ]
+      },
+      {
+        "path": "babel.config.js",
+        "changes": [
+          "Add babel-plugin-transform-remove-console for production builds"
+        ]
+      },
+      {
+        "path": "app.json",
+        "changes": [
+          "Add android.intentFilters for App Links with autoVerify: true",
+          "Add placeholder domain — documented for replacement in SECURITY_CHECKLIST.md"
+        ]
+      },
+      {
+        "path": "src/store/slices/ui.slice.ts",
+        "changes": [
+          "Add isRootedDevice: boolean field, default false"
+        ]
+      }
+    ]
+  },
+
+  "boot_sequence_update": {
+    "description": "Final complete boot sequence incorporating all MVPs",
+    "steps": [
+      "1. SplashScreen.preventAutoHideAsync() — module scope",
+      "2. NetInfo check — if offline: NoInternetScreen",
+      "3. Root detection — log warning if rooted, set UIStore.isRootedDevice",
+      "4. GET /api/app/config — if 5xx: ServerErrorScreen; if maintenance: MaintenanceModeScreen; if outdated: ForceUpdateScreen",
+      "5. Theme preference applied from usePreferencesStore — before splash hides",
+      "6. Auth bootstrap — secureStore read → token expiry check → getSession or refresh → setAuth or clearAuth",
+      "7. SplashScreen.hideAsync()",
+      "8. AuthGate renders correct route",
+      "9. If pendingDeepLink in UIStore: navigate to it after auth resolves"
+    ]
+  },
+
+  "acceptance_criteria": [
+    {
+      "given": "App runs on a rooted Android device",
+      "when": "Boot sequence runs",
+      "then": "logger.warn fires with root detection context. isRootedDevice=true in UIStore. App continues — does not crash."
+    },
+    {
+      "given": "A developer adds a secret API key to .env as EXPO_PUBLIC_SECRET_KEY",
+      "when": "SECRETS_AUDIT.md is consulted",
+      "then": "The audit doc clearly identifies this as unsafe — EXPO_PUBLIC_ vars are in the bundle"
+    },
+    {
+      "given": "Production build is created",
+      "when": "logcat is monitored",
+      "then": "No console.log or console.info output — babel plugin and __DEV__ gate both strip them"
+    },
+    {
+      "given": "An external app tries to intercept a deep link via custom scheme",
+      "when": "App Links (https://) are configured",
+      "then": "Android routes the link exclusively to this app — no interception possible"
+    },
+    {
+      "given": "A malicious deep link URL is received",
+      "when": "validateDeepLink() processes it",
+      "then": "URL is rejected, warning logged, pendingDeepLink is NOT set"
+    }
+  ],
+
+  "edge_cases": [
+    "isRootedExperimentalAsync() may return true on some non-rooted emulators — add __DEV__ exemption so dev workflow isn't blocked",
+    "App Links require the app to be installed via Play Store or ADB with proper signing — custom scheme fallback needed for Expo Go dev testing",
+    "babel-plugin-transform-remove-console strips ALL console calls including third-party libraries — verify no critical library depends on console output",
+    "Network security config XML injection via expo-build-properties only works with eas build — local expo start uses Metro bundler which bypasses it",
+    "SecureStore requireAuthentication:true on Android requires a screen lock to be set — if device has no PIN/biometric, the call throws. Handle gracefully."
+  ],
+
+  "out_of_scope": [
+    "Certificate pinning — requires bare workflow, documented as limitation",
+    "Jailbreak detection on iOS — Android is priority, iOS jailbreak detection added when iOS build begins",
+    "Obfuscation/minification of JS bundle — Hermes handles this in production builds",
+    "Penetration testing — template provides the controls, pen test is app-level responsibility",
+    "OWASP Mobile Top 10 full audit — template addresses the most common; full audit per app"
+  ]
+}
