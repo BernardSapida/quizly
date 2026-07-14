@@ -703,6 +703,18 @@ export async function resetProgress(
 }
 
 /**
+ * Every set back to 0%, in every mode. The sets, folders and terms all survive —
+ * this is the "start the semester again" button, not the delete button.
+ *
+ * Destructive and not undoable: an export does not carry progress, so there is no
+ * backup that could put this back.
+ */
+export async function resetAllProgress(): Promise<void> {
+  const db = await getDb();
+  await db.runAsync("DELETE FROM progress");
+}
+
+/**
  * Every row, gone: sets, terms, folders, progress. The uninstall, without the
  * uninstall — which makes it the only honest way to rehearse a restore.
  *

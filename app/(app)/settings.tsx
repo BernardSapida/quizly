@@ -5,6 +5,7 @@ import { Button } from "heroui-native";
 import {
   Download,
   Info,
+  RotateCcw,
   Share2,
   Trash2,
   TriangleAlert,
@@ -36,6 +37,7 @@ export default function SettingsScreen() {
 
   const setContentHash = usePreferencesStore((s) => s.setContentHash);
   const [deleting, setDeleting] = useState(false);
+  const [resetting, setResetting] = useState(false);
 
   /** The backup: a file the user can go and find again. */
   const exportAll = async () => {
@@ -60,6 +62,46 @@ export default function SettingsScreen() {
     if (!result.shared && result.reason) {
       confirm({ title: "Can't share", description: result.reason });
     }
+  };
+
+  /**
+   * Every set back to 0%, but every set still there. The gentler of the two danger
+   * actions, and the one people actually want when a new term starts — a full delete
+   * would take the sets with it.
+   *
+   * Nothing to invalidate afterwards: every screen refetches on focus (useAsync), so
+   * the rings are already empty by the time the user is looking at them again.
+   */
+  const resetAllProgress = async () => {
+    setResetting(true);
+    try {
+      await repo.resetAllProgress();
+      confirm({
+        title: "Progress reset",
+        description: "Every set is back to 0%. Your sets and folders are untouched.",
+      });
+    } catch {
+      confirm({
+        title: "Couldn't reset",
+        description: "Something went wrong. Your progress is still here.",
+      });
+    } finally {
+      setResetting(false);
+    }
+  };
+
+  const confirmResetProgress = () => {
+    confirm({
+      title: "Reset all progress?",
+      description:
+        "Every set goes back to 0%, in both Familiarize and Identify. Your sets, " +
+        "folders and terms all stay exactly where they are.\n\n" +
+        "There is no undo. An export does not carry progress, so no backup can " +
+        "bring it back.",
+      variant: "danger",
+      confirmLabel: "Reset",
+      onConfirm: () => void resetAllProgress(),
+    });
   };
 
   /**
@@ -184,7 +226,7 @@ export default function SettingsScreen() {
             Icon={Info}
             iconColor={COLORS.roundIdle}
             title="About Quizly"
-            subtitle="Version and legal"
+            subtitle="Who made this, and why"
             onPress={() => router.push("/about")}
           />
         </View>
@@ -193,13 +235,25 @@ export default function SettingsScreen() {
             invites the wrong tap on the way to the right one. */}
         <View className="gap-3">
           <SectionLabel>Danger zone</SectionLabel>
+          {/* Above the delete, and in the warning colour rather than the red one:
+              this loses your mastery, not your sets. */}
+          <ActionRow
+            Icon={RotateCcw}
+            iconColor={COLORS.encourage}
+            title="Reset all progress"
+            subtitle={
+              resetting ? "Resetting…" : "Put every set back to 0% and keep the sets"
+            }
+            onPress={confirmResetProgress}
+            isDisabled={resetting || deleting}
+          />
           <ActionRow
             Icon={Trash2}
             iconColor={COLORS.incorrect}
             title="Delete all my data"
             subtitle={deleting ? "Deleting…" : "Erase every set and start over"}
             onPress={confirmDelete}
-            isDisabled={deleting}
+            isDisabled={deleting || resetting}
           />
         </View>
       </ScrollView>
