@@ -10,6 +10,7 @@ import { Screen } from "@/components/ui/Screen";
 import { ScreenHeader } from "@/components/ui/ScreenHeader";
 import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
 import { FolderCard, SetCard } from "@/components/ui/Cards";
+import { SetListSkeleton } from "@/components/ui/SkeletonLoader";
 import { COLORS, GLASS, SPACING } from "@/theme";
 
 type Tab = "sets" | "folders";
@@ -30,6 +31,7 @@ export default function LibraryScreen() {
 
   const sets = data?.sets ?? [];
   const folders = data?.folders ?? [];
+  const isLoading = loading && data === null;
 
   return (
     <Screen>
@@ -94,8 +96,12 @@ export default function LibraryScreen() {
         </View>
 
         <View className="gap-3">
-          {tab === "sets" ? (
-            sets.length === 0 && !loading ? (
+          {/* Placeholder cards rather than an absent list: the tabs above stay put and
+              the real cards land in the space already held for them. */}
+          {isLoading ? (
+            <SetListSkeleton count={5} />
+          ) : tab === "sets" ? (
+            sets.length === 0 ? (
               <Empty
                 Icon={Layers}
                 title="No sets yet"
@@ -113,7 +119,7 @@ export default function LibraryScreen() {
                 />
               ))
             )
-          ) : folders.length === 0 && !loading ? (
+          ) : folders.length === 0 ? (
             <Empty
               Icon={FolderOpen}
               title="No folders yet"

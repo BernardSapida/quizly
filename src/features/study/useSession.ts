@@ -5,8 +5,10 @@ import { repo, type StudyMode, type StudyTerm } from "@/db";
 import { masteredCount } from "./engine";
 import {
   gradeEnumeration,
+  gradeSelection,
   gradeWritten,
   type EnumerationResult,
+  type SelectionResult,
   type WrittenResult,
 } from "./grading";
 import { pickEncouragement, pickPraise } from "./messages";
@@ -71,6 +73,7 @@ export function useSession(scope: Scope, mode: StudyMode) {
         chosenId?: string | null;
         nearMiss?: boolean;
         enumeration?: EnumerationResult | null;
+        selection?: SelectionResult | null;
       } = {}
     ) => {
       void repo.recordAnswer(term.id, mode, correct);
@@ -93,6 +96,7 @@ export function useSession(scope: Scope, mode: StudyMode) {
         chosenId: detail.chosenId ?? null,
         nearMiss: detail.nearMiss ?? false,
         enumeration: detail.enumeration ?? null,
+        selection: detail.selection ?? null,
       });
 
       // Correct answers roll on by themselves; wrong ones wait for Continue.
@@ -135,6 +139,27 @@ export function useSession(scope: Scope, mode: StudyMode) {
       if (state.phase !== "asking" || !state.question) return empty;
       const result = gradeEnumeration(inputs, state.question.term);
       submit(state.question.term, result.correct, { enumeration: result });
+      return result;
+    },
+    [state.phase, state.question, submit]
+  );
+
+  /**
+   * "Pick the list" — Familiarize's form of an enumeration. A decoy costs you the
+   * question, same as a missing item: mastery here means you can pick the list out
+   * of a line-up, not that you got most of the way there.
+   */
+  const answerSelect = useCallback(
+    (picked: string[]): SelectionResult => {
+      const empty: SelectionResult = {
+        correct: false,
+        hits: [],
+        missed: [],
+        wrong: [],
+      };
+      if (state.phase !== "asking" || !state.question) return empty;
+      const result = gradeSelection(picked, state.question.term);
+      submit(state.question.term, result.correct, { selection: result });
       return result;
     },
     [state.phase, state.question, submit]
@@ -188,6 +213,7 @@ export function useSession(scope: Scope, mode: StudyMode) {
   return {
     phase: state.phase,
     question: state.question,
+    askId: state.askId,
     feedback: state.feedback,
     streak: state.streak,
     roundIndex: state.roundIndex,
@@ -196,6 +222,7 @@ export function useSession(scope: Scope, mode: StudyMode) {
     answerChoice,
     answerWritten,
     answerEnumeration,
+    answerSelect,
     skip,
     continueAfterWrong,
     nextRound,

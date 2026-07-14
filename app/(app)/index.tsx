@@ -22,6 +22,7 @@ import { Screen } from "@/components/ui/Screen";
 import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
 import { Card, IconTile, SetCard } from "@/components/ui/Cards";
 import { ModeProgress } from "@/components/ui/ModeProgress";
+import { RecentRowSkeleton, SkeletonLoader } from "@/components/ui/SkeletonLoader";
 import { COLORS, GLASS, SPACING } from "@/theme";
 
 /** The mode a set is part-way through — what "Continue" should resume. */
@@ -62,6 +63,7 @@ export default function HomeScreen() {
     [sets]
   );
 
+  const isLoading = loading && data === null;
   const isEmpty = !loading && sets.length === 0;
   const tabBarOverlap = useTabBarOverlap();
 
@@ -131,13 +133,25 @@ export default function HomeScreen() {
               </Text>
             )}
           </View>
+        ) : isLoading ? (
+          /* Recents-shaped placeholders. Home is the launch screen, so the very first
+             thing anyone sees must not be a bare search bar over an empty void. */
+          <View className="gap-3">
+            <SkeletonLoader width={90} height={18} />
+            {[0, 1, 2, 3].map((i) => (
+              <RecentRowSkeleton key={i} index={i} />
+            ))}
+          </View>
         ) : isEmpty ? (
           <EmptyHome
             onCreate={() => router.push("/create")}
             onImport={() => router.push("/import")}
           />
         ) : (
-          <>
+          /* 8, not the container's 28: the card above already carries 20 of inner
+             padding, so this lands Recents the same 28 below it that "Jump back in"
+             sits below the search row. */
+          <View className="gap-2">
             {inProgress.length > 0 && (
               <View className="gap-3">
                 <Text className="text-app-text text-lg font-bold">Jump back in</Text>
@@ -160,7 +174,7 @@ export default function HomeScreen() {
                 />
               ))}
             </View>
-          </>
+          </View>
         )}
       </ScrollView>
     </Screen>

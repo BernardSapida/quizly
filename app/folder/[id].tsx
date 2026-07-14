@@ -1,17 +1,16 @@
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Button } from "heroui-native";
-import { Plus, Share2, Trash2 } from "lucide-react-native";
+import { FolderOpen, Plus, Share2, Target, Trash2 } from "lucide-react-native";
 import { useCallback, useState } from "react";
 import { Pressable, ScrollView, Text, TextInput, View } from "react-native";
 
-import { SetCard } from "@/components/ui/Cards";
-import { ModeProgress } from "@/components/ui/ModeProgress";
+import { ActionRow, countLine, SetCard } from "@/components/ui/Cards";
 import { Screen } from "@/components/ui/Screen";
 import { ScreenHeader } from "@/components/ui/ScreenHeader";
+import { FolderDetailSkeleton } from "@/components/ui/SkeletonLoader";
 import { useConfirm } from "@/components/ui/useConfirm";
 import { repo } from "@/db";
 import { shareExport } from "@/features/share/transfer";
-import { MIN_POOL_FOR_CHOICE } from "@/features/study/engine";
 import { useAsync } from "@/lib/use-async";
 import { COLORS, SPACING } from "@/theme";
 
@@ -29,14 +28,40 @@ export default function FolderDetailScreen() {
     }),
     [id],
   );
-  const { data, refetch } = useAsync(load);
+  const { data, loading } = useAsync(load);
 
   const folder = data?.folder;
   const sets = data?.sets ?? [];
-  if (!folder) return <Screen />;
+
+  // Two different nothings that used to render as the same blank navy screen:
+  // still reading, versus read and the folder is gone.
+  if (loading && data === null) {
+    return (
+      <Screen>
+        <FolderDetailSkeleton />
+      </Screen>
+    );
+  }
+  if (!folder) {
+    return (
+      <Screen>
+        <View className="flex-1 items-center justify-center gap-3 px-8">
+          <FolderOpen color={COLORS.roundIdle} size={48} />
+          <Text className="text-app-text text-lg font-semibold">Folder not found</Text>
+          <Text className="text-app-muted text-center text-sm">
+            It may have been deleted. Any lessons inside it are still on your Home.
+          </Text>
+          <View className="w-full pt-2">
+            <Button variant="secondary" size="lg" onPress={() => router.back()}>
+              <Button.Label>Go back</Button.Label>
+            </Button>
+          </View>
+        </View>
+      </Screen>
+    );
+  }
 
   const total = folder.term_count;
-  const canChoice = total >= MIN_POOL_FOR_CHOICE;
 
   const addLesson = async () => {
     if (!newName.trim()) return;
@@ -83,7 +108,7 @@ export default function FolderDetailScreen() {
           title={folder.name}
           subtitle={`${folder.set_count} ${
             folder.set_count === 1 ? "lesson" : "lessons"
-          } · ${total} terms`}
+          } · ${countLine(total, folder.enum_count)}`}
           onBack={() => router.back()}
           inset={false}
           actions={
@@ -98,47 +123,17 @@ export default function FolderDetailScreen() {
           }
         />
 
+        {/* A folder is a list of lessons — you study inside a lesson, not here. The
+            one thing this screen can do that no lesson can is pool the whole subject
+            into a single exam, which is the reason folders exist rather than being
+            mere tidiness. So: exactly one action, and it is that one. */}
         {total > 0 && (
-          <>
-            <View className="gap-4 rounded-3xl border border-app-glassline bg-app-glass p-5">
-              <ModeProgress
-                label="Familiarize"
-                mastered={folder.choice_mastered}
-                total={total}
-              />
-              <ModeProgress
-                label="Identify"
-                mastered={folder.written_mastered}
-                total={total}
-                color={COLORS.correct}
-              />
-            </View>
-
-            {/* The reason folders exist rather than just being tidy: one pooled
-                session across every lesson. This is midterm review. */}
-            <View className="gap-3">
-              <Text className="text-app-muted text-xs font-semibold">
-                STUDY THE WHOLE SUBJECT
-              </Text>
-              <Button
-                variant="primary"
-                size="lg"
-                isDisabled={!canChoice}
-                onPress={() => router.push(`/study?folderId=${id}&mode=choice`)}
-              >
-                <Button.Label>Familiarize all {total} terms</Button.Label>
-              </Button>
-              <Button
-                variant="secondary"
-                size="lg"
-                onPress={() =>
-                  router.push(`/study?folderId=${id}&mode=written`)
-                }
-              >
-                <Button.Label>Identify all {total} terms</Button.Label>
-              </Button>
-            </View>
-          </>
+          <ActionRow
+            Icon={Target}
+            title={`Test all ${total} terms`}
+            subtitle="Every lesson, once through, then a score"
+            onPress={() => router.push(`/test?folderId=${id}`)}
+          />
         )}
 
         <View className="gap-2">

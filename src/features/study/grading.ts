@@ -92,6 +92,38 @@ export function gradeEnumeration(
   return { correct: missed.length === 0 && expected.length > 0, hits, missed };
 }
 
+export type SelectionResult = {
+  correct: boolean;
+  hits: string[];
+  missed: string[];
+  /** Decoys that were picked — the thing to *un*learn, so it gets its own slot. */
+  wrong: string[];
+};
+
+/**
+ * Grading for "pick the list". The chips are the term's own items verbatim, so this
+ * compares by identity — there is nothing to normalise or forgive, you either
+ * touched it or you didn't.
+ *
+ * A decoy costs you the question. Without that, selecting every chip on screen would
+ * be a winning strategy, and the whole thing would collapse into a tapping exercise.
+ */
+export function gradeSelection(picked: string[], term: StudyTerm): SelectionResult {
+  const expected = parseAnswers(term.answers);
+  const chosen = new Set(picked);
+
+  const hits = expected.filter((item) => chosen.has(item));
+  const missed = expected.filter((item) => !chosen.has(item));
+  const wrong = picked.filter((item) => !expected.includes(item));
+
+  return {
+    correct: expected.length > 0 && missed.length === 0 && wrong.length === 0,
+    hits,
+    missed,
+    wrong,
+  };
+}
+
 export function parseAnswers(answers: string | null): string[] {
   if (!answers) return [];
   try {

@@ -4,7 +4,6 @@ import { useLocalSearchParams, useRouter } from "expo-router";
 import { Button } from "heroui-native";
 import {
   ChevronLeft,
-  FileText,
   Folder,
   FolderPlus,
   Layers,
@@ -12,6 +11,7 @@ import {
   Pencil,
   Share2,
   Sparkles,
+  Target,
   Trash2,
 } from "lucide-react-native";
 
@@ -21,8 +21,9 @@ import { FlashcardCarousel } from "@/features/study/components/FlashcardCarousel
 import { MIN_POOL_FOR_CHOICE } from "@/features/study/engine";
 import { useAsync } from "@/lib/use-async";
 import { Screen } from "@/components/ui/Screen";
-import { ActionRow, Card, IconTile } from "@/components/ui/Cards";
-import { ModeProgress } from "@/components/ui/ModeProgress";
+import { ActionRow, Card, countLine, IconTile } from "@/components/ui/Cards";
+import { MasteryRings } from "@/components/ui/MasteryRings";
+import { SetDetailSkeleton } from "@/components/ui/SkeletonLoader";
 import { useConfirm } from "@/components/ui/useConfirm";
 import { COLORS, GLASS, SPACING } from "@/theme";
 
@@ -39,11 +40,38 @@ export default function SetDetailScreen() {
     }),
     [id]
   );
-  const { data, refetch } = useAsync(load);
+  const { data, loading, refetch } = useAsync(load);
 
   const set = data?.set;
   const terms = data?.terms ?? [];
-  if (!set) return <Screen />;
+
+  // Two different nothings that used to render as the same blank navy screen:
+  // still reading, versus read and the set is gone.
+  if (loading && data === null) {
+    return (
+      <Screen>
+        <SetDetailSkeleton />
+      </Screen>
+    );
+  }
+  if (!set) {
+    return (
+      <Screen>
+        <View className="flex-1 items-center justify-center gap-3 px-8">
+          <Layers color={COLORS.roundIdle} size={48} />
+          <Text className="text-app-text text-lg font-semibold">Set not found</Text>
+          <Text className="text-app-muted text-center text-sm">
+            It may have been deleted.
+          </Text>
+          <View className="w-full pt-2">
+            <Button variant="secondary" size="lg" onPress={() => router.back()}>
+              <Button.Label>Go back</Button.Label>
+            </Button>
+          </View>
+        </View>
+      </Screen>
+    );
+  }
 
   const folder = data?.folders.find((f) => f.id === set.folder_id) ?? null;
 
@@ -121,7 +149,7 @@ export default function SetDetailScreen() {
 
         <View className="gap-2">
           <Text className="text-app-text text-2xl font-bold">{set.name}</Text>
-          <Text className="text-app-muted">{total} terms</Text>
+          <Text className="text-app-muted">{countLine(total, set.enum_count)}</Text>
 
           {/* Tapping the folder chip is how you move the set — a set is never
               *required* to be in a folder, so "No folder" is a real state. */}
@@ -165,19 +193,11 @@ export default function SetDetailScreen() {
           </View>
         ) : (
           <>
-            <View className="gap-4 rounded-3xl border border-app-glassline bg-app-glass p-5">
-              <ModeProgress
-                label="Familiarize"
-                mastered={set.choice_mastered}
-                total={total}
-              />
-              <ModeProgress
-                label="Identify"
-                mastered={set.written_mastered}
-                total={total}
-                color={COLORS.correct}
-              />
-            </View>
+            <MasteryRings
+              choiceMastered={set.choice_mastered}
+              writtenMastered={set.written_mastered}
+              total={total}
+            />
 
             {/* The exact moment a motivated student goes looking for the harder mode.
                 Glass, like every other raised surface — the celebration reads through
@@ -215,12 +235,11 @@ export default function SetDetailScreen() {
                 onPress={() => router.push(`/study?setId=${id}&mode=written`)}
               />
               <ActionRow
-                Icon={FileText}
-                iconColor={COLORS.roundIdle}
+                Icon={Target}
+                iconColor={COLORS.encourage}
                 title="Test"
-                subtitle="Coming soon"
-                isDisabled
-                onPress={() => {}}
+                subtitle="Every term once, then a score"
+                onPress={() => router.push(`/test?setId=${id}`)}
               />
             </View>
 

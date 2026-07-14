@@ -83,6 +83,12 @@ export default function RootLayout() {
               name="study"
               options={{ animation: "fade", gestureEnabled: false }}
             />
+            {/* Same treatment as study: fullscreen, and no swipe-back. Backing out
+                of an exam by accident is worse than backing out of a session. */}
+            <Stack.Screen
+              name="test"
+              options={{ animation: "fade", gestureEnabled: false }}
+            />
             <Stack.Screen name="import" options={{ presentation: "modal" }} />
           </Stack>
         </View>

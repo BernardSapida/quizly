@@ -12,10 +12,10 @@ export const QUIZLY_VERSION = 2;
  * restoring your own backup starts every set fresh. Mastery is earned on the phone
  * it lives on.
  *
- * v1 files had a single optional `folder` wrapper, which could not express a whole
- * library — "Export all my sets" flattened every folder away. v2 carries a `folders`
- * array and puts `folderId` on each set. v1 files still import: parseExportFile
- * normalises them into the shape below, so the rest of the app sees only one shape.
+ * v1 had a single optional `folder` wrapper, which could not express a whole library —
+ * "Export all my sets" flattened every folder away. v2 carries a `folders` array and
+ * puts `folderId` on each set. v2 is the only shape now: it is what the app writes, what
+ * the importer accepts, and what the content build under contents/ is authored in.
  */
 export type ExportFolder = {
   id: string;
@@ -49,13 +49,6 @@ export type ExportFile = {
   sets: ExportSet[];
 };
 
-/** The v1 shape, still readable. */
-type LegacyFile = {
-  quizlyVersion: number;
-  folder: ExportFolder | null;
-  sets: Omit<ExportSet, "folderId">[];
-};
-
 export class ImportError extends Error {}
 
 /** Plain-language failures — never show the user a stack trace. */
@@ -71,7 +64,7 @@ export function parseExportFile(raw: string): ExportFile {
     throw new ImportError("That file doesn't look like a Quizly export.");
   }
 
-  const file = json as Partial<ExportFile> & Partial<LegacyFile>;
+  const file = json as Partial<ExportFile>;
 
   if (typeof file.quizlyVersion !== "number") {
     throw new ImportError("That file doesn't look like a Quizly export.");
@@ -81,17 +74,16 @@ export function parseExportFile(raw: string): ExportFile {
       "This set was made with a newer version of Quizly. Update the app and try again."
     );
   }
+  if (file.quizlyVersion < QUIZLY_VERSION) {
+    throw new ImportError(
+      "This set was made with an older version of Quizly and can no longer be opened. Ask for a fresh export."
+    );
+  }
   if (!Array.isArray(file.sets) || file.sets.length === 0) {
     throw new ImportError("That export has no sets in it.");
   }
 
-  // v1 carried one folder for the whole file, and every set belonged to it.
-  const legacyFolder = file.quizlyVersion < 2 ? (file.folder ?? null) : null;
-  const folders: ExportFolder[] = legacyFolder
-    ? [legacyFolder]
-    : Array.isArray(file.folders)
-      ? file.folders
-      : [];
+  const folders: ExportFolder[] = Array.isArray(file.folders) ? file.folders : [];
 
   for (const folder of folders) {
     if (!folder || typeof folder.id !== "string" || typeof folder.name !== "string") {
@@ -123,10 +115,9 @@ export function parseExportFile(raw: string): ExportFile {
     // A set pointing at a folder the file never declared would import as an orphan
     // under a folder that does not exist, so drop the pointer and let it land loose.
     const folderId =
-      legacyFolder?.id ??
-      (typeof set.folderId === "string" && folderIds.has(set.folderId)
+      typeof set.folderId === "string" && folderIds.has(set.folderId)
         ? set.folderId
-        : null);
+        : null;
 
     sets.push({ ...(set as ExportSet), folderId });
   }

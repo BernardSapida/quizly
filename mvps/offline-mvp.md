@@ -211,17 +211,19 @@ definition. Quizly supports it as a first-class `kind`.
 **Export.** Serialize to JSON, write via `expo-file-system`, hand to the OS share sheet
 via `expo-sharing`. Any transport works — the app does not care.
 
-Two grains, **one format**. A file always carries an array of sets; `folder` is an
-optional wrapper. Exporting a single set just means the array has one entry and `folder`
-is null, so the importer only ever needs one code path.
+Two grains, **one format**. A file always carries an array of sets, and a `folders` array
+naming the structure they sat in; each set points at its folder with `folderId`, or `null`
+to sit loose in the Library. Exporting a single set just means the array has one entry and
+`folders` is empty, so the importer only ever needs one code path.
 
 ```json
 {
-  "quizlyVersion": 1,
-  "folder": { "id": "uuid", "name": "COSC50" },
+  "quizlyVersion": 2,
+  "folders": [{ "id": "uuid", "name": "COSC50" }],
   "sets": [
     {
       "id": "uuid",
+      "folderId": "uuid",
       "name": "Lesson 3: Grammars",
       "position": 2,
       "updatedAt": 1736000000000,
@@ -233,8 +235,13 @@ is null, so the importer only ever needs one code path.
 }
 ```
 
-If `folder` is present and the user does not already have that folder ID, create it. If
-they do, merge the sets into it.
+For each folder in `folders`: if the user does not already have that folder ID, create it.
+If they do, merge the sets into it. A set whose `folderId` names no folder in the file
+lands loose in the Library rather than under a folder that does not exist.
+
+`quizlyVersion` is `2`, and 2 is the only version the app reads — a v1 file (singular
+`folder` key) is rejected with a plain-language message telling the user to ask for a
+fresh export.
 
 **Import.** `expo-document-picker` → parse → upsert by UUID:
 

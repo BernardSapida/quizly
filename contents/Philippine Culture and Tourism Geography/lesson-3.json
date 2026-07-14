@@ -1,0 +1,225 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Philippine Culture and Tourism Geography"
+    }
+  ],
+  "sets": [
+    {
+      "id": "dfaada3b-196b-4ee6-bf38-2527f31c98ab",
+      "folderId": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Lesson 3: Region 2 - Cagayan Valley Region",
+      "description": "The provinces and capitals of the Cagayan Valley Region, with its attractions, foods and delicacies, and festivals.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "4966c908-ac14-4aee-8a3b-3d4ed827d751",
+          "term": "5 Provinces of Region 2 and Their Capitals",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Batanes - Basco",
+            "Cagayan - Tuguegarao City",
+            "Isabela - Ilagan City",
+            "Nueva Vizcaya - Bayombong",
+            "Quirino - Cabarroguis"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "ecc1dc61-7ce0-463c-b166-c64c5a8ec0f9",
+          "term": "Mt. Carmel Chapel",
+          "kind": "standard",
+          "definition": "An attraction in Batanes. Also known as Tukon Church, located on a hillside in Basco near Mt. Iraya. Built by local craftsmen using traditional Ivatan architectural design. Reflects Ivatan culture and adaptation to the natural environment.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "43e43476-dcf6-44e7-b135-19b093cc11dc",
+          "term": "House of Dakay",
+          "kind": "standard",
+          "definition": "An attraction in Batanes. Considered the oldest surviving traditional Ivatan house in Batanes. Located in Batan Island and made of stone and lime with a cogon roof. Originally built in 1917 and maintained through periodic roof replacement.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "10b8fc9f-572b-48ed-9115-4c422a3bfe43",
+          "term": "Honesty Store",
+          "kind": "standard",
+          "definition": "An attraction in Batanes. An unmanned shop located in Ivana, Batanes. Operates on a self-service system based on honesty and trust. Customers record purchases and leave payment in a designated box.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "20fcdbdf-6b6d-4226-994c-996fb518a5fa",
+          "term": "Calvary Hills",
+          "kind": "standard",
+          "definition": "An attraction in Cagayan. An 11-hectare site featuring life-sized Stations of the Cross. A known pilgrimage destination, especially during Holy Week. Offers a scenic view of the Cagayan River and is accessible by stairs.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "c444780a-e332-411d-9a24-f7ee33427a44",
+          "term": "Callao Cave",
+          "kind": "standard",
+          "definition": "An attraction in Cagayan. Located in the Peñablanca Protected Landscape and Seascape. One of over 300 caves in the area, with seven chambers open to visitors. Features a natural chapel inside one of its chambers.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "0a8a2dcf-162d-442a-aeb5-95cc885f597d",
+          "term": "St. Matthias Church",
+          "kind": "standard",
+          "definition": "An attraction in Isabela. Known for its red brick façade and detailed architectural design. Completed in 1805 under Dominican missionaries. Features a rare cylindrical bell tower and is recognized as a heritage structure.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "a3ab1152-cb08-4941-bddd-712eee91cd13",
+          "term": "Giant Butaka",
+          "kind": "standard",
+          "definition": "An attraction in Isabela. A large representation of the traditional reclining chair (butaka). Made from materials such as narra wood and woven rattan. Symbolizes local craftsmanship in Ilagan City.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "176b1100-ab46-48fb-9575-42d469b53b34",
+          "term": "Saint Dominic Cathedral",
+          "kind": "standard",
+          "definition": "An attraction in Nueva Vizcaya. Features Baroque-inspired architectural elements. Functions as the seat of the Diocese of Bayombong.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "355f86b7-fdf9-47e6-860c-5721712f5075",
+          "term": "Mt. Pulag",
+          "kind": "standard",
+          "definition": "An attraction in Nueva Vizcaya. Located within Mount Pulag National Park in the Cordillera Mountain Range. The highest peak in Luzon at 2,922 meters above sea level. Known for its \"sea of clouds\" and diverse flora and fauna.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "a7721701-08a8-47de-b463-2a3f7ada533f",
+          "term": "Governor's Rapids",
+          "kind": "standard",
+          "definition": "An attraction in Quirino. A scenic section of the Cagayan River with limestone formations. Known for activities such as rafting, kayaking, and swimming. Considered a major ecotourism attraction in the province.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "ba689e02-105a-4376-a444-7345f34ff3fd",
+          "term": "Motocross Mountain",
+          "kind": "standard",
+          "definition": "An attraction in Quirino. A designated outdoor area for motocross and trail riding. Serves as the main venue for the Quirino Motorismo Festival. Attracts riders from different parts of the country.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "39775bdb-340c-4907-8d13-cc61557dd5d8",
+          "term": "Uved",
+          "kind": "standard",
+          "definition": "A food and delicacy of Batanes. A traditional Ivatan dish made from grated banana pith and fish or meat. Known for its simple preparation and use of locally available ingredients.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "4c8a0a35-a3c5-4a16-92ee-a514a9d6113e",
+          "term": "Pancit Batil Patung",
+          "kind": "standard",
+          "definition": "A food and delicacy of Cagayan. A noodle dish topped with sautéed meat, vegetables, and egg. Served with a savory broth and known for its rich flavor.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "3b2e8608-e9f5-43fc-ba3e-796971383ddf",
+          "term": "Lechon Carnero",
+          "kind": "standard",
+          "definition": "A food and delicacy of Isabela. A roasted sheep dish known for its tender meat and crispy skin. Often served during special occasions and local celebrations.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "00910f44-51c3-459f-a507-8ece970f903f",
+          "term": "Tateg",
+          "kind": "standard",
+          "definition": "A food and delicacy of Nueva Vizcaya. Exotic food option in the province.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "f13d1aa3-b374-4ca2-86bb-2bbcd4213fbf",
+          "term": "Igado",
+          "kind": "standard",
+          "definition": "A food and delicacy of Quirino. A savory dish made from pork, liver, and vegetables cooked in vinegar and soy sauce. Known for its slightly tangy and salty flavor.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "59fbbc58-d9a4-4cf4-acae-8886f2d3af5c",
+          "term": "Ivatan Festival",
+          "kind": "standard",
+          "definition": "A festival of Batanes. Celebrated every June 19 to July 1, this festival highlights the unique practice of the Ivatan people of voluntary work and a strong sense of community. Bayanihan is given emphasis during this event. The celebration includes cultural presentations, local games, and social gatherings.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "24b6bb5a-f568-4c22-b1f3-b51664308715",
+          "term": "Bangkarera Festival",
+          "kind": "standard",
+          "definition": "A festival of Cagayan. Held every May 10, this festival is a thanksgiving celebration in honor of St. Peter Thelmo, the patron saint of the community. It is widely known for its boat races along the Cagayan River, participated in by local fishermen.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "d1d334e6-0d20-4797-8e68-6484a4b69f9d",
+          "term": "Gawagaway-yan Festival",
+          "kind": "standard",
+          "definition": "A festival of Isabela. Celebrated every April 20 to 23, this festival is a thanksgiving for the city's agricultural abundance. It highlights the contributions of farmers to the community and showcases the cultural diversity within the province.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "1a770ce0-d824-4e2a-bf5c-7f04593713fd",
+          "term": "Citrus Festival",
+          "kind": "standard",
+          "definition": "A festival of Nueva Vizcaya. Held annually every August, this festival celebrates the bountiful harvest of citrus fruits in the province. The event features agricultural exhibits, fruit displays, and competitions. It aims to promote local produce, support farmers, and boost tourism.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "60fb11ca-15a2-43da-9316-76acf17c3b5a",
+          "term": "Quirino Motorismo",
+          "kind": "standard",
+          "definition": "A festival of Quirino. Known as the only motorbiking festival in the country, this event is held every July. Participants from different parts of the country join motocross races, trail rides, and other riding activities. It also highlights the natural terrain of the province.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        }
+      ]
+    }
+  ]
+}

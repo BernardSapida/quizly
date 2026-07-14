@@ -1,0 +1,382 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Philippine Culture and Tourism Geography"
+    }
+  ],
+  "sets": [
+    {
+      "id": "d8461474-9679-40e3-aeb6-0f2ea6ab6c62",
+      "folderId": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Lesson 4: Cordillera Administrative Region",
+      "description": "The provinces and capitals of the Cordillera Administrative Region, with its attractions, foods and delicacies, and festivals.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "f0884d85-fe16-432b-a175-34e967963b15",
+          "term": "6 Provinces of the Cordillera Administrative Region and Their Capitals",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Abra - Bangued",
+            "Apayao - Kabugao",
+            "Benguet - La Trinidad",
+            "Ifugao - Lagawe",
+            "Kalinga - Tabuk",
+            "Mountain Province - Bontoc"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "8254da3d-f37a-41c5-8902-d61fabb77eb1",
+          "term": "Baguio City",
+          "kind": "standard",
+          "definition": "Serves as the regional center of the Cordillera Administrative Region (CAR). Widely known as the \"Summer Capital of the Philippines\" because of its cool climate.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "f03928fc-7dc8-4cb3-a70d-d8626671ff01",
+          "term": "Benguet",
+          "kind": "standard",
+          "definition": "Known as the \"Salad Bowl of the Philippines\" due to its thriving vegetable farming industry, which supplies a large portion of the country's highland vegetables.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "484e2538-a250-4c5d-94d0-1253e2169f76",
+          "term": "Spanish Church Ruins",
+          "kind": "standard",
+          "definition": "An attraction in Apayao. Originally constructed in 1684 and designed with fortress-like features to protect Spanish colonizers from local resistance. Abandoned in 1815 due to persistent attacks by the Isneg people, one of the major Indigenous groups in the province. Spanish authorities regained partial control of the area in 1891.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "2e32b429-41d8-462a-a1c6-0590de60fd6c",
+          "term": "Mabilong Weavers Village",
+          "kind": "standard",
+          "definition": "An attraction in Abra. Showcases the long-standing weaving tradition of the province, where local artisans produce textiles using traditional handlooms. Visitors can observe the weaving process and directly purchase locally made products.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "8d573ba6-3830-462f-b063-90358328aec4",
+          "term": "Buscalan Village",
+          "kind": "standard",
+          "definition": "An attraction in Kalinga. Widely recognized for its strong indigenous heritage and scenic mountainous surroundings. Home to Apo Whang-Od and, due to its remote location, has maintained much of its traditional lifestyle.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "941fb0fe-26a9-464b-b32b-b0cc121acc99",
+          "term": "Apo Whang-Od",
+          "kind": "standard",
+          "definition": "A National Living Treasure from Buscalan Village, Kalinga, known for preserving the traditional tattooing practice called \"batok.\"",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "e5c07ea1-14c0-4422-bd5d-8191593ec6a7",
+          "term": "Batok",
+          "kind": "standard",
+          "definition": "The traditional tattooing practice preserved in Buscalan Village, which symbolizes bravery, identity, and social status in Kalinga culture.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "407aba10-2d5d-42e7-9970-3cda21620c21",
+          "term": "Mt. Mating-oy",
+          "kind": "standard",
+          "definition": "An attraction in Kalinga. Famous for its natural ridge formation that resembles a sleeping woman, which is why it is widely known as the \"Sleeping Beauty Mountain.\" One of Kalinga's most recognizable natural landmarks and a contributor to its growing ecotourism industry.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "f1ad6ade-f885-4b77-9459-4942b4d41b97",
+          "term": "Hanging Coffins of Sagada",
+          "kind": "standard",
+          "definition": "An attraction in Mountain Province. An ancient burial tradition practiced by the Igorot people, where coffins are placed along limestone cliffs to bring the deceased closer to ancestral spirits. Traditionally, elderly individuals prepare their own coffins, while families assist when necessary.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "2088e37b-d360-4ad7-950a-11773886a243",
+          "term": "6 Aspects of the Kankanaey Burial Tradition",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Eligibility",
+            "Coffin Preparation",
+            "Vigil and Rituals",
+            "Body Position",
+            "Burial Process",
+            "Purpose of Hanging Coffins"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "09ef571d-0fcd-4136-969b-bf11ff195246",
+          "term": "Kankanaey Burial Eligibility",
+          "kind": "standard",
+          "definition": "Only full-blooded Kankanaey elders who are married, have children and grandchildren, and die peacefully of old age may receive a cliffside burial.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "89cc5397-e982-4dc7-a86f-52ad86b9c2f3",
+          "term": "Kankanaey Coffin Preparation",
+          "kind": "standard",
+          "definition": "Elders traditionally carve their own pine-log coffin while still alive. The coffin is made short because the body will be placed in a fetal position.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "183e2cb2-1a6b-4e96-adf0-972c53139d26",
+          "term": "Kankanaey Vigil and Rituals",
+          "kind": "standard",
+          "definition": "The deceased is placed on a death chair for a 3-6 day vigil. The body is preserved through continuous smoking, while a village elder performs rituals and animal offerings.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "990f2ef5-5814-4cc7-8cea-4feacbed375e",
+          "term": "Kankanaey Body Position",
+          "kind": "standard",
+          "definition": "The body is wrapped in a traditional woven cloth and placed in a fetal position, symbolizing a return to the beginning of life.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "7aa36271-0529-431d-b271-49146c2977fa",
+          "term": "Kankanaey Burial Process",
+          "kind": "standard",
+          "definition": "Young men carry the body to the cliff, believing this passes on the deceased's wisdom and blessings. Skilled climbers then secure the coffin to the cliff face.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "ec3687d4-0af4-40cf-8453-300326184f91",
+          "term": "Purpose of Hanging Coffins",
+          "kind": "standard",
+          "definition": "The Kankanaey believe elevated coffins bring the soul closer to heaven and ancestors, while also protecting the remains from animals and natural hazards and preserving farmland.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "1b915ec3-944a-4cb1-a9f2-8f384d507318",
+          "term": "Dap-ay",
+          "kind": "standard",
+          "definition": "An attraction in Mountain Province. A traditional stone structure used as a communal gathering place where elders discuss social, political, and spiritual concerns. A central fireplace symbolizes unity, while wooden poles are used to display animal offerings during rituals. It reflects the indigenous governance system and the importance of collective decision-making in Cordilleran society.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "6dc007b1-51b1-4736-9ed0-c3ae666b4f8d",
+          "term": "Banaue Rice Terraces",
+          "kind": "standard",
+          "definition": "An attraction in Ifugao. Among the most iconic cultural landscapes in the country, believed to have been carved by the Ifugao people more than 2,000 years ago. They demonstrate advanced indigenous knowledge in engineering and sustainable agriculture, and are often referred to as the \"Eighth Wonder of the World.\"",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "0d10d130-dcd8-4582-990b-250c9e4393ad",
+          "term": "Tam-awan Village",
+          "kind": "standard",
+          "definition": "An attraction in Benguet. An open-air museum and art colony designed to replicate a traditional Cordilleran village, featuring reconstructed, authentic Ifugao and Kalinga huts. It functions as a living museum where visitors can learn about indigenous lifestyles, artistic traditions, and local craftsmanship.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "27623ac5-d904-42ee-84a8-999e79692aaf",
+          "term": "Baguio Cathedral",
+          "kind": "standard",
+          "definition": "An attraction in Benguet. One of the most recognized religious landmarks in the region and one of the largest churches in Baguio City. During World War II, it served as an evacuation center for civilians, and it was the only major building to survive the devastating carpet-bombing of Baguio City during the war. Its elevated location provides a panoramic view of the city.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "a4a1d04b-da8d-4115-84f5-7b6b8c0eb51e",
+          "term": "The Mansion",
+          "kind": "standard",
+          "definition": "An attraction in Benguet. The official summer residence of the President of the Philippines. Originally built in 1908 as the residence of American Governor-Generals, and declared a National Historic Landmark in 2009. It has reopened to the public as the Presidential Museum after a major renovation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "72a180ec-af24-486f-af20-f7e6e087c175",
+          "term": "Cordilleran Cuisine",
+          "kind": "standard",
+          "definition": "Deeply shaped by the region's agricultural traditions and cool mountain climate, commonly using locally available ingredients such as rice, root crops, pork, and native plants. Traditional cooking methods often include fermenting, curing, and smoking meat to help preserve it for longer periods. Because the Cordillera is a mountainous inland region with limited access to seafood, communities relied more on livestock such as pigs and chickens.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "812f42e6-301f-4fd0-8f80-d62a40e3bc54",
+          "term": "Pinikpikan",
+          "kind": "standard",
+          "definition": "A delicacy of Apayao. A traditional chicken dish prepared through a cultural ritual process, cooked with native spices and known for its smoky flavor. The chicken is traditionally tapped gently before slaughter, a practice believed to improve the flavor and performed as part of indigenous rituals.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "155f8fc2-30ee-49a7-b49f-66037d0192c5",
+          "term": "Abra Miki",
+          "kind": "standard",
+          "definition": "A delicacy of Abra. A noodle dish made with fresh egg noodles, pork, and vegetables, known for its rich broth and savory flavor. The noodles are traditionally handmade, giving them a firm and chewy texture.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "d295ab3e-5e74-402c-b560-04375f7f37eb",
+          "term": "Inanchila",
+          "kind": "standard",
+          "definition": "A delicacy of Kalinga. A traditional rice cake (kakanin) made from glutinous rice and local ingredients, commonly prepared during gatherings, festivals, and cultural celebrations. It is served as a dessert because it is coated with a rich, sweet coconut caramel (latik or ladok) made from coconut cream and sugar. Its name comes from its shape, as the sticky rice dough is molded to resemble a human tongue before being wrapped and cooked.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "237c9892-d6a1-450b-9a1e-57eb0e1e3a44",
+          "term": "Tapey",
+          "kind": "standard",
+          "definition": "A delicacy of Mountain Province. A traditional rice wine made from fermented glutinous rice through a natural fermentation process using indigenous yeast. It is an essential part of indigenous ceremonies such as weddings, thanksgiving rituals, harvest festivals, and peace agreements. Offering it to guests is a sign of hospitality, friendship, and respect.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "2258f6ac-b11c-4871-868c-5548d81249db",
+          "term": "Pinuneg",
+          "kind": "standard",
+          "definition": "A delicacy of Ifugao. A traditional blood sausage made from pork blood, meat, fat, and local spices, known for its rich, savory flavor. Commonly served as a viand, usually grilled, boiled, or fried and eaten with rice. It reflects the Ifugao tradition of using every part of the pig.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "db70ef48-766f-4e53-aa9a-7e7b1ba58447",
+          "term": "Etag",
+          "kind": "standard",
+          "definition": "A delicacy of Benguet. A traditional preserved pork cured with salt and smoked or sun-dried, developed as a meat preservation method before refrigeration. Commonly used as a seasoning to add a smoky, salty, and savory flavor to soups and vegetable dishes, and can also be grilled or cooked and served as a viand. An important ingredient in Cordilleran dishes such as Pinikpikan.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "4fcbb97a-584b-4e57-a458-2a41f238f7a6",
+          "term": "6 Foods and Delicacies of the Cordillera Administrative Region",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pinikpikan",
+            "Abra Miki",
+            "Inanchila",
+            "Tapey",
+            "Pinuneg",
+            "Etag"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "512c6ab1-40a6-4609-81f9-0bd7372a1dfb",
+          "term": "Abrenian Kawayan Festival",
+          "kind": "standard",
+          "definition": "A festival of Abra. Held March 6-9 to recognize bamboo as one of the province's most important natural resources. It coincides with the founding anniversary of Abra and features street dancing, bamboo craft exhibits, and cultural presentations, highlighting the creativity and skills of local artisans who use bamboo in various products and industries.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "ce70a129-5c4b-40e0-bc6d-6dc9970f06ef",
+          "term": "Say-am Festival",
+          "kind": "standard",
+          "definition": "A festival of Apayao. Held February 1-14, with the main celebration on February 14, as both a thanksgiving ritual for a bountiful harvest and a commemoration of the province's founding anniversary. It honors the traditions of the Isneg people through cultural performances, music, and dances.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 31
+        },
+        {
+          "id": "55995b37-376a-4e72-8142-ad917bab66dd",
+          "term": "Panagbenga Festival",
+          "kind": "standard",
+          "definition": "A festival of Benguet. Held in February in Baguio City and widely known as the Flower Festival due to its colorful floral floats and street dancing performances. It began as a symbol of recovery after the 1990 Luzon earthquake and has grown into a major tourism event.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 32
+        },
+        {
+          "id": "67ee3ee9-1608-4e05-a83f-8a42a9f93cd8",
+          "term": "Imbayah Festival",
+          "kind": "standard",
+          "definition": "A festival of Ifugao. Held in April, usually every 3 years in Banaue, as a cultural thanksgiving event that highlights the traditions of the Ifugao people. It features indigenous games, rituals, and cultural performances that showcase community values and identity.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 33
+        },
+        {
+          "id": "4ebe912c-9f9f-45ae-be12-74f2b682a768",
+          "term": "Ullalim Festival",
+          "kind": "standard",
+          "definition": "A festival of Kalinga. Held February 13-16 to preserve and promote the rich cultural traditions of the Kalinga people. It is inspired by the ullalim epic chant, which tells stories of heroism, ancestry, and community values, and includes indigenous dances, rituals, and performances.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 34
+        },
+        {
+          "id": "bc19bdd2-7fcb-4f16-af05-2ff0175ecdf4",
+          "term": "Lang-ay Festival",
+          "kind": "standard",
+          "definition": "A festival of Mountain Province. Held the first week of April as part of the founding anniversary of the province. The word \"lang-ay\" means unity and sharing, reflecting cooperation among indigenous communities. It promotes appreciation of cultural heritage while supporting tourism and local economic development.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 35
+        },
+        {
+          "id": "ee814a12-bf5c-4da5-97bc-b4dfe6ab6e46",
+          "term": "6 Festivals of the Cordillera Administrative Region",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Abrenian Kawayan Festival",
+            "Say-am Festival",
+            "Panagbenga Festival",
+            "Imbayah Festival",
+            "Ullalim Festival",
+            "Lang-ay Festival"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 36
+        }
+      ]
+    }
+  ]
+}

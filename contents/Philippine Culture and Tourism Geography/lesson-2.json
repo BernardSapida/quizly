@@ -1,0 +1,216 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Philippine Culture and Tourism Geography"
+    }
+  ],
+  "sets": [
+    {
+      "id": "efc9db95-ea9a-4177-9be5-411d468f623d",
+      "folderId": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Lesson 2: Region 1 - Ilocos Region",
+      "description": "The provinces and capitals of the Ilocos Region, with its attractions, foods and delicacies, and festivals.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "d3ce3b3b-5d66-4311-98ae-5f7e62d58521",
+          "term": "4 Provinces of Region 1 and Their Capitals",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Ilocos Norte - Laoag City",
+            "Ilocos Sur - Vigan City",
+            "La Union - San Fernando City",
+            "Pangasinan - Lingayen"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "5f8c4df8-db91-4bf4-8b37-6ef67ba2c8f0",
+          "term": "Paoay Church",
+          "kind": "standard",
+          "definition": "An attraction in Ilocos Norte. Also known as San Agustin Church. Recognized as a UNESCO World Heritage Site. Characterized by thick coral stone walls and massive buttresses designed to withstand earthquakes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "51492bc4-0986-4298-b20f-0b59d1c13cea",
+          "term": "Laoag Sinking Bell Tower",
+          "kind": "standard",
+          "definition": "An attraction in Ilocos Norte. A centuries-old bell tower that mysteriously sinks into the ground over time; a symbol of Laoag's Spanish colonial past.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "f3b56537-c6d4-4fa9-92fa-bc277d91a5af",
+          "term": "Calle Crisologo",
+          "kind": "standard",
+          "definition": "An attraction in Ilocos Sur. A well-preserved heritage street in Vigan City. Features cobblestone roads lined with Spanish-era houses. Showcases antique lamps and traditional horse-drawn carriages (kalesa).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "a8627ddc-48fa-4781-bd3d-7da5a3b8ad4f",
+          "term": "Bantay Bell Tower",
+          "kind": "standard",
+          "definition": "An attraction in Ilocos Sur. A historic bell tower located on a hill overlooking Vigan. Part of the Saint Augustine Parish Church complex. Built in the 16th century and used as a watchtower during the Spanish colonial period.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "58e30039-1444-47c0-bb76-091a92de456e",
+          "term": "Baluarte Zoo",
+          "kind": "standard",
+          "definition": "An attraction in Ilocos Sur. A popular tourist attraction in Vigan City. Owned by former governor Luis \"Chavit\" Singson. Features a mini zoo, safari gallery, and recreational facilities.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "a4e2ccb2-434c-4049-8bfb-8e8d1ea81cb4",
+          "term": "Tangadan Falls",
+          "kind": "standard",
+          "definition": "An attraction in La Union. One of the well-known natural attractions in La Union. Located in San Gabriel and accessible through trekking. Popular for swimming and nature trips.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "96b7259a-b69b-4c53-a449-0244f961a8af",
+          "term": "Ma-Cho Temple",
+          "kind": "standard",
+          "definition": "An attraction in La Union. One of the largest Taoist temples in the Philippines, and the first Taoist temple in the Philippines. Built in 1975 with the support of the local Chinese-Filipino community.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "a6f16243-5b6a-4451-87a8-cec5628f48cd",
+          "term": "Hundred Islands National Park",
+          "kind": "standard",
+          "definition": "An attraction in Pangasinan. Located in Alaminos City. Composed of 124 islands scattered across Lingayen Gulf. Known for island hopping, snorkeling, and beach activities.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "5ee42bae-bd1b-4346-8484-4669761d210b",
+          "term": "Our Lady of Manaoag",
+          "kind": "standard",
+          "definition": "An attraction in Pangasinan. A major Roman Catholic pilgrimage site. Officially known as the Minor Basilica of Our Lady of the Rosary of Manaoag. Devotees visit the shrine due to its long-standing religious significance.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "f084ef5b-fadb-40e6-b5de-3de36ab17a11",
+          "term": "Empanada",
+          "kind": "standard",
+          "definition": "A delicacy of Ilocos Norte. A savory pastry filled with vegetables, egg, and Ilocos longganisa. Known for its crispy orange-colored rice flour crust.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "0a264426-c526-44cf-a70a-60b57ab8d5b8",
+          "term": "Vigan Longganisa",
+          "kind": "standard",
+          "definition": "A delicacy of Ilocos Sur. A garlicky and slightly sour native sausage. Commonly served with garlic rice and fried egg.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "75cc9e88-ee9e-4737-bb59-3f24643a2210",
+          "term": "Jumping Salad",
+          "kind": "standard",
+          "definition": "A delicacy of La Union. A fresh salad of live shrimp mixed with vinegar, onions, and tomatoes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "7a2e4e1e-574c-45fc-aa75-2f24592b523d",
+          "term": "Puto Calasiao",
+          "kind": "standard",
+          "definition": "A delicacy of Pangasinan. A soft, bite-sized steamed rice cake. Made from rice flour, sugar, and yeast, known for its slightly sticky texture.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "11ad18fb-e94b-4daa-8c7c-92db03a5fb3f",
+          "term": "4 Foods and Delicacies of the Ilocos Region",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Empanada",
+            "Vigan Longganisa",
+            "Jumping Salad",
+            "Puto Calasiao"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "7fa397cf-3543-4712-a988-f47c65be2fed",
+          "term": "Pamulinawen Festival",
+          "kind": "standard",
+          "definition": "A festival of Ilocos Norte. Held every February 10 in Laoag City, this festival honors St. William the Hermit through street dancing, cultural performances, and religious activities. Its name is inspired by a traditional Ilocano folk song which reflects the rich heritage of the community.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "e27fc836-566d-4f7d-94a7-c6a994aec53d",
+          "term": "Longganisa Festival",
+          "kind": "standard",
+          "definition": "A festival of Ilocos Sur. Celebrated every January 22 in Vigan City, this festival showcases the famous Ilocos longganisa through lively street dancing and fun eating contests that highlight the region's well-loved delicacy.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "8425c0d0-d710-40d7-8b41-53f0e0afb7c9",
+          "term": "International Surfing Cup",
+          "kind": "standard",
+          "definition": "A social event of La Union. Surfers from all around the world come together for this yearly event every January. It supports local tourism and businesses while promoting La Union as a premier surfing destination.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "4f316c76-000f-4016-a8a8-c52e9aefd6d5",
+          "term": "Bangus Festival",
+          "kind": "standard",
+          "definition": "A festival of Pangasinan. Held each year in Dagupan City from April 16 to May 4 to commemorate the abundance of milkfish production in the area. It includes dancing, fluvial processions, and grill parties attracting lots of tourists.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "9097b861-8fcc-46c6-99b1-08d5296bc606",
+          "term": "4 Festivals and Social Events of the Ilocos Region",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pamulinawen Festival",
+            "Longganisa Festival",
+            "International Surfing Cup",
+            "Bangus Festival"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 19
+        }
+      ]
+    }
+  ]
+}

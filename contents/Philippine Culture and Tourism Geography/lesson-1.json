@@ -1,0 +1,392 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Philippine Culture and Tourism Geography"
+    }
+  ],
+  "sets": [
+    {
+      "id": "ce0ed16f-1cc2-476d-a4c5-eec5ffdc0dd8",
+      "folderId": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Lesson 1: Introduction",
+      "description": "The 4As of Tourism and basic facts about the Philippines: islands, landforms, UNESCO sites, climate, language, and ethnic groups.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "c15975c9-9f37-42c5-aaa5-ad134048c8f1",
+          "term": "4As of Tourism",
+          "kind": "standard",
+          "definition": "A basic framework used to analyze the elements that make a destination appealing to visitors.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "92393578-b478-4e68-bc99-b78c82511119",
+          "term": "The 4As of Tourism",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Access",
+            "Attractions",
+            "Accommodation",
+            "Activities"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "4ede0522-ba5d-44fe-aafd-56ce4f6005f6",
+          "term": "Access",
+          "kind": "standard",
+          "definition": "Refers to how easily tourists can reach and move within a destination.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "99cb71f2-8f87-4b20-b897-eb2edb4210b8",
+          "term": "3 Things Included in Access",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Transportation system",
+            "Visa policies",
+            "Travel costs"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "e9c82b71-5525-41d5-9cdb-5f26cd070263",
+          "term": "Attractions",
+          "kind": "standard",
+          "definition": "The main reasons tourists visit a destination. A mix of these makes a place more appealing to a wider range of visitors.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "9aaff9d5-6126-4d87-bca1-5e45ea6171f5",
+          "term": "4 Kinds of Attractions",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Natural sites",
+            "Cultural experiences",
+            "Historical landmarks",
+            "Man-made features"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "975ba0e8-0e2f-49eb-bc90-d01310414b2d",
+          "term": "Accommodation",
+          "kind": "standard",
+          "definition": "Provides tourists with a place to stay, rest, and access basic services.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "d33b241d-8980-488e-9fa6-660017123b0b",
+          "term": "4 Accommodation Options (vary depending on budget and preference)",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Hotels",
+            "Resorts",
+            "Homestays",
+            "Hostels"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "e1d67808-f6a2-431f-8b3e-76ba0d1c256f",
+          "term": "4 Essentials for a Satisfying Stay",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Cleanliness",
+            "Comfort",
+            "Safety",
+            "Amenities like Wi-Fi"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "1f3b5c5f-61f5-4b32-bd7a-f5c148d37490",
+          "term": "Activities",
+          "kind": "standard",
+          "definition": "The experiences that tourists engage in during their visit.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "2383ab68-d1e4-4e52-96e8-0ccf86052a82",
+          "term": "4 Types of Activities",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Adventure",
+            "Cultural",
+            "Leisure",
+            "Recreational"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "3b47148c-2347-43c8-87d5-f060de8d0430",
+          "term": "Importance of Well-Planned and Diverse Activities",
+          "kind": "standard",
+          "definition": "They make destinations more enjoyable and memorable; offering a variety of activities helps attract different types of tourists and encourages longer stays.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "76a12b43-9b9c-40a5-8bb9-7bf12af5c7bc",
+          "term": "Luzon",
+          "kind": "standard",
+          "definition": "The largest island, located in the northern region of the archipelago; also the most populous island. It has a land area of approximately 40,420 square miles.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "fad3e756-27c3-45aa-a56e-667646a11cfb",
+          "term": "4 Major Areas of Luzon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Northern Luzon",
+            "South Luzon",
+            "Central Luzon",
+            "National Capital Region"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "aea00ed3-958b-4c3e-a039-89993ad66dff",
+          "term": "Smallest Island in the Philippines",
+          "kind": "standard",
+          "definition": "The Philippines is consisting of thousand islands and there is no known smallest island using any known technological definition and due to high tide and low tide variation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "09142487-ec98-45ac-9176-dd9e92377d81",
+          "term": "Number of Islands in the Philippines",
+          "kind": "standard",
+          "definition": "The Philippines has 7,641 islands.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "0097a109-f544-40fd-b6d3-7b119010e16f",
+          "term": "Length of Coastline",
+          "kind": "standard",
+          "definition": "The total coastline length ranges from 17,500 kilometers (Philippine figure) to 36,289 kilometers (U.S. figure). According to Philippines Tourism USA, the Philippines has the fourth largest coastline in the world.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "e16bfadf-5b4e-4fcf-92db-69a9a8e69942",
+          "term": "Mount Apo",
+          "kind": "standard",
+          "definition": "The highest point in the Philippines. It has an elevation of 9,692 feet and is located in between Davao City and Davao Del Sur.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "65cc2be9-3bd9-4116-a08d-02b0aa6dc158",
+          "term": "Aklan",
+          "kind": "standard",
+          "definition": "Originally called Minuro; considered as the oldest province in the Philippines. Established during the 12th Century and became an independent province when President Magsaysay signed it into law on April 25, 1956.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "347ebf0e-a11b-4204-b680-fb5bc20514c3",
+          "term": "Number of Provinces",
+          "kind": "standard",
+          "definition": "As of 2024, the Philippines has 82 provinces, distributed across the three major island groups.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "5ffcf2a1-5c1b-4174-a4cc-f2416d0612f8",
+          "term": "Distribution of the 82 Provinces Across the 3 Major Island Groups",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "38 provinces in Luzon",
+            "27 provinces in Visayas",
+            "17 provinces in Mindanao"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "71fbe564-9a3f-4d1d-9bf3-c9eaedccd3b6",
+          "term": "Number of Regions",
+          "kind": "standard",
+          "definition": "The Philippines is divided into 18 administrative regions.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "640c4126-02d7-4508-8264-c60c88c6731e",
+          "term": "The 18 Administrative Regions of the Philippines, by name",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "National Capital Region",
+            "Cordillera Administrative Region",
+            "Ilocos Region",
+            "Cagayan Valley",
+            "Central Luzon",
+            "CALABARZON",
+            "MIMAROPA",
+            "Bicol Region",
+            "Western Visayas",
+            "Central Visayas",
+            "Eastern Visayas",
+            "Zamboanga Peninsula",
+            "Northern Mindanao",
+            "Davao Region",
+            "SOCCSKSARGEN",
+            "Caraga",
+            "Bangsamoro Autonomous Region in Muslim Mindanao",
+            "Negros Islands Region"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "4340e983-a346-41d3-b8d5-9ec2eaf34fc9",
+          "term": "Palawan",
+          "kind": "standard",
+          "definition": "The largest province in terms of land area. It has a land area of 17,030.75 sq. kms.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "7b4a66ed-5d74-4268-a500-419946abbfda",
+          "term": "Batanes",
+          "kind": "standard",
+          "definition": "Known as the smallest province. It has a land area of 202.33 sq. kms.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "c74be56e-3616-4876-b29e-468ddf9040fe",
+          "term": "6 UNESCO World Heritage Sites in the Philippines",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Historic Town of Vigan",
+            "Baroque Churches of the Philippines",
+            "Rice Terraces of the Philippine Cordilleras",
+            "Puerto-Princesa Subterranean River National Park",
+            "Tubbataha Reefs Natural Park",
+            "Mount Hamiguitan Range Wildlife Sanctuary"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "ada71a34-63aa-4777-b27e-d89b31c54673",
+          "term": "Climate of the Philippines",
+          "kind": "standard",
+          "definition": "The Philippines has a tropical climate characterized by warm temperatures, high humidity, and significant rainfall throughout the year.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "e7fcb425-3c2c-4545-897c-6c6969805432",
+          "term": "2 Main Seasons in the Philippines",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Dry Season",
+            "Wet Season"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "40b5da00-595d-4372-84c2-aabf7b5ac920",
+          "term": "Official Languages of the Philippines",
+          "kind": "standard",
+          "definition": "Filipino and English are the official languages used and taught in the Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "7e9aadcb-051e-4cee-8998-01762a05eb93",
+          "term": "8 Major Dialects of Filipino",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Tagalog",
+            "Cebuano",
+            "Ilocano",
+            "Hiligaynon or Ilonggo",
+            "Bicol",
+            "Waray",
+            "Pampango",
+            "Pangasinense"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "df469bc9-0228-4df0-96c8-2afbe60f3813",
+          "term": "Number of Ethnic Groups in the Philippines",
+          "kind": "standard",
+          "definition": "There are more than 100 ethnic groups in the Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "d14a0ec9-7637-46a5-8ca1-52e9bcb42c76",
+          "term": "6 Most Dominant Ethnic Groups in the Philippines",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Tagalog",
+            "Bisaya",
+            "Cebuano",
+            "Ilocano",
+            "Hiligaynon",
+            "Waray"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 31
+        }
+      ]
+    }
+  ]
+}

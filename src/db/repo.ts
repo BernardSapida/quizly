@@ -14,6 +14,7 @@ import type {
 // in each mode separately. A term mastered in Familiarize is still 0 in Identify.
 const MASTERY_COLUMNS = `
   COUNT(t.id) AS term_count,
+  COALESCE(SUM(CASE WHEN t.kind = 'enumeration' THEN 1 ELSE 0 END), 0) AS enum_count,
   COALESCE(SUM(CASE WHEN pc.mastered = 1 THEN 1 ELSE 0 END), 0) AS choice_mastered,
   COALESCE(SUM(CASE WHEN pw.mastered = 1 THEN 1 ELSE 0 END), 0) AS written_mastered,
   MAX(COALESCE(pc.last_seen_at, 0), COALESCE(pw.last_seen_at, 0)) AS last_seen_at

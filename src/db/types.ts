@@ -58,6 +58,10 @@ export type PoolProgress = {
 
 export type SetWithProgress = Set & {
   term_count: number;
+  /** How many of `term_count` are enumeration terms. They are the ones worth
+   *  knowing about before you open a set: a list you have to produce whole is a
+   *  different night's work than a term you have to recognise. */
+  enum_count: number;
   choice_mastered: number;
   written_mastered: number;
   last_seen_at: number | null;
@@ -66,6 +70,7 @@ export type SetWithProgress = Set & {
 export type FolderWithProgress = Folder & {
   set_count: number;
   term_count: number;
+  enum_count: number;
   choice_mastered: number;
   written_mastered: number;
   last_seen_at: number | null;

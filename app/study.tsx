@@ -11,23 +11,16 @@ import {
 import { useLocalSearchParams, useRouter } from "expo-router";
 import Animated, { FadeIn, FadeInRight, FadeInUp } from "react-native-reanimated";
 import { Button } from "heroui-native";
-import {
-  Check,
-  Flag,
-  Flame,
-  PartyPopper,
-  Settings,
-  Sparkles,
-  Trophy,
-  X,
-} from "lucide-react-native";
+import { Flag, Flame, Settings, Sparkles, Trophy, X } from "lucide-react-native";
 
 import { repo, type StudyMode, type StudyTerm } from "@/db";
 import { useSession } from "@/features/study/useSession";
 import { parseAnswers } from "@/features/study/grading";
+import { ListAnswer } from "@/features/study/components/ListAnswer";
+import { SelectAnswer } from "@/features/study/components/SelectAnswer";
 import { OptionRow, RoundBar, type OptionState } from "@/features/study/components/OptionRow";
 import { Screen } from "@/components/ui/Screen";
-import { COLORS, GLASS, SPACING } from "@/theme";
+import { COLORS, SPACING } from "@/theme";
 
 export default function StudyScreen() {
   const router = useRouter();
@@ -46,6 +39,7 @@ export default function StudyScreen() {
   const {
     phase,
     question,
+    askId,
     feedback,
     streak,
     roundIndex,
@@ -54,13 +48,11 @@ export default function StudyScreen() {
     answerChoice,
     answerWritten,
     answerEnumeration,
+    answerSelect,
     skip,
     continueAfterWrong,
     nextRound,
   } = session;
-
-  const [input, setInput] = useState("");
-  const [listInputs, setListInputs] = useState<string[]>([]);
 
   if (phase === "loading") return <Screen />;
 
@@ -100,30 +92,11 @@ export default function StudyScreen() {
 
   const answered = phase === "correct" || phase === "wrong";
   const lastCorrect = phase === "correct" ? true : phase === "wrong" ? false : null;
-
-  const optionState = (optionId: string): OptionState => {
-    if (!answered) return "default";
-    if (optionId === feedback?.chosenId) {
-      return phase === "correct" ? "chosen-correct" : "chosen-wrong";
-    }
-    // The answer you missed gets a dashed border — "here's what you were reaching for".
-    if (phase === "wrong" && optionId === question.term.id) return "revealed";
-    return "dimmed";
-  };
-
-  const submitWritten = () => {
-    if (answered || !input.trim()) return;
-    answerWritten(input);
-    setInput("");
-  };
-
   const expectedItems = parseAnswers(question.term.answers);
 
-  const submitList = () => {
-    if (answered) return;
-    answerEnumeration(listInputs);
-    setListInputs([]);
-  };
+  // Both list forms ask about the prompt itself ("Name the 5 phases"), not a
+  // definition — the prompt IS the question.
+  const isList = question.mode === "enumeration" || question.mode === "select";
 
   return (
     <Screen>
@@ -179,9 +152,7 @@ export default function StudyScreen() {
         >
           <Animated.View key={question.term.id} entering={FadeInRight.duration(200)}>
             <Text className="text-app-text text-2xl font-semibold leading-8">
-              {question.mode === "enumeration"
-                ? question.term.term
-                : question.term.definition}
+              {isList ? question.term.term : question.term.definition}
             </Text>
           </Animated.View>
 
@@ -210,7 +181,9 @@ export default function StudyScreen() {
                   ? "Choose the answer"
                   : question.mode === "written"
                     ? "Type the answer"
-                    : `Name all ${expectedItems.length}`}
+                    : question.mode === "select"
+                      ? `Pick all ${expectedItems.length}`
+                      : `Name all ${expectedItems.length}`}
               </Text>
 
               {/* A term you missed earlier, coming back around. Naming it takes the
@@ -235,64 +208,23 @@ export default function StudyScreen() {
             </Text>
           )}
 
-          {question.mode === "enumeration" ? (
-            <ListAnswer
-              expected={expectedItems}
-              inputs={listInputs}
-              setInputs={setListInputs}
-              answered={answered}
-              result={feedback?.enumeration ?? null}
-              onSubmit={submitList}
-            />
-          ) : question.mode === "choice" ? (
-            <View className="gap-3">
-              {question.options.map((option) => (
-                <OptionRow
-                  key={option.id}
-                  label={option.term}
-                  state={optionState(option.id)}
-                  disabled={answered}
-                  onPress={() => answerChoice(option)}
-                />
-              ))}
-            </View>
-          ) : (
-            <View className="gap-3">
-              {answered ? (
-                <View className="gap-2">
-                  <OptionRow
-                    label={question.term.term}
-                    state={phase === "correct" ? "chosen-correct" : "revealed"}
-                    disabled
-                    onPress={() => {}}
-                  />
-                </View>
-              ) : (
-                <>
-                  <TextInput
-                    value={input}
-                    onChangeText={setInput}
-                    placeholder="Type the term…"
-                    placeholderTextColor={COLORS.dark.muted}
-                    autoFocus
-                    autoCorrect={false}
-                    autoCapitalize="none"
-                    onSubmitEditing={submitWritten}
-                    returnKeyType="done"
-                    className="rounded-2xl border border-app-glassline bg-app-glass px-4 py-4 text-app-text text-base"
-                  />
-                  <Button
-                    variant="primary"
-                    size="lg"
-                    isDisabled={!input.trim()}
-                    onPress={submitWritten}
-                  >
-                    <Button.Label>Answer</Button.Label>
-                  </Button>
-                </>
-              )}
-            </View>
-          )}
+          {/* Keyed on the ask, not the term: a missed term that is last in the queue
+              comes straight back around under the same id, and the panel has to come
+              back empty. Remounting is also what clears a half-typed answer that was
+              abandoned with "Don't know?". */}
+          <AnswerPanel
+            key={askId}
+            question={question}
+            expectedItems={expectedItems}
+            phase={phase}
+            answered={answered}
+            isRetry={isRetry}
+            feedback={feedback}
+            answerChoice={answerChoice}
+            answerWritten={answerWritten}
+            answerEnumeration={answerEnumeration}
+            answerSelect={answerSelect}
+          />
 
           <View className="flex-1" />
 
@@ -330,95 +262,139 @@ export default function StudyScreen() {
   );
 }
 
-/**
- * The gap Quizlet never filled. One input per expected item, graded
- * order-independently. After answering, every item is shown as hit or missed — the
- * point is to see *which* one you forgot, not just that you were short.
- */
-function ListAnswer({
-  expected,
-  inputs,
-  setInputs,
-  answered,
-  result,
-  onSubmit,
-}: {
-  expected: string[];
-  inputs: string[];
-  setInputs: (next: string[]) => void;
-  answered: boolean;
-  result: { hits: string[]; missed: string[] } | null;
-  onSubmit: () => void;
-}) {
-  // Reveal on ANY answered state, not just a graded one. "Don't know?" grades the
-  // term wrong without producing a result, and the old `answered && result` guard
-  // fell through to the input list — seven blank boxes and a dead Answer button,
-  // with the answers never shown. A skip is exactly when you most need to see them.
-  if (answered) {
-    const graded = result ?? { hits: [], missed: expected };
+type Session = ReturnType<typeof useSession>;
 
+/**
+ * Everything the learner can put *into* a question, and the draft answer they build
+ * on the way there. The draft lives here rather than on the screen so that remounting
+ * this one component is enough to reset it — see the `key` at the call site.
+ */
+function AnswerPanel({
+  question,
+  expectedItems,
+  phase,
+  answered,
+  isRetry,
+  feedback,
+  answerChoice,
+  answerWritten,
+  answerEnumeration,
+  answerSelect,
+}: {
+  question: NonNullable<Session["question"]>;
+  expectedItems: string[];
+  phase: Session["phase"];
+  answered: boolean;
+  isRetry: boolean;
+  feedback: Session["feedback"];
+} & Pick<
+  Session,
+  "answerChoice" | "answerWritten" | "answerEnumeration" | "answerSelect"
+>) {
+  const [input, setInput] = useState("");
+  const [listInputs, setListInputs] = useState<string[]>([]);
+  const [picked, setPicked] = useState<string[]>([]);
+
+  const optionState = (optionId: string): OptionState => {
+    if (!answered) return "default";
+    if (optionId === feedback?.chosenId) {
+      return phase === "correct" ? "chosen-correct" : "chosen-wrong";
+    }
+    // The answer you missed gets a dashed border — "here's what you were reaching for".
+    if (phase === "wrong" && optionId === question.term.id) return "revealed";
+    return "dimmed";
+  };
+
+  if (question.mode === "select") {
     return (
-      <View className="gap-2">
-        <Text className="text-app-muted text-xs font-semibold">
-          {graded.hits.length} of {expected.length} correct
-        </Text>
-        {expected.map((item) => {
-          const hit = graded.hits.includes(item);
-          return (
-            <View
-              key={item}
-              className="flex-row items-center gap-3 rounded-2xl p-3"
-              style={{
-                // Same language as multiple choice: solid = you got it, dashed =
-                // here is the one you were reaching for.
-                borderColor: hit ? COLORS.correct : COLORS.incorrect,
-                borderWidth: 2,
-                borderStyle: hit ? "solid" : "dashed",
-                backgroundColor: hit ? "transparent" : GLASS.fillStrong,
-              }}
-            >
-              {hit ? (
-                <Check color={COLORS.correct} size={18} />
-              ) : (
-                <X color={COLORS.incorrect} size={18} />
-              )}
-              <Text className="text-app-text flex-1 font-medium">{item}</Text>
-            </View>
-          );
-        })}
+      <SelectAnswer
+        chips={question.chips}
+        expected={expectedItems}
+        picked={picked}
+        setPicked={setPicked}
+        answered={answered}
+        result={feedback?.selection ?? null}
+        onSubmit={() => {
+          if (!answered) answerSelect(picked);
+        }}
+      />
+    );
+  }
+
+  if (question.mode === "enumeration") {
+    return (
+      <ListAnswer
+        expected={expectedItems}
+        inputs={listInputs}
+        setInputs={setListInputs}
+        answered={answered}
+        result={feedback?.enumeration ?? null}
+        onSubmit={() => {
+          if (!answered) answerEnumeration(listInputs);
+        }}
+        // Second time around, a first letter. Missing a seven-item list twice with
+        // nothing at all to go on is where a learner quits.
+        hint={isRetry}
+      />
+    );
+  }
+
+  if (question.mode === "choice") {
+    return (
+      <View className="gap-3">
+        {question.options.map((option) => (
+          <OptionRow
+            key={option.id}
+            label={option.term}
+            state={optionState(option.id)}
+            disabled={answered}
+            onPress={() => answerChoice(option)}
+          />
+        ))}
       </View>
     );
   }
 
+  const submitWritten = () => {
+    if (answered || !input.trim()) return;
+    answerWritten(input);
+  };
+
   return (
     <View className="gap-3">
-      {expected.map((_, i) => (
-        <TextInput
-          key={i}
-          value={inputs[i] ?? ""}
-          onChangeText={(text) => {
-            const next = [...inputs];
-            next[i] = text;
-            setInputs(next);
-          }}
-          placeholder={`${i + 1}.`}
-          placeholderTextColor={COLORS.dark.muted}
-          autoCorrect={false}
-          autoCapitalize="none"
-          className="rounded-2xl border border-app-glassline bg-app-glass px-4 py-4 text-app-text text-base"
-        />
-      ))}
-      <Button
-        variant="primary"
-        size="lg"
-        isDisabled={!inputs.some((i) => i?.trim())}
-        onPress={onSubmit}
-      >
-        <Button.Label>Answer</Button.Label>
-      </Button>
-      <Text className="text-app-muted text-center text-xs">
-        Order doesn&apos;t matter.
-      </Text>
+      {answered ? (
+        <View className="gap-2">
+          <OptionRow
+            label={question.term.term}
+            state={phase === "correct" ? "chosen-correct" : "revealed"}
+            disabled
+            onPress={() => {}}
+          />
+        </View>
+      ) : (
+        <>
+          <TextInput
+            value={input}
+            onChangeText={setInput}
+            placeholder="Type the term…"
+            placeholderTextColor={COLORS.dark.muted}
+            autoFocus
+            autoCorrect={false}
+            autoCapitalize="none"
+            onSubmitEditing={submitWritten}
+            returnKeyType="done"
+            className="rounded-2xl border border-app-glassline bg-app-glass px-4 py-4 text-app-text text-base"
+          />
+          <Button
+            variant="primary"
+            size="lg"
+            isDisabled={!input.trim()}
+            onPress={submitWritten}
+          >
+            <Button.Label>Answer</Button.Label>
+          </Button>
+        </>
+      )}
     </View>
   );
 }

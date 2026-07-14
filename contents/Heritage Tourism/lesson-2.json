@@ -1,12 +1,15 @@
 {
-  "quizlyVersion": 1,
-  "folder": {
-    "id": "295fd658-aa05-4fa7-809f-f77d63da28c0",
-    "name": "Heritage Tourism"
-  },
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "295fd658-aa05-4fa7-809f-f77d63da28c0",
+      "name": "Heritage Tourism"
+    }
+  ],
   "sets": [
     {
       "id": "729b0208-8cd8-4689-a084-188a72cd82d2",
+      "folderId": "295fd658-aa05-4fa7-809f-f77d63da28c0",
       "name": "Lesson 2: The Ecosystem of Heritage Tourism",
       "description": "Key terms, government agencies, laws/EOs, and stakeholder roles from the Heritage Tourism ecosystem lecture.",
       "position": 0,
@@ -14,7 +17,7 @@
       "terms": [
         {
           "id": "966b2860-8ea2-4761-a40e-4e6b66553974",
-          "term": "Stakeholders (Heritage Tourism)",
+          "term": "Stakeholders",
           "kind": "standard",
           "definition": "Individuals, groups, or organizations that have an interest in, are affected by, or can affect the development and management of heritage tourism.",
           "answers": null,
@@ -41,7 +44,7 @@
           "definition": "",
           "answers": [
             "Heritage Sites and Attractions",
-            "Tourists/Visitors",
+            "Tourists",
             "Government Agencies",
             "Host Communities",
             "NGOs and Public Interest Groups",
@@ -53,9 +56,9 @@
         },
         {
           "id": "b60764be-27ed-4fd4-a2ba-27adddf6603b",
-          "term": "Heritage Sites and Attractions (Role)",
+          "term": "Heritage Sites and Attractions",
           "kind": "standard",
-          "definition": "The main reason for travel and the foundation of all tourism activity. Example: Intramuros.",
+          "definition": "Their role: the main reason for travel and the foundation of all tourism activity. Example: Intramuros.",
           "answers": null,
           "updatedAt": 1783971504483,
           "position": 3
@@ -90,9 +93,9 @@
         },
         {
           "id": "61ba67c3-72f7-419f-be9c-3be95d62b76c",
-          "term": "Host Communities (Role)",
+          "term": "Host Communities",
           "kind": "standard",
-          "definition": "Residents living within or near heritage sites who keep traditions, stories, and practices alive, and serve as front-line ambassadors.",
+          "definition": "Their role: residents living within or near heritage sites who keep traditions, stories, and practices alive, and serve as front-line ambassadors.",
           "answers": null,
           "updatedAt": 1783971504483,
           "position": 6
@@ -113,9 +116,9 @@
         },
         {
           "id": "3feab215-a61b-4692-ba50-e7d6c8dd30a2",
-          "term": "Intermediaries (Role)",
+          "term": "Intermediaries",
           "kind": "standard",
-          "definition": "Link heritage sites with tourists by packaging, selling, and promoting experiences. Examples: travel agencies, tour operators, guides.",
+          "definition": "Their role: link heritage sites with tourists by packaging, selling, and promoting experiences. Examples: travel agencies, tour operators, guides.",
           "answers": null,
           "updatedAt": 1783971504483,
           "position": 8
@@ -137,7 +140,7 @@
         },
         {
           "id": "5b6d7150-b1e6-4e4a-8395-a15ffbd4f4d8",
-          "term": "Department of Tourism (DOT)",
+          "term": "Department of Tourism",
           "kind": "standard",
           "definition": "Created under P.D. 189; overall in charge of all tourism sites, attractions, activities, services, and infrastructure in the Philippines.",
           "answers": null,
@@ -146,7 +149,7 @@
         },
         {
           "id": "8601d682-6ff9-49b1-84c8-fc9505dbe6a1",
-          "term": "National Historical Commission (NHC)",
+          "term": "National Historical Commission",
           "kind": "standard",
           "definition": "Previously called NHI; created by P.D. 260; in charge of preservation, restoration, and reconstruction of important historic sites, churches, national shrines, monuments, and landmarks.",
           "answers": null,
@@ -155,7 +158,7 @@
         },
         {
           "id": "a6025253-4c02-462d-bb60-cb29474c5d41",
-          "term": "National Commission for Culture and the Arts (NCCA)",
+          "term": "National Commission for Culture and the Arts",
           "kind": "standard",
           "definition": "Mandated by R.A. 7356; formulates policies for the development of culture and the arts, and promotes and preserves Filipino cultural heritage.",
           "answers": null,
@@ -164,7 +167,7 @@
         },
         {
           "id": "4705c302-9411-4d8b-a8da-483087cefcb6",
-          "term": "Tourism Infrastructure and Enterprise Zone Authority (TIEZA)",
+          "term": "Tourism Infrastructure and Enterprise Zone Authority",
           "kind": "standard",
           "definition": "Established under R.A. 9593; manages government-owned, tourism-oriented establishments usually located in tourist destinations.",
           "answers": null,
@@ -173,7 +176,7 @@
         },
         {
           "id": "e09bb35c-a3e3-4e10-b44d-80541ef855ce",
-          "term": "Department of Public Works and Highways (DPWH)",
+          "term": "Department of Public Works and Highways",
           "kind": "standard",
           "definition": "Important for providing land access to heritage sites and attractions.",
           "answers": null,
@@ -182,7 +185,7 @@
         },
         {
           "id": "8b9b9a38-ace0-489f-9a81-808053b9f33d",
-          "term": "Department of Interior and Local Government (DILG)",
+          "term": "Department of Interior and Local Government",
           "kind": "standard",
           "definition": "Under R.A. 6795; supervises all local government units (LGUs).",
           "answers": null,
@@ -200,7 +203,7 @@
         },
         {
           "id": "5851376c-ef05-4b4f-8cbf-276eeb502126",
-          "term": "National Parks and Development Committee (NPDC)",
+          "term": "National Parks and Development Committee",
           "kind": "standard",
           "definition": "Created as an Executive Committee in 1963 under the Office of the President; tasked to develop and preserve the Quezon Memorial, Rizal Park, and other national parks.",
           "answers": null,
@@ -209,7 +212,7 @@
         },
         {
           "id": "b87a214f-b1e5-4bfd-8bef-5c67df748205",
-          "term": "Tourism Promotions Board (TPB)",
+          "term": "Tourism Promotions Board",
           "kind": "standard",
           "definition": "Under R.A. 9593; serves as the marketing arm of the Department of Tourism.",
           "answers": null,
@@ -218,7 +221,7 @@
         },
         {
           "id": "5b7cf9b0-2992-47a4-b51b-62b353ce5ef2",
-          "term": "Department of Environment and Natural Resources (DENR)",
+          "term": "Department of Environment and Natural Resources",
           "kind": "standard",
           "definition": "Under Section 4 of Executive Order 192; primary government agency for conservation, management, development, and proper use of the country's environment and natural resources.",
           "answers": null,
@@ -227,7 +230,7 @@
         },
         {
           "id": "79e5a143-fd25-47eb-80f8-e13556c548f6",
-          "term": "Department of Trade and Industry (DTI)",
+          "term": "Department of Trade and Industry",
           "kind": "standard",
           "definition": "Under EO 33; primary coordinative, promotive, and facilitative arm for trade, industry, and investment activities; supports small and micro enterprises in host communities.",
           "answers": null,
@@ -236,7 +239,7 @@
         },
         {
           "id": "3aca32a0-fc9a-45e8-9d43-b024d36e733e",
-          "term": "Bureau of Food and Drug Administration (FDA)",
+          "term": "Bureau of Food and Drug Administration",
           "kind": "standard",
           "definition": "Regulates food and drug safety in relation to tourism services.",
           "answers": null,
@@ -245,7 +248,7 @@
         },
         {
           "id": "b97e472e-cfe0-4397-bac4-c2a217eaec21",
-          "term": "Philippine Retirement Authority (PRA)",
+          "term": "Philippine Retirement Authority",
           "kind": "standard",
           "definition": "Under EO 1037; tasked to address and supervise issues concerning retirees.",
           "answers": null,
@@ -272,7 +275,7 @@
         },
         {
           "id": "3508f905-0b71-40d2-9e31-0820faaf5d40",
-          "term": "Philippine National Police (PNP)",
+          "term": "Philippine National Police",
           "kind": "standard",
           "definition": "Main agency tasked to maintain peace and order in communities around the country.",
           "answers": null,
@@ -281,7 +284,7 @@
         },
         {
           "id": "1a77e187-6517-4ef8-8d1d-afb4725da65f",
-          "term": "Philippine Coast Guard (PCG)",
+          "term": "Philippine Coast Guard",
           "kind": "standard",
           "definition": "Under R.A. 5173; mandated to assist in enforcing all applicable laws upon the high seas and waters within Philippine jurisdiction.",
           "answers": null,
@@ -294,7 +297,7 @@
           "kind": "enumeration",
           "definition": "",
           "answers": [
-            "Acquires works of art, specimens, and cultural/historical artifacts",
+            "Acquires works of art, specimens, and cultural and historical artifacts",
             "Documents them",
             "Preserves them",
             "Exhibits them",
@@ -305,7 +308,7 @@
         },
         {
           "id": "38df925d-951e-46ee-8b26-81055ce59977",
-          "term": "National Commission on Indigenous Peoples (NCIP)",
+          "term": "National Commission on Indigenous Peoples",
           "kind": "standard",
           "definition": "Agency responsible for protecting the rights of the indigenous peoples of the Philippines.",
           "answers": null,

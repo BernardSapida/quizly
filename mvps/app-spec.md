@@ -119,11 +119,29 @@ SQLite so it never shows again.
 
 The home screen. **Folders (subjects) and loose sets, together in one list.**
 
-**Folder card:** name (`COSC50`), `4 lessons · 87 terms`, an aggregate mastery bar
-across all its sets, optional accent colour.
+**Folder card:** name (`COSC50`), `4 lessons · 87 terms`, a mastery chip, optional
+accent colour.
 
-**Set card** (loose, not in a folder): name, term count, two mini progress bars
-(Familiarize / Identify), last-studied relative time.
+**Set card** (loose, not in a folder): name, term count, a mastery chip.
+
+**The mastery chip** replaces the progress bars these cards used to carry. A bar answers
+"how far along am I", which is not the question you are asking when you scan a list of
+twelve lessons the night before an exam. The chip answers "am I done with this":
+
+| State | Colour | Means |
+|---|---|---|
+| `NOT STARTED` | grey | nothing attempted in either mode |
+| `LEARNING 19/32` | orange | working through Familiarize; count is terms recognised |
+| `FAMILIAR 28/32` | blue | recognises every term; count is now Identify — the terms you cannot yet produce |
+| `MASTERED ✓` | green | every term, both modes |
+
+The colours are the app's existing language, not a new one: blue is already Familiarize
+and green is already Identify, so clearing Familiarize turns the chip blue and clearing
+Identify on top of it turns it green. Orange keeps the meaning it has on the answer
+screen — "not yet", never "wrong".
+
+Bars survive where you are looking at *one* thing rather than scanning many: Set Detail
+and Home.
 
 **Actions:** tap a folder → Folder Detail. Tap a set → Set Detail. Long-press either →
 sheet with Export / Rename / Move to folder / Delete. FAB → Create (set or folder).
@@ -135,16 +153,19 @@ the screen a classmate sees on a fresh install, so make the import path obvious.
 
 ### 2.3 Folder Detail
 
-One subject. The lesson sets inside it.
+One subject. The lesson sets inside it. **You study inside a lesson, not here** — the
+folder screen is a list, and the only thing it does that a lesson cannot is pool the
+whole subject.
 
-**Header:** folder name, `4 lessons · 87 terms`, aggregate progress across both modes.
+**Header:** folder name, `4 lessons · 87 terms`.
 
-**Primary action: Study all** — pools every term across every set in the folder into one
-session. This is midterm review, and it is the reason folders exist rather than being
-mere tidiness. Under it, the same Familiarize / Identify / Test choice as a set.
+**Primary action: Test all N terms** — pools every term across every set in the folder
+into one exam. This is midterm review, and it is the reason folders exist rather than
+being mere tidiness. It is the screen's *only* action: per-mode drilling belongs to the
+lesson that owns the terms.
 
-**Below:** the lesson sets in `position` order, each with its own term count and progress
-bars. Tap → Set Detail. Drag to reorder.
+**Below:** the lesson sets in `position` order, each with its term count and a mastery
+chip (§2.2). Tap → Set Detail. Drag to reorder.
 
 **Overflow:** Export folder (bundles every set into one file), Rename, Delete.
 
@@ -168,7 +189,7 @@ Primary actions, in this order (most-used first):
 - **Familiarize** → Learn Session in multiple-choice mode. Big, primary button.
 - **Identify** → Learn Session in written mode. Secondary, but equally prominent once
   Familiarize is complete — that is the moment the user goes looking for it.
-- **Test** → Test Setup.
+- **Test** → Test Setup (§2.9), scoped to this lesson. Every term once, then a score.
 - **Edit terms** → Term Editor.
 
 When Familiarize hits 100%, surface a nudge on this screen: *"Ready for a challenge? Try
@@ -272,34 +293,51 @@ confirmation), **Done** → back to Set Detail.
 
 ### 2.9 Test Setup
 
-Configure before starting:
+Reached from Set Detail (**Test**) or Folder Detail (**Test all N terms**) — the same
+screen, scoped to one lesson or to a whole subject. It shows what you are in for
+(`111 questions · every term, once, in random order`) and asks one thing: the format.
 
-- Number of questions (default: all terms, capped at 20).
-- Question types: Multiple choice / Identification / Enumeration / Mixed. Default
-  Mixed.
-- Shuffle: on.
+- **Multiple choice** — pick the term from four options.
+- **Identification** — type the term from memory.
+- **Mixed** — each question is dealt one or the other at random. This is the one that
+  resembles the actual exam.
 
-Button: **Start test**.
+Enumeration terms are always asked as a list, whatever the format — "name the 5 phases"
+has no multiple-choice form.
+
+Multiple choice and Mixed are disabled below `MIN_POOL_FOR_CHOICE` terms: without four
+standard terms there are no distractors, so offering them would be a lie.
 
 ### 2.10 Test Session
 
-One question at a time. A counter (`7 / 20`) and a progress bar.
+One question at a time. A counter (`7 / 111`) and a progress bar.
 
-**No feedback. No requeue. No mastery updates.** You answer, you move on. This is what
-makes it a test rather than practice — and it is the key behavioural difference from
-Learn mode.
+**No feedback. No requeue.** You answer, you move on — no "correct!", no "let's try
+again", no running score. That absence is what makes it a test rather than practice, and
+it is the key behavioural difference from Learn mode. Skipping is answering wrong; a
+blank on an exam is a blank.
 
-A wrong answer is silently recorded. Submitting the last question goes to Results.
+**Answers DO update mastery**, unlike everything else on this screen. A correct
+multiple-choice answer marks the term mastered under Familiarize, a typed one under
+Identify — the track follows the format the question was *dealt*, so a choice question
+that fell back to typed for want of distractors still records under Familiarize. Progress
+is progress however you earned it, and it is written as you go, so a test abandoned at
+question 80 keeps the 80 answers it earned.
+
+Leaving mid-test asks for confirmation, and the run is simply not scored.
 
 ### 2.11 Test Results
 
-- Score, large: `17 / 20 · 85%`.
-- Per-question breakdown: the prompt, your answer (red if wrong), the correct answer.
-  Scroll through everything you got wrong first, then the rest.
-- Buttons: **Practice the ones I missed** (starts a Learn session scoped to just those
-  terms — the highest-value button on the screen), **Retake**, **Done**.
+- Score, large: `78%`, with `87 of 111 correct` under it. 80% or better reads as ready
+  (green); below that is orange — "not yet", never "failed".
+- **Review these N**: every term you missed, with its definition (or its full answer
+  list), plus what you actually put down. Seeing your own wrong answer next to the right
+  one is what makes the correction stick. A perfect test shows nothing here.
+- Button: **Done**.
 
-Persisted to `test_runs`, so Set Detail can eventually show a score trend.
+Not yet built: **Practice the ones I missed** (a Learn session scoped to just the misses
+— the highest-value button this screen could have), **Retake**, and persistence to
+`test_runs` for a score trend on Set Detail.
 
 ### 2.12 Import
 

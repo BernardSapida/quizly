@@ -7,7 +7,7 @@ import {
   type Question,
   type Round,
 } from "./engine";
-import type { EnumerationResult } from "./grading";
+import type { EnumerationResult, SelectionResult } from "./grading";
 
 export type Phase = "loading" | "asking" | "correct" | "wrong" | "round-done" | "done";
 
@@ -16,6 +16,7 @@ export type Feedback = {
   nearMiss: boolean;
   chosenId: string | null;
   enumeration: EnumerationResult | null;
+  selection: SelectionResult | null;
 };
 
 export type SessionState = {
@@ -26,6 +27,12 @@ export type SessionState = {
   /** Unmastered terms in the current round, in ask order. Head is the current one. */
   queue: StudyTerm[];
   question: Question | null;
+  /**
+   * Increments on every ask. The UI remounts its draft answer on it, which is the
+   * only reliable reset signal: the term id is not one, because a missed term that
+   * is the last in the queue comes straight back around under the same id.
+   */
+  askId: number;
   phase: Phase;
   feedback: Feedback | null;
   streak: number;
@@ -47,6 +54,7 @@ export type SessionAction =
       chosenId: string | null;
       nearMiss: boolean;
       enumeration: EnumerationResult | null;
+      selection: SelectionResult | null;
     }
   | { type: "advance" }
   | { type: "next-round" };
@@ -58,6 +66,7 @@ export const initialState = (mode: StudyMode): SessionState => ({
   roundIndex: 0,
   queue: [],
   question: null,
+  askId: 0,
   phase: "loading",
   feedback: null,
   streak: 0,
@@ -107,6 +116,7 @@ export function sessionReducer(
         roundIndex,
         queue,
         question: buildQuestion(queue[0], action.pool, state.mode),
+        askId: state.askId + 1,
         phase: "asking",
         seen: [],
       };
@@ -148,6 +158,7 @@ export function sessionReducer(
           nearMiss: action.nearMiss,
           chosenId: action.chosenId,
           enumeration: action.enumeration,
+          selection: action.selection,
         },
       };
     }
@@ -187,6 +198,7 @@ export function sessionReducer(
         ...state,
         queue,
         question: buildQuestion(queue[0], state.pool, state.mode),
+        askId: state.askId + 1,
         feedback: null,
         phase: "asking",
       };
@@ -216,6 +228,7 @@ export function sessionReducer(
         roundIndex: next,
         queue,
         question: buildQuestion(queue[0], state.pool, state.mode),
+        askId: state.askId + 1,
         phase: "asking",
         feedback: null,
         seen: [],
