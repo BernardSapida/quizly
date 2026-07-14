@@ -1,4 +1,4 @@
-import { Bell, Compass, Flag, Home, Plus, Shield, User } from "lucide-react-native";
+import { Home, Library, Plus } from "lucide-react-native";
 import type { ComponentType } from "react";
 
 export type TabConfig = {
@@ -7,22 +7,12 @@ export type TabConfig = {
   Icon: ComponentType<{ color: string; size: number }>;
 };
 
-const BASE_TABS: TabConfig[] = [
+// Settings is not a tab — it lives behind the gear in the Home header, so the bar
+// stays reserved for the three things you actually do.
+export const TABS: TabConfig[] = [
   { name: "index", label: "Home", Icon: Home },
+  { name: "create", label: "Create", Icon: Plus },
+  { name: "library", label: "Library", Icon: Library },
 ];
 
-const ROLE_EXTRAS: Record<string, TabConfig[]> = {
-  admin: [{ name: "admin", label: "Admin", Icon: Shield }],
-  moderator: [{ name: "reports", label: "Reports", Icon: Flag }],
-  user: [
-    { name: "explore", label: "Explore", Icon: Compass },
-    { name: "create", label: "Create", Icon: Plus },
-    { name: "notifications", label: "Notifications", Icon: Bell },
-    { name: "profile", label: "Profile", Icon: User },
-  ],
-};
-
-export function getTabsForRole(role?: string): TabConfig[] {
-  const extras = ROLE_EXTRAS[role ?? "user"] ?? ROLE_EXTRAS.user;
-  return [...BASE_TABS, ...extras];
-}
+export const TAB_NAMES = new Set(TABS.map((t) => t.name));

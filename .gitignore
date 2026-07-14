@@ -44,3 +44,4 @@ app-example
 
 # Downloaded by plugins/withRemoteIcon.js
 /assets/images/icon-remote.png
+.env

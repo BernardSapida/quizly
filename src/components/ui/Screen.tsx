@@ -2,8 +2,10 @@ import type { ViewStyle } from "react-native";
 import { View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
+import { COLORS } from "@/theme";
+
 type Props = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   style?: ViewStyle;
   // Pass true on screens nested inside a stack navigator that already renders
@@ -24,9 +26,12 @@ export function Screen({
   const insets = useSafeAreaInsets();
   return (
     <View
-      className={`flex-1 bg-background ${className ?? ""}`}
+      className={`flex-1 ${className ?? ""}`}
       style={[
         {
+          // Pinned rather than themed: Quizly is dark-only and must not follow
+          // the phone's light/dark setting.
+          backgroundColor: COLORS.dark.base,
           paddingTop: noTopInset ? 0 : insets.top,
           paddingBottom: insets.bottom,
         },

@@ -4,41 +4,34 @@ import type { ExpoConfig } from "expo/config";
 import { BUILD } from "./app.constants.js";
 
 const config: ExpoConfig = {
-  name: "My Application",
-  slug: "my-application",
+  name: "Quizly",
+  slug: "quizly",
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
-  scheme: "myApplication",
-  userInterfaceStyle: "automatic",
-  newArchEnabled: true,
+  scheme: "quizly",
+  // newArchEnabled removed: the new architecture is the default from SDK 56 and
+  // the option is no longer part of ExpoConfig.
+  //
+  // "dark", not "automatic": Quizly is dark-only and must not follow the phone's
+  // light/dark setting.
+  userInterfaceStyle: "dark",
   ios: {
     supportsTablet: true,
   },
   android: {
+    // The launcher icon on Android 8+ comes from adaptiveIcon, NOT from `icon` —
+    // leaving the template's foreground here is why the installed APK still showed
+    // Expo's default mark. The background is the app's navy so the squircle mask
+    // has nothing to reveal.
     adaptiveIcon: {
-      backgroundColor: "#E6F4FE",
-      foregroundImage: "./assets/images/android-icon-foreground.png",
-      backgroundImage: "./assets/images/android-icon-background.png",
-      monochromeImage: "./assets/images/android-icon-monochrome.png",
+      backgroundColor: "#0A092D",
+      foregroundImage: "./assets/images/icon.png",
     },
-    edgeToEdgeEnabled: true,
+    // edgeToEdgeEnabled removed: Android 16 makes edge-to-edge mandatory and the
+    // option no longer exists — prebuild warns if it is present.
     predictiveBackGestureEnabled: false,
-    package: "com.bernardsapida.myApplication",
-    intentFilters: [
-      {
-        action: "VIEW",
-        autoVerify: true,
-        data: [
-          {
-            scheme: "https",
-            host: "yourdomain.com",
-            pathPrefix: "/",
-          },
-        ],
-        category: ["BROWSABLE", "DEFAULT"],
-      },
-    ],
+    package: "com.bernardsapida.quizly",
   },
   web: {
     output: "static",
@@ -46,16 +39,19 @@ const config: ExpoConfig = {
   },
   plugins: [
     "expo-router",
-    "expo-notifications",
+    "expo-sqlite",
+    "expo-sharing",
     [
       "expo-splash-screen",
       {
-        image: "./assets/images/splash-icon.png",
-        imageWidth: 200,
+        image: "./assets/images/icon.png",
+        imageWidth: 160,
         resizeMode: "contain",
-        backgroundColor: "#ffffff",
+        // Dark in both variants — a white splash flashing before a navy app is
+        // the most jarring thing a user sees.
+        backgroundColor: "#0A092D",
         dark: {
-          backgroundColor: "#000000",
+          backgroundColor: "#0A092D",
         },
       },
     ],

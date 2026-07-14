@@ -5,24 +5,73 @@
 
 @source './node_modules/heroui-native/lib';
 
+/* Quizly is dark-only. The deep navy IS the identity — there is no light theme.
+   See mvps/design-system.md. */
 @theme {
-  --color-app-base: #ffffff;
-  --color-app-brand: #5465FF;
-  --color-app-secondary: #788BFF;
-  --color-app-accent: #9BB1FF;
+  --color-app-brand: #4255FF;
+
+  /* A wrong answer is ORANGE, not red. Red reads as failure; orange reads as
+     "not yet". The whole emotional tone of the app rests on this. */
+  --color-app-correct: #3BE0A0;
+  --color-app-incorrect: #F97316;
+  --color-app-encourage: #FF8A3D;
+  --color-app-round-active: #E8590C;
+  --color-app-round-idle: #4A5169;
+
+  --color-app-base: #0A092D;
+  --color-app-surface: #12102F;
+  --color-app-surface-2: #2E3856;
+  --color-app-border: #2E3856;
+  --color-app-text: #F6F7FB;
+  --color-app-muted: #939BB4;
+
+  /* Glass: a translucent white wash over the navy base. The hairline border is
+     what actually sells it — the fill alone reads as a lighter rectangle. */
+  --color-app-glass: rgba(255, 255, 255, 0.06);
+  --color-app-glassline: rgba(255, 255, 255, 0.12);
+
+  /* The secondary button. HeroUI paints it with an opaque neutral grey, which on
+     the navy base reads as a dead slab pasted over the background. These two make
+     it the same translucent glass as every other raised surface instead.
+     A little stronger than --color-app-glass because HeroUI's button hard-codes
+     border-0, so this fill has to carry the shape on its own.
+
+     The label is a light indigo, NOT the #4255FF brand blue: brand-on-navy is dark
+     text on a dark pill and barely legible. This keeps the brand tie and the contrast. */
+  --color-app-secondary-fill: rgba(255, 255, 255, 0.1);
+  --color-app-brand-tint: #aeb8ff;
 }
 
-/* Map HeroUI Native's accent token to the brand color.
-   Everything that reads --accent (buttons, focus rings, active states) follows automatically. */
+/* HeroUI's own tokens are pinned to the dark palette in BOTH variants, so even if
+   something forces the light variant the app still renders dark rather than
+   half-broken (dark text on a dark card). */
 @layer theme {
   :root {
     @variant light {
       --accent: var(--color-app-brand);
       --accent-foreground: #ffffff;
+      --background: var(--color-app-base);
+      --foreground: var(--color-app-text);
+      --surface: var(--color-app-surface);
+      --border: var(--color-app-border);
+      --muted: var(--color-app-muted);
+      --default: var(--color-app-secondary-fill);
+      --default-foreground: var(--color-app-text);
+      --accent-soft: var(--color-app-secondary-fill);
+      --accent-soft-foreground: var(--color-app-brand-tint);
     }
     @variant dark {
       --accent: var(--color-app-brand);
       --accent-foreground: #ffffff;
+      --background: var(--color-app-base);
+      --foreground: var(--color-app-text);
+      --surface: var(--color-app-surface);
+      --border: var(--color-app-border);
+      --muted: var(--color-app-muted);
+      --default: var(--color-app-secondary-fill);
+      --default-foreground: var(--color-app-text);
+      --accent-soft: var(--color-app-secondary-fill);
+      --accent-soft-foreground: var(--color-app-brand-tint);
     }
   }
 }

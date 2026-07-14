@@ -1,4 +1,7 @@
 import { Pressable, Text, View } from 'react-native';
+import { TriangleAlert } from 'lucide-react-native';
+
+import { COLORS } from '@/theme';
 
 type Props = {
   title?: string;
@@ -13,9 +16,7 @@ export function ErrorState({
 }: Props) {
   return (
     <View className="flex-1 items-center justify-center gap-4 px-6 py-12">
-      <View className="w-16 h-16 rounded-full bg-danger-100 items-center justify-center">
-        <Text className="text-3xl">⚠️</Text>
-      </View>
+      <TriangleAlert color={COLORS.incorrect} size={48} />
       <View className="items-center gap-2">
         <Text className="text-lg font-semibold text-foreground text-center">{title}</Text>
         <Text className="text-sm text-default-500 text-center">{description}</Text>

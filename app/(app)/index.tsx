@@ -1,65 +1,276 @@
-import { Button, Card } from "heroui-native";
-import { ScrollView, Text, View } from "react-native";
+import { useCallback, useMemo, useState } from "react";
+import {
+  Pressable,
+  ScrollView,
+  Text,
+  TextInput,
+  View,
+  useWindowDimensions,
+} from "react-native";
+import { useRouter } from "expo-router";
+import { Button } from "heroui-native";
+import {
+  Layers,
+  Library,
+  Search,
+  Settings as SettingsIcon,
+} from "lucide-react-native";
 
+import { repo, type SetWithProgress } from "@/db";
+import { useAsync } from "@/lib/use-async";
 import { Screen } from "@/components/ui/Screen";
-import { useLogout } from "@/features/auth/mutations";
-import { useAuthStore } from "@/store";
+import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
+import { Card, IconTile, SetCard } from "@/components/ui/Cards";
+import { ModeProgress } from "@/components/ui/ModeProgress";
+import { COLORS, GLASS, SPACING } from "@/theme";
+
+/** The mode a set is part-way through — what "Continue" should resume. */
+function resumeMode(set: SetWithProgress): "choice" | "written" {
+  const choiceDone = set.choice_mastered >= set.term_count;
+  return choiceDone ? "written" : "choice";
+}
+
+function progressPct(set: SetWithProgress): number {
+  if (set.term_count === 0) return 0;
+  const done = set.choice_mastered + set.written_mastered;
+  return Math.round((done / (set.term_count * 2)) * 100);
+}
 
 export default function HomeScreen() {
-  const { session } = useAuthStore();
-  const logout = useLogout();
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+
+  const load = useCallback(() => repo.listAllSets(), []);
+  const { data, loading } = useAsync(load);
+  const sets = useMemo(() => data ?? [], [data]);
+
+  const results = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return null;
+    return sets.filter((s) => s.name.toLowerCase().includes(q));
+  }, [sets, query]);
+
+  // Started, but not finished — the sets you would actually want to pick up again.
+  const inProgress = useMemo(
+    () =>
+      sets.filter(
+        (s) =>
+          s.term_count > 0 &&
+          s.choice_mastered + s.written_mastered > 0 &&
+          progressPct(s) < 100
+      ),
+    [sets]
+  );
+
+  const isEmpty = !loading && sets.length === 0;
+  const tabBarOverlap = useTabBarOverlap();
 
   return (
     <Screen>
       <ScrollView
-        contentContainerStyle={{ padding: 24, paddingTop: 32, gap: 24 }}
+        contentContainerStyle={{
+          // Home's header is the search row rather than a title, so it starts at
+          // the same headerTop offset the titled screens use.
+          paddingHorizontal: SPACING.gutter,
+          paddingTop: SPACING.headerTop,
+          paddingBottom: tabBarOverlap + SPACING.gutter,
+          gap: 28,
+        }}
         showsVerticalScrollIndicator={false}
+        keyboardShouldPersistTaps="handled"
       >
-        {/* Header row */}
-        <View>
-          <Text className="text-2xl font-bold text-foreground">
-            {session?.user.firstname
-              ? `Hello, ${session.user.firstname} 👋`
-              : "Hello 👋"}
-          </Text>
-          <Text className="text-muted mt-2">
-            Your foundation is ready. Start building.
-          </Text>
+        <View className="flex-row items-center gap-3">
+          <View
+            className="flex-1 flex-row items-center gap-3 rounded-full px-4 py-3"
+            style={{
+              backgroundColor: GLASS.fill,
+              borderWidth: 1,
+              borderColor: GLASS.border,
+            }}
+          >
+            <Search color={COLORS.dark.muted} size={18} />
+            <TextInput
+              value={query}
+              onChangeText={setQuery}
+              placeholder="Search your sets"
+              placeholderTextColor={COLORS.dark.muted}
+              className="flex-1 text-app-text"
+              returnKeyType="search"
+            />
+          </View>
+          <Pressable
+            onPress={() => router.push("/settings")}
+            hitSlop={10}
+            className="h-11 w-11 items-center justify-center rounded-full"
+            style={{
+              backgroundColor: GLASS.fill,
+              borderWidth: 1,
+              borderColor: GLASS.border,
+            }}
+          >
+            <SettingsIcon color={COLORS.dark.text} size={20} />
+          </Pressable>
         </View>
 
-        {/* Placeholder content card */}
-        <Card>
-          <Card.Header>
-            <Card.Title>Getting started</Card.Title>
-          </Card.Header>
-          <Card.Body>
-            <Card.Description>
-              Auth, tRPC, and TanStack Query are all wired up. Add your feature
-              screens here.
-            </Card.Description>
-          </Card.Body>
-        </Card>
+        {/* Search takes over the whole screen while it has a query. */}
+        {results !== null ? (
+          <View className="gap-3">
+            <Text className="text-app-text text-lg font-bold">
+              {results.length} {results.length === 1 ? "result" : "results"}
+            </Text>
+            {results.map((set) => (
+              <SetCard
+                key={set.id}
+                set={set}
+                onPress={() => router.push(`/set/${set.id}`)}
+              />
+            ))}
+            {results.length === 0 && (
+              <Text className="text-app-muted py-8 text-center">
+                Nothing matches “{query}”.
+              </Text>
+            )}
+          </View>
+        ) : isEmpty ? (
+          <EmptyHome
+            onCreate={() => router.push("/create")}
+            onImport={() => router.push("/import")}
+          />
+        ) : (
+          <>
+            {inProgress.length > 0 && (
+              <View className="gap-3">
+                <Text className="text-app-text text-lg font-bold">Jump back in</Text>
+                <JumpBackIn
+                  sets={inProgress}
+                  onContinue={(set) =>
+                    router.push(`/study?setId=${set.id}&mode=${resumeMode(set)}`)
+                  }
+                />
+              </View>
+            )}
 
-        {/* Account card */}
-        <Card variant="secondary">
-          <Card.Header>
-            <Card.Title>Account</Card.Title>
-          </Card.Header>
-          <Card.Body>
-            <Card.Description>{session?.user.email}</Card.Description>
-          </Card.Body>
-          <Card.Footer className="mt-4">
-            <Button
-              variant="danger"
-              size="md"
-              className="flex-1"
-              onPress={logout}
-            >
-              <Button.Label>Sign out</Button.Label>
-            </Button>
-          </Card.Footer>
-        </Card>
+            <View className="gap-3">
+              <Text className="text-app-text text-lg font-bold">Recents</Text>
+              {sets.map((set) => (
+                <RecentRow
+                  key={set.id}
+                  set={set}
+                  onPress={() => router.push(`/set/${set.id}`)}
+                />
+              ))}
+            </View>
+          </>
+        )}
       </ScrollView>
     </Screen>
+  );
+}
+
+/** A horizontal, snapping carousel of the sets you have started. */
+function JumpBackIn({
+  sets,
+  onContinue,
+}: {
+  sets: SetWithProgress[];
+  onContinue: (set: SetWithProgress) => void;
+}) {
+  const { width } = useWindowDimensions();
+  const cardWidth = width - 40;
+
+  return (
+    <ScrollView
+      horizontal
+      showsHorizontalScrollIndicator={false}
+      snapToInterval={cardWidth + 12}
+      decelerationRate="fast"
+      contentContainerStyle={{ gap: 12 }}
+    >
+      {sets.map((set) => (
+        <View key={set.id} style={{ width: cardWidth }}>
+          <Card>
+            <Text className="text-app-text text-xl font-bold" numberOfLines={2}>
+              {set.name}
+            </Text>
+
+            <View className="mt-4 gap-2">
+              <ModeProgress
+                label=""
+                mastered={set.choice_mastered + set.written_mastered}
+                total={set.term_count * 2}
+                color={COLORS.correct}
+                compact
+              />
+              <Text className="text-app-muted text-xs">
+                {progressPct(set)}% of questions completed
+              </Text>
+            </View>
+
+            <View className="mt-5">
+              <Button variant="primary" size="lg" onPress={() => onContinue(set)}>
+                <Button.Label>Continue</Button.Label>
+              </Button>
+            </View>
+          </Card>
+        </View>
+      ))}
+    </ScrollView>
+  );
+}
+
+/** Compact row — Recents is a list, not a wall of progress bars. */
+function RecentRow({
+  set,
+  onPress,
+}: {
+  set: SetWithProgress;
+  onPress: () => void;
+}) {
+  return (
+    <Pressable
+      onPress={onPress}
+      className="flex-row items-center gap-4 rounded-2xl p-3"
+      style={{
+        backgroundColor: GLASS.fill,
+        borderWidth: 1,
+        borderColor: GLASS.border,
+      }}
+    >
+      <IconTile Icon={Layers} size={48} />
+      <View className="flex-1">
+        <Text className="text-app-text text-base font-bold" numberOfLines={2}>
+          {set.name}
+        </Text>
+        <Text className="text-app-muted mt-0.5 text-xs">
+          {set.term_count} {set.term_count === 1 ? "card" : "cards"} · by you
+        </Text>
+      </View>
+    </Pressable>
+  );
+}
+
+function EmptyHome({
+  onCreate,
+  onImport,
+}: {
+  onCreate: () => void;
+  onImport: () => void;
+}) {
+  return (
+    <View className="items-center gap-3 py-16">
+      <Library color={COLORS.roundIdle} size={56} />
+      <Text className="text-app-text text-lg font-semibold">No sets yet</Text>
+      <Text className="text-app-muted text-center">
+        Create a set, or import one a classmate sent you.
+      </Text>
+      <View className="w-full gap-3 pt-4">
+        <Button variant="primary" size="lg" onPress={onCreate}>
+          <Button.Label>Create a set</Button.Label>
+        </Button>
+        <Button variant="secondary" size="lg" onPress={onImport}>
+          <Button.Label>Import a file</Button.Label>
+        </Button>
+      </View>
+    </View>
   );
 }

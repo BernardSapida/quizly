@@ -1,10 +1,14 @@
 import Constants from "expo-constants";
+import { useRouter } from "expo-router";
 import { ExternalLink } from "lucide-react-native";
 import { Card } from "heroui-native";
 import { useThemeColor } from "heroui-native";
 import { Linking, Pressable, ScrollView, Text, View } from "react-native";
 
 import { Screen } from "@/components/ui/Screen";
+import { ScreenHeader } from "@/components/ui/ScreenHeader";
+import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
+import { SPACING } from "@/theme";
 
 const version = Constants.expoConfig?.version ?? "1.0.0";
 
@@ -25,12 +29,22 @@ function LinkRow({ label, url }: LinkRowProps) {
 }
 
 export default function AboutScreen() {
+  const tabBarOverlap = useTabBarOverlap();
+  const router = useRouter();
+
   return (
     <Screen>
       <ScrollView
-        contentContainerStyle={{ padding: 24, gap: 20 }}
+        contentContainerStyle={{
+          paddingHorizontal: SPACING.gutter,
+          paddingTop: SPACING.headerTop,
+          paddingBottom: tabBarOverlap + SPACING.gutter,
+          gap: 20,
+        }}
         showsVerticalScrollIndicator={false}
       >
+        {/* Reached from Settings, so it needs its own back — there is no navigator header. */}
+        <ScreenHeader title="About" onBack={() => router.back()} inset={false} />
         {/* App info */}
         <View className="gap-3">
           <Text className="text-xs font-semibold text-muted uppercase tracking-widest px-1">

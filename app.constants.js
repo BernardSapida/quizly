@@ -7,7 +7,7 @@
 // prebuild ("Cannot find module './app.constants'").
 const BUILD = {
   // Output filename for local Gradle release builds -> "<apkName>.apk".
-  apkName: "MyApplication",
+  apkName: "Quizly",
 
   // NDK pin for the local Android release build (see plugins/withNdkVersion.js).
   ndkVersion: "27.1.12297006",
