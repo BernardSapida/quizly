@@ -13,6 +13,7 @@ import {
 } from "./grading";
 import { pickEncouragement, pickPraise } from "./messages";
 import { initialState, sessionReducer } from "./reducer";
+import { playCorrect, playRoundFinish, primeSound } from "./sound";
 
 export type { Feedback, Phase } from "./reducer";
 
@@ -55,6 +56,17 @@ export function useSession(scope: Scope, mode: StudyMode) {
     []
   );
 
+  // Built while the pool is still loading, so the first correct answer of the
+  // session sounds like every one after it.
+  useEffect(() => {
+    primeSound();
+  }, []);
+
+  /** The end of a round and the end of the session are the same beat: you finished. */
+  useEffect(() => {
+    if (state.phase === "round-done" || state.phase === "done") playRoundFinish();
+  }, [state.phase]);
+
   const advance = useCallback(() => {
     if (advanceTimer.current) {
       clearTimeout(advanceTimer.current);
@@ -88,6 +100,10 @@ export function useSession(scope: Scope, mode: StudyMode) {
           ? Haptics.NotificationFeedbackType.Success
           : Haptics.NotificationFeedbackType.Error
       ).catch(() => {});
+
+      // Only the correct answer gets a sound. The miss keeps its haptic and its
+      // pause; adding a tone to it would make the app feel like it was scolding you.
+      if (correct) playCorrect();
 
       dispatch({
         type: "answered",

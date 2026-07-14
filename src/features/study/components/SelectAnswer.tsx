@@ -1,5 +1,6 @@
 import { Button } from "heroui-native";
 import { Check, X } from "lucide-react-native";
+import type { Dispatch, SetStateAction } from "react";
 import { Pressable, Text, View } from "react-native";
 import Animated, {
   useAnimatedStyle,
@@ -35,7 +36,7 @@ export function SelectAnswer({
   chips: string[];
   expected: string[];
   picked: string[];
-  setPicked: (next: string[]) => void;
+  setPicked: Dispatch<SetStateAction<string[]>>;
   answered: boolean;
   result: { hits: string[]; missed: string[]; wrong: string[] } | null;
   onSubmit: () => void;
@@ -66,7 +67,7 @@ export function SelectAnswer({
         {graded.wrong.length > 0 && (
           <View className="gap-2 pt-1">
             <Text className="text-app-muted text-xs font-semibold">
-              NOT ON THE LIST
+              YOU PICKED THESE — NOT ON THE LIST
             </Text>
             {graded.wrong.map((item) => (
               <Chip key={item} label={item} state="false-pick" />
@@ -80,12 +81,16 @@ export function SelectAnswer({
   const limit = expected.length;
   const full = picked.length >= limit;
 
+  // Every branch reads the picks from the updater argument, never from the render
+  // closure. Two chips tapped inside one commit — a fast double tap, or two fingers,
+  // which a wrap grid invites — used to both build their next array from the same
+  // stale `picked`, so the second tap silently dropped the first one's chip.
   const toggle = (item: string) => {
-    if (picked.includes(item)) {
-      setPicked(picked.filter((p) => p !== item));
-    } else if (!full) {
-      setPicked([...picked, item]);
-    }
+    setPicked((current) => {
+      if (current.includes(item)) return current.filter((p) => p !== item);
+      if (current.length >= limit) return current;
+      return [...current, item];
+    });
   };
 
   return (
@@ -161,8 +166,13 @@ function Chip({
           alignItems: "center",
           gap: 8,
           minHeight: 48,
-          paddingHorizontal: 16,
-          paddingVertical: 12,
+          // Border width is part of a chip's size in Yoga, so a chip that grows a
+          // hairline into a 2px ring when picked drags every chip after it along the
+          // wrap grid — and the one under your thumb is no longer the one you aimed
+          // at. Padding gives back exactly what the border takes, so a chip occupies
+          // the same box in every state and the grid never moves mid-selection.
+          paddingHorizontal: 16 + (MAX_CHIP_BORDER - style.borderWidth),
+          paddingVertical: 12 + (MAX_CHIP_BORDER - style.borderWidth),
           borderRadius: 16,
           borderWidth: style.borderWidth,
           borderStyle: style.borderStyle,
@@ -172,8 +182,12 @@ function Chip({
         }}
       >
         {state === "hit" && <Check color={COLORS.correct} size={18} />}
-        {state === "missed" && <X color={COLORS.incorrect} size={18} />}
         {state === "false-pick" && <X color={COLORS.incorrect} size={18} />}
+        {/* A missed item is still one of the answers, so it never gets a ✕ — that
+            mark belongs to the decoys below, and putting it in both places was
+            reading as "these two lists are the same kind of wrong". The empty slot
+            keeps every label on the same left edge. */}
+        {state === "missed" && <View style={{ width: 18 }} />}
         <Text
           style={{
             fontSize: 15,
@@ -186,10 +200,20 @@ function Chip({
         >
           {label}
         </Text>
+        {state === "missed" && (
+          <Text
+            style={{ fontSize: 12, fontWeight: "600", color: COLORS.correct }}
+          >
+            Missed
+          </Text>
+        )}
       </Pressable>
     </Animated.View>
   );
 }
+
+/** The thickest border any chip state draws. See the padding in `Chip`. */
+const MAX_CHIP_BORDER = 2;
 
 const CHIP_STYLES: Record<
   ChipState,
@@ -225,8 +249,8 @@ const CHIP_STYLES: Record<
     borderStyle: "solid",
   },
   missed: {
-    background: GLASS.fillStrong,
-    borderColor: COLORS.incorrect,
+    background: "transparent",
+    borderColor: COLORS.correct,
     borderWidth: 2,
     borderStyle: "dashed",
   },

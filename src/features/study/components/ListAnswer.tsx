@@ -1,5 +1,5 @@
 import { Button } from "heroui-native";
-import { Check, X } from "lucide-react-native";
+import { Check } from "lucide-react-native";
 import { Text, TextInput, View } from "react-native";
 
 import { COLORS, GLASS } from "@/theme";
@@ -51,9 +51,11 @@ export function ListAnswer({
               key={item}
               className="flex-row items-center gap-3 rounded-2xl p-3"
               style={{
-                // Same language as multiple choice: solid = you got it, dashed =
-                // here is the one you were reaching for.
-                borderColor: hit ? COLORS.correct : COLORS.incorrect,
+                // Same language as multiple choice: solid green = you got it, dashed
+                // green = here is the one you were reaching for. A missed item is
+                // still one of the answers, so it is never marked with the ✕ that
+                // means "this one is wrong".
+                borderColor: COLORS.correct,
                 borderWidth: 2,
                 borderStyle: hit ? "solid" : "dashed",
                 backgroundColor: hit ? "transparent" : GLASS.fillStrong,
@@ -62,9 +64,16 @@ export function ListAnswer({
               {hit ? (
                 <Check color={COLORS.correct} size={18} />
               ) : (
-                <X color={COLORS.incorrect} size={18} />
+                <View style={{ width: 18 }} />
               )}
               <Text className="text-app-text flex-1 font-medium">{item}</Text>
+              {!hit && (
+                <Text
+                  style={{ fontSize: 12, fontWeight: "600", color: COLORS.correct }}
+                >
+                  Missed
+                </Text>
+              )}
             </View>
           );
         })}

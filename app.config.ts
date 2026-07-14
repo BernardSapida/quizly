@@ -55,6 +55,19 @@ const config: ExpoConfig = {
         },
       },
     ],
+    // Every option here is off on purpose. Left at its defaults, expo-audio asks for
+    // RECORD_AUDIO and registers a media-playback foreground service — a flashcard app
+    // requesting the microphone is alarming to a user and hard to justify to review.
+    // Quizly only ever plays two bundled chimes, in the foreground.
+    [
+      "expo-audio",
+      {
+        microphonePermission: false,
+        recordAudioAndroid: false,
+        enableBackgroundPlayback: false,
+        enableBackgroundRecording: false,
+      },
+    ],
     ["./plugins/withNdkVersion", { ndkVersion: BUILD.ndkVersion }],
     ["./plugins/withApkName", { apkName: BUILD.apkName }],
     ["./plugins/withRemoteIcon", { iconUrl: BUILD.iconUrl }],

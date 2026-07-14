@@ -3,6 +3,7 @@ import * as Haptics from "expo-haptics";
 
 import { repo, type StudyTerm } from "@/db";
 import { gradeEnumeration, gradeSelection, gradeWritten } from "./grading";
+import { playRoundFinish } from "./sound";
 import { buildTest, scoreTest, type Answer, type TestFormat, type TestQuestion } from "./test";
 import type { Scope } from "./useSession";
 
@@ -100,6 +101,15 @@ export function useTest(scope: Scope, format: TestFormat) {
 
   const phase: TestPhase =
     pool === null ? "loading" : index >= questions.length ? "done" : "asking";
+
+  /**
+   * The only sound a test makes, and it comes after the last answer is in. A chime
+   * on each correct one would tell you the result mid-test, which is precisely what
+   * this mode withholds — the score screen is supposed to be the first you hear of it.
+   */
+  useEffect(() => {
+    if (phase === "done") playRoundFinish();
+  }, [phase]);
 
   const score = useMemo(() => scoreTest(answers), [answers]);
 

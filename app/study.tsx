@@ -444,9 +444,7 @@ function RoundComplete({
         <Settings color={COLORS.dark.text} size={22} />
       </View>
 
-      {/* Bottom padding clears the pinned Continue button — without it the last
-          review card sits underneath it and is unreadable. */}
-      <ScrollView contentContainerStyle={{ padding: 20, gap: 24, paddingBottom: 160 }}>
+      <ScrollView className="flex-1" contentContainerStyle={{ padding: 20, gap: 24 }}>
         <Animated.Text
           entering={FadeInUp.duration(300)}
           className="text-app-text text-3xl font-bold leading-10"
@@ -500,7 +498,12 @@ function RoundComplete({
         </Animated.View>
       </ScrollView>
 
-      <View className="absolute inset-x-0 bottom-0 px-5 pb-8 pt-2">
+      {/* A sibling of the ScrollView, never absolutely positioned: an absolute child
+          is laid out against the parent's border box, so `bottom: 0` here ignored
+          Screen's safe-area padding and shoved the button into the phone's nav bar.
+          In the flow it lands exactly where the in-question Continue does — 20px of
+          padding above the inset. */}
+      <View style={{ paddingHorizontal: 20, paddingBottom: 20, paddingTop: 8 }}>
         <Button variant="primary" size="lg" onPress={onContinue}>
           <Button.Label>Continue to round {roundIndex + 2}</Button.Label>
         </Button>

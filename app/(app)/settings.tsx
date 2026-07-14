@@ -10,6 +10,8 @@ import {
   Trash2,
   TriangleAlert,
   Upload,
+  Volume2,
+  VolumeX,
 } from "lucide-react-native";
 
 import { repo } from "@/db";
@@ -18,7 +20,7 @@ import { usePreferencesStore } from "@/store";
 import { Screen } from "@/components/ui/Screen";
 import { ScreenHeader } from "@/components/ui/ScreenHeader";
 import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
-import { ActionRow, Card, IconTile } from "@/components/ui/Cards";
+import { ActionRow, Card, IconTile, ToggleRow } from "@/components/ui/Cards";
 import { useConfirm } from "@/components/ui/useConfirm";
 import { COLORS, SPACING } from "@/theme";
 
@@ -36,6 +38,8 @@ export default function SettingsScreen() {
   const tabBarOverlap = useTabBarOverlap();
 
   const setContentHash = usePreferencesStore((s) => s.setContentHash);
+  const soundEnabled = usePreferencesStore((s) => s.soundEnabled);
+  const setSoundEnabled = usePreferencesStore((s) => s.setSoundEnabled);
   const [deleting, setDeleting] = useState(false);
   const [resetting, setResetting] = useState(false);
 
@@ -217,6 +221,20 @@ export default function SettingsScreen() {
             title="Import from a file"
             subtitle="Open a set a classmate sent you"
             onPress={() => router.push("/import")}
+          />
+        </View>
+
+        {/* The chime is a flourish, and a flourish you cannot switch off is a liability
+            — plenty of this app's studying happens in a quiet lecture hall. */}
+        <View className="gap-3">
+          <SectionLabel>Sound</SectionLabel>
+          <ToggleRow
+            Icon={soundEnabled ? Volume2 : VolumeX}
+            iconColor={COLORS.correct}
+            title="Study sounds"
+            subtitle="A chime when you get one right, and when a round ends"
+            value={soundEnabled}
+            onValueChange={setSoundEnabled}
           />
         </View>
 

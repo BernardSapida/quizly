@@ -1,5 +1,6 @@
 import { Pressable, Text, View } from "react-native";
 import Animated, { useAnimatedStyle, useSharedValue, withSpring } from "react-native-reanimated";
+import { Switch } from "heroui-native";
 import { ChevronRight, Folder, Layers } from "lucide-react-native";
 
 import type { FolderWithProgress, SetWithProgress } from "@/db";
@@ -129,6 +130,57 @@ export function ActionRow({
           size={20}
           style={{ alignSelf: "center" }}
         />
+      </Pressable>
+    </Animated.View>
+  );
+}
+
+/**
+ * ActionRow's shape with a switch where the chevron goes. The whole row is the hit
+ * target, not just the switch — a 50px toggle is a mean thing to ask a thumb to find
+ * when the card it sits on is already under it.
+ */
+export function ToggleRow({
+  Icon,
+  iconColor = COLORS.brand,
+  title,
+  subtitle,
+  value,
+  onValueChange,
+}: {
+  Icon: typeof Folder;
+  iconColor?: string;
+  title: string;
+  subtitle?: string;
+  value: boolean;
+  onValueChange: (value: boolean) => void;
+}) {
+  const scale = useSharedValue(1);
+  const animated = useAnimatedStyle(() => ({ transform: [{ scale: scale.get() }] }));
+
+  return (
+    <Animated.View style={animated}>
+      <Pressable
+        onPress={() => onValueChange(!value)}
+        onPressIn={() => scale.set(withSpring(0.97, { damping: 15 }))}
+        onPressOut={() => scale.set(withSpring(1, { damping: 15 }))}
+        className="flex-row items-start gap-4 rounded-3xl p-5"
+        style={{
+          backgroundColor: GLASS.fill,
+          borderWidth: 1,
+          borderColor: GLASS.border,
+        }}
+      >
+        <IconTile Icon={Icon} color={iconColor} size={44} />
+        <View className="flex-1">
+          <Text className="text-app-text text-base font-bold">{title}</Text>
+          {subtitle && (
+            <Text className="text-app-muted mt-0.5 text-xs">{subtitle}</Text>
+          )}
+        </View>
+        <View style={{ alignSelf: "center" }}>
+          <Switch isSelected={value} onSelectedChange={onValueChange} />
+        </View>
       </Pressable>
     </Animated.View>
   );
