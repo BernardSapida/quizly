@@ -1,0 +1,675 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "3d482cef-f600-4f7c-be7a-a51e4fd55ca8",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Definition of Cooking Terms",
+      "description": "Fundamental culinary terms: cooking processes, technical terms, and French cooking terminology used in kitchen operations.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "07844980-458d-4954-bf97-b7515b982ce1",
+          "term": "Al dente",
+          "kind": "standard",
+          "definition": "Cooked so it's still tough when bitten, often referring to pasta.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "4ddbdede-2009-484d-86ae-ed22604ee264",
+          "term": "Bain Marie",
+          "kind": "standard",
+          "definition": "A container holding hot water into which a pan is placed for slow cooking, otherwise known as a \"water bath\" or \"double boiler\". A roasting pan or baking dish partially filled with water to allow food to cook more slowly and be protected from direct high heat. Used for custards and terrines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "11a19c26-b5c0-4e7f-b188-daa1608b84d0",
+          "term": "Bake",
+          "kind": "standard",
+          "definition": "To cook foods by surrounding them with hot, dry air. Similar to roast, but this term usually applies to breads, pastries, vegetables, and fish.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "44c8f8d8-532d-4758-8417-fba9b4e729c1",
+          "term": "Barbecue",
+          "kind": "standard",
+          "definition": "(1) To cook with dry heat created by the burning of hardwood or by the hot coals of this wood. (2) Loosely, to cook over hot coals, such as on a grill or spit, often with a seasoned marinade or basting sauce.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "3d13fc7c-c5fa-4623-b648-fdab6eee67c3",
+          "term": "Beat",
+          "kind": "standard",
+          "definition": "To mix ingredients rapidly to incorporate air.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "5f3be66c-43f1-4ade-ae74-ef251747cced",
+          "term": "Blanch",
+          "kind": "standard",
+          "definition": "To cook an item partially and very briefly in boiling water or in hot fat. Usually a pre-preparation technique, as to loosen peels of vegetables, fruits, and nuts, to partially cook french fries or other foods before service, to prepare for freezing, or to remove undesirable flavors.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "cd31a08d-a60e-4933-b8b3-e9fa9e245b8c",
+          "term": "Blend",
+          "kind": "standard",
+          "definition": "To mix ingredients until smooth.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "02b89c7d-f74f-4294-8070-e020d1525a61",
+          "term": "Boil",
+          "kind": "standard",
+          "definition": "To cook in water or other liquid that is bubbling rapidly, about 212°F (100°C) at sea level and at normal pressure.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "9f6b3a6c-e761-4596-9a89-6c2b4cd8651d",
+          "term": "Browning",
+          "kind": "standard",
+          "definition": "To cook certain vegetables slowly in a small amount of liquid without preliminary browning.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "0a180f8f-8a52-423b-9115-adef6d172dd3",
+          "term": "Braise",
+          "kind": "standard",
+          "definition": "To cook food slowly in a small amount of liquid in a covered pot; a combination-cooking method that first sears the food at high temperature, then finishes it in a covered pot at low temperature while sitting in some amount of liquid.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "4d3140fc-7c7b-4abf-b5c9-5f42e2a33042",
+          "term": "Broil",
+          "kind": "standard",
+          "definition": "To cook with radiant heat from above.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "911f99ef-ed8c-4938-bbbd-85986fd3de78",
+          "term": "Deep-fry",
+          "kind": "standard",
+          "definition": "To cook submerged in hot fat.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "bb3908f9-bd51-451f-8d17-d497d2a3f530",
+          "term": "Baste",
+          "kind": "standard",
+          "definition": "To pour juices or melted fat over meat or other food while cooking to keep it moist.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "7ccfe72a-f7a3-4c39-8554-2c07ddd8cc2e",
+          "term": "Bisque",
+          "kind": "standard",
+          "definition": "A thick, creamy soup, with a base of strained broth of shellfish or game.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "033b4e24-057b-4b45-8e88-6f2d88716faa",
+          "term": "Brining",
+          "kind": "standard",
+          "definition": "The process of soaking meat in heavily salted water before cooking, similar to marination.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "40107971-da6f-4874-be8c-cf69cf40d8a5",
+          "term": "Chop",
+          "kind": "standard",
+          "definition": "To cut food into small, irregular pieces.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "07ff30a1-04b1-418e-b9e2-0652ff6a85ad",
+          "term": "Chiffonade",
+          "kind": "standard",
+          "definition": "Shredded or finely cut vegetables and herbs, usually used as a garnish for soup.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "44c33880-6c0c-4cfe-94e9-f09902e59bba",
+          "term": "Consommé",
+          "kind": "standard",
+          "definition": "A type of clear soup made from richly flavored stock that has been clarified, a process of using egg whites to remove fat.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "f69b684f-c1c6-4efe-9e03-83ccbcbd71d1",
+          "term": "Cream",
+          "kind": "standard",
+          "definition": "To mix until smooth and fluffy (e.g., butter and sugar).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "72c356c0-dce0-4601-841b-19a431fbcd56",
+          "term": "Deglaze",
+          "kind": "standard",
+          "definition": "To swirl a liquid in a sauté pan, roast pan, or other pan to dissolve cooked particles of food remaining on the bottom.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "e8c744d2-fd67-455c-9c14-cef65acaefff",
+          "term": "Dice",
+          "kind": "standard",
+          "definition": "To cut food into small, uniform cubes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "ce915464-98d0-436f-a860-8629c6407bab",
+          "term": "Dry-heat cooking methods",
+          "kind": "standard",
+          "definition": "Methods in which heat is conducted to foods without the use of moisture.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "ba123a85-6420-443b-963a-9bf7cc7f8873",
+          "term": "Dredging",
+          "kind": "standard",
+          "definition": "To coat wet or moist foods with a dry ingredient before cooking to provide an even coating.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "c1a3ed83-e76e-4791-844f-f675feb55e64",
+          "term": "Dress",
+          "kind": "standard",
+          "definition": "To put oil, vinegar, salt, or other toppings on a salad or other food.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "4b3af975-7113-4263-b55d-d7130dd9eefc",
+          "term": "Fillet",
+          "kind": "standard",
+          "definition": "A boneless piece of meat, poultry, or fish; the French version, spelled as \"filet,\" is also used when referencing a cut of beef that is boneless, such as filet mignon.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "61f91c59-55fe-45cb-85f0-1f9db7c66d13",
+          "term": "Flambe",
+          "kind": "standard",
+          "definition": "The process of adding alcohol such as brandy, cognac, or rum to a hot pan to create a burst of flames.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "488f70fc-bd86-4eab-b9dd-c182d1fd139a",
+          "term": "Fry",
+          "kind": "standard",
+          "definition": "To cook food in hot oil or fat.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "0aaa7c65-f047-4876-b7de-d647e83ec60f",
+          "term": "Glaze",
+          "kind": "standard",
+          "definition": "The process of creating a shiny, translucent coating on food, often using a sauce or other liquid, to enhance flavor and appearance.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "d99649e5-a759-48e7-8d4e-44d6d091da86",
+          "term": "Grill",
+          "kind": "standard",
+          "definition": "To cook food over direct heat, usually on a rack.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "469bf716-0df1-470e-ad75-1dc30e53e3b7",
+          "term": "Infusion",
+          "kind": "standard",
+          "definition": "The process of extracting chemical compounds or flavors from a vegetable in water, oil, or alcohol, by allowing the material to remain suspended in the liquid over time, also known as steeping.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "7cc8a13b-8c0b-46d7-8a01-833ec2a9eb5c",
+          "term": "Larding",
+          "kind": "standard",
+          "definition": "The process of inserting strips of fat into a piece of meat that doesn't have as much fat, to melt and keep the meat from drying out.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "0b3e28be-a6d5-43e0-98f6-f43c330fbee5",
+          "term": "Liaison",
+          "kind": "standard",
+          "definition": "A binding agent of cream and egg yolks used to thicken soups or sauces.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 31
+        },
+        {
+          "id": "7819768d-243b-4ad3-adc5-30b1a690e645",
+          "term": "Mash",
+          "kind": "standard",
+          "definition": "To crush food until smooth.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 32
+        },
+        {
+          "id": "6136eb34-e4e2-4a39-b74d-a5fbc7698f3a",
+          "term": "Marinate",
+          "kind": "standard",
+          "definition": "The process of soaking foods in seasoned and acidic liquid before cooking for hours or days, adding flavor to the food.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 33
+        },
+        {
+          "id": "25ac3474-a1f3-44b6-a43f-bc5cd3510070",
+          "term": "Mince",
+          "kind": "standard",
+          "definition": "To finely divide food into uniform pieces smaller than diced or chopped foods, prepared using a chef's knife or food processor.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 34
+        },
+        {
+          "id": "c0a5fd73-54ba-443e-9e7a-b520093c1e16",
+          "term": "Mise en place",
+          "kind": "standard",
+          "definition": "The preparation of ingredients, such as dicing onions or measuring spices, before starting cooking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 35
+        },
+        {
+          "id": "29f4293d-f920-4653-a4d2-38a8746a2889",
+          "term": "Mother",
+          "kind": "standard",
+          "definition": "The base sauce used to make other variations of the original sauce.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 36
+        },
+        {
+          "id": "b9468d14-ee33-49a9-8872-bd811a864442",
+          "term": "The 5 Mother Sauces",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Espagnole",
+            "Velouté",
+            "Béchamel",
+            "Tomato sauce",
+            "Emulsion"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 37
+        },
+        {
+          "id": "2dd9e6ab-5fe2-46cd-ad40-7368ea24a47f",
+          "term": "Parboiling",
+          "kind": "standard",
+          "definition": "The process of adding foods to boiling waters, cooking until they are softened, then removing before they are fully cooked, usually to partially cook an item which will then be cooked another way.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 38
+        },
+        {
+          "id": "f8addf5a-27c4-44ae-a3d3-d37bf3bd8745",
+          "term": "Parcooking",
+          "kind": "standard",
+          "definition": "The process of not fully cooking food, so that it can be finished or reheated later.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 39
+        },
+        {
+          "id": "8a04cbbc-cb8d-4cb6-8244-1afc747b0666",
+          "term": "Poach",
+          "kind": "standard",
+          "definition": "To cook food gently in liquid below boiling point.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 40
+        },
+        {
+          "id": "39dd5a5d-6ac0-47ea-8ad7-2bf3ab68d3ed",
+          "term": "Puree",
+          "kind": "standard",
+          "definition": "To mash or blend until smooth.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 41
+        },
+        {
+          "id": "8cdcbb0e-517d-46ae-a37b-55e2fa5e91f9",
+          "term": "Render",
+          "kind": "standard",
+          "definition": "To cook the fat out of something, such as bacon.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 42
+        },
+        {
+          "id": "acb9854a-6144-4428-9dce-91bfefea1cdb",
+          "term": "Roast",
+          "kind": "standard",
+          "definition": "To cook food using dry heat, usually in an oven.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 43
+        },
+        {
+          "id": "faab0c43-0af3-43d1-92ba-f0859ba826c4",
+          "term": "Sautéing",
+          "kind": "standard",
+          "definition": "To cook food quickly over relatively high heat, literally meaning \"to jump\" as the food does when placed in a hot pan.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 44
+        },
+        {
+          "id": "f88ef60b-c361-4abb-bcc2-dba9ffa5307d",
+          "term": "Scald",
+          "kind": "standard",
+          "definition": "To heat a liquid so it's right about to reach the boiling point, where bubbles start to appear around the edges.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 45
+        },
+        {
+          "id": "6d5d9d39-d8fe-402c-ac98-f4f23d0bb560",
+          "term": "Sear",
+          "kind": "standard",
+          "definition": "A technique used in grilling, baking, or sautéing in which the surface of the food is cooked at high temperature until a crust forms.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 46
+        },
+        {
+          "id": "346706f6-1a7c-41fb-b096-78dcac09fb74",
+          "term": "Skim",
+          "kind": "standard",
+          "definition": "To remove foam or fat from liquid surface.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 47
+        },
+        {
+          "id": "6c932432-f0c6-406e-87d8-822ac76abdb6",
+          "term": "Smoking",
+          "kind": "standard",
+          "definition": "A cooking method that involves exposing food, typically meat, poultry, or fish, to smoke from burning or smoldering material, most often wood, to impart flavor, color, and potentially preserve the food.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 48
+        },
+        {
+          "id": "4c36ffce-7a5b-4ae2-bbb6-d51152885389",
+          "term": "Simmer",
+          "kind": "standard",
+          "definition": "To cook in liquid just below boiling point.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 49
+        },
+        {
+          "id": "085e41e4-bbfe-4bf3-a0ae-32da452755e3",
+          "term": "Steam",
+          "kind": "standard",
+          "definition": "To cook food using the vapor from boiling water.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 50
+        },
+        {
+          "id": "f343e2df-8b98-42d9-8acb-ddd035495500",
+          "term": "Sweat",
+          "kind": "standard",
+          "definition": "Gently heating vegetables in a little oil, with frequent stirring and turning to ensure emitted liquid will evaporate; usually results in tender, or in some cases such as onions', translucent pieces.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 51
+        },
+        {
+          "id": "bc5c816e-0ba5-49b2-9d52-e6da2795e1b2",
+          "term": "Tempering",
+          "kind": "standard",
+          "definition": "Raising the temperature of a cold or room-temperature ingredient by slowly adding hot or boiling liquid, often referring to eggs.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 52
+        },
+        {
+          "id": "ec9ecf0e-5461-48de-a236-c0ec69d2bf28",
+          "term": "Tenderize",
+          "kind": "standard",
+          "definition": "To make meat softer by pounding or marinating.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 53
+        },
+        {
+          "id": "0cdb1bb9-9661-4274-b093-92a0d56c34d2",
+          "term": "Trussing",
+          "kind": "standard",
+          "definition": "To tie meat or poultry, such as turkey with a string, woven through the bird parts by using a needle, in order to create a more compact shape before cooking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 54
+        },
+        {
+          "id": "a9431b9f-222e-45d8-8155-7b62b493fe05",
+          "term": "Velouté",
+          "kind": "standard",
+          "definition": "A type of sauce in which a light stock, such as chicken or fish, is thickened with a flour that is cooked and then allowed to turn light brown; made from butter, flour, cream and stock.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 55
+        },
+        {
+          "id": "398a3220-950f-4b84-b7ae-dad268f38578",
+          "term": "Whip",
+          "kind": "standard",
+          "definition": "To beat food with a mixer to incorporate air and produce volume, often used to create heavy cream, salad dressings, or sauces.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 56
+        },
+        {
+          "id": "26a7f308-ade2-473d-8a0d-c9e3d228cd9c",
+          "term": "Whisk",
+          "kind": "standard",
+          "definition": "A cooking utensil used to blend ingredients in a process such as whipping.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 57
+        },
+        {
+          "id": "0774cab6-bddd-4210-ad5d-5b975181a939",
+          "term": "Beurre Manie",
+          "kind": "standard",
+          "definition": "Butter and flour mixed together in equal parts and used to thicken liquids.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 58
+        },
+        {
+          "id": "659b5f3e-266d-43ba-ab2a-bdcc6fa2b396",
+          "term": "Bouillon",
+          "kind": "standard",
+          "definition": "Broth or stock.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 59
+        },
+        {
+          "id": "7f115c13-a564-4105-b9d8-162ec2ba7bdb",
+          "term": "Bouquet Garni",
+          "kind": "standard",
+          "definition": "A mixture of fresh herbs tied together with string and used to flavor stews, soups etc. It refers to a mix of parsley, bay leaf, thyme (and sometimes celery stalk). It is removed before serving.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 60
+        },
+        {
+          "id": "0b583b89-27f9-45b5-9253-dd05676f0488",
+          "term": "Brunoise",
+          "kind": "standard",
+          "definition": "Vegetables cut into very small diced pieces.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 61
+        },
+        {
+          "id": "618fb1b8-a8b6-4f18-90b7-8a42f5597fdd",
+          "term": "Canape",
+          "kind": "standard",
+          "definition": "An appetizer consisting of a small bread or biscuit base covered with flavored topping.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 62
+        },
+        {
+          "id": "5be3f2a5-0122-4bb6-9c0b-321a212aa14e",
+          "term": "Entrée",
+          "kind": "standard",
+          "definition": "The term used to refer to the actual main course.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 63
+        },
+        {
+          "id": "32902fa8-40ea-43b0-9303-6c125ac466a1",
+          "term": "Entrement",
+          "kind": "standard",
+          "definition": "Dessert or sweet.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 64
+        },
+        {
+          "id": "ac556c57-34b8-4b4d-b7e4-77fb7bdc3620",
+          "term": "Hors d'Oeuvre",
+          "kind": "standard",
+          "definition": "First course or appetizer.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 65
+        },
+        {
+          "id": "c693f913-5de7-4ca6-813c-0aed336f0973",
+          "term": "Julienne",
+          "kind": "standard",
+          "definition": "To cut food into thin, matchstick-like strips.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 66
+        },
+        {
+          "id": "505d7333-005b-4509-9317-04845f9eec54",
+          "term": "Macedoine",
+          "kind": "standard",
+          "definition": "Small diced mixed vegetables, usually containing at least one root vegetable. Sometimes also means a mixture of fruit, like fruit salad.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 67
+        },
+        {
+          "id": "5240bcfe-f882-4bb4-8384-04c9f4966304",
+          "term": "Mirepoix",
+          "kind": "standard",
+          "definition": "A mixture of braising vegetables.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 68
+        },
+        {
+          "id": "63e47086-628f-43cc-a62d-54fca383de35",
+          "term": "Papillote",
+          "kind": "standard",
+          "definition": "Translates to \"in paper\" or \"in parchment\". A French cooking term that refers to a method of cooking where food is enclosed in a folded packet of parchment paper or foil and then baked.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 69
+        },
+        {
+          "id": "9b6df933-3ac6-41b2-ad3e-2952f5bd24a0",
+          "term": "Patisserie",
+          "kind": "standard",
+          "definition": "A sweet or pastry. Also refers to cake shop.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 70
+        },
+        {
+          "id": "37b60eb0-6ff1-4266-a06d-737ee1d0be6c",
+          "term": "Roux",
+          "kind": "standard",
+          "definition": "Melted butter which is added with flour. It is usually used as a thickener for sauces or soups.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 71
+        }
+      ]
+    }
+  ]
+}

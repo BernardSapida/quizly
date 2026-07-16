@@ -2,6 +2,7 @@ import { Button } from "heroui-native";
 import { Check } from "lucide-react-native";
 import { Text, TextInput, View } from "react-native";
 
+import { mask } from "@/features/study/mask";
 import { COLORS, GLASS } from "@/theme";
 
 /**
@@ -114,21 +115,4 @@ export function ListAnswer({
       </Text>
     </View>
   );
-}
-
-/**
- * "Preservation" -> "P···········". An initial and a length is the difference between
- * a blank wall and a word on the tip of your tongue, and it is still recall — you
- * have to produce the item, not recognise it. Grading stays order-independent, so a
- * hint is a nudge, not a slot you are locked into.
- */
-function mask(item: string): string {
-  return item
-    .split(" ")
-    .map((word, i) =>
-      i === 0
-        ? word.slice(0, 1) + "·".repeat(Math.max(0, word.length - 1))
-        : "·".repeat(word.length)
-    )
-    .join(" ");
 }

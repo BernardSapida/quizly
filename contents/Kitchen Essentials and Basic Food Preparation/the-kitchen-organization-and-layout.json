@@ -1,0 +1,528 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "406e5500-8a2c-4753-a8c5-6a5949d4210f",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "The Kitchen Organization and Layout",
+      "description": "The kitchen and its areas and sub-sections, the work triangle and layout shapes, and the classical kitchen brigade positions.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "d6c49be6-e75d-4470-86b1-fb684afd2664",
+          "term": "Kitchen",
+          "kind": "standard",
+          "definition": "The heart of food operations where preparation, cooking, and storage happen. A room or part of a room used for cooking and food preparation, with a stove, sink with hot and cold running water, a refrigerator and cabinets arranged there. Its main function is cooking or preparing food but it may also be used for dining, food storage, entertaining, and dishwashing.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "5c2b6200-8d9c-4c8b-84a9-b691ee02015c",
+          "term": "The 4 Other Functions of the Kitchen",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Production and presentation of quality foods using a tested recipe",
+            "Preparation of menus and standard recipe",
+            "Mise-en-place preparation",
+            "Dispatching of food to foodcounters and dining areas"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "c8113392-8724-41fc-9a77-07dd94cc6aa3",
+          "term": "The 5 Main Kitchen Areas",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Preparation Area",
+            "Cooking Area",
+            "Plating Area",
+            "Storage Area",
+            "Dishwashing Area"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "bbcbe83b-57cb-4e67-a6c4-8a41b4b46d1a",
+          "term": "Preparation Area",
+          "kind": "standard",
+          "definition": "Where ingredients are washed, cut, and made ready for cooking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "fb0b102d-2ce2-466a-b363-dd902ae89073",
+          "term": "Cooking Area",
+          "kind": "standard",
+          "definition": "Where food is actually cooked using different methods such as boiling, frying, or baking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "653837a7-cfd8-422a-a7fd-ff841e0a4cee",
+          "term": "Plating Area",
+          "kind": "standard",
+          "definition": "Where food is arranged and prepared for serving.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "5272328f-0eab-40fa-982d-d9e39f255c82",
+          "term": "Storage Area",
+          "kind": "standard",
+          "definition": "Where ingredients and supplies are kept (dry, cold, and frozen).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "f5efac73-7ea0-443e-9254-72a5a7927357",
+          "term": "Dishwashing Area",
+          "kind": "standard",
+          "definition": "Where used tools, utensils, and equipment are cleaned and sanitized.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "74e0342f-920b-4811-bc6a-b3ecddb6f4cc",
+          "term": "The 4 Sub-Sections in the Kitchen",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Cold Kitchen",
+            "Hot Kitchen",
+            "Butchering Section",
+            "Pastry Section"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "30dfbca4-c6bb-4753-90da-09cb3224d519",
+          "term": "Cold Kitchen",
+          "kind": "standard",
+          "definition": "Part of the kitchen where dishes like salads and cold cuts, etc. are prepared. It is also in this area that cold and fruit platters as well as garnishes are prepared.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "b3f52fba-8c48-4e14-b458-a922c6c5b549",
+          "term": "Hot Kitchen",
+          "kind": "standard",
+          "definition": "Part of the kitchen that handles the preparation of all hot items like stocks, soup, sauces and main dishes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "01e7b9d8-adfc-42c7-a217-156d58c4316e",
+          "term": "Butchering Section",
+          "kind": "standard",
+          "definition": "The area where meat, chicken and seafood items are portion cut in accordance with standard sizes and weights that are indicated in standard recipes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "b6d8afaa-99c6-4eb7-b469-405d3713fb44",
+          "term": "Pastry Section",
+          "kind": "standard",
+          "definition": "The section responsible for preparing all baked goods, desserts, and other sweet treats. This area typically includes a variety of specialized equipment and tasks, such as baking and decorating.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "42a58a69-3631-493b-8aa6-2d4e10aa3daa",
+          "term": "Work triangle",
+          "kind": "standard",
+          "definition": "One of the most basic layout principles. An imaginary line drawn from each of the three primary work stations in the kitchen — the food storage, preparation/cooking, and clean-up stations. By drawing these lines, you can assess the distance required to move to and from each area and thus determine how well the traffic will flow. To help avoid traffic flow problems, it should have a perimeter that measures less than 26 feet.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "c5e72d36-5f37-4e88-8853-d8d60b6c7c44",
+          "term": "The 3 Primary Kitchen Work Stations Constituting the Work Triangle",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Food storage",
+            "Preparation and cooking",
+            "Clean-up"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "e3e9e634-13f9-4d12-841d-6da4bd8b0e00",
+          "term": "Food storage",
+          "kind": "standard",
+          "definition": "The refrigerator and pantry are the major items here. Cabinetries like lazy Susan or swing-out pantry units add function and convenience. Options like wine racks, spice racks, and roll-out trays help to organize your groceries.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "59974e53-d67e-44a2-b11e-564803bfc2e3",
+          "term": "Preparation and cooking",
+          "kind": "standard",
+          "definition": "The range, oven, microwave, and smaller appliances are found in this area. Counter space is important in this section.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "c8149d76-b1ae-4f3a-906b-ef9bfe1b1800",
+          "term": "Clean-up",
+          "kind": "standard",
+          "definition": "Everyone's least favorite activity is one of the kitchen's most important. This area is home to the sink, waste disposal, and dishwasher. Cabinetry for this station is designed to organize the trash bin cabinet and roll-out tray baskets for storage convenience.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "b68d28d0-0b43-46f1-920e-c54819bc3c24",
+          "term": "The 5 Primary Kitchen Layout Shapes",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "U-Shaped Kitchen",
+            "L-Shaped Kitchen",
+            "Island Option",
+            "G-Shaped Kitchen",
+            "Galley Kitchen"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "ab30f7d2-9214-4c17-a336-534bbaac7af1",
+          "term": "U-Shaped Kitchen",
+          "kind": "standard",
+          "definition": "Named for the shape it resembles, this kitchen is popular in large and small homes alike. Perfect for families who use their kitchens a great deal; provides plenty of counter space; efficient work triangle.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "dc874cdb-ef50-425d-a4bf-2494bf2834d0",
+          "term": "L-Shaped Kitchen",
+          "kind": "standard",
+          "definition": "This kitchen shape is one of the most flexible and most popular, providing a compact triangle. Very flexible layout design; major appliances can be placed in a variety of areas; work areas are close to each other.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "3d7e6114-476d-4f2a-afa8-a0c955b0dbfd",
+          "term": "Island Option",
+          "kind": "standard",
+          "definition": "Extremely popular in homes today and most often seen in L-Shaped kitchens. It can not only keep work areas traffic-free, but also create a wealth of extra counter and storage space. It can be an indispensable food preparation station or act as a butcher block area.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "29995601-d77d-4dc6-810e-13fbf5039901",
+          "term": "G-Shaped Kitchen",
+          "kind": "standard",
+          "definition": "Built very much like the U-Shaped with the addition of an elongated partial wall, it offers a great deal of space. Plenty of counter and cabinet space; multiple cooks can function well in this layout; can convert one cabinet leg into a breakfast bar or entertaining area.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "956a47d6-8d0e-4433-b3ae-470ae2b2b3a9",
+          "term": "Galley Kitchen",
+          "kind": "standard",
+          "definition": "Also called the corridor kitchen. This style makes the most out of a smaller space. Great for smaller kitchens; appliances are close to one another; easy for one cook to maneuver; can easily convert to a U-Shape by closing off one end.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "dda0ab3f-020f-40db-8317-726829979e8f",
+          "term": "Kitchen organization",
+          "kind": "standard",
+          "definition": "Refers to the structured arrangement of roles and responsibilities of staff, ensuring that each member has a specific duty to maintain efficiency, coordination, and smooth workflow in food preparation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "ee4de279-c6f8-465c-9d85-bfdfcceb134c",
+          "term": "Brigade system",
+          "kind": "standard",
+          "definition": "The most common system used in kitchen organization, developed by Auguste Escoffier.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "2f7c1d76-e108-4efc-b8c4-38a8342a8791",
+          "term": "Chef de Cuisine",
+          "kind": "standard",
+          "definition": "Is responsible for overall management of kitchen; supervises staff, creates menus and new recipes with the assistance of the restaurant manager, makes purchases of raw food items, trains apprentices, and maintains a sanitary and hygienic environment for the preparation of food.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "a3810d3a-1f33-4904-8628-a8bffb391062",
+          "term": "Sous Chef",
+          "kind": "standard",
+          "definition": "Sub Chief or Deputy Kitchen Chef. He or she receives orders directly from the Chef de Cuisine for the management of the kitchen. Often serves as the representative when the Chef de Cuisine is not present.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "e202abb6-70f4-458b-be04-969457117f1b",
+          "term": "Chef de Partie",
+          "kind": "standard",
+          "definition": "Station Head. He or she is responsible for managing a given station in the kitchen, specializing in preparing particular dishes there.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "4301af6f-4d5a-494f-8be1-88d6441f32fa",
+          "term": "Demi Chef",
+          "kind": "standard",
+          "definition": "Assistant Station Chef. Does most of the actual preparation of food in the kitchen.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "ffae6b38-22d9-4dd9-b761-697010a8e8c0",
+          "term": "Commis",
+          "kind": "standard",
+          "definition": "Junior Cook. Also works in a specific station, but reports directly to the Chef de Partie and takes care of the tools for the station.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "601b3e6f-0421-4297-a1d3-e75dbdf556ac",
+          "term": "Saucier",
+          "kind": "standard",
+          "definition": "Sauté Station Chef. Prepares sauces and warm hors d'oeuvres, completes meat dishes, and in smaller restaurants, may work on fish dishes and prepare sautéed items.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 31
+        },
+        {
+          "id": "f9293dbf-dec4-477a-b1fd-0af702d0bd9f",
+          "term": "Rotisseur",
+          "kind": "standard",
+          "definition": "Roast Station Chef. He or she is responsible for the preparation of all roasted food items. Manages a team of cooks that roasts and broils.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 32
+        },
+        {
+          "id": "0e7bea97-6b88-499a-8355-53540f83c6f5",
+          "term": "Grillardin",
+          "kind": "standard",
+          "definition": "Grill Station Chef. Prepares grilled foods instead of the rôtisseur. He or she is responsible for all the grilled foods.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 33
+        },
+        {
+          "id": "7f412a8c-ca25-4d89-b4e6-48b2161e2c69",
+          "term": "Poisonier",
+          "kind": "standard",
+          "definition": "Fish Station Chef. He or she is responsible for the preparation of all fish and seafood dishes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 34
+        },
+        {
+          "id": "7365bc9d-9fdc-4376-b413-366303803053",
+          "term": "Friturier",
+          "kind": "standard",
+          "definition": "Fry Station Chef. He or she is responsible for fried meats, seafood and etc. In larger kitchens, prepares fried foods instead of the rôtisseur.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 35
+        },
+        {
+          "id": "c7b2d7fe-b26d-41cb-ba48-dd68ad17d5f9",
+          "term": "Oulet",
+          "kind": "standard",
+          "definition": "Chicken Station Chef. He or she is responsible for the preparation of all chicken or poultry dishes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 36
+        },
+        {
+          "id": "92c649f8-6849-431d-a7a1-67828f6e4259",
+          "term": "Legumier",
+          "kind": "standard",
+          "definition": "Vegetable Station Chef. Prepares the vegetable dishes and also reports to the entremetier.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 37
+        },
+        {
+          "id": "728bfed0-5ed0-4197-b2f1-ebe9eedf5d8b",
+          "term": "Potager",
+          "kind": "standard",
+          "definition": "Soup Station Chef. Prepares the soups and reports to the entremetier.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 38
+        },
+        {
+          "id": "beafc881-6e2b-4381-ab66-c4288f4e0418",
+          "term": "The 4 Specialized Areas of the Kitchen Brigade",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Confiseur",
+            "Glacier",
+            "Decorateur",
+            "Boulanger"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 39
+        },
+        {
+          "id": "9157d4fc-78e7-4f43-9b10-98e88e9cb427",
+          "term": "Confiseur",
+          "kind": "standard",
+          "definition": "Petit Fours Preparer. In larger restaurants, prepares candies and petits fours instead of the pâtissier.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 40
+        },
+        {
+          "id": "013b7d22-afdf-463b-8e54-ace21c4caa97",
+          "term": "Glacier",
+          "kind": "standard",
+          "definition": "Frozen and Cold Dessert Preparer. In larger restaurants, prepares frozen and cold desserts instead of the pâtissier. Makes ice carving for presentation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 41
+        },
+        {
+          "id": "9336631f-7a61-4f70-b215-a6e4ed6175fb",
+          "term": "Decorateur",
+          "kind": "standard",
+          "definition": "Cake Designer or Decorator. In larger restaurants, prepares show pieces and specialty cakes instead of the pâtissier.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 42
+        },
+        {
+          "id": "181e4d1a-c5bd-48f3-a4b4-5fdd049ee772",
+          "term": "Boulanger",
+          "kind": "standard",
+          "definition": "Baker. In larger restaurants, prepares bread, cakes, and breakfast pastries instead of the pâtissier.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 43
+        },
+        {
+          "id": "34aa638a-4922-447b-b290-8ce732333428",
+          "term": "The 7 Other Brigade Positions",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Boucher",
+            "Aboyeur",
+            "Tournant",
+            "Garcon de Cuisine",
+            "Apperenti",
+            "Plongeur",
+            "Marmiton"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 44
+        },
+        {
+          "id": "0120bab3-f788-40e1-8482-a402b9d58158",
+          "term": "Boucher",
+          "kind": "standard",
+          "definition": "Butcher. Butchers meats, poultry, and sometimes fish; may also be in charge of breading meat and fish items.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 45
+        },
+        {
+          "id": "61d42cae-9e9a-4381-9b3d-4f8e63d35b0c",
+          "term": "Aboyeur",
+          "kind": "standard",
+          "definition": "Announcer or Expediter. Takes orders from the dining room and distributes them to the various stations; may also be performed by the sous-chef de partie.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 46
+        },
+        {
+          "id": "0d216d25-5632-4acc-908b-dbf83d3273de",
+          "term": "Tournant",
+          "kind": "standard",
+          "definition": "Spare Hand or Rounds Man. He or she moves throughout the kitchen, assisting other positions in kitchen.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 47
+        },
+        {
+          "id": "b6bfc745-4a60-4c86-b5d0-f830971a49f7",
+          "term": "Garcon de Cuisine",
+          "kind": "standard",
+          "definition": "Literally \"Kitchen Boy\". In larger restaurants, performs preparatory and \"auxiliary\" (back-up) work for support.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 48
+        },
+        {
+          "id": "079648a9-3a63-49c8-b8d0-7b0445bb0e26",
+          "term": "Apperenti",
+          "kind": "standard",
+          "definition": "Apprentice. Students gaining theoretical and practical training in the kitchen.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 49
+        },
+        {
+          "id": "5981e2f3-f556-4912-82a6-992fcc663c00",
+          "term": "Plongeur",
+          "kind": "standard",
+          "definition": "Dishwasher or Kitchen Porter. Cleans dishes and utensils.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 50
+        },
+        {
+          "id": "899e6507-251e-4fda-9127-3dd28c288971",
+          "term": "Marmiton",
+          "kind": "standard",
+          "definition": "Pot and Pan Washer. Takes care of all the pots and pans instead of the plongeur.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 51
+        }
+      ]
+    }
+  ]
+}

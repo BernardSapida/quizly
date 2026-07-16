@@ -79,9 +79,9 @@ export function IconTile({
  * as a different app: a pill is the primary-action shape, and three of them means
  * none of them.
  *
- * It shares Card's padding and radius on purpose. It used to be a "compact row" one
- * size down, which fell apart the moment one sat directly above a stack of SetCards
- * — two card shapes in the same column just look like a mistake.
+ * It carries Row's metrics, not Card's. It used to match Card — back when a list of
+ * sets was a stack of big SetCards and a taller row was what agreed with them. The
+ * lists are compact rows now, so matching Card is what would make it the odd one out.
  */
 export function ActionRow({
   Icon,
@@ -108,7 +108,7 @@ export function ActionRow({
         disabled={isDisabled}
         onPressIn={() => scale.set(withSpring(0.97, { damping: 15 }))}
         onPressOut={() => scale.set(withSpring(1, { damping: 15 }))}
-        className="flex-row items-start gap-4 rounded-3xl p-5"
+        className="flex-row items-start gap-4 rounded-2xl p-3"
         style={{
           backgroundColor: GLASS.fill,
           borderWidth: 1,
@@ -116,7 +116,7 @@ export function ActionRow({
           opacity: isDisabled ? 0.5 : 1,
         }}
       >
-        <IconTile Icon={Icon} color={iconColor} size={44} />
+        <IconTile Icon={Icon} color={iconColor} size={48} />
         <View className="flex-1">
           <Text className="text-app-text text-base font-bold">{title}</Text>
           {subtitle && (
@@ -138,7 +138,7 @@ export function ActionRow({
 /**
  * ActionRow's shape with a switch where the chevron goes. The whole row is the hit
  * target, not just the switch — a 50px toggle is a mean thing to ask a thumb to find
- * when the card it sits on is already under it.
+ * when the row it sits on is already under it.
  */
 export function ToggleRow({
   Icon,
@@ -164,14 +164,14 @@ export function ToggleRow({
         onPress={() => onValueChange(!value)}
         onPressIn={() => scale.set(withSpring(0.97, { damping: 15 }))}
         onPressOut={() => scale.set(withSpring(1, { damping: 15 }))}
-        className="flex-row items-start gap-4 rounded-3xl p-5"
+        className="flex-row items-start gap-4 rounded-2xl p-3"
         style={{
           backgroundColor: GLASS.fill,
           borderWidth: 1,
           borderColor: GLASS.border,
         }}
       >
-        <IconTile Icon={Icon} color={iconColor} size={44} />
+        <IconTile Icon={Icon} color={iconColor} size={48} />
         <View className="flex-1">
           <Text className="text-app-text text-base font-bold">{title}</Text>
           {subtitle && (
@@ -194,6 +194,91 @@ export function ToggleRow({
 export function countLine(terms: number, enums: number): string {
   const base = `${terms} ${terms === 1 ? "term" : "terms"}`;
   return enums > 0 ? `${base} · ${enums} to enumerate` : base;
+}
+
+/**
+ * "18 cards · History of Culinary Arts". The folder half is dropped for a set that is
+ * not in one, rather than spelling out an absence nobody needs told about.
+ */
+export function folderLine(set: SetWithProgress): string {
+  const base = `${set.term_count} ${set.term_count === 1 ? "card" : "cards"}`;
+  return set.folder_name ? `${base} · ${set.folder_name}` : base;
+}
+
+/**
+ * The compact glass row: tile, name, meta line. Used wherever sets and folders are a
+ * list you scan — Home's Recents and the Library — rather than a shelf you browse,
+ * which is what SetCard below is for. Sets and folders share it so a flick between
+ * the Library's two tabs does not resize every row on screen.
+ */
+function Row({
+  Icon,
+  title,
+  subtitle,
+  onPress,
+}: {
+  Icon: typeof Folder;
+  title: string;
+  subtitle: string;
+  onPress: () => void;
+}) {
+  return (
+    <Pressable
+      onPress={onPress}
+      className="flex-row items-center gap-4 rounded-2xl p-3"
+      style={{
+        backgroundColor: GLASS.fill,
+        borderWidth: 1,
+        borderColor: GLASS.border,
+      }}
+    >
+      <IconTile Icon={Icon} size={48} />
+      <View className="flex-1">
+        <Text className="text-app-text text-base font-bold" numberOfLines={2}>
+          {title}
+        </Text>
+        <Text className="text-app-muted mt-0.5 text-xs">{subtitle}</Text>
+      </View>
+    </Pressable>
+  );
+}
+
+export function SetRow({
+  set,
+  onPress,
+  subtitle,
+}: {
+  set: SetWithProgress;
+  onPress: () => void;
+  subtitle?: string;
+}) {
+  return (
+    <Row
+      Icon={Layers}
+      title={set.name}
+      subtitle={subtitle ?? folderLine(set)}
+      onPress={onPress}
+    />
+  );
+}
+
+export function FolderRow({
+  folder,
+  onPress,
+}: {
+  folder: FolderWithProgress;
+  onPress: () => void;
+}) {
+  return (
+    <Row
+      Icon={Folder}
+      title={folder.name}
+      subtitle={`${folder.set_count} ${
+        folder.set_count === 1 ? "lesson" : "lessons"
+      } · ${countLine(folder.term_count, folder.enum_count)}`}
+      onPress={onPress}
+    />
+  );
 }
 
 export function SetCard({
@@ -232,29 +317,3 @@ export function SetCard({
   );
 }
 
-export function FolderCard({
-  folder,
-  onPress,
-  showProgress = true,
-}: {
-  folder: FolderWithProgress;
-  onPress: () => void;
-  /** Off in the Library, where the list is for browsing rather than resuming. */
-  showProgress?: boolean;
-}) {
-  return (
-    <Card onPress={onPress}>
-      <View className="flex-row items-start gap-4">
-        <IconTile Icon={Folder} />
-        <View className="flex-1 gap-1.5">
-          <Text className="text-app-text text-base font-bold">{folder.name}</Text>
-          <Text className="text-app-muted text-xs">
-            {folder.set_count} {folder.set_count === 1 ? "lesson" : "lessons"} ·{" "}
-            {countLine(folder.term_count, folder.enum_count)}
-          </Text>
-        </View>
-        {showProgress && <MasteryChip stats={folder} />}
-      </View>
-    </Card>
-  );
-}

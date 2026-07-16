@@ -147,8 +147,11 @@ export function MasteryRings({
   writtenMastered: number;
   total: number;
 }) {
+  // Row metrics — 12, and a 16 radius — because this panel heads a column of
+  // ActionRows and has to agree with them. Only the top keeps a little extra, so the
+  // rings are not shoulder to shoulder with the card's edge.
   return (
-    <View className="gap-4 rounded-3xl border border-app-glassline bg-app-glass p-5 pt-6">
+    <View className="gap-4 rounded-2xl border border-app-glassline bg-app-glass p-3 pt-5">
       <View className="flex-row">
         <Ring
           label="Familiarize"
@@ -179,16 +182,30 @@ export function MasteryRings({
   );
 }
 
-/** Brand blue is unreadable as text on navy — see COLORS.brandTint. Rings stroke in
- *  brand; this copy stays muted rather than trying to be a third colour. */
+/**
+ * The one line on this screen that talks back to you, so it had better be worth
+ * reading. Every branch names the next move and what it costs — a number you could
+ * clear tonight — because "keep it up!" is wallpaper and a student can smell it.
+ *
+ * The tone is nudge, not nag: it teases the ring, never the person holding the phone.
+ *
+ * Brand blue is unreadable as text on navy — see COLORS.brandTint. Rings stroke in
+ * brand; this copy stays muted rather than trying to be a third colour.
+ */
 function cheer(choice: number, written: number, total: number): string {
   const left = total - choice;
+  const writtenLeft = total - written;
 
-  if (total === 0) return "Add some terms to start closing rings.";
-  if (written >= total) return "Both rings closed. This set is yours. 🏆";
-  if (choice >= total) return `Blue ring's shut. ${total - written} left to fully master.`;
+  if (total === 0) return "No terms yet. Add a few and give these rings something to do.";
+  if (written >= total) return "Both rings closed. This set has nothing left to teach you. 🏆";
+  if (choice >= total)
+    return writtenLeft === 1
+      ? "One term away from a perfect set. Go on, finish it."
+      : `Blue ring's shut. ${writtenLeft} more and green joins it.`;
   if (choice === 0 && written === 0)
-    return "Two empty rings. Familiarize is the easy one. Start there.";
-  if (choice / total >= 0.5) return `Past halfway. ${left} more and the blue ring shuts.`;
-  return `${choice} down, ${left} to go. The blue ring is waiting.`;
+    return "Two empty rings. Familiarize is the gentle one — start there.";
+  if (left === 1) return "One more term and the blue ring snaps shut.";
+  if (left <= 3) return `${left} terms from a closed blue ring. That is nothing.`;
+  if (choice / total >= 0.5) return `Past halfway. ${left} more and blue is history.`;
+  return `${choice} down, ${left} to go. That ring will not close itself.`;
 }

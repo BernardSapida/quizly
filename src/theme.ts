@@ -72,3 +72,19 @@ export const SPACING = {
   headerGap: 20,
 } as const;
 
+/**
+ * The set-preview flashcard. Shared with its skeleton, which is the only way the
+ * placeholder can hold the space the real card is about to take — they used to
+ * disagree by 20px and a border radius.
+ *
+ * minHeight   a set of two-word terms should not render as a stack of billboards.
+ * maxRatio    past half the screen the set title and the study buttons get pushed
+ *             below the fold, and tapping Familiarize is what you came here to do.
+ *             A card at the ceiling scrolls its body instead of growing.
+ */
+export const FLASHCARD = {
+  minHeight: 220,
+  maxRatio: 0.5,
+  radius: 16,
+} as const;
+

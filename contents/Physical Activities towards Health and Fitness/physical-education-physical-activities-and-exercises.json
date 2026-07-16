@@ -1,0 +1,477 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "3f7c1a94-5e2b-4d68-9a03-6c1e8b7d2f45",
+      "name": "Physical Activities towards Health and Fitness"
+    }
+  ],
+  "sets": [
+    {
+      "id": "153badfe-1ac2-4377-9da8-15a1933fec4d",
+      "folderId": "3f7c1a94-5e2b-4d68-9a03-6c1e8b7d2f45",
+      "name": "Physical Education, Physical Activities & Exercises",
+      "description": "Definitions, legal bases and objectives of Physical Education, wellness, the health- and skill-related fitness components, safety guidelines, BMI, and the body types.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "afa99bf0-9674-4dbb-8375-3fce04fa1854",
+          "term": "Physical Education",
+          "kind": "standard",
+          "definition": "A course program and physiological aspect to process develop skills and knowledge through physical and mind.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "1ea042df-e4c7-4607-818f-87d8d5cad9f8",
+          "term": "Physical Fitness",
+          "kind": "standard",
+          "definition": "It refers to an individual overall health and well-being as well as their ability to perform task and physical activities effectively and efficiently with vigour and without over fatigue and enough energy.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "00d43b5a-97e6-40f9-b3e6-4f07b35efb08",
+          "term": "Health",
+          "kind": "standard",
+          "definition": "WHO defines it as a state of complete physical, mental and social well being and not merely the absence of disease or infirmity.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "cdf4a3f3-5454-41af-aba0-96e60ea74bd2",
+          "term": "Fitness",
+          "kind": "standard",
+          "definition": "It is the ability to perform daily activities efficiently and effectively without experiencing excessive fatigue.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "826ce040-4d31-4a28-910d-7d8de080ec1b",
+          "term": "The 2 Legal Bases of Physical Education",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "International Charter of Physical Education and Sports",
+            "1986 Constitution of the Republic of the Philippines"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "c534cd56-8844-4095-a1fd-2d3c340bd0c7",
+          "term": "International Charter of Physical Education and Sports",
+          "kind": "standard",
+          "definition": "UNESCO, Paris, 1978. Its Article 1, together with Recommendation 1 of the Interdisciplinary Regional Meeting of Experts (UNESCO, Brisbane Australia, 1962), states that the practice is a fundamental right for all, and this right should not be treated as different in principle from the right to adequate food, shelter and medical care.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "c23aa8f3-16af-4466-b785-39328b752e79",
+          "term": "Article XIV, section 19",
+          "kind": "standard",
+          "definition": "The provision of the 1986 Constitution of the Republic of the Philippines stating: \"The State shall promote Physical Education and encourage sports programs league competitions, amateur sports including training for international competition to foster self-discipline, teamwork and excellence for the development of a healthy and alert citizenry.\" It also provides that \"All educational institutions shall undertake regular sports activities throughout the country and in cooperation with athletic club and other sectors.\"",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "a4a6bf59-e947-4cbf-ade7-f3f98d65a339",
+          "term": "The 4 General Objectives of Physical Education",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Physical Development",
+            "Emotional Development",
+            "Social Development",
+            "Mental Development"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "a8db5c01-2bb2-4d9b-bcfa-ac8a65ee857d",
+          "term": "Physical Development",
+          "kind": "standard",
+          "definition": "To improve fitness, strength, endurance, flexibility, coordination, and overall body functioning. To develop motor skills and promote healthy lifestyle habits that contribute to lifelong wellness.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "9820e325-44a3-4afe-92a4-28e27a82171f",
+          "term": "Emotional Development",
+          "kind": "standard",
+          "definition": "To help individuals develop self-confidence, self-esteem, self-discipline, and emotional stability. To provide opportunities for stress relief, expression, and the development of positive attitudes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "d99a4765-4c54-4fcb-a108-3d6141e1d341",
+          "term": "Social Development",
+          "kind": "standard",
+          "definition": "It is the development and maintenance of meaningful interpersonal relationships. To foster teamwork, cooperation, leadership, sportsmanship, and respect for others. It encourages effective communication and the ability to work harmoniously with diverse groups of people.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "78fc7cd6-f2af-4a89-8406-23ff0be0579d",
+          "term": "Mental Development",
+          "kind": "standard",
+          "definition": "To develop critical thinking, decision-making, problem-solving, and strategic thinking skills. To increase knowledge and understanding of health, fitness, movement principles, and the value of physical activity.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "51186e8b-b749-4b3e-96ed-f1e7cf913fbb",
+          "term": "Physical Wellness",
+          "kind": "standard",
+          "definition": "It is the positive state of well-being and capability of an individual to design personal fitness programs for improving and maintaining optimum levels of health. It is a combination of many different components (mental, social, emotional, spiritual and physical) that expand one's potential to live a quality life, to work effectively and to make a significant contribution to the society. It reflects how one feels about life as well as one's ability to function effectively, and is also described as the positive component of good health.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "766f049c-00e3-4e90-9db2-ae433eeaaeea",
+          "term": "PATHFIT",
+          "kind": "standard",
+          "definition": "An essential subject that promotes the holistic development of students by integrating physical activity, health education, and wellness practices to enhance their overall quality of life. It helps students improve their physical fitness, including strength, endurance, flexibility, coordination, and motor skills, while encouraging healthy lifestyle habits such as proper nutrition, regular exercise, and adequate rest. It also contributes to mental and emotional well-being by reducing stress and building self-confidence, emotional resilience, and self-esteem. Through collaborative activities, it develops important social skills such as teamwork, communication, leadership, and respect for others. Additionally, it supports cognitive and academic performance by improving concentration and memory, while fostering discipline, responsibility, perseverance, and time management. Ultimately, it instills the value of lifelong physical activity and wellness, empowering students to lead healthy, active, and productive lives.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "2b3305d5-bb8a-448b-847b-896921e83e95",
+          "term": "Staying active",
+          "kind": "standard",
+          "definition": "Regular exercise and physical activity promotes strong muscles and bones. It improves respiratory, cardiovascular health and overall health. It can also help you maintain a healthy weight, reduce your risk for type 2 diabetes, heart disease, and reduce your risk for some cancers.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "c15c8f70-4c81-480a-b683-1fcd5f0e2609",
+          "term": "The 10 Ways Physical Fitness Helps the Individual Through Regular Exercise",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Proper growth of young bones and muscles",
+            "Improve the ability to avoid and recover from illnesses and accidents",
+            "Improve posture and appearance",
+            "Minimize stress response",
+            "Maintain proper body weight",
+            "Preventing heart ailments",
+            "Improve organic functions",
+            "Delay the aging process",
+            "Feel good and younger as a human being",
+            "Experience joy of participation in any recreational or sports activities"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "0c75ea9c-fddc-4639-9369-5542c3fa263b",
+          "term": "The 5 Health-Related Components of Physical Fitness",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Muscular Strength",
+            "Muscular Endurance",
+            "Cardio-respiratory endurance",
+            "Flexibility",
+            "Body Composition"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "081d30a3-7b4c-4943-979f-07f91d72512d",
+          "term": "Muscular Strength",
+          "kind": "standard",
+          "definition": "The maximum amount of force that a muscle or group of muscles can exert in a single effort. It is important for performing tasks that require lifting, pushing, or pulling. Examples: Weightlifting, push-ups, and resistance training.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "42fb5655-b393-4595-8d86-1a7d506a98f5",
+          "term": "Muscular Endurance",
+          "kind": "standard",
+          "definition": "The ability of muscles to perform repeated contractions or sustain a contraction over a period of time without becoming fatigued. Examples: Sit-ups, planks, cycling, and repetitive bodyweight exercises.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "760fbb01-b2cc-472a-87c6-5bc949171cc0",
+          "term": "Cardio-respiratory endurance",
+          "kind": "standard",
+          "definition": "This refers to the ability of the heart, lungs, and blood vessels to supply oxygen to the body during prolonged physical activity. Good levels of it improve stamina and reduce the risk of cardiovascular diseases. Examples: Walking, jogging, cycling, swimming, and dancing.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "2b26f6eb-694f-4405-8f82-8480ae83da10",
+          "term": "Flexibility",
+          "kind": "standard",
+          "definition": "Refers to the ability of joints and muscles to move through their full range of motion. Good levels of it help prevent injuries, improve posture, and enhance physical performance. Examples: Stretching exercises, yoga, gymnastics, and dynamic warm-up routines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "e99d26de-b4dc-4e66-aa91-39bb79880ea8",
+          "term": "Body Composition",
+          "kind": "standard",
+          "definition": "Refers to the proportion of fat, muscle, bone, and other tissues that make up a person's body weight. Maintaining a healthy one is important for overall health and reducing the risk of obesity-related diseases. Examples of assessment: Body Mass Index, waist circumference, and body fat percentage measurements.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "6f9ab0ff-f6eb-424a-a775-003758fc0f0d",
+          "term": "The 10 Skill-Related Components of Physical Fitness",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Endurance",
+            "Stamina",
+            "Strength",
+            "Power",
+            "Speed",
+            "Coordination",
+            "Accuracy",
+            "Agility",
+            "Balance",
+            "Reaction Time"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "4f435d19-eb7f-42ff-92dc-8fe5185cf17b",
+          "term": "Endurance",
+          "kind": "standard",
+          "definition": "Ability to continue doing something difficult for a long time without giving up or becoming exhausted.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "8a707e61-7bab-4a86-bdc0-064238ad02d6",
+          "term": "Stamina",
+          "kind": "standard",
+          "definition": "The ability to keep going without getting tired quickly. Strength and energy needed to sustain physical effort for long period of time.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "fe530eb6-e020-436c-a2ed-beae4698b9ff",
+          "term": "Strength",
+          "kind": "standard",
+          "definition": "This is the ability to exert force.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "dc1d5936-2a0c-4258-9c1a-c5078711c673",
+          "term": "Power",
+          "kind": "standard",
+          "definition": "The ability to maximize effort of force of body to any movement with the use of muscle.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "4aab5e4d-72b5-42f4-8521-1e6362fa623f",
+          "term": "Speed",
+          "kind": "standard",
+          "definition": "The ability to complete a movement or task in the shortest amount of time.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "0e31a775-9c2c-4971-8a35-adfe68bb7484",
+          "term": "Coordination",
+          "kind": "standard",
+          "definition": "The ability to combine several different movement patterns in a single distinct movement with the use of the senses, which are a combination of body and mind.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "8e7975ac-2c3b-43ad-aca9-28cad95b14b1",
+          "term": "Accuracy",
+          "kind": "standard",
+          "definition": "The ability to control movement in each direction or intensity.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "22994326-05ff-4576-8341-88897e4686fd",
+          "term": "Agility",
+          "kind": "standard",
+          "definition": "The ability to maximize the time going from one movement to another.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "d381ac10-8d4a-452d-9b92-afd8113c0763",
+          "term": "Balance",
+          "kind": "standard",
+          "definition": "The ability to control the center of gravity of your body in relation to your support base.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 31
+        },
+        {
+          "id": "dd6e5e4e-df60-43cc-8879-60a41efaadae",
+          "term": "Reaction Time",
+          "kind": "standard",
+          "definition": "The ability to respond quickly; \"reflexes\". The time required to respond or initiate a movement because of a given stimulus.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 32
+        },
+        {
+          "id": "5cf9634a-29b4-418e-bb91-8f05e370bba9",
+          "term": "The 4 Benefits of Health and Wellness",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Looking Good",
+            "Feeling Good",
+            "Enjoying Life",
+            "Meeting Emergencies"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 33
+        },
+        {
+          "id": "6a60b622-a711-467f-b0b8-d2cbe84e14cb",
+          "term": "Looking Good",
+          "kind": "standard",
+          "definition": "Regular physical activity is a healthy lifestyle. Healthy lifestyles such as proper nutrition, good posture and good body mechanics can help you look at your best.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 34
+        },
+        {
+          "id": "144897e5-449b-4943-829d-4a041a438e2a",
+          "term": "Feeling Good",
+          "kind": "standard",
+          "definition": "People who engage in regular activity feel better. You can resist fatigue, are less likely to be injured and can work more efficiently.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 35
+        },
+        {
+          "id": "ea82c687-5303-4f96-92a0-575684dcef79",
+          "term": "Enjoying Life",
+          "kind": "standard",
+          "definition": "Life is more enjoyable when you engage in regular physical activity that results in physical fitness as the key to being able to do more of the things you want to do.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 36
+        },
+        {
+          "id": "fb9e19db-3c95-463e-a84a-952b27c50fde",
+          "term": "Meeting Emergencies",
+          "kind": "standard",
+          "definition": "Fit and active person has the capacity to help or to assist other people when they needed some help.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 37
+        },
+        {
+          "id": "9d26d0fa-4716-41ba-9d3b-99ea3cc33161",
+          "term": "Safety Guideline",
+          "kind": "standard",
+          "definition": "These guidelines include procedures that help prevent accidents or injury in Physical Education classes and activities. It should be recognized that many of these require cooperation in all class activities.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 38
+        },
+        {
+          "id": "c6ccb3a4-22fa-4e23-8c59-0f554b7991bc",
+          "term": "The 5 Safety Guidelines in Physical Education Classes and Activities",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Always exercise carefully",
+            "Listen carefully and follow directions",
+            "Always participate and give the best effort in every activity",
+            "Consideration should be given first to the safety of the student",
+            "Provide a pleasant atmosphere in which the students can work out"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 39
+        },
+        {
+          "id": "70ff1498-e441-4757-8d96-c68a4e1bf704",
+          "term": "Body Mass Index",
+          "kind": "standard",
+          "definition": "It tests for weight categories that may be associated with health issues. Formula: kilograms divided by meters squared. Example: 60 ÷ 1.70² = 60 ÷ 2.89 = 20.76.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 40
+        },
+        {
+          "id": "f11c89c6-33f7-4aa7-b967-a307cd88b5c9",
+          "term": "The 3 Body Types",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Endomorph",
+            "Mesomorph",
+            "Ectomorph"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 41
+        },
+        {
+          "id": "18162dcc-d7e8-46b1-baaf-689358f60ce3",
+          "term": "Endomorph",
+          "kind": "standard",
+          "definition": "More round or soft physique, gains and stores fat more easily, loses fat slowly, naturally slow metabolism.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 42
+        },
+        {
+          "id": "46bbedb1-f2ce-4499-a2a4-be17d253d288",
+          "term": "Mesomorph",
+          "kind": "standard",
+          "definition": "Naturally muscular and athletic with shoulders wider than the hips; efficient metabolism making it easy to gain muscle and lose fat.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 43
+        },
+        {
+          "id": "5b9e8e8d-fdaa-493c-8781-c1bff101dc1f",
+          "term": "Ectomorph",
+          "kind": "standard",
+          "definition": "Slender with less muscle mass, narrow shoulders and hips with respect to height, naturally fast metabolism making it difficult to gain mass.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 44
+        }
+      ]
+    }
+  ]
+}

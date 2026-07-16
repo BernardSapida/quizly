@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { ScrollView, Text, View } from "react-native";
 import { useRouter } from "expo-router";
 import { Button, Tabs } from "heroui-native";
@@ -9,8 +9,9 @@ import { useAsync } from "@/lib/use-async";
 import { Screen } from "@/components/ui/Screen";
 import { ScreenHeader } from "@/components/ui/ScreenHeader";
 import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
-import { FolderCard, SetCard } from "@/components/ui/Cards";
-import { SetListSkeleton } from "@/components/ui/SkeletonLoader";
+import { FolderRow, SetRow } from "@/components/ui/Cards";
+import { SearchField } from "@/components/ui/SearchField";
+import { RecentRowSkeleton } from "@/components/ui/SkeletonLoader";
 import { COLORS, GLASS, SPACING } from "@/theme";
 
 type Tab = "sets" | "folders";
@@ -18,6 +19,7 @@ type Tab = "sets" | "folders";
 export default function LibraryScreen() {
   const router = useRouter();
   const [tab, setTab] = useState<Tab>("sets");
+  const [query, setQuery] = useState("");
   const tabBarOverlap = useTabBarOverlap();
 
   const load = useCallback(
@@ -29,9 +31,32 @@ export default function LibraryScreen() {
   );
   const { data, loading } = useAsync(load);
 
-  const sets = data?.sets ?? [];
-  const folders = data?.folders ?? [];
+  const allSets = useMemo(() => data?.sets ?? [], [data]);
+  const allFolders = useMemo(() => data?.folders ?? [], [data]);
+
+  // Filtered client-side, like Home's search: the whole Library is already in memory,
+  // and a LIKE query for thirty sets would be ceremony. A set matches on its folder's
+  // name too — "Culinary" should find the lessons inside Culinary, not just a set that
+  // happens to be called that.
+  const q = query.trim().toLowerCase();
+  const sets = useMemo(
+    () =>
+      q
+        ? allSets.filter(
+            (s) =>
+              s.name.toLowerCase().includes(q) ||
+              (s.folder_name?.toLowerCase().includes(q) ?? false)
+          )
+        : allSets,
+    [allSets, q]
+  );
+  const folders = useMemo(
+    () => (q ? allFolders.filter((f) => f.name.toLowerCase().includes(q)) : allFolders),
+    [allFolders, q]
+  );
+
   const isLoading = loading && data === null;
+  const isSearching = q.length > 0;
 
   return (
     <Screen>
@@ -46,6 +71,7 @@ export default function LibraryScreen() {
           gap: SPACING.headerGap,
         }}
         showsVerticalScrollIndicator={false}
+        keyboardShouldPersistTaps="handled"
       >
         <View className="gap-5">
           <ScreenHeader
@@ -93,46 +119,60 @@ export default function LibraryScreen() {
               </Tabs.Trigger>
             </Tabs.List>
           </Tabs>
+
+          {/* Under the tabs rather than above them: it filters whichever tab is
+              open, so it belongs to the list, not to the screen. */}
+          <SearchField
+            value={query}
+            onChangeText={setQuery}
+            placeholder={tab === "sets" ? "Search your sets" : "Search your folders"}
+          />
         </View>
 
         <View className="gap-3">
           {/* Placeholder cards rather than an absent list: the tabs above stay put and
               the real cards land in the space already held for them. */}
           {isLoading ? (
-            <SetListSkeleton count={5} />
+            [0, 1, 2, 3, 4].map((i) => <RecentRowSkeleton key={i} index={i} />)
           ) : tab === "sets" ? (
             sets.length === 0 ? (
-              <Empty
-                Icon={Layers}
-                title="No sets yet"
-                body="Create your first set, or import one a classmate sent you."
-                action="Create a set"
-                onAction={() => router.push("/create")}
-              />
+              isSearching ? (
+                <NoMatches query={query} />
+              ) : (
+                <Empty
+                  Icon={Layers}
+                  title="No sets yet"
+                  body="Create your first set, or import one a classmate sent you."
+                  action="Create a set"
+                  onAction={() => router.push("/create")}
+                />
+              )
             ) : (
               sets.map((set) => (
-                <SetCard
+                <SetRow
                   key={set.id}
                   set={set}
-                  showProgress={false}
                   onPress={() => router.push(`/set/${set.id}`)}
                 />
               ))
             )
           ) : folders.length === 0 ? (
-            <Empty
-              Icon={FolderOpen}
-              title="No folders yet"
-              body="A folder is a subject. Group your lesson sets inside it."
-              action="Create a folder"
-              onAction={() => router.push("/create")}
-            />
+            isSearching ? (
+              <NoMatches query={query} />
+            ) : (
+              <Empty
+                Icon={FolderOpen}
+                title="No folders yet"
+                body="A folder is a subject. Group your lesson sets inside it."
+                action="Create a folder"
+                onAction={() => router.push("/create")}
+              />
+            )
           ) : (
             folders.map((folder) => (
-              <FolderCard
+              <FolderRow
                 key={folder.id}
                 folder={folder}
-                showProgress={false}
                 onPress={() => router.push(`/folder/${folder.id}`)}
               />
             ))
@@ -140,6 +180,15 @@ export default function LibraryScreen() {
         </View>
       </ScrollView>
     </Screen>
+  );
+}
+
+/** A search that found nothing is not an empty Library — it must not offer to create. */
+function NoMatches({ query }: { query: string }) {
+  return (
+    <Text className="text-app-muted py-8 text-center">
+      Nothing matches “{query}”.
+    </Text>
   );
 }
 

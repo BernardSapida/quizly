@@ -250,9 +250,14 @@ export default function SetDetailScreen() {
               </Text>
             )}
 
-            <Pressable onPress={resetProgress} className="items-center py-2">
-              <Text className="text-app-muted text-xs">Reset progress</Text>
-            </Pressable>
+            <Button
+              variant="danger"
+              size="md"
+              className="w-full"
+              onPress={resetProgress}
+            >
+              <Button.Label>Reset progress</Button.Label>
+            </Button>
           </>
         )}
       </ScrollView>

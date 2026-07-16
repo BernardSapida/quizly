@@ -22,6 +22,21 @@ import { OptionRow, RoundBar, type OptionState } from "@/features/study/componen
 import { Screen } from "@/components/ui/Screen";
 import { COLORS, SPACING } from "@/theme";
 
+/**
+ * The pinned button footer, shared by the in-question Continue and the round-end one
+ * so the button lands in the same place in both and never jumps as you cross a round
+ * boundary. One object rather than two copies of the same three numbers, because the
+ * copies are exactly what would drift.
+ *
+ * The 16 on top is doing real work: the scroller above ends flush against this, so at
+ * 8 the last answer option came up almost touching the button.
+ */
+const FOOTER = {
+  paddingHorizontal: 20,
+  paddingBottom: 20,
+  paddingTop: 16,
+} as const;
+
 export default function StudyScreen() {
   const router = useRouter();
   const params = useLocalSearchParams<{
@@ -110,6 +125,7 @@ export default function StudyScreen() {
           style={{
             paddingHorizontal: SPACING.gutter,
             paddingTop: SPACING.headerTop,
+            paddingBottom: SPACING.headerGap,
           }}
         >
           <View className="h-8 flex-row items-center justify-between">
@@ -147,6 +163,10 @@ export default function StudyScreen() {
         </View>
 
         <ScrollView
+          // flex:1, now that a button sits below it: without it the scroller sizes to
+          // its content and a long question would shove the Continue off the screen —
+          // the exact problem pinning the button was meant to solve.
+          style={{ flex: 1 }}
           contentContainerStyle={{ padding: 20, gap: 24, flexGrow: 1 }}
           keyboardShouldPersistTaps="handled"
         >
@@ -247,16 +267,27 @@ export default function StudyScreen() {
             </View>
           )}
 
-          {/* A wrong answer blocks here until tapped. Never auto-advance. The
-              forced pause is the reinforcement mechanism, not a UI courtesy. */}
-          {phase === "wrong" && (
-            <Animated.View entering={FadeInUp.duration(220)}>
-              <Button variant="primary" size="lg" onPress={continueAfterWrong}>
-                <Button.Label>Continue</Button.Label>
-              </Button>
-            </Animated.View>
-          )}
         </ScrollView>
+
+        {/* A wrong answer blocks here until tapped. Never auto-advance. The forced
+            pause is the reinforcement mechanism, not a UI courtesy.
+
+            Pinned as a sibling of the ScrollView rather than sitting at the end of its
+            content, which is where the progress bar above lives too. At the end of the
+            content a long question — "Pick all 10", a screenful of options — pushed the
+            only thing you are allowed to do below the fold, so the session read as
+            frozen until you thought to scroll. Same footer metrics as the round-end
+            Continue, so the button never moves between the two. */}
+        {phase === "wrong" && (
+          <Animated.View
+            entering={FadeInUp.duration(220)}
+            style={FOOTER}
+          >
+            <Button variant="primary" size="lg" onPress={continueAfterWrong}>
+              <Button.Label>Continue</Button.Label>
+            </Button>
+          </Animated.View>
+        )}
       </KeyboardAvoidingView>
     </Screen>
   );
@@ -501,9 +532,9 @@ function RoundComplete({
       {/* A sibling of the ScrollView, never absolutely positioned: an absolute child
           is laid out against the parent's border box, so `bottom: 0` here ignored
           Screen's safe-area padding and shoved the button into the phone's nav bar.
-          In the flow it lands exactly where the in-question Continue does — 20px of
-          padding above the inset. */}
-      <View style={{ paddingHorizontal: 20, paddingBottom: 20, paddingTop: 8 }}>
+          In the flow it lands exactly where the in-question Continue does — same
+          FOOTER, so the two cannot disagree. */}
+      <View style={FOOTER}>
         <Button variant="primary" size="lg" onPress={onContinue}>
           <Button.Label>Continue to round {roundIndex + 2}</Button.Label>
         </Button>

@@ -114,16 +114,17 @@ dependency and a per-frame GPU pass.
 glass card behind it. The tile is the one opaque element on the card, and that is exactly
 why it anchors the row.
 
-Everything lives in `src/components/ui/Cards.tsx` — `Card`, `IconTile`, `SetCard`,
-`FolderCard` — so Home, Library, Folder Detail, and Set Detail cannot drift apart. Answer
+Everything lives in `src/components/ui/Cards.tsx` — `Card`, `IconTile`, `SetCard`, and
+the compact `SetRow` / `FolderRow` the scanning lists use — so Home, Library, Folder
+Detail, and Set Detail cannot drift apart. Answer
 options, flashcards, the search pill, the tab bar, and the Library segmented control all
 use the same two tokens.
 
 | | |
 |---|---|
-| Card radius | 24px (`rounded-3xl`); 16px for compact rows |
-| Card padding | 20px |
-| Icon tile | 44×44, 16px radius, **solid** brand fill, white glyph, glass hairline border |
+| Card radius | 24px (`rounded-3xl`); 16px (`rounded-2xl`) for rows |
+| Card padding | 20px; 12px for rows |
+| Icon tile | 44×44 on a card, 48×48 on a row; 16px radius, **solid** brand fill, white glyph, glass hairline border |
 | Press | scale to 0.97, spring back — every card must move |
 | Progress bar height | 12px full, 8px compact — a 4px bar reads as a hairline, not as progress |
 

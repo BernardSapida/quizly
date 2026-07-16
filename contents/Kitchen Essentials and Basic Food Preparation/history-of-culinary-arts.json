@@ -1,0 +1,191 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "0e3fdcff-dd75-4cba-a7b8-e5bfba230e5d",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "History of Culinary Arts",
+      "description": "The historical development of culinary arts, the three classes of French cuisine, the culinary timeline, and the famous French chefs and their contributions.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "76ef98a6-f647-4263-97c4-d82e01481f33",
+          "term": "Boston",
+          "kind": "standard",
+          "definition": "The city where the first cooking school was traced back to in the 1800s, teaching the art of American cooking along with preparing the students to pass on their knowledge to others.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "e156a396-7c65-4851-9ff7-3b7ae1615217",
+          "term": "James Beard",
+          "kind": "standard",
+          "definition": "In 1946, he held regular cooking classes on the art of American cooking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "90831283-897a-4cee-8e78-314e755002a1",
+          "term": "Julia Child",
+          "kind": "standard",
+          "definition": "She introduced French cuisine to Americans in the 1960's.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "1f22328e-881c-43db-8868-404fae34cd0a",
+          "term": "The 3 Classes of French Cuisine",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Haute Cuisine",
+            "Nouvelle Cuisine",
+            "Provincial Cuisine"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "a998ef34-fa51-4cfa-8036-7cc7e0b6c68e",
+          "term": "Haute Cuisine",
+          "kind": "standard",
+          "definition": "Translates to \"high cuisine\" and refers to a shift in French cooking from an emphasis on abundance and quantity to an emphasis on moderation and quality. Marie Antoine Careme is often credited with leading this charge in the 1800s. He taught French cooking as a sophisticated art form that required technique and precision, and his recipe manuals made French cuisine more accessible.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "2ee1ae7c-967a-497d-b711-f782c7b72ca5",
+          "term": "Nouvelle Cuisine",
+          "kind": "standard",
+          "definition": "French cooking continued to evolve and in the 1900s, this style was born. It was defined by the use of high-quality, fresh ingredients; lighter meals; and simpler yet breathtaking presentations. Modern French cooking draws inspiration from the many cooking concepts French chefs have developed and presented over centuries.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "6b65b157-930d-496b-9fd4-7ed00f6c6b17",
+          "term": "Provincial Cuisine",
+          "kind": "standard",
+          "definition": "Its rich tapestry is as ancient as the French regions themselves. Historically, local cooking was shaped by geographical conditions, available resources, and neighboring influences.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "a3dfa65b-f68e-4c15-a662-2e1447cc3ca6",
+          "term": "Culinary guilds",
+          "kind": "standard",
+          "definition": "In 1500, these were established to dictate and monopolize food preparation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "ac90b88d-92b1-45b4-b12c-fb176db25453",
+          "term": "Monsieur Boulanger",
+          "kind": "standard",
+          "definition": "A Parisian who in 1765 opened the first free-standing restaurant in Paris. He was challenged in court by the guild of stew makers because he served sheep's feet in a cream sauce; the guild claimed he replicated the dish, but he won the case by claiming that he didn't stew the feet in the sauce but served it with the sauce. Because of what happened, he unintentionally changed the development of food-service history.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "bc566ae6-e76e-4b26-9ebd-0960da83e5e2",
+          "term": "Restaurant",
+          "kind": "standard",
+          "definition": "The name Boulanger gave his 1765 Parisian establishment, from a word literally meaning \"fortifying\" or to bring life back.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "f4d15cda-ddff-487f-a945-2ab002ae86e2",
+          "term": "The French Revolution",
+          "kind": "standard",
+          "definition": "1789-1799. The social structure in France changed. The aristocracy guilds and their monopolies were abolished. The growing restaurant industry emerged.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "b50198bc-eb24-4a57-a16b-5dac851916f0",
+          "term": "Marie Antoine Careme",
+          "kind": "standard",
+          "definition": "1783-1833. Also known as \"The King of Chefs and the Chef of Kings\" and the First Celebrity Chef. His goal was to achieve \"lightness, grace, order and perspicuity in the preparation and presentation of food.\" As a saucier, he standardized the use of roux and devised a system to classify sauces; as a culinary professional, he designed kitchen tools, equipment and uniforms. An illustrious French chef, the most famous author and culinary artist during the 1800s and one of the most prolific food writers of the 19th century, he codified the four original Mother Sauces in the early 1800s.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "161d5dba-5374-4372-9964-b8bdc6a3d2b4",
+          "term": "Auguste Escoffier",
+          "kind": "standard",
+          "definition": "1846-1935. Known as the \"Father of Modern French Culinary Arts,\" the \"king of the Kitchen\" and the \"father of modern French cuisine.\" He simplified food preparation and dining and conceptualized the so-called kitchen brigade system used in large kitchens today. He classified the five families of sauces. An author of par excellence, he wrote Le livres de menus, Ma Cuisine, and Le Guide Culinaire, which is still in use today. He recognized garde manger as a specialized type of work significantly different from hot foods cooking, and physically separated the garde manger station from the hot line.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "d9ddfd26-c129-43cc-bbc8-f7acf60baf56",
+          "term": "Charles Ranhofer",
+          "kind": "standard",
+          "definition": "1886-1899. The \"First renowned chef of an American restaurant,\" Delmonico in New York City. His goal was to serve fresh seasonal and locally grown produce.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "66a6fe6c-e7d5-48ce-b171-3cb8d3d5597c",
+          "term": "Fernand Point",
+          "kind": "standard",
+          "definition": "1897-1955. He refined and modernized classical cuisine and laid the groundwork for Nouvelle Cuisine.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "654e1c2a-b3c8-442c-a7cc-b5f25ed66585",
+          "term": "Gaston Lenotre",
+          "kind": "standard",
+          "definition": "1920-2009. The \"Father of modern French Pastry.\" He began a culinary school named Le Ecole Norte. He developed innovations in modern pastries such as Bavarians, Charlottes and Mousses, and mastered the techniques in freezing baked products.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "f83286ca-ea61-48f4-9328-8ef77ad4b878",
+          "term": "Pierre Francois de la Varenne",
+          "kind": "standard",
+          "definition": "Founder of modern French cuisine. He is credited as the first to use roux as a thickener, and to refine the technique of dough lamination to make an early form of puff pastry. He lightened and simplified European cooking and popularized fresh vegetables and herbs.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "41aaa7be-f70d-4e2e-a236-040f816f4845",
+          "term": "The 3 Famous French Chefs",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Marie Antoine Careme",
+            "Auguste Escoffier",
+            "Pierre Francois de la Varenne"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 17
+        }
+      ]
+    }
+  ]
+}

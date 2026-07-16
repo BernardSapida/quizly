@@ -9,10 +9,12 @@ I send you **one lesson at a time** — slides, a PDF, a handout, notes, or past
 Write it to:
 
 ```
-contents/<Subject Name>/lesson-<n>.json
+contents/<Subject Name>/<lesson-title-slug>.json
 ```
 
-The directory is named exactly as the folder should read in the app — spaces, capitals, and all: `contents/Heritage Tourism/lesson-3.json`. **Reuse the existing directory** for that subject (`ls contents/`); the directory name is both the folder's name and its identity, so a new directory means a new, separate folder in the app.
+The directory is named exactly as the folder should read in the app — spaces, capitals, and all: `contents/Heritage Tourism/the-ecosystem-of-heritage-tourism.json`. **Reuse the existing directory** for that subject (`ls contents/`); the directory name is both the folder's name and its identity, so a new directory means a new, separate folder in the app.
+
+The file itself is named for the **lesson's own title**, slugged — not `lesson-<n>`, and not the source file. See `set.name` under [File shape](#file-shape).
 
 Then run `npm run contents` to recompile the bundle. The file is not live in the app until you do.
 
@@ -160,7 +162,7 @@ Match [`contents/Heritage Tourism/lesson-2.json`](../contents/Heritage%20Tourism
     {
       "id": "<uuid>",
       "folderId": "<the uuid from folders[0].id>",
-      "name": "Lesson 3: <lesson title as written in the source>",
+      "name": "<lesson title, exactly as the source's title slide writes it>",
       "description": "<one line naming what the lesson covers>",
       "position": 2,
       "updatedAt": 1783971504483,
@@ -176,8 +178,16 @@ Match [`contents/Heritage Tourism/lesson-2.json`](../contents/Heritage%20Tourism
 - **`folders[0].id`** — likewise not read; the folder's real id is derived from the directory name. Keep it present and identical across a subject's files, copying a sibling lesson's value.
 - **`sets`** — exactly one set: this lesson.
 - **`set.folderId`** — the same uuid as `folders[0].id`. Also not read by the build, and kept for the same reason.
-- **`set.name`** — `"Lesson <n>: <Title>"`.
-- **`set.position`** — lesson number minus one, so lessons sort in order within the folder.
+- **`set.name`** — the lesson's **own title**, as the source's title slide or chapter
+  heading writes it: `"History of Culinary Arts"`. Never `"Lesson 1: History of Culinary
+  Arts"`, and never anything derived from the filename — course files are named for the
+  registrar (`PRELIM - WEEK 1- HRM 11-002 PPT.pptx`) and that name tells the student
+  nothing about what is on the cards. This is the one string in the file they read while
+  choosing what to study, so it carries the topic and nothing else. If the title slide is
+  genuinely untitled, name it for what the lesson covers and say so in the report.
+- **`set.position`** — the source's own sequence number (week 1, chapter 3) minus one, so
+  sets still sort the way the course teaches them. Position is what orders the Library —
+  which is exactly why the name does not have to.
 - **`id`** (set and every term) — a fresh random UUID v4, never reused across files. The build can generate ids from text if you omit them, but then *editing a term's wording silently replaces the card*; explicit UUIDs keep a card's identity and my progress on it when I fix a typo later.
 - **`position`** (terms) — `0…n-1` in source order, no gaps, no duplicates. Order the terms the way the lesson presents them; studying in slide order is how the lecture is remembered.
 - **`updatedAt`** — the build overwrites this with the file's mtime, so the value doesn't matter. Include it for parity with the sibling files; use the same number for the set and all its terms.
@@ -191,6 +201,7 @@ Match [`contents/Heritage Tourism/lesson-2.json`](../contents/Heritage%20Tourism
 - [ ] No `definition` gives away its own term — no acronym of it, no alternate spelling of it, no restatement of it.
 - [ ] Term `position` runs 0…n-1 with no gaps.
 - [ ] Every `id` is a distinct UUID; `folder.name` matches the subject's other lessons.
+- [ ] `set.name` is the lesson's own title — no `Lesson <n>:` prefix, nothing from the filename — and the filename is that title slugged. Ordering lives in `set.position`.
 - [ ] Every term and definition traces back to a line in the source I sent. If you can't point at the slide, delete the card.
 - [ ] `npm run contents` runs clean and reports the new set.
 - [ ] Tell me how many pages/slides you covered and how many terms you pulled.

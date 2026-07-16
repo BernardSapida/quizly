@@ -1,0 +1,846 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "5fbb11cd-277d-43a3-b49f-c40e06ee05c1",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Food Preparation Tools and Equipment",
+      "description": "Cookware, cooking and processing equipment, measuring devices, knives, hand tools, and small equipment, with their uses and functions.",
+      "position": 4,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "c443c3ce-3e37-465b-b100-c91c9ca1a10d",
+          "term": "The 3 Types of Cookware",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pots",
+            "Pans",
+            "Molds"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "33da3773-a78c-420d-a898-d824d854a89d",
+          "term": "Pots",
+          "kind": "standard",
+          "definition": "Deep, round containers used for cooking food, usually on the stovetop. Common uses: boiling, simmering, making soups, stews, or pasta.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "323e406a-5073-4698-b98c-1c2b227f90cf",
+          "term": "Pans",
+          "kind": "standard",
+          "definition": "Shallow cookware with flat bottoms, used for frying, sautéing, or baking. Common uses: frying eggs, cooking meat, sautéing vegetables.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "e647be10-e2f1-4ce5-b2c2-69da4da84b43",
+          "term": "Molds",
+          "kind": "standard",
+          "definition": "Containers used to shape food as it cools or sets. Common uses: making cakes, gelatin desserts, chocolates, or puddings. They come in many shapes and sizes, made of metal, silicone, or plastic.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "76bbc013-99d7-4a4d-8ed6-6de22a51b6fd",
+          "term": "Stockpot",
+          "kind": "standard",
+          "definition": "A large, deep, straight-sided pot for preparing stocks and simmering large quantities of liquids. Sizes: 8–200 quarts (liters).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "235e2726-6639-4d56-9f48-b4cfcd791087",
+          "term": "Saucepot",
+          "kind": "standard",
+          "definition": "A round pot of medium depth. Similar to a stockpot but shallower, making stirring or mixing easier. Used for soups, sauces, and other liquids. Sizes: 6–60 quarts (liters).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "5d379eb4-a6fb-4208-a9d8-3ebf383e4b24",
+          "term": "Brazier",
+          "kind": "standard",
+          "definition": "A round, broad, shallow, heavy-duty pot with straight sides. Also called a rondeau. Used for browning, braising, and stewing meats. Sizes: 11–30 quarts (liters).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "9e8edb6d-57a3-4f3b-a989-b685b20887bd",
+          "term": "Saucepan",
+          "kind": "standard",
+          "definition": "Similar to a small, shallow, light saucepot, but with one long handle instead of two loop handles. May have straight or slanted sides. Used for general range top cooking. Sizes: 1 1/2–15 quarts (liters).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "b52e48c9-a507-402e-af69-93842c8851b7",
+          "term": "Sautoir",
+          "kind": "standard",
+          "definition": "A straight-sided sauté pan. Similar to a shallow, straight-sided saucepan, but heavier. Used for browning, sautéing, and frying; its wide surface allows quick reduction of sauces and liquids.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "cd2c8185-ef83-4b22-91ba-f2c50b03c1ed",
+          "term": "Sauteuse",
+          "kind": "standard",
+          "definition": "A slope-sided sauté pan. Used for general sautéing and frying of meats, fish, vegetables, and eggs. The sloping sides allow the cook to flip and toss items without using a spatula, and they make it easier to get at the food when a spatula is used. Sizes: 6–14 inches (160–360 mm) top diameter.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "2792f812-3ebe-4869-83b9-68b4442d1b32",
+          "term": "Cast-iron skillet",
+          "kind": "standard",
+          "definition": "Very heavy, thick-bottomed fry pan. Used for pan-frying when steady, even heat is desired.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "466e71b9-6e00-42dc-9354-efd747ae9e3c",
+          "term": "Double boiler",
+          "kind": "standard",
+          "definition": "A pot with two sections. The lower section, similar to a stockpot, holds boiling water. The upper section holds foods that must be cooked at low temperatures and cannot be cooked over direct heat. Size of top section: 4–36 quarts (liters).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "6556d777-ea08-409e-8338-b2dc9195b7ed",
+          "term": "Sheet pan",
+          "kind": "standard",
+          "definition": "A shallow, rectangular pan (1 inch/25 mm deep) for baking cakes, rolls, and cookies, and for baking or broiling certain meats and fish. Sizes: full pan, 18 × 26 inches (46 × 66 cm).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "dc606f29-4929-44e6-a584-540730a949a9",
+          "term": "Bake pan",
+          "kind": "standard",
+          "definition": "A rectangular pan about 2 inches (50 mm) deep. Used for general baking. Available in a variety of sizes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "f89e6477-da29-4286-965e-0c4b96d306c4",
+          "term": "Roasting pan",
+          "kind": "standard",
+          "definition": "A large rectangular pan, deeper and heavier than a bake pan. Used for roasting meats and poultry.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "61ea1a1f-e06a-4c20-ac6b-fd50c63bb96a",
+          "term": "Hotel pan",
+          "kind": "standard",
+          "definition": "Also called counter pan, steam table pan, or service pan. A rectangular pan, usually made of stainless steel. Designed to hold foods in service counters. Also used for baking, steaming, and subsequent serving, and for storage. Standard size: 12 × 20 inches.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "69545e97-c253-4508-a977-fa0aaa1e0984",
+          "term": "Wok",
+          "kind": "standard",
+          "definition": "A round-bottomed steel pan with two loop handles. Used for stir-frying, especially in Chinese cuisine. These are best used with special burner units that have a high heat output and a broad ring-shaped support that holds it steady during cooking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "0eedfc34-0954-4e48-9c82-7bd534a6a055",
+          "term": "Bain-marie",
+          "kind": "standard",
+          "definition": "Containers placed over or inside hot water to gently heat or keep food warm without direct heat. They are commonly used for sauces, soups, and delicate foods to prevent burning or overheating.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "7d30bd62-24e5-4922-ac86-ea99fc57dcff",
+          "term": "Range tops",
+          "kind": "standard",
+          "definition": "The range is still the most important piece of cooking equipment in the kitchen. These are the top surface of a stove where burners are located, used for cooking food in pots and pans over direct heat.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "6242bd95-c3a6-480b-805d-fda7561db127",
+          "term": "The 5 Types of Cooktops",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Gas Cooktop",
+            "Electric Cooktop",
+            "Induction Cooktop",
+            "Solid Plate Cooktop",
+            "French Top"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "834e8764-2269-4743-8a27-415786c96f2c",
+          "term": "Gas Cooktop",
+          "kind": "standard",
+          "definition": "Also called the commercial range. The most commonly used in professional kitchens. It provides strong heat, instant control, and is ideal for sautéing, boiling, and general cooking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "3bd2e242-95dc-48c7-be59-06e395b1a848",
+          "term": "Electric Cooktop",
+          "kind": "standard",
+          "definition": "Uses coils or a smooth glass surface. It is easy to operate and clean but heats and cools more slowly than gas.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "115afd1e-81b1-406f-b126-83c1759e9c13",
+          "term": "Induction Cooktop",
+          "kind": "standard",
+          "definition": "Popular in modern kitchens. It heats quickly, is energy-efficient, and safer because it only heats the cookware, not the surface.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "339ca7aa-fac8-40ba-bf10-db2a47ca0913",
+          "term": "Solid Plate Cooktop",
+          "kind": "standard",
+          "definition": "Also called heavy-duty electric. Known for durability and consistent heat. Often used in kitchens that need long cooking hours, though it heats slower. Its disadvantage is that only iron or steel pots can be used.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "b5da2a65-c595-45b6-a1a6-7f9b282f6188",
+          "term": "French Top",
+          "kind": "standard",
+          "definition": "Also called the flat top range. A large flat surface with a central heat source. Chefs can cook multiple dishes at different temperatures by moving pots around.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "41992d09-2d96-430c-870f-a1f527ac188d",
+          "term": "Ovens",
+          "kind": "standard",
+          "definition": "Enclosed spaces in which food is heated, usually by hot air or, in some newer kinds, by microwaves or infrared radiation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "7df993fb-b8a5-4d62-865c-63810ae95fe2",
+          "term": "The 2 Types of Oven",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Conventional Oven",
+            "Convection Oven"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "d6503a7b-a267-425b-ad97-c5792cef859b",
+          "term": "Conventional Oven",
+          "kind": "standard",
+          "definition": "The traditional type found in most kitchens. It operates simply by heating air in an enclosed space, using top and bottom heating elements to cook food without a fan, so heat moves naturally inside. The most common are part of the range unit, although separate units or those forming part of a broiler unit are also available.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "e6f3d4e6-93a1-49b7-9421-9f4ee6f61468",
+          "term": "Convection Oven",
+          "kind": "standard",
+          "definition": "Contains fans that circulate the air and distribute the heat rapidly throughout the interior. Because of the forced air, foods cook more quickly at lower temperatures. Also, shelves can be placed closer together than in conventional ovens without blocking the heat flow.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "c5521f6e-6e43-4c9d-9e16-6181f1d70bf8",
+          "term": "Broilers",
+          "kind": "standard",
+          "definition": "Kitchen equipment that cooks food using very high heat from above; sometimes called overhead to avoid confusing them with grills. Commonly used for grilling, browning, and finishing dishes like steaks, casseroles, and melted toppings.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "d55fbbf5-5401-4102-b769-5ad77f065bde",
+          "term": "Grills",
+          "kind": "standard",
+          "definition": "Used for the same cooking operations as broilers, except the heat source is below the grid that holds the food rather than above it. Many people like foods cooked this way because of their charcoal taste, which is created by smoke from meat fats that drip into the heat source.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "4f81dd4b-505f-4c14-adbc-8d60de172a97",
+          "term": "Salamanders",
+          "kind": "standard",
+          "definition": "Small broilers used primarily for browning or glazing the tops of some items. A type of overhead broiler mounted on the wall or above a range. Used for quick finishing, melting cheese, glazing, and browning dishes before serving.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 31
+        },
+        {
+          "id": "8dd3d1d8-1604-4d96-aaa1-958f4314ccc2",
+          "term": "Griddles",
+          "kind": "standard",
+          "definition": "Flat smooth, heated surfaces on which food is cooked directly. Pancakes, French toast, hamburgers and other meats, eggs, and potato items are the foods most frequently cooked on these.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 32
+        },
+        {
+          "id": "36515a74-b57c-48c2-9d74-f75a8e3c0ceb",
+          "term": "Rotisseries",
+          "kind": "standard",
+          "definition": "Cook meats and other foods by turning them slowly in front of electric- or gas-powered heating elements. Although especially suitable for chicken and other poultry, they can be used to cook any meat or other food that can be held on a spit or in any of various attachments or accessories. Both enclosed (oven like) and open or unclosed units are available.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 33
+        },
+        {
+          "id": "88512fa5-b255-4da7-a99b-cb5dea355972",
+          "term": "Mixers",
+          "kind": "standard",
+          "definition": "Vertical ones are important and versatile tools for many kinds of food mixing and processing jobs, both in the bakeshop and in the kitchen.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 34
+        },
+        {
+          "id": "2eea4a99-b0bb-44e1-a038-1889c21ffcf2",
+          "term": "The 3 Main Mixing Attachments",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Paddle",
+            "Wire whip",
+            "Dough arm"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 35
+        },
+        {
+          "id": "468619bf-b0c9-4aa0-b670-815604013932",
+          "term": "Paddle",
+          "kind": "standard",
+          "definition": "A flat blade used for general mixing.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 36
+        },
+        {
+          "id": "cb44cf25-2717-4b3d-a5c7-d285830454d1",
+          "term": "Dough arm",
+          "kind": "standard",
+          "definition": "Also called the dough hook. Used for mixing and kneading yeast doughs.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 37
+        },
+        {
+          "id": "01d7a03b-b382-407f-ab2e-ea162faa4a20",
+          "term": "Food cutter",
+          "kind": "standard",
+          "definition": "Also called the rotation chopper and familiarly known as the buffalo chopper. A common piece of equipment used for general food chopping.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 38
+        },
+        {
+          "id": "d97d8cd0-293b-4511-b37a-ca94952ffdec",
+          "term": "The 3 Ways Measurements are Determined in a Professional Kitchen",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Liquid and dry volume measures",
+            "Weight measures",
+            "Temperature"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 39
+        },
+        {
+          "id": "19bb2765-96aa-4356-af23-002de2872b39",
+          "term": "Scales",
+          "kind": "standard",
+          "definition": "Portion ones are used for measuring ingredients as well as for portioning products for service. Traditional portion ones are spring-operated and usually have a dial to indicate weight.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 40
+        },
+        {
+          "id": "f920f35f-456a-42fb-a151-2776b0b4e874",
+          "term": "Volume measures",
+          "kind": "standard",
+          "definition": "Those used for liquids have lips for easy pouring. Sizes are pints, quarts, half-gallons, and gallons. Each size is marked off into fourths by ridges on the sides.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 41
+        },
+        {
+          "id": "898c8402-d8de-4049-ba5a-73cfa88588db",
+          "term": "Measuring cups",
+          "kind": "standard",
+          "definition": "Available in 1-, 1/2-, 1/3-, and 1/4-cup sizes. They can be used for both liquid and dry measures.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 42
+        },
+        {
+          "id": "7a1e6237-7454-405c-b2cb-f59ea83addd1",
+          "term": "Measuring spoons",
+          "kind": "standard",
+          "definition": "Used for measuring very small volumes: 1 tablespoon, 1 teaspoon, 1/2 teaspoon, and 1/4 teaspoon. They are used most often for spices and seasonings.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 43
+        },
+        {
+          "id": "6dd238b4-7988-40a1-82bd-b0009aeee3c7",
+          "term": "Thermometers",
+          "kind": "standard",
+          "definition": "Measure temperature. There are many kinds for many purposes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 44
+        },
+        {
+          "id": "bb246d0b-90b7-4445-a176-a9a1a02fe3ac",
+          "term": "Meat thermometer",
+          "kind": "standard",
+          "definition": "Indicates internal temperature of meats. It is inserted before cooking and left in the product during cooking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 45
+        },
+        {
+          "id": "9d84d3e5-ff8d-4e3d-b7eb-e0c6ffc94dd0",
+          "term": "Fat thermometer",
+          "kind": "standard",
+          "definition": "Tests temperatures of frying fats.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 46
+        },
+        {
+          "id": "e5086d37-f9c1-47b1-81d5-002580271040",
+          "term": "Candy thermometer",
+          "kind": "standard",
+          "definition": "Tests temperatures of sugar syrups.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 47
+        },
+        {
+          "id": "118ae77b-c09d-4ba9-b544-8265fddd4738",
+          "term": "Knives",
+          "kind": "standard",
+          "definition": "One of the chef's most important hand tools.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 48
+        },
+        {
+          "id": "28945fc9-a2ff-4457-887d-fa954b206c8d",
+          "term": "High-carbon stainless",
+          "kind": "standard",
+          "definition": "The most widely available material for knife blades.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 49
+        },
+        {
+          "id": "9ef44355-c2d1-4424-add6-cdb71c9d0759",
+          "term": "Composition materials",
+          "kind": "standard",
+          "definition": "Used for knife handles. Easy to maintain, but they can become a hazard if the material is gouged, cracked, or melted.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 50
+        },
+        {
+          "id": "d58379b7-a07b-442c-9be9-04bfb7dde6c7",
+          "term": "French knife",
+          "kind": "standard",
+          "definition": "Most frequently used knife in the kitchen, for general-purpose chopping, slicing, dicing, and so on. The blade is wide at the heel and tapers to a point.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 51
+        },
+        {
+          "id": "9b18c747-fb3c-48b6-94dd-3d5d1ecf8791",
+          "term": "Santoku knife",
+          "kind": "standard",
+          "definition": "Also called the Japanese cook's knife. A wide-bladed knife that is often used as a substitute for the traditional chef's knife. Blades are usually 5 inches (13 cm) or 7 inches (18 cm) long.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 52
+        },
+        {
+          "id": "54fff063-41d1-41af-b5bd-d47e650f4476",
+          "term": "Utility knife",
+          "kind": "standard",
+          "definition": "Also called the salad knife. A narrow, pointed knife 6–8 inches (160–200 mm) long. Used mostly for pantry work.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 53
+        },
+        {
+          "id": "e7f593fc-cfff-438b-8c55-0ba540c10dde",
+          "term": "Paring knife",
+          "kind": "standard",
+          "definition": "A small, pointed blade 2–4 inches (50–100 mm) long. Used for trimming and paring vegetables and fruits.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 54
+        },
+        {
+          "id": "039c6619-eafb-43c9-b67a-16dd41defec8",
+          "term": "Boning knife",
+          "kind": "standard",
+          "definition": "A thin, pointed blade about 6 inches (160 mm) long. Used for boning raw meats and poultry. Stiff blades are used for heavier work. Flexible blades are used for lighter work and for filleting fish.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 55
+        },
+        {
+          "id": "e504de63-7ca7-4901-9575-b5a5c84af210",
+          "term": "Slicer",
+          "kind": "standard",
+          "definition": "A long, slender, flexible blade up to 14 inches (360 mm) long. Used for carving and slicing cooked meats.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 56
+        },
+        {
+          "id": "47a8f6bb-d554-4b38-a5a4-51671251ea60",
+          "term": "Serrated slicer",
+          "kind": "standard",
+          "definition": "Like a slicer, but with a serrated edge. Used for cutting breads, cakes, and similar items.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 57
+        },
+        {
+          "id": "09582322-1365-4131-ba7f-f42bef02caba",
+          "term": "Butcher knife",
+          "kind": "standard",
+          "definition": "A heavy, broad, slightly curved blade. Used for cutting, sectioning, and trimming raw meats in the butcher shop.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 58
+        },
+        {
+          "id": "e13765e2-d553-43d7-90be-d43e4b2d0b74",
+          "term": "Scimitar",
+          "kind": "standard",
+          "definition": "Also called the steak knife. A curved, pointed blade. Used for accurate cutting of steaks.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 59
+        },
+        {
+          "id": "1e2b3ad4-d3ef-4470-8b33-44953d630692",
+          "term": "Cleaver",
+          "kind": "standard",
+          "definition": "A heavy, broad blade. Used for cutting through bones.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 60
+        },
+        {
+          "id": "7a2248c0-d289-4562-abed-a442e4e2666c",
+          "term": "Vegetable peeler",
+          "kind": "standard",
+          "definition": "A short tool with a slotted, swiveling blade. Used for peeling vegetables and fruits.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 61
+        },
+        {
+          "id": "4dbcd272-083b-4d32-947a-ab1a629df90a",
+          "term": "Steel",
+          "kind": "standard",
+          "definition": "Not a knife, but an essential part of the knife kit. Used for truing and maintaining knife edges.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 62
+        },
+        {
+          "id": "da4a73bf-6793-41cc-9038-31e623213596",
+          "term": "Cutting board",
+          "kind": "standard",
+          "definition": "An important partner to the knife. Hardwood ones are favored by many chefs. Hard rubber or plastic ones are thought to be more sanitary, but there is some evidence that bacteria actually survive longer on plastic and rubber than on wood. They must be kept very clean and sanitized regularly. Color-coded composite ones are designed to help reduce cross-contamination, as each color is used for a different category of food.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 63
+        },
+        {
+          "id": "17ba93fc-ac85-4f27-8a92-2d528a7dddd8",
+          "term": "Cook's fork",
+          "kind": "standard",
+          "definition": "A heavy, two-pronged fork with a long handle. Used for lifting and turning meats and other items. Must be strong enough to hold heavy loads.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 64
+        },
+        {
+          "id": "22b79a7e-e2c8-4d0f-a7ac-6619cbd9dc3a",
+          "term": "Straight spatula",
+          "kind": "standard",
+          "definition": "Also called the palette knife. A long, flexible blade with a rounded end. Used mostly for spreading icing on cakes and for mixing and bowl scraping.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 65
+        },
+        {
+          "id": "1ef1cb54-0589-47ab-8f26-c644746328c9",
+          "term": "Offset spatula",
+          "kind": "standard",
+          "definition": "A broad blade, bent to keep the hand off hot surfaces. Used for turning and lifting eggs, pancakes, and meats on griddles, grills, sheet pans, and so on. Also used as a scraper to clean benches and griddles.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 66
+        },
+        {
+          "id": "8c8a3167-91f1-4358-a39f-e90ddf94b73e",
+          "term": "Rubber spatula",
+          "kind": "standard",
+          "definition": "Also called the scraper. A broad, flexible rubber or plastic tip on a long handle. Used to scrape bowls and pans. Also used for folding in egg foams and whipped cream.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 67
+        },
+        {
+          "id": "cb4c2cbf-8c36-4122-af27-4a047b64c621",
+          "term": "Pie server",
+          "kind": "standard",
+          "definition": "A wedge-shaped offset spatula. Used for lifting pie wedges from pan.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 68
+        },
+        {
+          "id": "79c23be3-7b2b-4c24-8581-22ed5cef7fae",
+          "term": "Bench scraper",
+          "kind": "standard",
+          "definition": "Also called the dough knife. A broad, stiff piece of metal with a wooden handle on one edge. Used to cut pieces of dough and to scrape workbenches.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 69
+        },
+        {
+          "id": "13f57d1c-b74c-4d5e-b03f-01613fc9e7a4",
+          "term": "Pastry wheel",
+          "kind": "standard",
+          "definition": "Also called the wheel knife. A round, rotating blade on a handle. Used for cutting rolled out doughs and pastry and baked pizza.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 70
+        },
+        {
+          "id": "34300635-0f6f-4a09-93f5-be69a33d6336",
+          "term": "Skimmer",
+          "kind": "standard",
+          "definition": "A perforated disk, slightly cupped, on a long handle. Used for skimming froth from liquids and for removing solid pieces from soups, stocks, and other liquids.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 71
+        },
+        {
+          "id": "c4500d4b-37a8-4733-8c06-73ade2f8712b",
+          "term": "Tongs",
+          "kind": "standard",
+          "definition": "Spring-type or scissors-type tools used to pick up and handle foods.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 72
+        },
+        {
+          "id": "0ba5796c-7e83-4069-9b7d-b82039701f16",
+          "term": "Wire whip",
+          "kind": "standard",
+          "definition": "A mixing attachment used for such tasks as beating cream and eggs and making mayonnaise. Loops of stainless-steel wire fastened to a handle.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 73
+        },
+        {
+          "id": "dee26fbd-b8cc-4a52-97a9-2933eff94987",
+          "term": "The 2 Kinds of Whips",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Heavy whips",
+            "Balloon whips"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 74
+        },
+        {
+          "id": "06febb40-2741-43d9-95d5-bd6662bf415b",
+          "term": "Heavy whips",
+          "kind": "standard",
+          "definition": "Straight, stiff, and have relatively few wires. Used for general mixing, stirring, and beating, especially heavy liquids.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 75
+        },
+        {
+          "id": "2bafd31f-ce76-46f0-a7d9-9b11c1c5b0e0",
+          "term": "Balloon whips",
+          "kind": "standard",
+          "definition": "Also called piano-wire whips. They have many flexible wires. Used for whipping eggs, cream, and hollandaise, and for mixing thinner liquids.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 76
+        },
+        {
+          "id": "3394fa73-4378-4103-9b8b-f342f43e74ee",
+          "term": "China cap",
+          "kind": "standard",
+          "definition": "A cone-shaped strainer. Used for straining stocks, soups, sauces, and other liquids. Pointed shape allows the cook to drain liquids through a relatively small opening.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 77
+        },
+        {
+          "id": "1d082c8a-10ad-49f3-9a3d-05d26ec0e965",
+          "term": "Strainer",
+          "kind": "standard",
+          "definition": "A round-bottomed, cup-shaped tool made of screen type mesh or perforated metal. Used for straining pasta, vegetables, and so on.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 78
+        },
+        {
+          "id": "79ea5c85-d449-4dda-b9bd-65bd7d89cb27",
+          "term": "Drum sieve",
+          "kind": "standard",
+          "definition": "Also called the tamis. A screen-type mesh supported in a round metal frame. Used for sifting flour and other dry ingredients and for puréeing soft foods.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 79
+        },
+        {
+          "id": "18b98df3-9520-4877-a507-445e8fe19d45",
+          "term": "Colander",
+          "kind": "standard",
+          "definition": "A large, perforated bowl made of stainless steel or aluminum. Used to drain washed or cooked vegetables, salad greens, pasta, and other foods.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 80
+        },
+        {
+          "id": "32b0b09b-7a9b-4f88-b01d-3d39eff7b4cf",
+          "term": "Food mill",
+          "kind": "standard",
+          "definition": "A tool with a hand-turned blade that forces foods through a perforated disk. Interchangeable disks produce varying degrees of coarseness or fineness. Used for puréeing foods.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 81
+        },
+        {
+          "id": "5cfea8c2-b7a0-456f-9163-6c5b806336a8",
+          "term": "Grater",
+          "kind": "standard",
+          "definition": "A four-sided metal box with grids of varying sizes. Used for shredding and grating vegetables, cheese, citrus rinds, and other foods.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 82
+        },
+        {
+          "id": "f813b0e9-4dd5-4729-a05e-8e2206fa38f3",
+          "term": "Zester",
+          "kind": "standard",
+          "definition": "A small hand tool used for removing the colored part of citrus peels in thin strips.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 83
+        },
+        {
+          "id": "900ffbd6-b0b5-4cbf-9a14-af808cf1765f",
+          "term": "Stainless-steel bowl",
+          "kind": "standard",
+          "definition": "A round-bottomed bowl. Used for mixing, whipping, and producing hollandaise, mayonnaise, whipped cream, and egg white foams. Round construction enables whip to reach all areas. Available in many sizes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 84
+        },
+        {
+          "id": "c8d1cd65-9bc6-4b85-b570-83f4fd07f893",
+          "term": "Mandoline",
+          "kind": "standard",
+          "definition": "A manual slicing implement consisting of blades fitted in a flat metal or wood framework. A traditional one has a flat blade and a serrated blade. Additional blades can be used in combination with the flat blade to cut julienne and bâtonnet.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 85
+        },
+        {
+          "id": "18892d03-af38-43bd-96ec-62f8ca6aea38",
+          "term": "Pastry bag and tubes",
+          "kind": "standard",
+          "definition": "Cone-shaped cloths or plastic bags with an open end that can be fitted with metal tubes or tips of various shapes and sizes. Used for shaping and decorating with items such as cake icing, whipped cream, potatoes, and soft dough. Disposable plastic ones are the most sanitary.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 86
+        },
+        {
+          "id": "33be03a5-9a48-45e9-8402-f0fbd7b5d0d8",
+          "term": "Pastry brush",
+          "kind": "standard",
+          "definition": "Used to brush items with egg wash, glaze, etc.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 87
+        },
+        {
+          "id": "76d8338b-5637-465c-99a0-7d132d166ca6",
+          "term": "Ladle",
+          "kind": "standard",
+          "definition": "A type of large, deep-bowled serving spoon with a long handle, designed for scooping and serving liquids like soups, stews, sauces, or gravy. Primarily a kitchen tool, they are often crafted from stainless steel, plastic, or wood.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 88
+        }
+      ]
+    }
+  ]
+}

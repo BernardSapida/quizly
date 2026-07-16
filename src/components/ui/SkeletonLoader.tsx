@@ -10,7 +10,7 @@ import Animated, {
   withTiming,
 } from "react-native-reanimated";
 
-import { GLASS, SPACING } from "@/theme";
+import { FLASHCARD, GLASS, SPACING } from "@/theme";
 
 /**
  * Skeletons rather than a spinner. Every read in this app is a local SQLite call,
@@ -142,7 +142,7 @@ export function SetCardSkeleton({ index = 0 }: { index?: number }) {
   );
 }
 
-/** Mirrors `RecentRow` on Home — the compact 16px-radius row, not the big card. */
+/** Mirrors `SetRow` — the compact 16px-radius row, not the big card. */
 export function RecentRowSkeleton({ index = 0 }: { index?: number }) {
   const delay = stagger(index);
 
@@ -156,16 +156,6 @@ export function RecentRowSkeleton({ index = 0 }: { index?: number }) {
         </View>
       </View>
     </GlassShell>
-  );
-}
-
-export function SetListSkeleton({ count = 4 }: { count?: number }) {
-  return (
-    <View className="gap-3">
-      {Array.from({ length: count }, (_, i) => (
-        <SetCardSkeleton key={i} index={i} />
-      ))}
-    </View>
   );
 }
 
@@ -189,7 +179,21 @@ export function SetDetailSkeleton() {
         gap: SPACING.headerGap,
       }}
     >
-      <SkeletonLoader width="100%" height={200} borderRadius={24} />
+      {/* The carousel's own floor and radius, not a rounder 200px guess: the real
+          card is never shorter than this, so the title below it settles once rather
+          than jumping down when the cards land. Dots included — they hold a row too. */}
+      <View className="gap-3">
+        <SkeletonLoader
+          width="100%"
+          height={FLASHCARD.minHeight}
+          borderRadius={FLASHCARD.radius}
+        />
+        <View className="flex-row items-center justify-center gap-1.5">
+          {[0, 1, 2, 3, 4].map((i) => (
+            <SkeletonLoader key={i} width={6} height={6} borderRadius={999} />
+          ))}
+        </View>
+      </View>
 
       <View className="gap-3">
         <SkeletonLoader width="65%" height={24} delay={stagger(1)} />
@@ -197,7 +201,8 @@ export function SetDetailSkeleton() {
         <SkeletonLoader width={120} height={30} borderRadius={999} delay={stagger(1)} />
       </View>
 
-      <GlassShell>
+      {/* The rings panel, which carries row metrics now rather than Card's. */}
+      <GlassShell radius={16} padding={12}>
         <View className="gap-4">
           <SkeletonLoader width="100%" height={14} delay={stagger(2)} />
           <SkeletonLoader width="100%" height={14} delay={stagger(2)} />
@@ -209,8 +214,8 @@ export function SetDetailSkeleton() {
           <GlassShell key={i} radius={16} padding={12}>
             <View className="flex-row items-center gap-4">
               <SkeletonLoader
-                width={44}
-                height={44}
+                width={48}
+                height={48}
                 borderRadius={16}
                 delay={stagger(i + 3)}
               />
@@ -243,7 +248,7 @@ export function FolderDetailSkeleton() {
 
       <GlassShell radius={16} padding={12}>
         <View className="flex-row items-center gap-4">
-          <SkeletonLoader width={44} height={44} borderRadius={16} delay={stagger(1)} />
+          <SkeletonLoader width={48} height={48} borderRadius={16} delay={stagger(1)} />
           <View className="flex-1 gap-2">
             <SkeletonLoader width="50%" height={14} delay={stagger(1)} />
             <SkeletonLoader width="70%" height={10} delay={stagger(1)} />

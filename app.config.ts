@@ -41,6 +41,7 @@ const config: ExpoConfig = {
     "expo-router",
     "expo-sqlite",
     "expo-sharing",
+    "expo-build-properties",
     [
       "expo-splash-screen",
       {

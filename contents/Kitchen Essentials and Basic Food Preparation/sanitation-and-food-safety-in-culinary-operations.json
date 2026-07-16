@@ -1,0 +1,117 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "824389bf-ccf1-40a9-9ddc-2146b421c5ef",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Sanitation and Food Safety in Culinary Operations",
+      "description": "Food safety, R.A. 10611, the three major types of food hazards, food handlers, and the ten principles of safe food handling and hygiene.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "e6797d63-1bef-47c2-9f87-91f14a9700b1",
+          "term": "Food safety",
+          "kind": "standard",
+          "definition": "Refers to handling, preparing and storing food in a way to best reduce the risk of individuals becoming sick from foodborne illnesses. It is the protection of consumer health and well-being by safeguarding food from anything that can cause harm.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "bc9155b6-0595-401f-8be9-d48e22e251f6",
+          "term": "R.A. 10611",
+          "kind": "standard",
+          "definition": "An act to strengthen the food safety regulatory system in the country to protect consumer health and facilitate market access of local foods and food products, and for other purposes; otherwise known as the \"Food Safety Act of 2013\".",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "7019b627-0e37-4991-b079-fd06774bd21a",
+          "term": "The 3 Major Types of Hazards in Food Safety",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Biological hazards",
+            "Chemical hazards",
+            "Physical hazards"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "492bf67f-5dbc-4085-9102-f9b609a7303c",
+          "term": "Biological hazards",
+          "kind": "standard",
+          "definition": "Foodborne organisms such as bacteria, molds, viruses, and parasites. Their seriousness varies greatly. It is difficult to avoid microorganisms because they are everywhere. However, most are inactivated or killed by adequate cooking and/or their numbers are kept to a minimum by sufficient cooling.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "fa86b8c9-7846-494f-9e0c-92a90e531919",
+          "term": "Chemical hazards",
+          "kind": "standard",
+          "definition": "Any substances hazardous to health. These can come from plants (herbs, fruit pits, and mushrooms), animals (fish), or those used in agriculture or industry that may end up in food unintentionally. Both fish and shellfish may harbor toxins causing foodborne illness. Not all fishes and plants are consumable, such as pufferfish and amanita species of mushrooms.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "848035ba-fdae-482e-8c7f-ccaf53ee17a1",
+          "term": "Red tide",
+          "kind": "standard",
+          "definition": "During this time there is an increased chance that seafood products are poisonous, which is why people are very careful in buying seafood products.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "09769a83-5692-4e48-a01e-004b4bd6af9d",
+          "term": "Physical hazards",
+          "kind": "standard",
+          "definition": "Items in food and beverages that can harm the consumer's health, including glass (the most common), bone, metal, wood, stones, false fingernails, toothpicks, watches, jewelry, insects, staples from food boxes, and many other foreign items that have been known to find their way into the food supply.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "8d8c3823-97b9-43c5-8a7f-0208074690ff",
+          "term": "Food handlers",
+          "kind": "standard",
+          "definition": "Those whose work involves food; anyone who works in a food business where food is processed, prepared, stored, distributed, or exposed for sale. Their role is ensuring the food produced is safe.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "2a7685a1-5ca6-4dab-9e79-b3d695862966",
+          "term": "The 10 Principles of Safe Food Handling & Hygiene",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Practice proper hygiene",
+            "Training and development",
+            "Procure from safe sources",
+            "Prevent contamination",
+            "Clean and sanitize",
+            "Food storage cleanliness and temperature",
+            "Control time and temperature",
+            "Proper cooling, heating and reheating",
+            "Cooking by appropriate temperature and procedures",
+            "Develop HACCP program"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 8
+        }
+      ]
+    }
+  ]
+}

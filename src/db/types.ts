@@ -65,6 +65,10 @@ export type SetWithProgress = Set & {
   choice_mastered: number;
   written_mastered: number;
   last_seen_at: number | null;
+  /** The name of the folder this set is filed under, or null when it is loose.
+   *  Joined on so a set row can say which subject it belongs to without the list
+   *  having to fetch every folder to look it up. */
+  folder_name: string | null;
 };
 
 export type FolderWithProgress = Folder & {

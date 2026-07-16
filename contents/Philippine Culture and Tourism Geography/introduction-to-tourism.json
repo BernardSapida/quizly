@@ -10,7 +10,7 @@
     {
       "id": "ce0ed16f-1cc2-476d-a4c5-eec5ffdc0dd8",
       "folderId": "f138414c-67de-4e36-a72f-fa878b7f2d07",
-      "name": "Lesson 1: Introduction",
+      "name": "Introduction to Tourism",
       "description": "The 4As of Tourism and basic facts about the Philippines: islands, landforms, UNESCO sites, climate, language, and ethnic groups.",
       "position": 0,
       "updatedAt": 1783971504483,
@@ -29,12 +29,7 @@
           "term": "The 4As of Tourism",
           "kind": "enumeration",
           "definition": "",
-          "answers": [
-            "Access",
-            "Attractions",
-            "Accommodation",
-            "Activities"
-          ],
+          "answers": ["Access", "Attractions", "Accommodation", "Activities"],
           "updatedAt": 1783971504483,
           "position": 1
         },
@@ -52,11 +47,7 @@
           "term": "3 Things Included in Access",
           "kind": "enumeration",
           "definition": "",
-          "answers": [
-            "Transportation system",
-            "Visa policies",
-            "Travel costs"
-          ],
+          "answers": ["Transportation system", "Visa policies", "Travel costs"],
           "updatedAt": 1783971504483,
           "position": 3
         },
@@ -97,12 +88,7 @@
           "term": "4 Accommodation Options (vary depending on budget and preference)",
           "kind": "enumeration",
           "definition": "",
-          "answers": [
-            "Hotels",
-            "Resorts",
-            "Homestays",
-            "Hostels"
-          ],
+          "answers": ["Hotels", "Resorts", "Homestays", "Hostels"],
           "updatedAt": 1783971504483,
           "position": 7
         },
@@ -134,12 +120,7 @@
           "term": "4 Types of Activities",
           "kind": "enumeration",
           "definition": "",
-          "answers": [
-            "Adventure",
-            "Cultural",
-            "Leisure",
-            "Recreational"
-          ],
+          "answers": ["Adventure", "Cultural", "Leisure", "Recreational"],
           "updatedAt": 1783971504483,
           "position": 10
         },
@@ -327,10 +308,7 @@
           "term": "2 Main Seasons in the Philippines",
           "kind": "enumeration",
           "definition": "",
-          "answers": [
-            "Dry Season",
-            "Wet Season"
-          ],
+          "answers": ["Dry Season", "Wet Season"],
           "updatedAt": 1783971504483,
           "position": 27
         },

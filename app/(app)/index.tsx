@@ -3,24 +3,19 @@ import {
   Pressable,
   ScrollView,
   Text,
-  TextInput,
   View,
   useWindowDimensions,
 } from "react-native";
 import { useRouter } from "expo-router";
 import { Button } from "heroui-native";
-import {
-  Layers,
-  Library,
-  Search,
-  Settings as SettingsIcon,
-} from "lucide-react-native";
+import { Library, Settings as SettingsIcon } from "lucide-react-native";
 
 import { repo, type SetWithProgress } from "@/db";
 import { useAsync } from "@/lib/use-async";
 import { Screen } from "@/components/ui/Screen";
 import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
-import { Card, IconTile, SetCard } from "@/components/ui/Cards";
+import { Card, SetCard, SetRow } from "@/components/ui/Cards";
+import { SearchField } from "@/components/ui/SearchField";
 import { ModeProgress } from "@/components/ui/ModeProgress";
 import { RecentRowSkeleton, SkeletonLoader } from "@/components/ui/SkeletonLoader";
 import { COLORS, GLASS, SPACING } from "@/theme";
@@ -82,24 +77,12 @@ export default function HomeScreen() {
         keyboardShouldPersistTaps="handled"
       >
         <View className="flex-row items-center gap-3">
-          <View
-            className="flex-1 flex-row items-center gap-3 rounded-full px-4 py-3"
-            style={{
-              backgroundColor: GLASS.fill,
-              borderWidth: 1,
-              borderColor: GLASS.border,
-            }}
-          >
-            <Search color={COLORS.dark.muted} size={18} />
-            <TextInput
-              value={query}
-              onChangeText={setQuery}
-              placeholder="Search your sets"
-              placeholderTextColor={COLORS.dark.muted}
-              className="flex-1 text-app-text"
-              returnKeyType="search"
-            />
-          </View>
+          <SearchField
+            value={query}
+            onChangeText={setQuery}
+            placeholder="Search your sets"
+            className="flex-1"
+          />
           <Pressable
             onPress={() => router.push("/settings")}
             hitSlop={10}
@@ -167,7 +150,7 @@ export default function HomeScreen() {
             <View className="gap-3">
               <Text className="text-app-text text-lg font-bold">Recents</Text>
               {sets.map((set) => (
-                <RecentRow
+                <SetRow
                   key={set.id}
                   set={set}
                   onPress={() => router.push(`/set/${set.id}`)}
@@ -229,37 +212,6 @@ function JumpBackIn({
         </View>
       ))}
     </ScrollView>
-  );
-}
-
-/** Compact row — Recents is a list, not a wall of progress bars. */
-function RecentRow({
-  set,
-  onPress,
-}: {
-  set: SetWithProgress;
-  onPress: () => void;
-}) {
-  return (
-    <Pressable
-      onPress={onPress}
-      className="flex-row items-center gap-4 rounded-2xl p-3"
-      style={{
-        backgroundColor: GLASS.fill,
-        borderWidth: 1,
-        borderColor: GLASS.border,
-      }}
-    >
-      <IconTile Icon={Layers} size={48} />
-      <View className="flex-1">
-        <Text className="text-app-text text-base font-bold" numberOfLines={2}>
-          {set.name}
-        </Text>
-        <Text className="text-app-muted mt-0.5 text-xs">
-          {set.term_count} {set.term_count === 1 ? "card" : "cards"} · by you
-        </Text>
-      </View>
-    </Pressable>
   );
 }
 

@@ -45,6 +45,18 @@ export type ExportSet = {
 
 export type ExportFile = {
   quizlyVersion: number;
+  /**
+   * True only for the file `npm run export:all` writes: this repo restating what the
+   * built-in content is, rather than a person sharing a set. It is what licenses the
+   * importer to *delete* — see applyImport. Absent or false means a normal export,
+   * which may only add and update.
+   *
+   * Deliberately an optional field on v2 rather than a v3. parseExportFile rejects a
+   * version it doesn't recognise in both directions, so bumping would make every
+   * installed copy refuse the file outright; a build that predates this flag instead
+   * ignores it and merges, which is the safe half of the behaviour.
+   */
+  contentPack?: boolean;
   folders: ExportFolder[];
   sets: ExportSet[];
 };
@@ -122,7 +134,19 @@ export function parseExportFile(raw: string): ExportFile {
     sets.push({ ...(set as ExportSet), folderId });
   }
 
-  return { quizlyVersion: file.quizlyVersion, folders, sets };
+  const contentPack = file.contentPack === true;
+
+  // A content pack deletes, so it has to be unambiguous about what it contains. A set
+  // pointing at a folder the file never declared just had its pointer nulled above, and
+  // would import as a loose set the pack does not appear to own — leaving the real one
+  // to be pruned as though it had been removed. Refuse rather than delete on a guess.
+  if (contentPack && sets.some((set) => set.folderId === null)) {
+    throw new ImportError(
+      "That content pack has a set with no folder, so it isn't safe to import."
+    );
+  }
+
+  return { quizlyVersion: file.quizlyVersion, contentPack, folders, sets };
 }
 
 /** Safe as a filename on every platform. */

@@ -157,12 +157,26 @@ export default function ImportScreen() {
                   color={COLORS.brand}
                 />
               )}
+              {stage.plan.removedTerms > 0 && (
+                <PlanRow
+                  label="Removed terms"
+                  value={stage.plan.removedTerms}
+                  color={COLORS.incorrect}
+                />
+              )}
+              {stage.plan.removedSets > 0 && (
+                <PlanRow
+                  label="Removed sets"
+                  value={stage.plan.removedSets}
+                  color={COLORS.incorrect}
+                />
+              )}
             </View>
 
             <Text className="text-app-muted text-xs">
-              Your own terms won&apos;t be touched, and only terms that are genuinely
-              newer get overwritten. Study progress never travels in a file — imported
-              sets start fresh, and the progress you already have stays as it is.
+              {stage.file.contentPack
+                ? "This is a content pack — it replaces the sets that came with Quizly, so cards it no longer carries are deleted. Sets you made yourself are not touched. Study progress never travels in a file: the progress you already have stays as it is."
+                : "Your own terms won't be touched, and only terms that are genuinely newer get overwritten. Study progress never travels in a file — imported sets start fresh, and the progress you already have stays as it is."}
             </Text>
 
             <View className="gap-3">
@@ -189,6 +203,7 @@ export default function ImportScreen() {
             </Animated.Text>
             <Text className="text-app-muted text-center">
               {stage.plan.newTerms} new · {stage.plan.updatedTerms} updated
+              {stage.plan.removedTerms > 0 && ` · ${stage.plan.removedTerms} removed`}
             </Text>
             <View className="w-full pt-6">
               <Button
@@ -208,9 +223,12 @@ export default function ImportScreen() {
 
 /**
  * Name the file after the most specific thing in it. One folder or one set has an
- * obvious name; a whole-library backup has none, so say what it is instead.
+ * obvious name; a whole-library file has none, so say what it is instead.
  */
 function titleFor(plan: ImportPlan, file: ExportFile): string {
+  // Checked before the counts: a pack covering one subject is still a content update,
+  // and calling it "Heritage Tourism" would hide that it can delete.
+  if (file.contentPack) return "Quizly Content";
   if (plan.folderNames.length === 1) return plan.folderNames[0];
   if (file.sets.length === 1) return file.sets[0].name;
   return "Quizly Backup";

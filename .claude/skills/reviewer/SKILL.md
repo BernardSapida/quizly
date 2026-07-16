@@ -23,6 +23,20 @@ Handle **one lesson per run**. If the file clearly contains several lessons, ask
 
 `office-text.ps1` prints decks slide by slide with speaker notes (lecturers hide the real definitions there), and docs paragraph by paragraph. Pass `-NoNotes` to skip notes.
 
+Set the console to UTF-8 first, or every accent comes back mangled — `Car�me` for
+`Carême`, `didn’t` for a curly apostrophe — and the corruption lands silently in
+the cards, where it becomes a term the student can never type correctly:
+
+```
+powershell -Command "[Console]::OutputEncoding=[System.Text.Encoding]::UTF8; & .claude/skills/reviewer/office-text.ps1 -Path '<file>'"
+```
+
+The script itself decodes correctly; it is the pipe out of PowerShell that does not.
+
+Where the source spells one name two ways (`Carême` on one slide, `Careme` on the next),
+the typed card takes the dominant plain spelling — same rule as slashes and parentheses
+below.
+
 If a slide comes back `(no text - image-only slide)`, its content is in the image. Say so — the terms on that slide will be missing unless the user sends a screenshot or the PDF.
 
 ## 3. Build the JSON
@@ -38,7 +52,25 @@ If a slide comes back `(no text - image-only slide)`, its content is in the imag
 
 ## 4. File it
 
-Write to `contents/<Subject Name>/lesson-<n>.json` — e.g. `contents/Heritage Tourism/lesson-3.json`.
+Write to `contents/<Subject Name>/<lesson-title-slug>.json` — e.g.
+`contents/Kitchen Essentials and Basic Food Preparation/history-of-culinary-arts.json`.
+
+**The set is named for the lesson's own title — never `Lesson <n>`, and never the
+filename.** Take the title from the material itself: the deck's title slide, the PDF's
+chapter heading. Write it as it reads there, and put nothing else in it:
+
+```json
+{ "name": "History of Culinary Arts" }   // not "Lesson 1: History of Culinary Arts"
+```
+
+Course files are named for the registrar — `PRELIM - WEEK 1- HRM 11-002 PPT.pptx` —
+which says nothing about what is on the cards. The title does, and the title is what the
+student is scanning the Library for. So the filename is a slug *of the title*, not of the
+source file, and `WEEK 1` and `HRM 11-002` do not survive into either.
+
+Order comes from `set.position`, not from the name: use the source's own sequence number
+(week 1, chapter 3) minus one, so sets still sort the way the course teaches them even
+though the number is no longer written anywhere the student reads.
 
 The directory name is the folder's name **and** its identity in the app, spelled exactly as it should read there (spaces and capitals, not a slug). So **reuse the existing subject directory** — run `ls contents/` first; a new directory means a new, separate folder. Directory names contain spaces, so quote every path you pass to a shell.
 

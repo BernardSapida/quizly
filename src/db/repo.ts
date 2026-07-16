@@ -25,6 +25,11 @@ const MASTERY_JOINS = `
   LEFT JOIN progress pw ON pw.term_id = t.id AND pw.mode = 'written'
 `;
 
+// Folder name, carried on every set row. One-to-one, so it does not disturb the
+// counts above. LEFT, not INNER: a loose set is still a set.
+const SET_FOLDER_COLUMN = `f.name AS folder_name`;
+const SET_FOLDER_JOIN = `LEFT JOIN folders f ON f.id = s.folder_id`;
+
 /* ------------------------------------------------------------------ folders */
 
 export async function listFolders(): Promise<FolderWithProgress[]> {
@@ -92,8 +97,9 @@ export async function deleteFolder(id: string): Promise<void> {
 export async function listLooseSets(): Promise<SetWithProgress[]> {
   const db = await getDb();
   return db.getAllAsync<SetWithProgress>(`
-    SELECT s.*, ${MASTERY_COLUMNS}
+    SELECT s.*, ${SET_FOLDER_COLUMN}, ${MASTERY_COLUMNS}
     FROM sets s
+    ${SET_FOLDER_JOIN}
     LEFT JOIN terms t ON t.set_id = s.id
     ${MASTERY_JOINS}
     WHERE s.folder_id IS NULL
@@ -110,8 +116,9 @@ export async function listLooseSets(): Promise<SetWithProgress[]> {
 export async function listAllSets(): Promise<SetWithProgress[]> {
   const db = await getDb();
   return db.getAllAsync<SetWithProgress>(`
-    SELECT s.*, ${MASTERY_COLUMNS}
+    SELECT s.*, ${SET_FOLDER_COLUMN}, ${MASTERY_COLUMNS}
     FROM sets s
+    ${SET_FOLDER_JOIN}
     LEFT JOIN terms t ON t.set_id = s.id
     ${MASTERY_JOINS}
     GROUP BY s.id
@@ -125,8 +132,9 @@ export async function listSetsInFolder(
   const db = await getDb();
   return db.getAllAsync<SetWithProgress>(
     `
-    SELECT s.*, ${MASTERY_COLUMNS}
+    SELECT s.*, ${SET_FOLDER_COLUMN}, ${MASTERY_COLUMNS}
     FROM sets s
+    ${SET_FOLDER_JOIN}
     LEFT JOIN terms t ON t.set_id = s.id
     ${MASTERY_JOINS}
     WHERE s.folder_id = ?
@@ -141,8 +149,9 @@ export async function getSet(id: string): Promise<SetWithProgress | null> {
   const db = await getDb();
   return db.getFirstAsync<SetWithProgress>(
     `
-    SELECT s.*, ${MASTERY_COLUMNS}
+    SELECT s.*, ${SET_FOLDER_COLUMN}, ${MASTERY_COLUMNS}
     FROM sets s
+    ${SET_FOLDER_JOIN}
     LEFT JOIN terms t ON t.set_id = s.id
     ${MASTERY_JOINS}
     WHERE s.id = ?
@@ -421,6 +430,13 @@ export type ImportPlan = {
   newTerms: number;
   updatedTerms: number;
   unchangedTerms: number;
+  /**
+   * Only ever non-zero for a content pack, which is the one import allowed to delete.
+   * Counted so the number is on screen before the button is pressed — it is the only
+   * part of an import that can take something away.
+   */
+  removedSets: number;
+  removedTerms: number;
 };
 
 type IncomingFolder = {
@@ -450,6 +466,12 @@ type IncomingSet = {
 
 /** Whatever the file carried, already normalised to the current shape. */
 export type ImportBundle = {
+  /**
+   * Set only by the file `npm run export:all` writes — this repo restating what the
+   * built-in content is. It is what licenses applyImport to delete; a normal export,
+   * which is a person sharing a set, may only add and update.
+   */
+  contentPack?: boolean;
   folders: IncomingFolder[];
   sets: IncomingSet[];
 };
@@ -467,6 +489,8 @@ export async function planImport(bundle: ImportBundle): Promise<ImportPlan> {
     newTerms: 0,
     updatedTerms: 0,
     unchangedTerms: 0,
+    removedSets: 0,
+    removedTerms: 0,
   };
 
   for (const folder of bundle.folders) {
@@ -495,6 +519,25 @@ export async function planImport(bundle: ImportBundle): Promise<ImportPlan> {
     }
   }
 
+  // What a content pack would delete: rows the content pipeline owns that the pack no
+  // longer carries. Diffed in memory rather than as a `NOT IN (?, ?, …)` because the
+  // id list is every content term there is, and SQLite caps how many parameters one
+  // statement may bind.
+  if (bundle.contentPack) {
+    const incomingSets = new Set(bundle.sets.map((s) => s.id));
+    const incomingTerms = new Set(bundle.sets.flatMap((s) => s.terms.map((t) => t.id)));
+
+    const setRows = await db.getAllAsync<{ id: string }>(
+      "SELECT id FROM sets WHERE source = 'content'"
+    );
+    const termRows = await db.getAllAsync<{ id: string }>(
+      "SELECT id FROM terms WHERE source = 'content'"
+    );
+
+    plan.removedSets = setRows.filter((r) => !incomingSets.has(r.id)).length;
+    plan.removedTerms = termRows.filter((r) => !incomingTerms.has(r.id)).length;
+  }
+
   return plan;
 }
 
@@ -503,10 +546,24 @@ export async function planImport(bundle: ImportBundle): Promise<ImportPlan> {
  * overwritten when the incoming copy is genuinely newer. Progress is never
  * written here — mastery is yours, not the sender's.
  *
+ * Nothing is ever deleted, because a normal import is a classmate handing you a set and
+ * a file someone sent you has no business removing your cards. The single exception is a
+ * content pack — see the branch below — which is this repo's own content arriving as a
+ * file rather than as a new APK, and is allowed the same prune a launch-time sync does.
+ *
  * Known limitation: if two people edit the same term, last import wins. There is
  * no merge. That is the accepted price of having no server.
  */
 export async function applyImport(bundle: ImportBundle): Promise<void> {
+  // A content pack is the contents/ pipeline arriving as a file instead of baked into
+  // the APK, so it means exactly what a launch-time sync means — including the prune
+  // that lets a deleted card actually disappear. Regroup it into the shape syncContent
+  // takes and hand it over: one implementation of that prune, not two to drift apart.
+  if (bundle.contentPack) {
+    await syncContent(toContentBundles(bundle));
+    return;
+  }
+
   const db = await getDb();
   const ts = now();
 
@@ -577,6 +634,23 @@ export type ContentBundle = {
   /** The bundle's folder is the folder — a content set never carries its own. */
   sets: Omit<IncomingSet, "folderId">[];
 };
+
+/**
+ * The flat export shape back into bundles: the folder stops sitting beside its sets and
+ * goes back to wrapping them.
+ *
+ * Every folder is kept, including one with no sets. An empty subject in contents/ is a
+ * deliberate "fill this in later", and dropping it here would hand syncContent a folder
+ * list that no longer mentions it — which reads as deleted.
+ */
+function toContentBundles(bundle: ImportBundle): ContentBundle[] {
+  return bundle.folders.map((folder) => ({
+    folder: { id: folder.id, name: folder.name },
+    sets: bundle.sets
+      .filter((set) => set.folderId === folder.id)
+      .map(({ folderId: _ignored, ...set }) => set),
+  }));
+}
 
 /**
  * Syncs the bundled contents/ pipeline into the database.
