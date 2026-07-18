@@ -1,0 +1,305 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Tour Guiding and Escorting"
+    }
+  ],
+  "sets": [
+    {
+      "id": "40e9860d-702f-4802-902e-a937f649c094",
+      "folderId": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Qualities of an Ideal Tour Guide",
+      "description": "The qualities of an ideal tour guide and the rules in tour guiding.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "9d3eb406-ee58-49ac-be72-e8021079a528",
+          "term": "Qualities of an Ideal Tour Guide",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Enthusiasm",
+            "Outgoing and Approachable",
+            "Confident",
+            "Proactive",
+            "Sensitivity",
+            "Flexible",
+            "Authenticity",
+            "Pleasant and Professional Appearance",
+            "Sense of Humor",
+            "Knowledgeable",
+            "Good Communication Skills",
+            "Organization",
+            "Decisiveness",
+            "Good Health",
+            "Personal Integrity",
+            "Charisma"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "45da8c68-d4ed-49f5-b2f4-3887f83b7b88",
+          "term": "Enthusiasm",
+          "kind": "standard",
+          "definition": "The most important characteristic of successful guides: a keen interest in the subject matter and the travelers that enables the guide to withstand mentally and physically exhausting experiences.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "e54d7b62-37eb-4b0c-b4ae-b0f613e15271",
+          "term": "Outgoing and Approachable",
+          "kind": "standard",
+          "definition": "Being friendly and open in many types of situations and encouraging others to do the same, since guides are in the business of meeting, welcoming, and working with strangers.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "8e123a4c-7989-445a-ba9b-53f59f46688c",
+          "term": "Confident",
+          "kind": "standard",
+          "definition": "A quality developed through self-esteem combined with experience; it enables guides to carry on their duties effectively, put people at ease, and help create enjoyable experiences.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "4cda5796-dd17-4429-ba52-32ca0c6fc89f",
+          "term": "Proactive",
+          "kind": "standard",
+          "definition": "The belief in initiating change and the readiness to take responsibility for it, often paired with strong optimism; it is essential for effective leadership in challenging and unpredictable situations that require swift solutions.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "dd8e4938-216a-47af-804f-7f56d31afb2c",
+          "term": "Sensitivity",
+          "kind": "standard",
+          "definition": "A wide range of human understanding; successful guides are compassionate, respectful, tactful, and observant, and are sensitive to the needs of tourists.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "129fd296-db04-4bf4-88c0-4cb0f79a895a",
+          "term": "Flexible",
+          "kind": "standard",
+          "definition": "The ability to be adaptable and patient, essential in the travel business where even the best planned itinerary may go wrong.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "b8930409-63e6-4ce4-a7dd-96892f184f59",
+          "term": "Authenticity",
+          "kind": "standard",
+          "definition": "Genuineness and honesty; most tourists trust guides who are honest and sincere.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "37437863-50ea-49cf-b005-bcd4d957d122",
+          "term": "Pleasant and Professional Appearance",
+          "kind": "standard",
+          "definition": "The quality reflecting that first impressions are often lasting and frequently based on one's physical appearance.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "3f8e3bfb-27ac-453d-a5ae-51f70dcdde45",
+          "term": "Sense of Humor",
+          "kind": "standard",
+          "definition": "The quality that can bring people closer together, put them at ease, and help make travel enjoyable instead of stressful and unpleasant.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "afeeeb20-1fce-45bd-8ebb-e76011b9e6de",
+          "term": "Knowledgeable",
+          "kind": "standard",
+          "definition": "Having a well-rounded understanding of various topics; because subject areas vary by region, guides must research and familiarize themselves with the local educational programs specific to each area.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "956395d1-eabd-454a-97cb-ee2f88f8468b",
+          "term": "Good Communication Skills",
+          "kind": "standard",
+          "definition": "The ability to communicate well, without which even the most knowledgeable and sensitive person will not succeed as a guide; it includes articulation, eye contact, gestures, and a clear, pleasant speaking voice.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "dc7e06ff-a768-4030-a3e8-98d6a00dbf25",
+          "term": "Organization",
+          "kind": "standard",
+          "definition": "Time management and organization skills, important for sticking to a schedule despite delays, meeting appointments, interacting with guests, and handling the paperwork behind every tour.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "c62cc98a-da74-42cb-b197-09e1957f7580",
+          "term": "Decisiveness",
+          "kind": "standard",
+          "definition": "The ability to make quick decisions, which may be unpopular or costly, especially during a tour emergency that requires spending the company's money or changing an itinerary.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "6a617356-9c70-42b0-9bcf-31d74406cc27",
+          "term": "Good Health",
+          "kind": "standard",
+          "definition": "Needed because guiding is strenuous, entailing a good deal of walking, long and irregular hours, different diets, and the stress of always being in the spotlight.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "59166368-4106-4fd7-8c5f-56025a8e8726",
+          "term": "Personal Integrity",
+          "kind": "standard",
+          "definition": "A strong sense of ethics essential to success; guides have a moral responsibility to themselves, their employers, colleagues, travelers, and even to their regions.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "09915c7c-61ba-42c8-9883-1b9ce4022dcf",
+          "term": "Charisma",
+          "kind": "standard",
+          "definition": "Defined as a personal magic of leadership arousing popular loyalty or enthusiasm; it is the combination of the many traits a guide should possess, and some level of it is evident in most successful guides.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "705d0522-439d-4115-aee1-31598cf004f7",
+          "term": "4 Elements of Good Communication Skills",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Articulation",
+            "Eye contact",
+            "Gestures",
+            "Clear, pleasant speaking voice"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "d402e43b-a578-4d0d-b9fa-9e96411b6524",
+          "term": "9 Rules in Tour Guiding",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Professional Conduct",
+            "Punctuality and Preparation",
+            "Accurate Information",
+            "Safety First Rule",
+            "Respect for Culture and Environment",
+            "Group Management",
+            "Communication Standards",
+            "Compliance with Laws and Policies",
+            "Customer Service Excellence"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "9f71dc19-fdbb-4575-b96f-0e4357914241",
+          "term": "Professional Conduct",
+          "kind": "standard",
+          "definition": "The rule that tour guides must act professionally at all times by being polite, respectful, and responsible.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "ba6bb71c-e37b-488d-9ff7-d558d767d70a",
+          "term": "Punctuality and Preparation",
+          "kind": "standard",
+          "definition": "The rule that being on time and well-prepared ensures smooth tour operations and avoids delays.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "d5dc3ce3-791b-4954-b93d-7cdb22b84ffd",
+          "term": "Accurate Information",
+          "kind": "standard",
+          "definition": "The rule that only verified and correct information must be shared with tourists.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "e825d1c5-129f-4db7-a657-f965aa279232",
+          "term": "Safety First Rule",
+          "kind": "standard",
+          "definition": "The rule that the safety of tourists must always be the top priority in every activity.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "25d1982b-e6fc-4c9e-9f9b-0cfa5f4115a8",
+          "term": "Respect for Culture and Environment",
+          "kind": "standard",
+          "definition": "The rule that tour guides must respect local traditions and encourage responsible tourism behavior.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "6abe8f0d-08b3-4633-9f07-8b43f20f1c90",
+          "term": "Group Management",
+          "kind": "standard",
+          "definition": "The rule that a tour guide must ensure that all tourists are organized, accounted for, and safe.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "94539e92-388b-499b-880d-b23c1c40e338",
+          "term": "Communication Standards",
+          "kind": "standard",
+          "definition": "The rule that clear and understandable communication is essential for effective guiding.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "5532168f-7cee-4a9f-a13d-cb92af4a02c0",
+          "term": "Compliance with Laws and Policies",
+          "kind": "standard",
+          "definition": "The rule that all local rules, tourism regulations, and company policies must be strictly followed.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "499cb852-33a0-4fd2-a820-f8126adb7baa",
+          "term": "Customer Service Excellence",
+          "kind": "standard",
+          "definition": "The rule that tour guides should provide excellent service and handle concerns professionally.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        }
+      ]
+    }
+  ]
+}

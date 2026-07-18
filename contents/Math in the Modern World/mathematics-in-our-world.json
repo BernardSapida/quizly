@@ -1,0 +1,123 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "969b66e1-751e-4e1a-b340-90f555370b65",
+      "name": "Math in the Modern World"
+    }
+  ],
+  "sets": [
+    {
+      "id": "70a98651-1741-4b6b-b87f-8995482193e9",
+      "folderId": "969b66e1-751e-4e1a-b340-90f555370b65",
+      "name": "Mathematics in Our World",
+      "description": "Key terms on mathematics in nature: patterns, symmetry, the Fibonacci sequence, and the Golden Ratio.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "853e10b4-9400-4c39-91ef-5646800e8237",
+          "term": "Mathematics",
+          "kind": "standard",
+          "definition": "An area of knowledge that includes the topics of numbers, formulas and related structures, shapes and the spaces in which they are contained, and quantities and their changes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "ff1b7be3-ec33-403b-9172-b478856a2ca3",
+          "term": "Applications of Mathematics in the World",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Farming and gardening",
+            "Planning a market list and grocery shopping",
+            "Daily routine",
+            "Long and short travels"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "1c6d558a-97d8-4545-87e0-3025d2ff5649",
+          "term": "Pattern",
+          "kind": "standard",
+          "definition": "Regular, repeated, recurring forms and designs; used to identify relationships and find logical connections to form generalizations.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "7cf733b6-c48a-4935-92bf-26215cc9a522",
+          "term": "Symmetry",
+          "kind": "standard",
+          "definition": "Indicates that you can draw an imaginary line across an object and the resulting parts are mirror images of each other.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "bfdf74cc-00c4-495d-a24f-2c0b18bbde5a",
+          "term": "Fibonacci sequence",
+          "kind": "standard",
+          "definition": "An integer in the infinite sequence that starts with 1, 1, 2, 3, 5, 8, 13, ..., of which the first two terms are 1 and 1 and each succeeding term is the sum of the two immediately preceding.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "ac69b6c1-1767-4d64-b472-b5efd2ba5274",
+          "term": "Leonardo Pisano Bogollo",
+          "kind": "standard",
+          "definition": "The greatest mathematician of the Middle Ages, born in 1170 and died in 1240; he introduced the Arabic number system in Europe.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "244fc293-9685-410c-82c9-3d0ea2dd9ba6",
+          "term": "Jacques Philippe Marie Binet",
+          "kind": "standard",
+          "definition": "A French mathematician, physicist, and astronomer, born in Rennes and died in Paris, France, in 1856; the closed-form formula expressing Fibonacci numbers is named in his honor.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "e1c2250c-17ae-4201-94b4-04431af44fb2",
+          "term": "Binet's Formula",
+          "kind": "standard",
+          "definition": "The closed-form formula used to find the nth Fibonacci number.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "8b56fed9-d38c-478c-889a-947fbc3f6756",
+          "term": "Golden Ratio",
+          "kind": "standard",
+          "definition": "Usually rounded off to 1.618; it appears in all forms of nature and science, including some unexpected places such as seed heads, shells, spiral galaxies, hurricanes, DNA molecules, and animal bodies.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "0592f553-ec14-43db-9b26-1bce7270f959",
+          "term": "Places Where the Golden Ratio Appears in Nature",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Seed heads",
+            "Shells",
+            "Spiral galaxies",
+            "Hurricanes",
+            "DNA molecules",
+            "Animal bodies"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 9
+        }
+      ]
+    }
+  ]
+}

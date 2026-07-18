@@ -1,0 +1,476 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Tour Guiding and Escorting"
+    }
+  ],
+  "sets": [
+    {
+      "id": "0927550c-498a-41ca-b8db-69c5320a821a",
+      "folderId": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "General Overview of Tour Guiding Concept",
+      "description": "History of tour guiding, core definitions, the four perspectives of tourism, and the types of tours and tour guides.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "edf56032-a46d-467d-a1f3-53ef032f87d7",
+          "term": "Tour Guiding",
+          "kind": "standard",
+          "definition": "One of the most promising and rewarding yet difficult careers in the hospitality business; before one can pursue it, he or she must perfect particular talents and gain specialized knowledge.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "565201e8-c2c9-4059-a5a1-cfc85f85ca46",
+          "term": "Tour Guide",
+          "kind": "standard",
+          "definition": "A person who escorts individual visitors or people in organized tours to various places of interest while providing assistance and information for a safe, comfortable, and entertaining or appropriate tour experience.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "1fd0dd25-1446-42ff-9ef2-e92898142125",
+          "term": "Tour Escort",
+          "kind": "standard",
+          "definition": "A qualified person who accompanies people traveling through different countries and abroad to ensure the regular running of the planned trips, providing the necessary support services for its entire duration and giving significant information about the site.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "dbf648ca-2e2c-4b3f-9f5c-8fc45d3cc793",
+          "term": "4 Periods in the History of Tour Guiding",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Ancient Empire",
+            "Middle Ages",
+            "Renaissance and Grand Tour",
+            "Modern Age"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "1a1e3b88-2689-4b26-b74b-21f274d4fd64",
+          "term": "3 Ancient Greek Terms for Guides",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Periegetai",
+            "Exegetai",
+            "Proxemos"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "a0121736-1cc1-4965-8112-064ec10a46b0",
+          "term": "Periegetai",
+          "kind": "standard",
+          "definition": "Ancient Greek term for guides meaning 'Leaders Around.'",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "3c2f3e98-89d2-45aa-96db-5f41bb9765e5",
+          "term": "Exegetai",
+          "kind": "standard",
+          "definition": "Ancient Greek term for guides meaning 'Explainers.'",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "c00b88cd-8120-4e48-abf2-c9f8f07a3cb0",
+          "term": "Proxemos",
+          "kind": "standard",
+          "definition": "Ancient Greek term for guides meaning 'Helpers Abroad.'",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "d691328e-ece3-4d18-8c2d-8d561a3a0344",
+          "term": "3 Roles of the Guide in the Middle Ages",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pathfinder",
+            "Protector",
+            "Bridge"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "e58263cf-ea7a-423d-b314-25a66e1a1527",
+          "term": "Grand Tour",
+          "kind": "standard",
+          "definition": "When young upper-class men toured Europe as part of their education, accompanied by personal tutors.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "bf8ab308-952b-4e1a-91a3-b853923d06a6",
+          "term": "Cicerone",
+          "kind": "standard",
+          "definition": "The personal tutor, also called a bear leader, who accompanied young upper-class men on the Grand Tour; expected to be multilingual and deeply knowledgeable.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "1017115c-5c9e-4957-9447-a1c97e6226ae",
+          "term": "3 Areas a Cicerone Was Expected to Know",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "History and classical literature",
+            "Architecture and the arts",
+            "Current affairs and diplomacy"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "706b8d07-ff84-47b1-890e-717ae016685a",
+          "term": "3 Notable Travel Writers of the Modern Age",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Charles Dickens",
+            "Francis Trollope",
+            "Alexis de Tocqueville"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "e293c950-e076-498a-8740-7a925fafee2a",
+          "term": "7 Importance of Tour Guiding in the Tourism Industry",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Enhances tourist experience",
+            "Promotes cultural awareness and appreciation",
+            "Ensures safety and organization",
+            "Supports local economy",
+            "Strengthens destination image",
+            "Acts as a communication bridge",
+            "Encourages sustainable tourism"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "a3ae4d8c-3d73-484c-bea8-ddff15a2df04",
+          "term": "4 Perspectives of Tourism",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "The Tourist",
+            "The Private Sector",
+            "The Government Sector",
+            "The Host Community"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "0ebf26b6-1e4a-4a46-b0ac-bdc9544dc084",
+          "term": "The Tourist",
+          "kind": "standard",
+          "definition": "The perspective that seeks various psychic and physical experiences and satisfactions; their nature largely determines the destinations chosen and the activities enjoyed.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "0154fd3b-9be7-44a1-b278-08c63eb44d6b",
+          "term": "The Private Sector",
+          "kind": "standard",
+          "definition": "The perspective of the businesses providing tourist goods and services, which see tourism as an opportunity to make a profit by supplying the goods and services that the tourist markets demand.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "8c521372-674e-4e34-8ade-ea7606b6f723",
+          "term": "The Government Sector",
+          "kind": "standard",
+          "definition": "The perspective that sees tourism as a tool for economic development and national growth, responsible for creating policies, infrastructure, and regulations that support tourism while ensuring sustainability, safety, and cultural preservation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "e9725501-93fe-4cce-a683-29e17f6fb8fd",
+          "term": "The Host Community",
+          "kind": "standard",
+          "definition": "The perspective that looks at how tourism affects the local people and their environment, including both positive impacts and negative effects; community support is essential for sustainable tourism development.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "29da40ae-d0ad-4609-8d71-3983702b420b",
+          "term": "Types of Tour",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Daily-run Tour",
+            "Specially Arranged Tour",
+            "Seat-in Coach",
+            "Walking Tour",
+            "Museum Tour",
+            "Plant Tour",
+            "Eco-tour",
+            "Pilgrimage Tour",
+            "Other Specialized Tour"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "1fa1bfef-0ecd-40f4-a5cc-608bc022581c",
+          "term": "Daily-run Tour",
+          "kind": "standard",
+          "definition": "A type of guided tour that operates every day on a regular schedule, allowing tourists to join without needing a special booking for a custom trip.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "4987c41e-1038-4765-986a-54abbd0af121",
+          "term": "Specially Arranged Tour",
+          "kind": "standard",
+          "definition": "A tour specially arranged based on the specific needs of the tourist, normally not conducted regularly.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "91df5b11-8064-4cb4-b231-3ff69d01d78f",
+          "term": "Seat-in Coach",
+          "kind": "standard",
+          "definition": "A trip in which various tour members meet at different locations but travel to the same destination, not having known each other before joining the trip group.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "d4165ef6-0f73-4134-8f4d-0dd7ff63dbcf",
+          "term": "Walking Tour",
+          "kind": "standard",
+          "definition": "A type of tour where tourists have to do a lot of walking to see the different aspects of the tour.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "7f4329b3-f421-488e-9d8a-2f852fa36eff",
+          "term": "Museum Tour",
+          "kind": "standard",
+          "definition": "A visit to different museums as the main part of the tour; it could be a whole or half day of museum visits.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "c63e4879-63f6-4559-8000-b90cd3ea2f81",
+          "term": "Plant Tour",
+          "kind": "standard",
+          "definition": "A tour where students visit an actual facility or company related to their topic of study, with in-house speakers delivering lectures and participants touring the company's departments to support real observation and gain hands-on experience.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "4e8ce793-c25f-4cda-a078-8591e97242b8",
+          "term": "Eco-tour",
+          "kind": "standard",
+          "definition": "A tour of different ecological areas with a focus on environmental protection; it typically includes walking, hiking, and interaction with the locals.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "d52ab4d7-539f-4b19-bcf1-c4be35f5fee7",
+          "term": "Pilgrimage Tour",
+          "kind": "standard",
+          "definition": "A visit to religious and worship places like churches and mission houses.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "6bbbd114-44d8-4809-9e4d-d7fdafe96d96",
+          "term": "Other Specialized Tour",
+          "kind": "standard",
+          "definition": "A tour conducted for a specific type of tourist, such as going to a faith healer, shooting a film, agri-tourism, or any other tour of special interest.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "660c2a74-238e-485f-8831-c0ca26b4b2a1",
+          "term": "14 Types of Tour Guides",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "On-site Guide",
+            "Docent",
+            "City Guide",
+            "Driver Guide",
+            "Private Guide",
+            "Specialized Guide",
+            "Step-on Guide",
+            "Local Guide",
+            "Specialist Guide",
+            "Linguist Guide",
+            "Staff Guide",
+            "Freelance Guide",
+            "Indigenous Guide",
+            "Nature-based Guide"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "65a0650e-6b0e-424d-9a78-95fef6f1535c",
+          "term": "On-site Guide",
+          "kind": "standard",
+          "definition": "Conducts one- or several-hour tours of a certain location, site, or building; a museum curator is another type of this guide.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "ab102c75-de81-4865-bf19-98dc1079c13b",
+          "term": "Docent",
+          "kind": "standard",
+          "definition": "A volunteer guide who normally works in a small museum and often works for free.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 31
+        },
+        {
+          "id": "5e6abcd8-92a2-4f17-9d77-bfb874325392",
+          "term": "City Guide",
+          "kind": "standard",
+          "definition": "Points out and comments on the highlights of a city, usually from a motor coach, minibus, or van, but sometimes as part of a walking tour.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 32
+        },
+        {
+          "id": "3b409744-cbd7-40fd-955d-8846ad372067",
+          "term": "Driver Guide",
+          "kind": "standard",
+          "definition": "A city guide who does double duty by driving and narrating.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 33
+        },
+        {
+          "id": "db530c23-8dc6-426e-87eb-560ca618ed5f",
+          "term": "Private Guide",
+          "kind": "standard",
+          "definition": "A guide whose services may be available at a reasonable price, taking a small number of individuals on their own exclusive tour.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 34
+        },
+        {
+          "id": "f7ff8170-4339-4a47-902e-70e49c6d28f9",
+          "term": "Specialized Guide",
+          "kind": "standard",
+          "definition": "Someone whose expertise or skills are highly unique; for example, adventure guides lead unusual, physically demanding tour experiences.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 35
+        },
+        {
+          "id": "9725125b-86ac-47a6-b669-376b94cc6b1f",
+          "term": "Step-on Guide",
+          "kind": "standard",
+          "definition": "A 'specialist' who boards motor coaches to provide an informed overview of the city to be toured.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 36
+        },
+        {
+          "id": "b2897532-53d5-49a7-b85f-bb00b78f9531",
+          "term": "Local Guide",
+          "kind": "standard",
+          "definition": "A person competent enough to give information on a certain area or locality.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 37
+        },
+        {
+          "id": "4be200d8-53ca-4556-918e-f113ebc9cac3",
+          "term": "Specialist Guide",
+          "kind": "standard",
+          "definition": "A person who specializes in a certain field such as botany, architecture, or zoology.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 38
+        },
+        {
+          "id": "191d77aa-1710-44e3-ab7a-29c1b3a6fa86",
+          "term": "Linguist Guide",
+          "kind": "standard",
+          "definition": "A person fluent in two or more foreign languages.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 39
+        },
+        {
+          "id": "80e7ace9-b457-4bd4-981c-b1eae610ace1",
+          "term": "Staff Guide",
+          "kind": "standard",
+          "definition": "A person permanently connected with a travel agency, paid monthly.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 40
+        },
+        {
+          "id": "b64b3a91-9f31-420a-a20f-acbd92701123",
+          "term": "Freelance Guide",
+          "kind": "standard",
+          "definition": "A person who is not permanently connected with a travel agency, paid per trip.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 41
+        },
+        {
+          "id": "f0be2d63-9265-4a85-b3bc-32e965a53795",
+          "term": "Indigenous Guide",
+          "kind": "standard",
+          "definition": "A guide with a native or aboriginal background who has a deep understanding of their culture.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 42
+        },
+        {
+          "id": "0e0c5482-873e-47d6-85c6-f887f8d7a9bb",
+          "term": "Nature-based Guide",
+          "kind": "standard",
+          "definition": "A guide who is a specialist in environmental knowledge.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 43
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Tour Guiding and Escorting"
+    }
+  ],
+  "sets": [
+    {
+      "id": "75164bdb-e1c9-4ded-8287-f8a89db99451",
+      "folderId": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "The Tour and the Tour Guide",
+      "description": "The elements of tour guiding and the five roles of tour guides.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "0377f209-780e-4f9b-89af-2f4200b4f91d",
+          "term": "5 Elements of Tour Guiding",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Professionalism",
+            "Service",
+            "Interpretation",
+            "Physical Elements",
+            "Characteristics of a Tour Guide"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "f5231fbe-4416-43f2-bd4d-2337f8d406d3",
+          "term": "Professionalism",
+          "kind": "standard",
+          "definition": "Before becoming a tour guide, a person must undergo a training program and acquire a license to practice legally.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "c084608d-c198-4da8-8e88-2af8680d35fe",
+          "term": "Service",
+          "kind": "standard",
+          "definition": "A form of product that is intangible, perishable, and one whose production and consumption happen simultaneously.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "30175f2d-561a-4be0-b666-c0b7954d75b9",
+          "term": "Interpretation",
+          "kind": "standard",
+          "definition": "One of the tour guide's roles: to educate tourists about the meanings and significance of cultural attractions.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "025533fc-b2e7-4af4-829d-2811f35081b2",
+          "term": "Physical Elements",
+          "kind": "standard",
+          "definition": "The tangible parts a tour guide combines with service to create the total tourism experience for clients; they include hotel facilities, transport vehicles, parks, and museums.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "b192942b-296b-41a6-9b89-7e0534021f14",
+          "term": "Characteristics of a Tour Guide",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Mature",
+            "Responsible",
+            "Patient",
+            "Tactful",
+            "Sensitive to different cultures",
+            "Articulate",
+            "Quick-witted",
+            "Organized",
+            "Healthy"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "eda522d0-3443-4b63-8262-a0c0d2afe889",
+          "term": "5 Roles of Tour Guides",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Leader",
+            "Educator",
+            "Public Relations Representative",
+            "Host",
+            "Conduit"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "c926d08c-a2b2-4ab7-a523-6f92b5daa1e8",
+          "term": "Leader",
+          "kind": "standard",
+          "definition": "The role in which the guide must have many of the skills required of leaders and managers in business, such as a willingness to assume responsibility, the ability to organize and make wise decisions, the strength to respond to emergencies, and the skill to coordinate many administrative tasks simultaneously.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "cfa57433-b4b6-4f84-a1b1-3861f7c03955",
+          "term": "Educator",
+          "kind": "standard",
+          "definition": "The role reflecting that if travel is a classroom and travelers are students, then the guides are these, teaching subjects such as history, architecture, and geography.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "ae5d112f-81fc-4823-b1de-b8a21bf53c3f",
+          "term": "Public Relations Representative",
+          "kind": "standard",
+          "definition": "The role for which tour guides are frequently called ambassadors, because of the personal connections they create between places and visitors and the diplomatic skills required of them.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "395120e1-462b-4480-9df4-54b09cf6eb20",
+          "term": "Host",
+          "kind": "standard",
+          "definition": "The role of one who enjoys people and creates an environment in which people feel comfortable, is sensitive to others' needs, and has a genuine interest in travelers as the most important element.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "0756ceb1-41a2-48c8-8808-e61eccc7dad0",
+          "term": "Conduit",
+          "kind": "standard",
+          "definition": "The role as a channel link, considered the most important; it cannot be separated from any other role and emphasizes the importance of the visitor, the local culture, and the travel experience rather than the guide's performance.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "50c5cbdb-1d7e-449f-a775-779e34275ad2",
+          "term": "2 Components of Leadership",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Instrumental Component",
+            "Social Component"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "446fa436-4067-458a-9aee-07062239cccd",
+          "term": "Instrumental Component",
+          "kind": "standard",
+          "definition": "The component of leadership that includes navigating, providing special access, shepherding, and maintaining control.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "8f02145c-ab79-42f4-948a-679a12e30d79",
+          "term": "Social Component",
+          "kind": "standard",
+          "definition": "The component of leadership that includes tension management, integrating the group, keeping good humor and morale, and entertaining members of the tour.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        }
+      ]
+    }
+  ]
+}

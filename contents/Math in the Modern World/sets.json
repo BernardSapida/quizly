@@ -1,0 +1,256 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "969b66e1-751e-4e1a-b340-90f555370b65",
+      "name": "Math in the Modern World"
+    }
+  ],
+  "sets": [
+    {
+      "id": "ca7fa4a4-4fd0-4fb3-a17d-354eb7e3a764",
+      "folderId": "969b66e1-751e-4e1a-b340-90f555370b65",
+      "name": "Sets",
+      "description": "Set theory basics: ways to describe sets, kinds of sets, set relations, subsets, and set operations.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "18b9c750-b065-4176-a7ed-e82c34b5296e",
+          "term": "Set",
+          "kind": "standard",
+          "definition": "A well-defined collection of distinct objects, whose members or elements can be numbers, people, and other sets.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "7cb2f4b8-9647-441c-9f32-1b1a1be9c586",
+          "term": "3 Ways to Describe a Set",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Verbal Description Method",
+            "Roster Method",
+            "Rule Method"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "da8b787a-0a1e-47d6-af71-a2d2eae75ab6",
+          "term": "Verbal Description Method",
+          "kind": "standard",
+          "definition": "A method of describing sets in the form of a sentence.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "25a77bc6-55a5-4672-9d09-d061b41b88e2",
+          "term": "Roster Method",
+          "kind": "standard",
+          "definition": "A method in which the elements of the given set are listed or enumerated, separated by commas, inside a pair of braces.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "8ca3d12b-dc6a-4e6e-9e03-7b97dfae8d7e",
+          "term": "Rule Method",
+          "kind": "standard",
+          "definition": "A method in which the common characteristic of the elements is defined, using the form {x/x...}.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "aeedba0e-3003-4b00-8786-7efa4f3fb1da",
+          "term": "4 Kinds of Sets",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Empty Set",
+            "Universal Set",
+            "Finite Set",
+            "Infinite Set"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "b8dbef6a-cefe-45fb-aca9-00b33689622e",
+          "term": "Empty Set",
+          "kind": "standard",
+          "definition": "A set with no element.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "f6ba9776-4333-4b81-9120-70b511173da0",
+          "term": "Universal Set",
+          "kind": "standard",
+          "definition": "The totality of the elements of the sets.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "41426a66-4048-4883-ab23-362fae0ff6fb",
+          "term": "Finite Set",
+          "kind": "standard",
+          "definition": "A set with countable elements.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "6e0ce588-75c9-46f3-bc38-98bed26aab8a",
+          "term": "Infinite Set",
+          "kind": "standard",
+          "definition": "A set with uncountable elements.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "f24a23eb-5fe4-4e60-bab3-b48abb73b52c",
+          "term": "4 Relations of Two or More Sets",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Equal Sets",
+            "Equivalent Sets",
+            "Joint Sets",
+            "Disjoint Sets"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "0f58088e-2035-4320-9eee-15711135e3a9",
+          "term": "Equal Sets",
+          "kind": "standard",
+          "definition": "Sets that have the same elements.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "26c5410f-223f-4939-9d19-f560f30b519c",
+          "term": "Equivalent Sets",
+          "kind": "standard",
+          "definition": "Sets that have the same number of elements.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "b3bf1cf4-1e14-400a-aab6-eef1a14d7d13",
+          "term": "Joint Sets",
+          "kind": "standard",
+          "definition": "Sets that have at least one common element.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "723f2398-232c-424b-bebe-935a3cd141e4",
+          "term": "Disjoint Sets",
+          "kind": "standard",
+          "definition": "Sets that have no common element.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "799b5c61-6f83-46e7-b4ca-81a636fc2971",
+          "term": "Subset",
+          "kind": "standard",
+          "definition": "A set every element of which can be found on a bigger set.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "6322d1e4-52bc-462f-8007-eed773f0bf11",
+          "term": "Improper Subset",
+          "kind": "standard",
+          "definition": "A subset in which the first set is equal to the second set.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "ac928126-800e-4fcf-9370-3bf87c2e3f58",
+          "term": "Proper Subset",
+          "kind": "standard",
+          "definition": "A subset in which the first set is not equal to the second set.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "4ccaf9ed-12e6-4b17-b7da-f5a9228da9d9",
+          "term": "Power Set",
+          "kind": "standard",
+          "definition": "Used to know the number of subsets; equal to 2^n, where n is the number of elements.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "a8159058-ef9a-478a-97b9-47091baf58de",
+          "term": "4 Operations Performed on Sets",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Union",
+            "Intersection",
+            "Difference",
+            "Complement"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "ca6f8fab-9f5c-4062-b61b-617d78eb1ac1",
+          "term": "Union",
+          "kind": "standard",
+          "definition": "The operation whose elements are found in set A or set B or in both.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "8a58bf5f-0175-4256-bc39-1355053c5f21",
+          "term": "Intersection",
+          "kind": "standard",
+          "definition": "The operation whose elements are found in set A and set B.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "414e5550-4ece-4905-8cf9-4a0e78144fc0",
+          "term": "Difference",
+          "kind": "standard",
+          "definition": "The operation whose elements are found in A but not in set B.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "b9aaaa81-f0b9-4ae1-a15a-5feb1b97f6ab",
+          "term": "Complement",
+          "kind": "standard",
+          "definition": "The operation whose elements are found in the universal set but not in set A.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        }
+      ]
+    }
+  ]
+}

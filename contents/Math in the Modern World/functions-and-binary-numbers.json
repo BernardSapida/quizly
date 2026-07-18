@@ -1,0 +1,71 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "969b66e1-751e-4e1a-b340-90f555370b65",
+      "name": "Math in the Modern World"
+    }
+  ],
+  "sets": [
+    {
+      "id": "3d627b87-2e58-4620-b655-1cbf1a41453b",
+      "folderId": "969b66e1-751e-4e1a-b340-90f555370b65",
+      "name": "Functions and Binary Numbers",
+      "description": "Functions (domain, range, and their operations) and binary numbers.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "b1fbf41b-2c82-4989-8c3a-f7ef76e18cbb",
+          "term": "Function",
+          "kind": "standard",
+          "definition": "An equation that relates or connects one set into other sets, transforming an input (the domain) into an output (the range).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "3e6bde0d-ec45-410a-885c-fe70a1380379",
+          "term": "Domain",
+          "kind": "standard",
+          "definition": "The input of a function; the set of X values.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "6596b831-0be7-45a9-9da6-ab7ed95ae200",
+          "term": "Range",
+          "kind": "standard",
+          "definition": "The output of a function; the set of Y or f(x) values.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "f6b764fe-9c0f-4602-8020-0961ec4e24ff",
+          "term": "4 Operations of Functions",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Addition",
+            "Subtraction",
+            "Multiplication",
+            "Division"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "b8facb51-ed31-4413-a63b-3b5e4d7f4695",
+          "term": "Binary Number",
+          "kind": "standard",
+          "definition": "A number that belongs to the base 2 number system, made up of only 0's and 1's; it is written with a subscript 2 to distinguish it from a decimal number.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        }
+      ]
+    }
+  ]
+}
