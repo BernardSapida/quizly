@@ -1,0 +1,278 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Purposive Communication"
+    }
+  ],
+  "sets": [
+    {
+      "id": "3020c8f6-e401-4839-b8a1-57bb791c8273",
+      "folderId": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Public Speaking",
+      "description": "The nature and history of public speaking, its key figures, and Philippine traditions.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "2eddf868-2100-42e7-a537-7d72ead24342",
+          "term": "Public Speaking",
+          "kind": "standard",
+          "definition": "A process of communicating purposeful information in front of an audience. It is usually face-to-face and in a formal setting where the aim of the speaker is to influence the listeners.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "b74f3fab-274a-45e8-b2c0-eaf0b5db2121",
+          "term": "5 Periods in the History of Public Speaking",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Classical Period",
+            "Medieval Period",
+            "The Renaissance",
+            "The Enlightenment",
+            "New School"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "252e5245-1def-4478-a2e2-33341ed76faf",
+          "term": "Corax",
+          "kind": "standard",
+          "definition": "The Greek teacher of rhetoric who, with his student Tisias, helped citizens speak persuasively in courts of law. According to him, a basic speech has three parts, and this simple organization has endured throughout the ages.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "5cd0a8fe-acc0-4e53-a3ba-c0963a0bc196",
+          "term": "3 Parts of a Basic Speech according to Corax",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Introduction",
+            "Evidence",
+            "Conclusion"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "032b4015-9fcf-4b50-9236-227d01bdedfb",
+          "term": "Protagoras",
+          "kind": "standard",
+          "definition": "The father of debate, who made his students argue for and against issues of the day, to sharpen their reasoning skills and appreciate different sides of an issue.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "4b743651-1389-4534-92f4-dc58ee5ad2d4",
+          "term": "Aristotle",
+          "kind": "standard",
+          "definition": "Also known as the father of modern communication; wrote a treatise entitled “Rhetoric,” where he discussed the use of logos, pathos, and ethos in persuasive speaking.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "3a6e92b5-0c42-47b2-8d69-026c4e89a56b",
+          "term": "Ethos",
+          "kind": "standard",
+          "definition": "Refers to ethics, meaning a speaker must radiate moral character to create an aura of trust and authority in the audience; the speaker's character and credibility.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "63e424cf-b8f6-46cb-bc17-b0548b0628de",
+          "term": "Logos",
+          "kind": "standard",
+          "definition": "Means supporting your speech with logical reasoning in the form of facts, figures, and evidence, and one of the most effective ways of helping the audience get to the conclusion of an argument on their own.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "084e292f-b6d6-44f2-8d08-1a32b1df9f9c",
+          "term": "Pathos",
+          "kind": "standard",
+          "definition": "Refers to adding an emotional touch to your speech, so as to cater to the audience's emotions.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "db133ddc-ed97-43a7-82ce-067bd73d5639",
+          "term": "3 Modes of Persuasion discussed by Aristotle",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Ethos",
+            "Logos",
+            "Pathos"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "f33f7e0c-ee31-4eb6-9f59-f924db576bb4",
+          "term": "Demosthenes",
+          "kind": "standard",
+          "definition": "The most famous orator in Ancient Greece. In the beginning he had many flaws in public speaking, chief among them his stammer and weak voice; he practiced earnestly by declaiming on the seashore with pebbles in his mouth, and his speeches were known for their deliberation and forethought.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "c346ce94-73a0-4faa-8eff-255b1c530e98",
+          "term": "Cicero",
+          "kind": "standard",
+          "definition": "The most famous Roman orator, whose eloquence was described as a “resistless torrent.” A statesman who argued that the teaching of rhetoric should be considered an art form useful in all practical and public affairs, and who developed the Five Canons of Rhetoric.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "87554054-31f0-4d9f-8ee6-2df96bf6c854",
+          "term": "The Five Canons of Rhetoric",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Invention",
+            "Arrangement",
+            "Style",
+            "Memory",
+            "Delivery"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "06292154-4147-4a78-adfd-6d6ade0eb643",
+          "term": "Quintilian",
+          "kind": "standard",
+          "definition": "The Roman lawyer and educator who forwarded the idea that public speakers should be ethical; he described the ideal speaker as “a good man speaking well.”",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "89e79bcc-d431-441a-a122-d7f75e883c6f",
+          "term": "St. Augustine",
+          "kind": "standard",
+          "definition": "A Christian clergyman and renowned rhetorician who continued to develop ideas and study the persuasion that had originated during the Classical Period.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "83ef1519-4cf3-4a83-9812-28bc8abb3c1b",
+          "term": "Petrus Ramus",
+          "kind": "standard",
+          "definition": "Challenged the theories of the great scholars from the Classical Period and focused on logic rather than rhetoric; according to him, logic falls under two parts.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "eecadaae-9772-4b45-aa0e-12abbdfa9149",
+          "term": "2 Parts of Logic according to Petrus Ramus",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Invention",
+            "Judgment"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "7f87fee2-5587-4b45-9bed-d2d600d9c5c0",
+          "term": "George Campbell",
+          "kind": "standard",
+          "definition": "A Scottish minister and educator who used scientific and moral reasoning to understand how persuasion in speech works.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "3137bdd7-c243-4ed8-baba-31a9a337b6c5",
+          "term": "Elocutionary approach",
+          "kind": "standard",
+          "definition": "An approach that mainly focused on the delivery aspect of public speaking, namely tone of voice, gestures, body language, facial expressions, and pronunciations.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "12c5373f-21ef-47c4-9b82-c809bcc8e428",
+          "term": "New School",
+          "kind": "standard",
+          "definition": "Considered public speaking as a separate field of study; communication departments have professors or instructors to teach about classical and modern rhetoric.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "61093811-46f6-4500-8022-dcf7eb4af1f4",
+          "term": "Toastmasters",
+          "kind": "standard",
+          "definition": "A training organization that aims at teaching its members public speaking skills.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "e0b208e5-c042-48be-9e8f-a099b173ef5b",
+          "term": "Babaylans",
+          "kind": "standard",
+          "definition": "In pre-colonial times, women who were allowed to speak in public for the purpose of presiding over religious rituals; along with the warriors of the community, they were the leaders of pre-colonial Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "b65288e7-de5b-4e36-8e06-3301af425a2d",
+          "term": "Mandirigma",
+          "kind": "standard",
+          "definition": "The warriors of the community who, along with the babaylans, were the leaders of pre-colonial Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "89cc1981-9f35-4f79-b201-cc7b4cc32603",
+          "term": "Karagatan",
+          "kind": "standard",
+          "definition": "A game wherein young men and women duel with each other using words when it comes to talking about love.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "f61caa17-c1e8-493f-8903-2fbe09dfa884",
+          "term": "Balagtasan",
+          "kind": "standard",
+          "definition": "A poetic joust staged to honor Francisco Balagtas; like an ordinary debate except that one has to reason and argue in verse, with two master poets defending the pros and cons of an issue and a board of judges determining the winner.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "d4cc224a-777b-421b-beac-4fcfb4eb9edb",
+          "term": "Huego de Prenda",
+          "kind": "standard",
+          "definition": "A game used to entertain guests and the bereaved family during wakes.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        }
+      ]
+    }
+  ]
+}

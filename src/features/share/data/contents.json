@@ -4712,7 +4712,556 @@
         "id": "00d9bd48-8b93-5399-b6e0-22a1a869b1bf",
         "name": "Purposive Communication"
       },
-      "sets": []
+      "sets": [
+        {
+          "id": "4eac1461-2238-442d-921c-d65b3aeb5338",
+          "name": "Best Practices of Public Speaking",
+          "description": "Practical techniques for delivering an effective speech.",
+          "position": 3,
+          "updatedAt": 1784480453733,
+          "terms": [
+            {
+              "id": "3f74bb76-0715-4e19-ae6d-43516f122e15",
+              "kind": "enumeration",
+              "term": "Best Practices of Public Speaking",
+              "definition": "",
+              "answers": [
+                "Performance",
+                "Plan the speech",
+                "Eye contact",
+                "Speaking style",
+                "Hand gestures",
+                "Recording the speech for feedback",
+                "Peer evaluation",
+                "Appearance",
+                "Clothing",
+                "Good grooming",
+                "Visual aids",
+                "Handouts",
+                "Feedback"
+              ],
+              "position": 0,
+              "updatedAt": 1784480453733
+            },
+            {
+              "id": "93ee323e-3e3d-4555-a8df-ce2fe8bec737",
+              "kind": "enumeration",
+              "term": "3 Foundations an Effective Speech Builds On",
+              "definition": "",
+              "answers": [
+                "Logos",
+                "Pathos",
+                "Ethos"
+              ],
+              "position": 1,
+              "updatedAt": 1784480453733
+            },
+            {
+              "id": "1900f940-64d5-4f1a-b10f-f63ee249d3fc",
+              "kind": "standard",
+              "term": "Six by six rule",
+              "definition": "A PowerPoint guideline from the University of Leicester: slides should have no more than six bullet points, and each bullet point should be no more than six words long.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1784480453733
+            }
+          ]
+        },
+        {
+          "id": "5fcf4300-2593-428a-9a9c-a2d3a6e890b0",
+          "name": "Communication and Globalization",
+          "description": "Globalization, World Englishes, and culturally-sensitive, bias-free language.",
+          "position": 4,
+          "updatedAt": 1784480453734,
+          "terms": [
+            {
+              "id": "0bb455a3-29f4-4175-b099-12c6df791cc1",
+              "kind": "standard",
+              "term": "Globalization",
+              "definition": "A term used to describe how trade and technology have made the world into a more connected and interdependent place; it also captures in its scope the economic and social changes that have come about as a result.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1784480453734
+            },
+            {
+              "id": "383074e8-e45d-4691-ac0b-cb30f23c5fec",
+              "kind": "standard",
+              "term": "David Crystal",
+              "definition": "In his book English as a Global Language (2003), he asserted that English is, in fact, the global language.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1784480453734
+            },
+            {
+              "id": "30043fd9-82e8-445c-b870-e81e7621af1f",
+              "kind": "enumeration",
+              "term": "5 General Principles for Culturally-Sensitive and Bias-Free Language",
+              "definition": "",
+              "answers": [
+                "Race and ethnicity",
+                "Gender and sexual orientation",
+                "Social class",
+                "Age",
+                "Disabilities"
+              ],
+              "position": 2,
+              "updatedAt": 1784480453734
+            },
+            {
+              "id": "ca520d31-3552-40b8-b5c3-113a2a93619c",
+              "kind": "standard",
+              "term": "Racism",
+              "definition": "One form of discrimination against a person or persons of a different race.",
+              "answers": null,
+              "position": 3,
+              "updatedAt": 1784480453734
+            },
+            {
+              "id": "f1f97f9e-0f37-4f2d-91bc-0f4f5abc2e60",
+              "kind": "standard",
+              "term": "Classism",
+              "definition": "Class discrimination; a form of prejudice against a person or people because of their social class.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1784480453734
+            },
+            {
+              "id": "bd429f54-8144-4b63-94b4-268e69982ce7",
+              "kind": "standard",
+              "term": "Ageism",
+              "definition": "A form of discrimination against other people because of their age, or assuming that older people are less physically, intellectually, or emotionally able than other age groups.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1784480453734
+            },
+            {
+              "id": "9acb795a-930f-4138-8423-21439f2e274b",
+              "kind": "standard",
+              "term": "Identity-first language",
+              "definition": "Putting the person or people first when referring to people with disabilities, focusing on the person and not the condition.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1784480453734
+            }
+          ]
+        },
+        {
+          "id": "67caa64c-a992-46da-a6d9-2426ab472dbc",
+          "name": "Communication Ethics",
+          "description": "Communication, ethics, and the NCA principles of ethical communication.",
+          "position": 1,
+          "updatedAt": 1784480453730,
+          "terms": [
+            {
+              "id": "700db7b6-f34f-47f1-8197-ccc24967ab7d",
+              "kind": "standard",
+              "term": "Communication",
+              "definition": "The act of transferring information from one place, person or group to another.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "6330b2c5-7674-45b0-8243-b3f9b507a2fc",
+              "kind": "standard",
+              "term": "Ethics",
+              "definition": "It enhances human worth and dignity by fostering truthfulness, fairness, responsibility, personal integrity, and respect for self and others.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "cdc034a6-7a64-485e-bf77-3ebec7c4afc8",
+              "kind": "standard",
+              "term": "Communication Ethics",
+              "definition": "Fundamental to responsible thinking, decision making, and the development of relationships and communities within and across contexts, cultures, channels, and media.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "46f7f4da-5256-47db-b108-cc6b6debcb74",
+              "kind": "enumeration",
+              "term": "The 4 Principles of Communication Ethics by the NCA",
+              "definition": "",
+              "answers": [
+                "Advocate truthfulness, accuracy, honesty, and reason",
+                "Freedom of expression, diversity of perspective, and tolerance of dissent",
+                "Condemn communication that degrades individuals and humanity",
+                "Accept responsibility for the consequences of our own communication"
+              ],
+              "position": 3,
+              "updatedAt": 1784480453730
+            }
+          ]
+        },
+        {
+          "id": "6e43732a-2bb7-40a8-a66e-cc58e0f73b54",
+          "name": "Communication Models",
+          "description": "The classic models of communication and White's stages of oral communication.",
+          "position": 0,
+          "updatedAt": 1784480453730,
+          "terms": [
+            {
+              "id": "065ff27f-8f6b-4fd7-b95d-5c0c650d20c8",
+              "kind": "enumeration",
+              "term": "The 5 Communication Models",
+              "definition": "",
+              "answers": [
+                "Aristotle's Model",
+                "Shannon-Weaver's Model",
+                "Osgood-Schramm's Model",
+                "Schramm's Model",
+                "White's Stages of Oral Communication"
+              ],
+              "position": 0,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "ddc1bd85-2810-471e-9f82-e617317ac6d3",
+              "kind": "enumeration",
+              "term": "5 Elements of Aristotle's Model of Communication",
+              "definition": "",
+              "answers": [
+                "Speaker",
+                "Speech",
+                "Occasion",
+                "Audience",
+                "Effect"
+              ],
+              "position": 1,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "b55e82ed-bfa1-4133-b24e-776eabcae1aa",
+              "kind": "enumeration",
+              "term": "5 Elements of Shannon-Weaver's Model",
+              "definition": "",
+              "answers": [
+                "Sender",
+                "Encoder",
+                "Channel",
+                "Decoder",
+                "Receiver"
+              ],
+              "position": 2,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "35283558-a9e5-42cf-bc56-8a4a7e05cbfc",
+              "kind": "enumeration",
+              "term": "4 Elements of Osgood-Schramm's Model",
+              "definition": "",
+              "answers": [
+                "Encoder",
+                "Interpreter",
+                "Decoder",
+                "Message"
+              ],
+              "position": 3,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "3281a379-7ea0-459a-a7e0-756201ba0cd6",
+              "kind": "enumeration",
+              "term": "4 Elements of Schramm's Model",
+              "definition": "",
+              "answers": [
+                "Source",
+                "Encoder",
+                "Signal",
+                "Field of experience"
+              ],
+              "position": 4,
+              "updatedAt": 1784480453730
+            },
+            {
+              "id": "c2bfaa67-593a-4f15-9234-6830c80ef527",
+              "kind": "enumeration",
+              "term": "8 Stages of White's Model of Oral Communication",
+              "definition": "",
+              "answers": [
+                "Thinking",
+                "Symbolizing",
+                "Expressing",
+                "Transmitting",
+                "Receiving",
+                "Decoding",
+                "Feedbacking",
+                "Monitoring"
+              ],
+              "position": 5,
+              "updatedAt": 1784480453730
+            }
+          ]
+        },
+        {
+          "id": "3020c8f6-e401-4839-b8a1-57bb791c8273",
+          "name": "Public Speaking",
+          "description": "The nature and history of public speaking, its key figures, and Philippine traditions.",
+          "position": 2,
+          "updatedAt": 1784480453732,
+          "terms": [
+            {
+              "id": "2eddf868-2100-42e7-a537-7d72ead24342",
+              "kind": "standard",
+              "term": "Public Speaking",
+              "definition": "A process of communicating purposeful information in front of an audience. It is usually face-to-face and in a formal setting where the aim of the speaker is to influence the listeners.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "b74f3fab-274a-45e8-b2c0-eaf0b5db2121",
+              "kind": "enumeration",
+              "term": "5 Periods in the History of Public Speaking",
+              "definition": "",
+              "answers": [
+                "Classical Period",
+                "Medieval Period",
+                "The Renaissance",
+                "The Enlightenment",
+                "New School"
+              ],
+              "position": 1,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "252e5245-1def-4478-a2e2-33341ed76faf",
+              "kind": "standard",
+              "term": "Corax",
+              "definition": "The Greek teacher of rhetoric who, with his student Tisias, helped citizens speak persuasively in courts of law. According to him, a basic speech has three parts, and this simple organization has endured throughout the ages.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "5cd0a8fe-acc0-4e53-a3ba-c0963a0bc196",
+              "kind": "enumeration",
+              "term": "3 Parts of a Basic Speech according to Corax",
+              "definition": "",
+              "answers": [
+                "Introduction",
+                "Evidence",
+                "Conclusion"
+              ],
+              "position": 3,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "032b4015-9fcf-4b50-9236-227d01bdedfb",
+              "kind": "standard",
+              "term": "Protagoras",
+              "definition": "The father of debate, who made his students argue for and against issues of the day, to sharpen their reasoning skills and appreciate different sides of an issue.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "4b743651-1389-4534-92f4-dc58ee5ad2d4",
+              "kind": "standard",
+              "term": "Aristotle",
+              "definition": "Also known as the father of modern communication; wrote a treatise entitled “Rhetoric,” where he discussed the use of logos, pathos, and ethos in persuasive speaking.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "3a6e92b5-0c42-47b2-8d69-026c4e89a56b",
+              "kind": "standard",
+              "term": "Ethos",
+              "definition": "Refers to ethics, meaning a speaker must radiate moral character to create an aura of trust and authority in the audience; the speaker's character and credibility.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "63e424cf-b8f6-46cb-bc17-b0548b0628de",
+              "kind": "standard",
+              "term": "Logos",
+              "definition": "Means supporting your speech with logical reasoning in the form of facts, figures, and evidence, and one of the most effective ways of helping the audience get to the conclusion of an argument on their own.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "084e292f-b6d6-44f2-8d08-1a32b1df9f9c",
+              "kind": "standard",
+              "term": "Pathos",
+              "definition": "Refers to adding an emotional touch to your speech, so as to cater to the audience's emotions.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "db133ddc-ed97-43a7-82ce-067bd73d5639",
+              "kind": "enumeration",
+              "term": "3 Modes of Persuasion discussed by Aristotle",
+              "definition": "",
+              "answers": [
+                "Ethos",
+                "Logos",
+                "Pathos"
+              ],
+              "position": 9,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "f33f7e0c-ee31-4eb6-9f59-f924db576bb4",
+              "kind": "standard",
+              "term": "Demosthenes",
+              "definition": "The most famous orator in Ancient Greece. In the beginning he had many flaws in public speaking, chief among them his stammer and weak voice; he practiced earnestly by declaiming on the seashore with pebbles in his mouth, and his speeches were known for their deliberation and forethought.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "c346ce94-73a0-4faa-8eff-255b1c530e98",
+              "kind": "standard",
+              "term": "Cicero",
+              "definition": "The most famous Roman orator, whose eloquence was described as a “resistless torrent.” A statesman who argued that the teaching of rhetoric should be considered an art form useful in all practical and public affairs, and who developed the Five Canons of Rhetoric.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "87554054-31f0-4d9f-8ee6-2df96bf6c854",
+              "kind": "enumeration",
+              "term": "The Five Canons of Rhetoric",
+              "definition": "",
+              "answers": [
+                "Invention",
+                "Arrangement",
+                "Style",
+                "Memory",
+                "Delivery"
+              ],
+              "position": 12,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "06292154-4147-4a78-adfd-6d6ade0eb643",
+              "kind": "standard",
+              "term": "Quintilian",
+              "definition": "The Roman lawyer and educator who forwarded the idea that public speakers should be ethical; he described the ideal speaker as “a good man speaking well.”",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "89e79bcc-d431-441a-a122-d7f75e883c6f",
+              "kind": "standard",
+              "term": "St. Augustine",
+              "definition": "A Christian clergyman and renowned rhetorician who continued to develop ideas and study the persuasion that had originated during the Classical Period.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "83ef1519-4cf3-4a83-9812-28bc8abb3c1b",
+              "kind": "standard",
+              "term": "Petrus Ramus",
+              "definition": "Challenged the theories of the great scholars from the Classical Period and focused on logic rather than rhetoric; according to him, logic falls under two parts.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "eecadaae-9772-4b45-aa0e-12abbdfa9149",
+              "kind": "enumeration",
+              "term": "2 Parts of Logic according to Petrus Ramus",
+              "definition": "",
+              "answers": [
+                "Invention",
+                "Judgment"
+              ],
+              "position": 16,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "7f87fee2-5587-4b45-9bed-d2d600d9c5c0",
+              "kind": "standard",
+              "term": "George Campbell",
+              "definition": "A Scottish minister and educator who used scientific and moral reasoning to understand how persuasion in speech works.",
+              "answers": null,
+              "position": 17,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "3137bdd7-c243-4ed8-baba-31a9a337b6c5",
+              "kind": "standard",
+              "term": "Elocutionary approach",
+              "definition": "An approach that mainly focused on the delivery aspect of public speaking, namely tone of voice, gestures, body language, facial expressions, and pronunciations.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "12c5373f-21ef-47c4-9b82-c809bcc8e428",
+              "kind": "standard",
+              "term": "New School",
+              "definition": "Considered public speaking as a separate field of study; communication departments have professors or instructors to teach about classical and modern rhetoric.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "61093811-46f6-4500-8022-dcf7eb4af1f4",
+              "kind": "standard",
+              "term": "Toastmasters",
+              "definition": "A training organization that aims at teaching its members public speaking skills.",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "e0b208e5-c042-48be-9e8f-a099b173ef5b",
+              "kind": "standard",
+              "term": "Babaylans",
+              "definition": "In pre-colonial times, women who were allowed to speak in public for the purpose of presiding over religious rituals; along with the warriors of the community, they were the leaders of pre-colonial Philippines.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "b65288e7-de5b-4e36-8e06-3301af425a2d",
+              "kind": "standard",
+              "term": "Mandirigma",
+              "definition": "The warriors of the community who, along with the babaylans, were the leaders of pre-colonial Philippines.",
+              "answers": null,
+              "position": 22,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "89cc1981-9f35-4f79-b201-cc7b4cc32603",
+              "kind": "standard",
+              "term": "Karagatan",
+              "definition": "A game wherein young men and women duel with each other using words when it comes to talking about love.",
+              "answers": null,
+              "position": 23,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "f61caa17-c1e8-493f-8903-2fbe09dfa884",
+              "kind": "standard",
+              "term": "Balagtasan",
+              "definition": "A poetic joust staged to honor Francisco Balagtas; like an ordinary debate except that one has to reason and argue in verse, with two master poets defending the pros and cons of an issue and a board of judges determining the winner.",
+              "answers": null,
+              "position": 24,
+              "updatedAt": 1784480453732
+            },
+            {
+              "id": "d4cc224a-777b-421b-beac-4fcfb4eb9edb",
+              "kind": "standard",
+              "term": "Huego de Prenda",
+              "definition": "A game used to entertain guests and the bereaved family during wakes.",
+              "answers": null,
+              "position": 25,
+              "updatedAt": 1784480453732
+            }
+          ]
+        }
+      ]
     },
     {
       "folder": {
@@ -5656,5 +6205,5 @@
       ]
     }
   ],
-  "hash": "392a223eff30a5b3"
+  "hash": "dd69a5aedddc9cc4"
 }

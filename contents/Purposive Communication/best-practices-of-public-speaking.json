@@ -1,0 +1,66 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Purposive Communication"
+    }
+  ],
+  "sets": [
+    {
+      "id": "4eac1461-2238-442d-921c-d65b3aeb5338",
+      "folderId": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Best Practices of Public Speaking",
+      "description": "Practical techniques for delivering an effective speech.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "3f74bb76-0715-4e19-ae6d-43516f122e15",
+          "term": "Best Practices of Public Speaking",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Performance",
+            "Plan the speech",
+            "Eye contact",
+            "Speaking style",
+            "Hand gestures",
+            "Recording the speech for feedback",
+            "Peer evaluation",
+            "Appearance",
+            "Clothing",
+            "Good grooming",
+            "Visual aids",
+            "Handouts",
+            "Feedback"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "93ee323e-3e3d-4555-a8df-ce2fe8bec737",
+          "term": "3 Foundations an Effective Speech Builds On",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Logos",
+            "Pathos",
+            "Ethos"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "1900f940-64d5-4f1a-b10f-f63ee249d3fc",
+          "term": "Six by six rule",
+          "kind": "standard",
+          "definition": "A PowerPoint guideline from the University of Leicester: slides should have no more than six bullet points, and each bullet point should be no more than six words long.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        }
+      ]
+    }
+  ]
+}

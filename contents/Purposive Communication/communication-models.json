@@ -1,0 +1,112 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Purposive Communication"
+    }
+  ],
+  "sets": [
+    {
+      "id": "6e43732a-2bb7-40a8-a66e-cc58e0f73b54",
+      "folderId": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Communication Models",
+      "description": "The classic models of communication and White's stages of oral communication.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "065ff27f-8f6b-4fd7-b95d-5c0c650d20c8",
+          "term": "The 5 Communication Models",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Aristotle's Model",
+            "Shannon-Weaver's Model",
+            "Osgood-Schramm's Model",
+            "Schramm's Model",
+            "White's Stages of Oral Communication"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "ddc1bd85-2810-471e-9f82-e617317ac6d3",
+          "term": "5 Elements of Aristotle's Model of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Speaker",
+            "Speech",
+            "Occasion",
+            "Audience",
+            "Effect"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "b55e82ed-bfa1-4133-b24e-776eabcae1aa",
+          "term": "5 Elements of Shannon-Weaver's Model",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Sender",
+            "Encoder",
+            "Channel",
+            "Decoder",
+            "Receiver"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "35283558-a9e5-42cf-bc56-8a4a7e05cbfc",
+          "term": "4 Elements of Osgood-Schramm's Model",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Encoder",
+            "Interpreter",
+            "Decoder",
+            "Message"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "3281a379-7ea0-459a-a7e0-756201ba0cd6",
+          "term": "4 Elements of Schramm's Model",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Source",
+            "Encoder",
+            "Signal",
+            "Field of experience"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "c2bfaa67-593a-4f15-9234-6830c80ef527",
+          "term": "8 Stages of White's Model of Oral Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Thinking",
+            "Symbolizing",
+            "Expressing",
+            "Transmitting",
+            "Receiving",
+            "Decoding",
+            "Feedbacking",
+            "Monitoring"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 5
+        }
+      ]
+    }
+  ]
+}

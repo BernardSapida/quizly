@@ -1,0 +1,90 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Purposive Communication"
+    }
+  ],
+  "sets": [
+    {
+      "id": "5fcf4300-2593-428a-9a9c-a2d3a6e890b0",
+      "folderId": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Communication and Globalization",
+      "description": "Globalization, World Englishes, and culturally-sensitive, bias-free language.",
+      "position": 4,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "0bb455a3-29f4-4175-b099-12c6df791cc1",
+          "term": "Globalization",
+          "kind": "standard",
+          "definition": "A term used to describe how trade and technology have made the world into a more connected and interdependent place; it also captures in its scope the economic and social changes that have come about as a result.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "383074e8-e45d-4691-ac0b-cb30f23c5fec",
+          "term": "David Crystal",
+          "kind": "standard",
+          "definition": "In his book English as a Global Language (2003), he asserted that English is, in fact, the global language.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "30043fd9-82e8-445c-b870-e81e7621af1f",
+          "term": "5 General Principles for Culturally-Sensitive and Bias-Free Language",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Race and ethnicity",
+            "Gender and sexual orientation",
+            "Social class",
+            "Age",
+            "Disabilities"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "ca520d31-3552-40b8-b5c3-113a2a93619c",
+          "term": "Racism",
+          "kind": "standard",
+          "definition": "One form of discrimination against a person or persons of a different race.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "f1f97f9e-0f37-4f2d-91bc-0f4f5abc2e60",
+          "term": "Classism",
+          "kind": "standard",
+          "definition": "Class discrimination; a form of prejudice against a person or people because of their social class.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "bd429f54-8144-4b63-94b4-268e69982ce7",
+          "term": "Ageism",
+          "kind": "standard",
+          "definition": "A form of discrimination against other people because of their age, or assuming that older people are less physically, intellectually, or emotionally able than other age groups.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "9acb795a-930f-4138-8423-21439f2e274b",
+          "term": "Identity-first language",
+          "kind": "standard",
+          "definition": "Putting the person or people first when referring to people with disabilities, focusing on the person and not the condition.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        }
+      ]
+    }
+  ]
+}

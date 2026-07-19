@@ -1,0 +1,62 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Purposive Communication"
+    }
+  ],
+  "sets": [
+    {
+      "id": "67caa64c-a992-46da-a6d9-2426ab472dbc",
+      "folderId": "a1b75416-a041-4e36-a693-f4177bf5572f",
+      "name": "Communication Ethics",
+      "description": "Communication, ethics, and the NCA principles of ethical communication.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "700db7b6-f34f-47f1-8197-ccc24967ab7d",
+          "term": "Communication",
+          "kind": "standard",
+          "definition": "The act of transferring information from one place, person or group to another.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "6330b2c5-7674-45b0-8243-b3f9b507a2fc",
+          "term": "Ethics",
+          "kind": "standard",
+          "definition": "It enhances human worth and dignity by fostering truthfulness, fairness, responsibility, personal integrity, and respect for self and others.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "cdc034a6-7a64-485e-bf77-3ebec7c4afc8",
+          "term": "Communication Ethics",
+          "kind": "standard",
+          "definition": "Fundamental to responsible thinking, decision making, and the development of relationships and communities within and across contexts, cultures, channels, and media.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "46f7f4da-5256-47db-b108-cc6b6debcb74",
+          "term": "The 4 Principles of Communication Ethics by the NCA",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Advocate truthfulness, accuracy, honesty, and reason",
+            "Freedom of expression, diversity of perspective, and tolerance of dissent",
+            "Condemn communication that degrades individuals and humanity",
+            "Accept responsibility for the consequences of our own communication"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 3
+        }
+      ]
+    }
+  ]
+}
