@@ -1,0 +1,273 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "038cd8bb-71d0-5cd5-8ee3-e027268b5a5e",
+      "name": "National Service Training Program"
+    }
+  ],
+  "sets": [
+    {
+      "id": "67cca883-adfa-4628-9380-91c92f8fd075",
+      "folderId": "038cd8bb-71d0-5cd5-8ee3-e027268b5a5e",
+      "name": "Drug Education",
+      "description": "Concepts of drug use, drug classes, abuse vs. addiction, the national drug situation, and the youth's role in prevention.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "9c4ae171-6a11-40a5-911c-5b9fbb45931c",
+          "term": "Drug education",
+          "kind": "standard",
+          "definition": "The planned provision of information, guidelines, resources, and skills relevant to living in a world where psychoactive substances are widely available.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "de03f558-f975-4805-b15e-938a0b313da7",
+          "term": "R.A. 9165",
+          "kind": "standard",
+          "definition": "The Comprehensive Dangerous Drugs Act of 2002; mandates the government to pursue an intensive and unrelenting campaign against the trafficking and use of dangerous drugs and other similar substances.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "62371c88-9248-4fcc-ab4e-62f1c8e22f89",
+          "term": "Republic Act No. 6425",
+          "kind": "standard",
+          "definition": "The Dangerous Drugs Act of 1972; provides funds and regulates the importation, sale, manufacture, possession, and use of prohibited and regulated drugs.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "a9e53280-327b-4284-a8d8-e17e80e758b7",
+          "term": "Drug",
+          "kind": "standard",
+          "definition": "A chemical substance that brings about physical, emotional, or behavioral change in a person taking it. Taken through ingestion, inhalation, injection, used as a suppository, or applied topically; harmful when taken in excess.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "68c061a9-30c3-493a-8936-324fc001435b",
+          "term": "Stimulants",
+          "kind": "standard",
+          "definition": "A class of drugs that speed up messages travelling between the brain and body; increases alertness and physical disposition. Examples: coffee and cocaine.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "286a73b5-cf0c-4fea-a7ed-c63c3213d54b",
+          "term": "Sedatives",
+          "kind": "standard",
+          "definition": "Drugs that reduce anxiety and excitement; medications that slow down brain activity, leading to relaxation, reduced anxiety, and drowsiness. Examples: alcohol and tranquilizers.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "014f428b-a65e-4313-8998-0aa127d0ba8c",
+          "term": "Hallucinogen",
+          "kind": "standard",
+          "definition": "Drugs that affect sensation, thinking, self-awareness, and emotion, change time and space perception, and create delusions and hallucinations. Examples: marijuana and mescaline.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "28a72a83-1ae3-4b9b-bdaf-b24598a5fb34",
+          "term": "Narcotics",
+          "kind": "standard",
+          "definition": "Drugs that relieve pain and often induce sleep; any psychoactive compound with numbing or paralyzing properties. Examples: opium and heroine.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "64a8c06c-0558-4aa8-b618-9123e68115c6",
+          "term": "Controlled substance",
+          "kind": "standard",
+          "definition": "Generally a drug or chemical whose manufacture, possession, or use is regulated by a government.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "5fc91132-5091-404b-9448-573e6bd6c26a",
+          "term": "3 Changes That Indicate Drug Abuse",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Behavior",
+            "Appearance",
+            "Mood"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "a50df819-bb39-471c-958c-79e1d714ecb6",
+          "term": "5 Reasons Why People Turn to Drugs",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Way to cope up",
+            "Out of curiosity",
+            "Peer pressure",
+            "Desire to boost their performance",
+            "Simply feel good"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "d0e13b29-84cd-4ee6-9ac1-f384713d5e90",
+          "term": "Abuse",
+          "kind": "standard",
+          "definition": "The use of a chemical substance, forbidden or not forbidden, which results in an individual's physical, mental, or social impairment; using drugs without benefit or prescription, using legal or illegal substances in ways you shouldn't, or taking more than the regular dose of pills or using someone else's prescription.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "cc688e7a-ea90-4463-bbfc-f47df2521b0d",
+          "term": "Addiction",
+          "kind": "standard",
+          "definition": "A disease that affects your brain and behavior; you can't resist the urge to use drugs no matter how much harm they may cause, and you can't stop. It makes you lose self-control and can lead to damaging behaviors, and its physical changes can last a long time.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "3c07e21c-ed91-4b57-b6f7-4f38805aed7e",
+          "term": "4 Signs and Symptoms of Drug Abuse",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Injection marks of an addict",
+            "Change in moods depending on the drug taken",
+            "Association with known drug abusers",
+            "Wearing sunglasses to hide constricted pupils"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "cc3b0d8a-955c-4568-80b6-acdafe864adf",
+          "term": "4 Signs and Symptoms of Drug Addiction",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "An urge to use the drug every day or many times a day",
+            "Always have the drug with you",
+            "You spend more time alone",
+            "You feel sick when you try to quit"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "fdcf709c-7db7-4bc3-9426-c785c0e74245",
+          "term": "Poly-drug users",
+          "kind": "standard",
+          "definition": "The majority of drug dependents in the country — users who use several types of illegal drugs.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "6049c7f0-761f-4fda-8945-57d6bd15b52b",
+          "term": "Shabu",
+          "kind": "standard",
+          "definition": "Methamphetamine hydrochloride; remains the most abused drug in the country, followed by marijuana or cannabis.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "a433e9a8-9786-436f-9100-76c1209de607",
+          "term": "Ecstasy",
+          "kind": "standard",
+          "definition": "Well known for being a \"party drug,\" commonly used in parties and nightlife.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "641a8258-3977-4e1f-b63a-9feea0281910",
+          "term": "Solvents and other inhalants",
+          "kind": "standard",
+          "definition": "A drug preference usually abused by street children.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "fb552f2a-a88e-4b6e-b93d-177db0c6bb15",
+          "term": "4 Drug Trafficking Trends",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Street-level pushing",
+            "Bank-to-bank or wireless transfer payments",
+            "Chinese and Filipino-Chinese drug syndicates",
+            "African Drug Syndicates using OFW couriers"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "54139493-e794-4bb9-85b7-81b97e8b87e4",
+          "term": "National Capital Region",
+          "kind": "standard",
+          "definition": "Remains the main hub in the manufacturing of shabu in the country.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "3a55c875-afe8-4223-ab24-4a6f0ec33ca3",
+          "term": "Northern Luzon",
+          "kind": "standard",
+          "definition": "The region where marijuana cultivation is still largely concentrated.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "0ef98ad1-3117-4707-a7be-5121aa85ca37",
+          "term": "4 Cities Where Clandestine Laboratories Were Dismantled",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Caloocan",
+            "Malabon",
+            "Muntinlupa",
+            "Parañaque"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "cc68d88a-45e4-4a89-ab96-8c35c37f91a9",
+          "term": "5 Roles of the Youth in Drug Prevention and Detection",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Get involved in program design and implementation",
+            "Be a peer educator and advocate health-promoting behaviors",
+            "Learn to deal with life's pressures",
+            "Never give in to peer pressures",
+            "Help those your age engage in healthy activities"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 23
+        }
+      ]
+    }
+  ]
+}

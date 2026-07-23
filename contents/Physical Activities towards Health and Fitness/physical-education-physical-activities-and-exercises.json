@@ -160,21 +160,10 @@
         },
         {
           "id": "c15c8f70-4c81-480a-b683-1fcd5f0e2609",
-          "term": "The 10 Ways Physical Fitness Helps the Individual Through Regular Exercise",
-          "kind": "enumeration",
-          "definition": "",
-          "answers": [
-            "Proper growth of young bones and muscles",
-            "Improve the ability to avoid and recover from illnesses and accidents",
-            "Improve posture and appearance",
-            "Minimize stress response",
-            "Maintain proper body weight",
-            "Preventing heart ailments",
-            "Improve organic functions",
-            "Delay the aging process",
-            "Feel good and younger as a human being",
-            "Experience joy of participation in any recreational or sports activities"
-          ],
+          "term": "Benefits of Physical Fitness",
+          "kind": "standard",
+          "definition": "Through regular exercise, the individual gains: proper growth of young bones and muscles; improved ability to avoid and recover from illnesses and accidents; better posture and appearance; a minimized stress response; maintenance of proper body weight; prevention of heart ailments; improved organic functions; a delayed aging process; feeling good and younger; and the joy of participation in any recreational or sports activity.",
+          "answers": null,
           "updatedAt": 1783971504483,
           "position": 15
         },

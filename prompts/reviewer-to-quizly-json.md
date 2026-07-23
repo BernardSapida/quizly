@@ -143,6 +143,17 @@ Read every definition back as a quiz question before you ship it. If knowing onl
 - Each answer is a **short item, not a sentence**. If the source's bullets run long, keep the key phrase and cut the trailing explanation — in written mode I have to type these.
 - Each answer is a **bare name**: no slashed alternatives (`"Ilocano"`, not `"Ilokano/Ilocano"`) and no parentheticals (`"Ilocos Region"`, not `"Region I (Ilocos Region)"`). I type these, so see [Anything I type is one bare name](#anything-i-type-is-one-bare-name--no-slashes-no-parentheses) above.
 
+### Don't make an enumeration I can't type back
+
+The trim rule above assumes each bullet *has* a short key phrase to keep. Some lists don't: each item is a full phrase or clause that loses its meaning the moment you shorten it — a principle stated as a sentence, a step described in a line. A list of those isn't a recall card; it's a paragraph I'd have to reproduce word for word, and in written mode I'm typing every word of it.
+
+Past a handful of such items it's hopeless — nobody types 8+ phrases back verbatim, and a card I can never clear is worse than no card. So when a list is **both long and un-trimmable**, don't force it into an `enumeration`. Instead:
+
+- If each item stands as its own concept, give each its **own `standard` card** — the phrase becomes a term or a definition, not one entry in an eight-way typing test.
+- If the items only make sense together, make **one `standard` card** for the concept as a whole and let the definition carry the list as prose.
+
+Reserve `enumeration` for lists of **short, nameable items** — the seven stakeholders, the five categories, the region names. A short list of longer phrases can still work (recalling three is doable); it's the combination of *long* and *many* that breaks it. When in doubt, ask whether I could actually type every answer correctly; if not, it's the wrong kind.
+
 A concept can legitimately be both: a `standard` card for what a stakeholder *is*, plus an `enumeration` card for the seven of them. Do that whenever the source does.
 
 ## File shape
@@ -197,6 +208,7 @@ Match [`contents/Heritage Tourism/lesson-2.json`](../contents/Heritage%20Tourism
 - [ ] Valid JSON — parses, no trailing commas, no comments.
 - [ ] Every `standard` has a non-empty `definition` and `answers: null`.
 - [ ] Every `enumeration` has `definition: ""` and a non-empty `answers` array.
+- [ ] No `enumeration` asks me to type back long phrases — nothing both long and un-trimmable (roughly 8+ phrase-length items) survived as a list; those became `standard` cards instead.
 - [ ] No typed string carries a `/` alternative. No `enumeration` answer carries a parenthetical; a `standard` term carries one only when the bare name is ambiguous without it.
 - [ ] No `definition` gives away its own term — no acronym of it, no alternate spelling of it, no restatement of it.
 - [ ] Term `position` runs 0…n-1 with no gaps.

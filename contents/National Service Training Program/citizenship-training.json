@@ -1,0 +1,459 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "038cd8bb-71d0-5cd5-8ee3-e027268b5a5e",
+      "name": "National Service Training Program"
+    }
+  ],
+  "sets": [
+    {
+      "id": "2a8b1cdd-c8c9-4622-9f0b-a1cf3bba1529",
+      "folderId": "038cd8bb-71d0-5cd5-8ee3-e027268b5a5e",
+      "name": "Citizenship Training",
+      "description": "Historical and legal basis of NSTP, key laws, the Constitution, human rights principles, and voter citizenship education from Module 1.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "382c5a04-b01a-4822-a649-fc0e1c359392",
+          "term": "Spanish Colonialism",
+          "kind": "standard",
+          "definition": "Period when a training similar to ROTC was introduced in the Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "64ecc721-0612-4e82-8cc6-094aa2bdee56",
+          "term": "University of the Philippines",
+          "kind": "standard",
+          "definition": "Where the real ROTC in the country started, in 1912.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "8171fcb7-65c1-4236-88f0-cd93d41a9fe0",
+          "term": "Commonwealth Act No. 1",
+          "kind": "standard",
+          "definition": "Otherwise known as the \"National Defense Act,\" passed during the presidency of President Manuel L. Quezon; NSTP started through its passage. Obligated all male citizens between the ages of 18 and 30 to military service to create an independent Philippine Army.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "3e06d3d4-f86e-48bb-b9c8-6ba71b96078d",
+          "term": "Executive Order No. 59",
+          "kind": "standard",
+          "definition": "Post-war order stating that the ROTC Course was made mandatory for all colleges.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "fa2ccf82-14ff-4d2f-8e4a-310a6ba95126",
+          "term": "Citizen Military Training",
+          "kind": "standard",
+          "definition": "What ROTC was replaced by in the post-Marcos era (1980).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "f842b190-ae91-4101-bc1c-6952295eb5b6",
+          "term": "Presidential Decree No. 1706",
+          "kind": "standard",
+          "definition": "Otherwise known as the \"National Service Law\"; amended Commonwealth Act No. 1 and was signed into law by President Ferdinand E. Marcos Sr. on 8 August 1980. Made national service obligatory for all Filipino citizens (civic welfare service, law enforcement service, and military service).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "ad7c0e90-e6a0-4fef-baa6-02e82422f6f0",
+          "term": "Republic Act 7077",
+          "kind": "standard",
+          "definition": "Otherwise known as the \"Citizen Armed Forces of the Philippines Reservist Act,\" signed by President Corazon Aquino to back the CMT. Provided for the organization, training, and utilization of reservists called \"Citizen Soldiers.\"",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "b9f42038-4ebf-4cc2-91c8-dd55afcc2138",
+          "term": "Citizen Soldiers",
+          "kind": "standard",
+          "definition": "The reservists provided for under the Act; the primary manpower for the reservist organization are graduates of the Reserve Officers' Training Corps basic and advance courses.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "ac1fc4ae-b970-4309-a7f7-11738af7b55e",
+          "term": "Wilson Chua",
+          "kind": "standard",
+          "definition": "A 19-year-old UST Engineering student found wrapped in a carpet and floating in the Pasig River, his face wrapped in packing tape and his hands bound; reported to be a victim of illegal ROTC practices (March 18, 2001 ROTC Crisis).",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "22988426-2ba7-4da1-be4f-6d4b9065f49e",
+          "term": "Republic Act 9163",
+          "kind": "standard",
+          "definition": "The National Service Training Program Act of 2001; affirms that the prime duty of the government shall be to serve and protect its citizens, and that it is the responsibility of all citizens to defend the security of the State.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "41afe281-2461-4dfc-9ffe-c596288f54db",
+          "term": "Article II, Section 4",
+          "kind": "standard",
+          "definition": "Constitutional basis stating that the prime duty of the government is to serve and protect the people.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "6c3a4b78-ce45-4a3a-a537-585725f00421",
+          "term": "Article II, Section 5",
+          "kind": "standard",
+          "definition": "Constitutional basis on the maintenance of peace and order, the protection of life, liberty, and property, and the promotion of the general welfare.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "15a569e0-09c0-4531-9209-43fcc82a81a3",
+          "term": "Article II, Section 13",
+          "kind": "standard",
+          "definition": "Constitutional basis stating that the State recognizes the vital role of the youth in nation-building and shall promote and protect their physical, moral, spiritual, intellectual, and social well-being.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "162d8878-da1a-4ab0-813b-499f7cc16aae",
+          "term": "National Service Training Program",
+          "kind": "standard",
+          "definition": "A program aimed at enhancing civic consciousness and defense preparedness in the youth by developing the ethics of service and patriotism while undergoing training in any of its program components.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "cb22422d-c305-4d99-bf18-75f1de9a3518",
+          "term": "Clustering",
+          "kind": "standard",
+          "definition": "The grouping of students enrolled to different schools and taking up the same NSTP component into one group under the management and supervision of a designated school.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "e53e2184-dd38-4636-b022-0fd53a1bb018",
+          "term": "Cross Enrollment",
+          "kind": "standard",
+          "definition": "A system of enrolment where a student is officially enrolled in an academic program of an origin school but is allowed to enroll in the NSTP component of another accepting school.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "3d350c61-97bf-4f9f-a3d6-42156b372b0f",
+          "term": "Mobilization",
+          "kind": "standard",
+          "definition": "The official act of calling upon ROTC Reservists and NSRC Reservists and Units to report to their respective designated mobilization centers.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "401dd082-5e3f-4bcc-a690-946dc7004341",
+          "term": "Higher Educational Institutions",
+          "kind": "standard",
+          "definition": "Universities, colleges, and other educational institutions offering higher education.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "d5b6d203-3a00-454b-bcee-aad4eb665987",
+          "term": "3 NSTP Program Components",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "ROTC",
+            "CWTS",
+            "LTS"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "1cc39c6c-818b-4a89-b4e8-7df17209d292",
+          "term": "School-based NSRC Units",
+          "kind": "standard",
+          "definition": "The established organization of students or graduates of the CWTS or LTS components of the NSTP.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "fd9db6e4-7037-47b5-8663-87b16bb57a1f",
+          "term": "School-based Ready Reserve Units",
+          "kind": "standard",
+          "definition": "The established organization of students or graduates of the ROTC component of the NSTP.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "bb240f6c-386b-4d4e-8d36-be1e112cb5f1",
+          "term": "Coverage of the NSTP Program",
+          "kind": "standard",
+          "definition": "All incoming freshmen students, male and female, are covered by the program.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "c4473637-d0fd-41be-8e8a-df4811b26e15",
+          "term": "4 Exempted from the NSTP Program",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Baccalaureate graduates of SY 2003-2004",
+            "Those who completed any of the three NSTP components",
+            "All Sangguniang Kabataan Officials",
+            "Foreign students or aliens"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "ff7ac595-1854-46ce-af26-f8537b65afdb",
+          "term": "Malolos Constitution",
+          "kind": "standard",
+          "definition": "Constitution of September 15, 1898; declared Philippine independence in Kawit, Cavite on June 12, 1898.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "8734cbda-c322-4445-a460-2752bf565daf",
+          "term": "July 4, 1946",
+          "kind": "standard",
+          "definition": "Date when Philippine Independence was eventually achieved.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "a45f2e57-e596-465a-8539-dae4b7eed9cb",
+          "term": "1973 Constitution",
+          "kind": "standard",
+          "definition": "New constitution drafted after Ferdinand Marcos manipulated an ongoing Constitutional Convention during Martial Law in 1972.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "ee6bc49d-1654-42f9-9fdf-4961a25634aa",
+          "term": "1987 Constitution",
+          "kind": "standard",
+          "definition": "Constitution drafted in 133 days by an appointed Constitutional Commission under President Corazon Aquino and ratified by the people on February 2, 1987.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "a7ccc68a-b0cf-45ea-a63a-b58175e5545a",
+          "term": "Preamble",
+          "kind": "standard",
+          "definition": "We, the sovereign Filipino people, imploring the aid of Almighty God, in order to build a just and humane society and establish a government that shall embody our ideals and aspirations, promote the common good, conserve and develop our patrimony, and secure to ourselves and our posterity the blessings of independence and democracy under the rule of law and regime of truth, justice, freedom, love, equality, and peace, do ordain and promulgate this Constitution.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "67043aef-4553-46fc-86b1-2aabc5ef86c1",
+          "term": "Bill of Rights",
+          "kind": "standard",
+          "definition": "Article III of the Constitution. It guarantees rights such as: due process and equal protection of the laws; security against unreasonable searches and seizures; freedom of speech, of expression, and of the press; the right to information on matters of public concern; just compensation for private property taken for public use; no criminal charge without due process of law; speedy disposition of cases; no imprisonment for debt or non-payment of a poll tax; and no double jeopardy.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "cccf3ff8-91f7-4087-845c-16ad52d9eb68",
+          "term": "Duties and Responsibilities of Filipino Citizens",
+          "kind": "standard",
+          "definition": "They include: defend our country from enemies and invaders; pay taxes willingly and promptly; be loyal to our country; take care of and conserve our natural resources; help our country grow and develop; keep our surroundings clean; study well and become a productive individual; obey the laws and maintain peace and order; preserve the Filipino culture and identity; participate actively in various government programs; vote wisely; and respect the rights of others.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "6891d648-e31e-479c-af83-0a160b5f7911",
+          "term": "Universality and Inalienability",
+          "kind": "standard",
+          "definition": "Human rights principle: \"All human beings are born free and equal in dignity and rights.\"",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        },
+        {
+          "id": "7dc26f33-694a-4894-95b2-38b5c7eb4e79",
+          "term": "Indivisibility",
+          "kind": "standard",
+          "definition": "Human rights principle: human rights are inherent to the dignity of every human person. All human rights have equal status and cannot be positioned in a hierarchical order.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 31
+        },
+        {
+          "id": "c51823d8-2b9e-4a7e-aecc-58b20878d5aa",
+          "term": "Interdependence and Interrelatedness",
+          "kind": "standard",
+          "definition": "Human rights principle: the fulfillment of one right often depends, wholly or in part, upon the fulfillment of others.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 32
+        },
+        {
+          "id": "f53cfd2b-deeb-4118-b85e-66d33a00f563",
+          "term": "Equality and Non-discrimination",
+          "kind": "standard",
+          "definition": "Human rights principle: all individuals are equal as human beings and by virtue of the inherent dignity of each human person.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 33
+        },
+        {
+          "id": "dd4098f1-865e-4a02-a9ad-de340f9ccf9c",
+          "term": "Participation and Inclusion",
+          "kind": "standard",
+          "definition": "Human rights principle: all people have the right to participate in and access information relating to the decision-making processes that affect their lives and well-being.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 34
+        },
+        {
+          "id": "235328de-52fa-44ef-a53f-b67eb7962a99",
+          "term": "Accountability and Rule of Law",
+          "kind": "standard",
+          "definition": "Human rights principle: States and other duty-bearers are answerable for the observance of human rights and must comply with the legal norms and standards enshrined in international human rights instruments.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 35
+        },
+        {
+          "id": "849de3e4-dc01-4ed6-8ce8-1040d8636acf",
+          "term": "6 United Nations Principles on Human Rights",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Universality and Inalienability",
+            "Indivisibility",
+            "Interdependence and Interrelatedness",
+            "Equality and Non-discrimination",
+            "Participation and Inclusion",
+            "Accountability and Rule of Law"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 36
+        },
+        {
+          "id": "0ad4034c-4af9-40aa-8d9d-1e3d7cadf325",
+          "term": "Republic Act 8481",
+          "kind": "standard",
+          "definition": "The Flag and Heraldic Code of the Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 37
+        },
+        {
+          "id": "37c2fab5-0d7d-4e37-9cc4-3d8c314e4596",
+          "term": "3 Chapters of the Flag and Heraldic Code",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "The National Flag",
+            "The National Anthem",
+            "The National Motto"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 38
+        },
+        {
+          "id": "804d9ddd-b006-4d0d-92fe-b756bc131944",
+          "term": "Voting",
+          "kind": "standard",
+          "definition": "One of the foundations of democracy and one of the constitutional rights of a citizen of the Philippines; one of the ways to make your future less scary. \"Every vote matters.\"",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 39
+        },
+        {
+          "id": "465b8bb2-70cf-4597-9dc7-fe805342bb1c",
+          "term": "Presidential Elections",
+          "kind": "standard",
+          "definition": "Held every 6 years.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 40
+        },
+        {
+          "id": "d10d0d8d-dec6-4edd-a129-80a0c350ba69",
+          "term": "National and Local Elections",
+          "kind": "standard",
+          "definition": "Held on the second Monday of May every 3 years from 1992; also called the \"Midterm Elections.\"",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 41
+        },
+        {
+          "id": "94dbcd07-6cf8-4a72-b014-32927980e6bb",
+          "term": "3 C's in the Candidate Checklist",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Competence",
+            "Knowledge",
+            "Credibility"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 42
+        },
+        {
+          "id": "bf467a03-f878-4fd1-9318-95eaee75f9b9",
+          "term": "Competence",
+          "kind": "standard",
+          "definition": "Candidate checklist (Kakayahan): capable of the task that the position requires; the candidate has the experience to handle the challenges.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 43
+        },
+        {
+          "id": "9aac9322-4bc6-4a91-9b47-e8d12e5352fb",
+          "term": "Knowledge",
+          "kind": "standard",
+          "definition": "Candidate checklist (Kaalaman): right educational background for the position; the candidate has the skills required and is aware of the issues that concern our communities/nation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 44
+        },
+        {
+          "id": "5ea4d8a0-eece-4897-80ad-b1c80f581aac",
+          "term": "Credibility",
+          "kind": "standard",
+          "definition": "Candidate checklist (Kredibilidad): possesses the leadership qualities of a public servant—honest, trustworthy, and has integrity.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 45
+        }
+      ]
+    }
+  ]
+}

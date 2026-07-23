@@ -46,6 +46,7 @@ If a slide comes back `(no text - image-only slide)`, its content is in the imag
 - Terms and definitions are **copied from the source, not composed**. Same wording, same qualifiers, same examples.
 - Go through **every** slide/page. Be exhaustive rather than selective.
 - `standard` = one concept, non-empty `definition`, `answers: null`. `enumeration` = a list, `definition: ""`, items in `answers`, count in the term label.
+- `enumeration` is only for lists of **short, nameable items**. When items are long phrases that won't trim, and there are many (roughly 8+), don't make it a list the student has to type back verbatim — split them into `standard` cards, or make one `standard` card for the whole concept.
 - Anything the student **types** — a `standard` term, an `enumeration` answer — is **one bare name**: no slashed alternatives (`Ilocano`, not `Ilokano/Ilocano`) and no parentheticals (`Department of Tourism`, not `Department of Tourism (DOT)`; `Ilocos Region`, not `Region I (Ilocos Region)`).
 - The **definition is the question**, so it must not contain the answer. What you strip out of a term does not get parked in that term's definition — an acronym there gives the term away for free.
 - `quizlyVersion: 2`, a `folders` array, and `folderId` on the set. It is the only shape; the build rejects anything else.
