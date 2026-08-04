@@ -1,0 +1,281 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Tour Guiding and Escorting"
+    }
+  ],
+  "sets": [
+    {
+      "id": "93a13cf7-afd2-49ff-9d54-e2531033cfc2",
+      "folderId": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Essential Skills and Tools of a Tour Guide",
+      "description": "The nine basic skills a tour guide needs and the tools carried on tour.",
+      "position": 3,
+      "updatedAt": 1786000000000,
+      "terms": [
+        {
+          "id": "d8200136-62af-4de5-a72d-3c524269b2bd",
+          "term": "Leadership Skills",
+          "kind": "standard",
+          "definition": "The role of tour guides extends beyond mere management; they proactively engage their audience to achieve specific objectives. A crucial element in the success, continuity, and operation of tour conducting. It is widely recognized among tour guides that the overall success of a tour heavily relies on the quality and effectiveness of this skill.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 0
+        },
+        {
+          "id": "5bc2c943-6184-4fb2-a089-f3bc48db83ca",
+          "term": "The 2 Main Functions of a Leader",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Accomplishment of a task or attainment of a goal",
+            "Strength of the group being led"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 1
+        },
+        {
+          "id": "f71ddbe2-b33c-4e96-9268-e09dc8bfec8f",
+          "term": "Communication Skills",
+          "kind": "standard",
+          "definition": "This skill is hard work. It requires concentration. It is a skill that can be developed and an investment in yourself when practiced.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 2
+        },
+        {
+          "id": "e63a8a55-b12a-4293-a863-78c3f4143637",
+          "term": "The 3 Steps of the Effective Communication Process",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "It starts with an idea in the sender's mind",
+            "Sender translates the idea into words",
+            "The receiver translates the message back into an idea"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 3
+        },
+        {
+          "id": "93e03f3f-c3fd-47e9-b9e1-e9ad2e660c14",
+          "term": "The 3 Components of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Verbal",
+            "Vocal",
+            "Non-verbal"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 4
+        },
+        {
+          "id": "cee6a69b-239d-4ce3-803e-6baaea50f369",
+          "term": "The 4 Verbal Components of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Contents of the message",
+            "Choice of words",
+            "Vocabulary",
+            "Slang, colloquial, jargon"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 5
+        },
+        {
+          "id": "8a7eb75a-42bb-4c7e-943e-64fadb44cb1c",
+          "term": "The 5 Vocal Components of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Accent",
+            "Tone",
+            "Volume",
+            "Speed",
+            "Pitch"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 6
+        },
+        {
+          "id": "5558e4d1-548d-4ccb-b50b-f639922c76fc",
+          "term": "The 5 Non-verbal Components of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Facial expression",
+            "Body language",
+            "Eye contact",
+            "Gestures",
+            "Distance"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 7
+        },
+        {
+          "id": "854d72b1-bbaf-447a-80f8-43ee08a4886a",
+          "term": "Listening Skills",
+          "kind": "standard",
+          "definition": "An important aspect of communication. Before sending the message, both the sender and the receiver practice it.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 8
+        },
+        {
+          "id": "402e51ff-f3ce-4cfd-bdaa-b7eed1f67cb5",
+          "term": "The 6 Tips for Effective Listening",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Use attentive body language",
+            "Learn to use your thinking time constructively",
+            "Become an observer",
+            "Listen with an open mind and avoid prejudice",
+            "Do not jump to conclusions",
+            "Let the speaker know that you hear and understand"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 9
+        },
+        {
+          "id": "9a952557-a65a-443e-afd4-f57617d87ab1",
+          "term": "Research Skills",
+          "kind": "standard",
+          "definition": "Reading books, articles, newspapers, autobiographies, and journals is a good source of information. Aside from reading materials, it can be done through interviews, attending speeches, conventions, fora, and talking to experts.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 10
+        },
+        {
+          "id": "4ed022b9-eded-425d-9944-e17f16e9fb56",
+          "term": "Delivery Skills",
+          "kind": "standard",
+          "definition": "In tour guiding, conveying the information gathered and researched is the most challenging part of the show. It is not the idea of being so fluent in English, or any other foreign language, but the way you give the commentary to the listening tourists is the “name of the game” here. It is indeed not “what you say, but how you say it” that would matter most.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 11
+        },
+        {
+          "id": "0b34d20f-8564-4548-ace4-c70a1ee0694d",
+          "term": "Interpersonal Skills",
+          "kind": "standard",
+          "definition": "Building rapport and establishing a connection with tourists is crucial. Tour guides need to be friendly, approachable, and patient. They should be in active listening and be able to respond to questions and concerns with empathy and respect.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 12
+        },
+        {
+          "id": "3268ce71-5cd9-4d69-bcad-2d7446cf873b",
+          "term": "Public Speaking",
+          "kind": "standard",
+          "definition": "Tour guides often address groups of people, and this skill is vital. They should be comfortable talking in front of large crowds, maintaining enthusiasm, and engaging the audience throughout the tour.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 13
+        },
+        {
+          "id": "d9bb066a-2ae6-4441-bb92-cca13e566748",
+          "term": "Problem-Solving Skills",
+          "kind": "standard",
+          "definition": "Unexpected challenges can arise during tours, such as changes in weather, transportation delays, or unforeseen circumstances. Tour guides should be adaptable, quick thinkers, and capable of making decisions under pressure to ensure a smooth experience for their guests.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 14
+        },
+        {
+          "id": "4739f1ea-3978-4404-a275-2013b5e0bb55",
+          "term": "Cultural Sensitivity",
+          "kind": "standard",
+          "definition": "Tour guides often interact with people from different backgrounds and cultures. They should be respectful of differences, avoiding offensive remarks or behaviors. Understanding and appreciating diverse perspectives enhances the tour experience for all participants.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 15
+        },
+        {
+          "id": "3a379517-1030-4fec-9cf3-db603d1f3a4e",
+          "term": "The 9 Basic Skills Needed of a Tour Guide",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Leadership Skills",
+            "Communication Skills",
+            "Listening Skills",
+            "Research Skills",
+            "Delivery Skills",
+            "Interpersonal Skills",
+            "Public Speaking",
+            "Problem-Solving Skills",
+            "Cultural Sensitivity"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 16
+        },
+        {
+          "id": "c0769eef-2982-401b-b35b-ee5f2159123b",
+          "term": "The 7 Best Tools for Tour Guides",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "First Aid Kit",
+            "Tour guide System",
+            "Offline Maps",
+            "Portable Charger",
+            "Whistle",
+            "Flag",
+            "Dress Code"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 17
+        },
+        {
+          "id": "eaa09158-81f8-4af4-b2eb-b325fea5b4db",
+          "term": "One Whistle Blast",
+          "kind": "standard",
+          "definition": "Generally, it signals that tourists may explore the area, or it is time to line up.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 18
+        },
+        {
+          "id": "7bbdef1d-e07e-4422-a32e-3817155f6577",
+          "term": "Two Whistle Blasts",
+          "kind": "standard",
+          "definition": "Indicates that time is up, the group needs to gather, or it is time to return to the bus.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 19
+        },
+        {
+          "id": "18137adb-b1fc-4e85-9824-0f6838ab5f57",
+          "term": "Green Flag",
+          "kind": "standard",
+          "definition": "Frequently waved with one blast to signal free time.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 20
+        },
+        {
+          "id": "c1b698df-0ebd-43d3-8e6b-7d051087c6c5",
+          "term": "Red Flag",
+          "kind": "standard",
+          "definition": "Frequently waved with two blasts to signal returning.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 21
+        },
+        {
+          "id": "32a433b1-7caa-42c8-ac98-e0250eb7dce6",
+          "term": "Dress Code",
+          "kind": "standard",
+          "definition": "A tour guide's outfit creates a positive impression on the guests or tourists. The guide should look decent and neat at all times. A tour guide must observe good and proper grooming.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 22
+        }
+      ]
+    }
+  ]
+}

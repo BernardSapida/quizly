@@ -5975,6 +5975,539 @@
       },
       "sets": [
         {
+          "id": "b96c1de3-64dc-4b40-aa4b-6f5e8c2156fd",
+          "name": "Commentary",
+          "description": "Tour commentary: its types, components, audience analysis, and delivery.",
+          "position": 4,
+          "updatedAt": 1785843027643,
+          "terms": [
+            {
+              "id": "a8133ea3-6f05-43c0-8e21-d4593783007a",
+              "kind": "standard",
+              "term": "Tour Commentary",
+              "definition": "Also known as “guidespeak”; a narrative used by a tour guide to describe a site and provide information about various aspects of a country to tourists while on tour. It covers the features and history of the location, and the tours can be from as little as 10-15 minutes to extended periods over many days.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "a418ade8-b724-4e24-8d3c-ca595ac33205",
+              "kind": "enumeration",
+              "term": "The 4 Basic Information About a Place to Include",
+              "definition": "",
+              "answers": [
+                "Short profile of the place",
+                "Historical Background",
+                "Origin of the name",
+                "Basic facts"
+              ],
+              "position": 1,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "d95ef757-89bb-426a-a7cf-c3eeece67706",
+              "kind": "enumeration",
+              "term": "The 13 Basic Facts About a Place",
+              "definition": "",
+              "answers": [
+                "Capital",
+                "Land area and distance from the city center",
+                "People and culture",
+                "Local dishes",
+                "Local products",
+                "Natural attractions",
+                "Man-made attractions",
+                "Historical Landmarks",
+                "Cultural Sites",
+                "Customs and Traditions",
+                "Rituals and Tribal Wears",
+                "Arts and Crafts",
+                "Famous Personalities"
+              ],
+              "position": 2,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "a4d34712-56ca-46b3-862e-0c1783f76060",
+              "kind": "enumeration",
+              "term": "The 5 Skills Required for Commentary Making",
+              "definition": "",
+              "answers": [
+                "Leadership Skills",
+                "Communication Skills",
+                "Listening Skills",
+                "Research Skills",
+                "Delivery Skills"
+              ],
+              "position": 3,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "4da610c1-10fe-4704-a4c2-096b5b804b1f",
+              "kind": "enumeration",
+              "term": "The 4 Types of Commentary Based on Necessity",
+              "definition": "",
+              "answers": [
+                "Required",
+                "Informational",
+                "Requested",
+                "Optional"
+              ],
+              "position": 4,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "5fc8a73c-480e-4a01-8093-ed106ae558f0",
+              "kind": "standard",
+              "term": "Required",
+              "definition": "Type of commentary that is essential information which must be delivered. The name of the tour guide, driver, or coordinator should be part of the introduction and greeting.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "25becdc9-706d-4422-82d9-129ff7de6225",
+              "kind": "standard",
+              "term": "Informational",
+              "definition": "Type of commentary that includes all the basic details given, including the history, facts, and figures, whether on a running tour.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "22bfc2bc-b84a-4b09-92a9-04592915486d",
+              "kind": "standard",
+              "term": "Requested",
+              "definition": "Type of commentary where, through interactive guiding, guests ask questions, and the tour guide is duty-bound to answer the information asked for clarification.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "d851227a-34c7-4f54-8d3c-c36b4ff43fb4",
+              "kind": "standard",
+              "term": "Optional",
+              "definition": "Part of the commentary to be more entertaining; includes good jokes, interesting stories, trivia, and legends.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "e26c2ad4-b395-4546-9c91-c4b0cbd5f09b",
+              "kind": "enumeration",
+              "term": "The 6 Components of Commentary",
+              "definition": "",
+              "answers": [
+                "Introduction",
+                "Body",
+                "Feedback",
+                "Summary",
+                "Reminders",
+                "Closing"
+              ],
+              "position": 9,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "3f2f9c00-7f17-4f3b-a230-53f9ab8a0936",
+              "kind": "standard",
+              "term": "Introduction",
+              "definition": "Component of commentary given at the start of a tour, usually accompanied by greetings.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "e20a8b25-b4db-4d75-b223-24d1d1598066",
+              "kind": "standard",
+              "term": "Body",
+              "definition": "Component of commentary that is a descriptive narration about the place; usually answers the questions What, When, Where, Why, and how.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "c87727d7-6725-4ad5-a125-77a2811198e2",
+              "kind": "standard",
+              "term": "Feedback",
+              "definition": "Component of commentary consisting of the remarks received by the tour guides from the tourists.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "972266f8-cffe-473d-b781-e593081403a6",
+              "kind": "standard",
+              "term": "Summary",
+              "definition": "Component of commentary that is always short, where important facts are reiterated. This part is normally brief. It involves emphasizing the important matters.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "f441abf1-cd57-4d56-9826-a5ae73de9244",
+              "kind": "standard",
+              "term": "Reminders",
+              "definition": "Component of commentary that can be given at any time they are needed. Giving this shows genuine concern towards their guest.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "eea56bb0-93e6-4470-b07b-b59ae124c6da",
+              "kind": "standard",
+              "term": "Closing",
+              "definition": "Component of commentary given as a way of thanking the company for sharing. Goodbyes must be pleasant too.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "21b59e04-ef1c-42b4-ad55-19e98435816f",
+              "kind": "enumeration",
+              "term": "The 10 Factors to Consider in Analyzing the Audience",
+              "definition": "",
+              "answers": [
+                "Nationality and country of origin",
+                "Age and Gender",
+                "Socio-economic Status",
+                "Special Interest",
+                "Occupation and Profession",
+                "Reason for the visit and tour",
+                "How long is their visit",
+                "Have they been there before",
+                "Where else have they been",
+                "Where else are they going"
+              ],
+              "position": 16,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "528c84bb-0fce-4a96-98f9-17d0640df9fb",
+              "kind": "enumeration",
+              "term": "The 8 Steps in Delivering a Commentary",
+              "definition": "",
+              "answers": [
+                "Smile, greet, and introduce yourself and the driver",
+                "Brief the guest about the tour today",
+                "Review the inclusions and exclusions",
+                "Give the location and distance",
+                "Tell them what to expect",
+                "Announce comfort stops",
+                "Give necessary precautions",
+                "Point out the important landmarks"
+              ],
+              "position": 17,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "b3f9c03f-70b4-40a7-9fe8-5a89e5935ef8",
+              "kind": "enumeration",
+              "term": "The 7 Tips for an Effective Commentary",
+              "definition": "",
+              "answers": [
+                "Start with a greeting and introduction",
+                "Deliver information in a manner that would interest the guests",
+                "Sense of humor should be part of the delivery",
+                "Commentaries help people understand what they actually see",
+                "Face the group, not a few",
+                "Speak slowly and clearly",
+                "Voice should be audible"
+              ],
+              "position": 18,
+              "updatedAt": 1785843027643
+            },
+            {
+              "id": "841349eb-3bc4-4307-9449-bb4e56b6c45d",
+              "kind": "enumeration",
+              "term": "9 More Tips for an Effective Commentary",
+              "definition": "",
+              "answers": [
+                "Practice eye contact",
+                "Prepare yourself for questions to be asked",
+                "Take control of your breathing",
+                "Use synonyms in explaining",
+                "When mentioning a name, repeat it or spell it",
+                "Maintain silence if the need arises",
+                "Listen carefully to questions",
+                "Never argue with the guest",
+                "End your tour always by thanking the guests"
+              ],
+              "position": 19,
+              "updatedAt": 1785843027643
+            }
+          ]
+        },
+        {
+          "id": "93a13cf7-afd2-49ff-9d54-e2531033cfc2",
+          "name": "Essential Skills and Tools of a Tour Guide",
+          "description": "The nine basic skills a tour guide needs and the tools carried on tour.",
+          "position": 3,
+          "updatedAt": 1785842982666,
+          "terms": [
+            {
+              "id": "d8200136-62af-4de5-a72d-3c524269b2bd",
+              "kind": "standard",
+              "term": "Leadership Skills",
+              "definition": "The role of tour guides extends beyond mere management; they proactively engage their audience to achieve specific objectives. A crucial element in the success, continuity, and operation of tour conducting. It is widely recognized among tour guides that the overall success of a tour heavily relies on the quality and effectiveness of this skill.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "5bc2c943-6184-4fb2-a089-f3bc48db83ca",
+              "kind": "enumeration",
+              "term": "The 2 Main Functions of a Leader",
+              "definition": "",
+              "answers": [
+                "Accomplishment of a task or attainment of a goal",
+                "Strength of the group being led"
+              ],
+              "position": 1,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "f71ddbe2-b33c-4e96-9268-e09dc8bfec8f",
+              "kind": "standard",
+              "term": "Communication Skills",
+              "definition": "This skill is hard work. It requires concentration. It is a skill that can be developed and an investment in yourself when practiced.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "e63a8a55-b12a-4293-a863-78c3f4143637",
+              "kind": "enumeration",
+              "term": "The 3 Steps of the Effective Communication Process",
+              "definition": "",
+              "answers": [
+                "It starts with an idea in the sender's mind",
+                "Sender translates the idea into words",
+                "The receiver translates the message back into an idea"
+              ],
+              "position": 3,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "93e03f3f-c3fd-47e9-b9e1-e9ad2e660c14",
+              "kind": "enumeration",
+              "term": "The 3 Components of Communication",
+              "definition": "",
+              "answers": [
+                "Verbal",
+                "Vocal",
+                "Non-verbal"
+              ],
+              "position": 4,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "cee6a69b-239d-4ce3-803e-6baaea50f369",
+              "kind": "enumeration",
+              "term": "The 4 Verbal Components of Communication",
+              "definition": "",
+              "answers": [
+                "Contents of the message",
+                "Choice of words",
+                "Vocabulary",
+                "Slang, colloquial, jargon"
+              ],
+              "position": 5,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "8a7eb75a-42bb-4c7e-943e-64fadb44cb1c",
+              "kind": "enumeration",
+              "term": "The 5 Vocal Components of Communication",
+              "definition": "",
+              "answers": [
+                "Accent",
+                "Tone",
+                "Volume",
+                "Speed",
+                "Pitch"
+              ],
+              "position": 6,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "5558e4d1-548d-4ccb-b50b-f639922c76fc",
+              "kind": "enumeration",
+              "term": "The 5 Non-verbal Components of Communication",
+              "definition": "",
+              "answers": [
+                "Facial expression",
+                "Body language",
+                "Eye contact",
+                "Gestures",
+                "Distance"
+              ],
+              "position": 7,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "854d72b1-bbaf-447a-80f8-43ee08a4886a",
+              "kind": "standard",
+              "term": "Listening Skills",
+              "definition": "An important aspect of communication. Before sending the message, both the sender and the receiver practice it.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "402e51ff-f3ce-4cfd-bdaa-b7eed1f67cb5",
+              "kind": "enumeration",
+              "term": "The 6 Tips for Effective Listening",
+              "definition": "",
+              "answers": [
+                "Use attentive body language",
+                "Learn to use your thinking time constructively",
+                "Become an observer",
+                "Listen with an open mind and avoid prejudice",
+                "Do not jump to conclusions",
+                "Let the speaker know that you hear and understand"
+              ],
+              "position": 9,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "9a952557-a65a-443e-afd4-f57617d87ab1",
+              "kind": "standard",
+              "term": "Research Skills",
+              "definition": "Reading books, articles, newspapers, autobiographies, and journals is a good source of information. Aside from reading materials, it can be done through interviews, attending speeches, conventions, fora, and talking to experts.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "4ed022b9-eded-425d-9944-e17f16e9fb56",
+              "kind": "standard",
+              "term": "Delivery Skills",
+              "definition": "In tour guiding, conveying the information gathered and researched is the most challenging part of the show. It is not the idea of being so fluent in English, or any other foreign language, but the way you give the commentary to the listening tourists is the “name of the game” here. It is indeed not “what you say, but how you say it” that would matter most.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "0b34d20f-8564-4548-ace4-c70a1ee0694d",
+              "kind": "standard",
+              "term": "Interpersonal Skills",
+              "definition": "Building rapport and establishing a connection with tourists is crucial. Tour guides need to be friendly, approachable, and patient. They should be in active listening and be able to respond to questions and concerns with empathy and respect.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "3268ce71-5cd9-4d69-bcad-2d7446cf873b",
+              "kind": "standard",
+              "term": "Public Speaking",
+              "definition": "Tour guides often address groups of people, and this skill is vital. They should be comfortable talking in front of large crowds, maintaining enthusiasm, and engaging the audience throughout the tour.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "d9bb066a-2ae6-4441-bb92-cca13e566748",
+              "kind": "standard",
+              "term": "Problem-Solving Skills",
+              "definition": "Unexpected challenges can arise during tours, such as changes in weather, transportation delays, or unforeseen circumstances. Tour guides should be adaptable, quick thinkers, and capable of making decisions under pressure to ensure a smooth experience for their guests.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "4739f1ea-3978-4404-a275-2013b5e0bb55",
+              "kind": "standard",
+              "term": "Cultural Sensitivity",
+              "definition": "Tour guides often interact with people from different backgrounds and cultures. They should be respectful of differences, avoiding offensive remarks or behaviors. Understanding and appreciating diverse perspectives enhances the tour experience for all participants.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "3a379517-1030-4fec-9cf3-db603d1f3a4e",
+              "kind": "enumeration",
+              "term": "The 9 Basic Skills Needed of a Tour Guide",
+              "definition": "",
+              "answers": [
+                "Leadership Skills",
+                "Communication Skills",
+                "Listening Skills",
+                "Research Skills",
+                "Delivery Skills",
+                "Interpersonal Skills",
+                "Public Speaking",
+                "Problem-Solving Skills",
+                "Cultural Sensitivity"
+              ],
+              "position": 16,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "c0769eef-2982-401b-b35b-ee5f2159123b",
+              "kind": "enumeration",
+              "term": "The 7 Best Tools for Tour Guides",
+              "definition": "",
+              "answers": [
+                "First Aid Kit",
+                "Tour guide System",
+                "Offline Maps",
+                "Portable Charger",
+                "Whistle",
+                "Flag",
+                "Dress Code"
+              ],
+              "position": 17,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "eaa09158-81f8-4af4-b2eb-b325fea5b4db",
+              "kind": "standard",
+              "term": "One Whistle Blast",
+              "definition": "Generally, it signals that tourists may explore the area, or it is time to line up.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "7bbdef1d-e07e-4422-a32e-3817155f6577",
+              "kind": "standard",
+              "term": "Two Whistle Blasts",
+              "definition": "Indicates that time is up, the group needs to gather, or it is time to return to the bus.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "18137adb-b1fc-4e85-9824-0f6838ab5f57",
+              "kind": "standard",
+              "term": "Green Flag",
+              "definition": "Frequently waved with one blast to signal free time.",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "c1b698df-0ebd-43d3-8e6b-7d051087c6c5",
+              "kind": "standard",
+              "term": "Red Flag",
+              "definition": "Frequently waved with two blasts to signal returning.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1785842982666
+            },
+            {
+              "id": "32a433b1-7caa-42c8-ac98-e0250eb7dce6",
+              "kind": "standard",
+              "term": "Dress Code",
+              "definition": "A tour guide's outfit creates a positive impression on the guests or tourists. The guide should look decent and neat at all times. A tour guide must observe good and proper grooming.",
+              "answers": null,
+              "position": 22,
+              "updatedAt": 1785842982666
+            }
+          ]
+        },
+        {
           "id": "0927550c-498a-41ca-b8db-69c5320a821a",
           "name": "General Overview of Tour Guiding Concept",
           "description": "History of tour guiding, core definitions, the four perspectives of tourism, and the types of tours and tour guides.",
@@ -6903,5 +7436,5 @@
       ]
     }
   ],
-  "hash": "a5f08181d3e941e4"
+  "hash": "3b3cd95de96331d9"
 }

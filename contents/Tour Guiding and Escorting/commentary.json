@@ -1,0 +1,276 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Tour Guiding and Escorting"
+    }
+  ],
+  "sets": [
+    {
+      "id": "b96c1de3-64dc-4b40-aa4b-6f5e8c2156fd",
+      "folderId": "5bfddb6c-f70b-4a33-b8a6-39a478e30201",
+      "name": "Commentary",
+      "description": "Tour commentary: its types, components, audience analysis, and delivery.",
+      "position": 4,
+      "updatedAt": 1786000000000,
+      "terms": [
+        {
+          "id": "a8133ea3-6f05-43c0-8e21-d4593783007a",
+          "term": "Tour Commentary",
+          "kind": "standard",
+          "definition": "Also known as “guidespeak”; a narrative used by a tour guide to describe a site and provide information about various aspects of a country to tourists while on tour. It covers the features and history of the location, and the tours can be from as little as 10-15 minutes to extended periods over many days.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 0
+        },
+        {
+          "id": "a418ade8-b724-4e24-8d3c-ca595ac33205",
+          "term": "The 4 Basic Information About a Place to Include",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Short profile of the place",
+            "Historical Background",
+            "Origin of the name",
+            "Basic facts"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 1
+        },
+        {
+          "id": "d95ef757-89bb-426a-a7cf-c3eeece67706",
+          "term": "The 13 Basic Facts About a Place",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Capital",
+            "Land area and distance from the city center",
+            "People and culture",
+            "Local dishes",
+            "Local products",
+            "Natural attractions",
+            "Man-made attractions",
+            "Historical Landmarks",
+            "Cultural Sites",
+            "Customs and Traditions",
+            "Rituals and Tribal Wears",
+            "Arts and Crafts",
+            "Famous Personalities"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 2
+        },
+        {
+          "id": "a4d34712-56ca-46b3-862e-0c1783f76060",
+          "term": "The 5 Skills Required for Commentary Making",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Leadership Skills",
+            "Communication Skills",
+            "Listening Skills",
+            "Research Skills",
+            "Delivery Skills"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 3
+        },
+        {
+          "id": "4da610c1-10fe-4704-a4c2-096b5b804b1f",
+          "term": "The 4 Types of Commentary Based on Necessity",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Required",
+            "Informational",
+            "Requested",
+            "Optional"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 4
+        },
+        {
+          "id": "5fc8a73c-480e-4a01-8093-ed106ae558f0",
+          "term": "Required",
+          "kind": "standard",
+          "definition": "Type of commentary that is essential information which must be delivered. The name of the tour guide, driver, or coordinator should be part of the introduction and greeting.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 5
+        },
+        {
+          "id": "25becdc9-706d-4422-82d9-129ff7de6225",
+          "term": "Informational",
+          "kind": "standard",
+          "definition": "Type of commentary that includes all the basic details given, including the history, facts, and figures, whether on a running tour.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 6
+        },
+        {
+          "id": "22bfc2bc-b84a-4b09-92a9-04592915486d",
+          "term": "Requested",
+          "kind": "standard",
+          "definition": "Type of commentary where, through interactive guiding, guests ask questions, and the tour guide is duty-bound to answer the information asked for clarification.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 7
+        },
+        {
+          "id": "d851227a-34c7-4f54-8d3c-c36b4ff43fb4",
+          "term": "Optional",
+          "kind": "standard",
+          "definition": "Part of the commentary to be more entertaining; includes good jokes, interesting stories, trivia, and legends.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 8
+        },
+        {
+          "id": "e26c2ad4-b395-4546-9c91-c4b0cbd5f09b",
+          "term": "The 6 Components of Commentary",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Introduction",
+            "Body",
+            "Feedback",
+            "Summary",
+            "Reminders",
+            "Closing"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 9
+        },
+        {
+          "id": "3f2f9c00-7f17-4f3b-a230-53f9ab8a0936",
+          "term": "Introduction",
+          "kind": "standard",
+          "definition": "Component of commentary given at the start of a tour, usually accompanied by greetings.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 10
+        },
+        {
+          "id": "e20a8b25-b4db-4d75-b223-24d1d1598066",
+          "term": "Body",
+          "kind": "standard",
+          "definition": "Component of commentary that is a descriptive narration about the place; usually answers the questions What, When, Where, Why, and how.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 11
+        },
+        {
+          "id": "c87727d7-6725-4ad5-a125-77a2811198e2",
+          "term": "Feedback",
+          "kind": "standard",
+          "definition": "Component of commentary consisting of the remarks received by the tour guides from the tourists.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 12
+        },
+        {
+          "id": "972266f8-cffe-473d-b781-e593081403a6",
+          "term": "Summary",
+          "kind": "standard",
+          "definition": "Component of commentary that is always short, where important facts are reiterated. This part is normally brief. It involves emphasizing the important matters.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 13
+        },
+        {
+          "id": "f441abf1-cd57-4d56-9826-a5ae73de9244",
+          "term": "Reminders",
+          "kind": "standard",
+          "definition": "Component of commentary that can be given at any time they are needed. Giving this shows genuine concern towards their guest.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 14
+        },
+        {
+          "id": "eea56bb0-93e6-4470-b07b-b59ae124c6da",
+          "term": "Closing",
+          "kind": "standard",
+          "definition": "Component of commentary given as a way of thanking the company for sharing. Goodbyes must be pleasant too.",
+          "answers": null,
+          "updatedAt": 1786000000000,
+          "position": 15
+        },
+        {
+          "id": "21b59e04-ef1c-42b4-ad55-19e98435816f",
+          "term": "The 10 Factors to Consider in Analyzing the Audience",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Nationality and country of origin",
+            "Age and Gender",
+            "Socio-economic Status",
+            "Special Interest",
+            "Occupation and Profession",
+            "Reason for the visit and tour",
+            "How long is their visit",
+            "Have they been there before",
+            "Where else have they been",
+            "Where else are they going"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 16
+        },
+        {
+          "id": "528c84bb-0fce-4a96-98f9-17d0640df9fb",
+          "term": "The 8 Steps in Delivering a Commentary",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Smile, greet, and introduce yourself and the driver",
+            "Brief the guest about the tour today",
+            "Review the inclusions and exclusions",
+            "Give the location and distance",
+            "Tell them what to expect",
+            "Announce comfort stops",
+            "Give necessary precautions",
+            "Point out the important landmarks"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 17
+        },
+        {
+          "id": "b3f9c03f-70b4-40a7-9fe8-5a89e5935ef8",
+          "term": "The 7 Tips for an Effective Commentary",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Start with a greeting and introduction",
+            "Deliver information in a manner that would interest the guests",
+            "Sense of humor should be part of the delivery",
+            "Commentaries help people understand what they actually see",
+            "Face the group, not a few",
+            "Speak slowly and clearly",
+            "Voice should be audible"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 18
+        },
+        {
+          "id": "841349eb-3bc4-4307-9449-bb4e56b6c45d",
+          "term": "9 More Tips for an Effective Commentary",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Practice eye contact",
+            "Prepare yourself for questions to be asked",
+            "Take control of your breathing",
+            "Use synonyms in explaining",
+            "When mentioning a name, repeat it or spell it",
+            "Maintain silence if the need arises",
+            "Listen carefully to questions",
+            "Never argue with the guest",
+            "End your tour always by thanking the guests"
+          ],
+          "updatedAt": 1786000000000,
+          "position": 19
+        }
+      ]
+    }
+  ]
+}
