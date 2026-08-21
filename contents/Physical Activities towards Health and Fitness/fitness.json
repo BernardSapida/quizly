@@ -1,0 +1,285 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "3f7c1a94-5e2b-4d68-9a03-6c1e8b7d2f45",
+      "name": "Physical Activities towards Health and Fitness"
+    }
+  ],
+  "sets": [
+    {
+      "id": "5b9c3d7d-2a41-43e9-9a50-9748773d0583",
+      "folderId": "3f7c1a94-5e2b-4d68-9a03-6c1e8b7d2f45",
+      "name": "Fitness",
+      "description": "The five basic principles of fitness (overload, FITT, specificity, rest and recovery, use or lose), and dynamic, static, and PNF stretching with their benefits.",
+      "position": 3,
+      "updatedAt": 1787286300827,
+      "terms": [
+        {
+          "id": "9c47956d-cab0-4f8c-90a3-820c92fcf140",
+          "term": "The 5 Basic Principles of Fitness",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "The Overload Principle",
+            "The FITT Principle",
+            "The Specificity Principle",
+            "The Rest and Recovery Principle",
+            "The Use or Lose Principle"
+          ],
+          "updatedAt": 1787286300827,
+          "position": 0
+        },
+        {
+          "id": "c0c6fe3c-19c0-4129-8386-7d22bfa14201",
+          "term": "The Overload Principle",
+          "kind": "standard",
+          "definition": "Means that the body will adapt to the workload placed upon it. The more you do, the more you will be capable of doing. This is how all the fitness improvements occur when exercising and training. When you are working out, you want to strive to increase the workload you are doing above what you did on your previous workout so you have overloaded your body to create a training adaptation.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 1
+        },
+        {
+          "id": "44051468-f893-4502-b3f1-6dc8f1e4b832",
+          "term": "The FITT Principle",
+          "kind": "standard",
+          "definition": "An easy way to get started on developing a personal fitness program. This acronym stands for Frequency, Intensity, Time and Type. These are the areas in which someone could increase or overload in order to improve physical fitness.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 2
+        },
+        {
+          "id": "100a9cea-6182-45c0-9fb0-bc3a561a1502",
+          "term": "The 4 Components of the FITT Principle",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Frequency",
+            "Intensity",
+            "Time",
+            "Type"
+          ],
+          "updatedAt": 1787286300827,
+          "position": 3
+        },
+        {
+          "id": "8dc41c3f-6f81-4d9b-a449-bfe09a1f7007",
+          "term": "Frequency",
+          "kind": "standard",
+          "definition": "In the FITT Principle, this refers to how often you will exercise.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 4
+        },
+        {
+          "id": "2fc037c7-ceae-4914-8067-3ffd7c0cf345",
+          "term": "Intensity",
+          "kind": "standard",
+          "definition": "In the FITT Principle, this is defined as the amount of effort or work that must be completed in a specific exercise.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 5
+        },
+        {
+          "id": "7abb2d4d-9806-47da-89d8-1b74f6901385",
+          "term": "Time",
+          "kind": "standard",
+          "definition": "In the FITT Principle, this is simply how long each individual session should last. This will vary based on the intensity and type.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 6
+        },
+        {
+          "id": "6f2e5ccc-c53f-4c1d-ab9e-ca6a9b3454f0",
+          "term": "Type",
+          "kind": "standard",
+          "definition": "In the FITT Principle, this asks what type of exercise you will be doing, and what specific exercises you will perform.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 7
+        },
+        {
+          "id": "b60c5eec-a259-448d-b660-69e3d0f86d07",
+          "term": "Applying FITT to Strength vs. Cardio Training",
+          "kind": "standard",
+          "definition": "For Resistance/Strength Training: Frequency means increase the number of workout days; Intensity means increase the resistance/weight; Time means increase time involved in exercise or increased repetitions; Type means perform a different exercise for the same muscle group. For Cardiovascular Training: Frequency means increase the number of workout days; Intensity means increase pace for a given time or distance, or % of max heart rate; Time means increase time involved in exercise, increase the length; Type means perform a different type of exercise, e.g. running to cycling.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 8
+        },
+        {
+          "id": "bc22aad9-eac9-4477-bfc1-26e6cf6b1b28",
+          "term": "The Specificity Principle",
+          "kind": "standard",
+          "definition": "How you exercise should be specific to your goals. For example, if your main goal is simply health, fitness and weight management, you should focus on total body strength, cardio and a healthy diet. Make sure your training matches your goals.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 9
+        },
+        {
+          "id": "5d5d628b-20be-4aa5-9c78-8d2e47cd2526",
+          "term": "The Rest and Recovery Principle",
+          "kind": "standard",
+          "definition": "Rest and recovery is also essential for reaching your weight loss and fitness goals. While you can often do cardio every day you should have at least a day of rest between strength training workouts. Make sure you don't work the same muscles two days in a row to give your body the time it needs to rest and recover.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 10
+        },
+        {
+          "id": "52569646-d431-4d91-a5f5-7abc6867ad67",
+          "term": "The Use or Lose Principle",
+          "kind": "standard",
+          "definition": "Implies that when it comes to fitness, you \"use it or lose it.\" This simply means that your muscles build strength (hypertrophy) with use and lose strength (atrophy) with lack of use. This also explains why we lose fitness when we stop exercising. Be consistent.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 11
+        },
+        {
+          "id": "7df802ca-fe12-4bee-bf93-910a59737372",
+          "term": "Stretching",
+          "kind": "standard",
+          "definition": "A type of exercise that improves flexibility and mobility by lengthening the muscles. Stretching is a must, not just for athletes but for anyone who wants to feel good (less pain) in life.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 12
+        },
+        {
+          "id": "2a29f2d5-a82f-480e-a004-0cf5b51dfc50",
+          "term": "Dynamic Stretching",
+          "kind": "standard",
+          "definition": "Involves moving parts of your body and gradually increasing reach and speed of movement. Dynamic stretches aim to get the body moving and prepared for exercise. It is for warming up before an active workout or any physical activity. Some Examples: Walking lunges, high knees, butt kicks, leg swings, arm circles, and torso twists.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 13
+        },
+        {
+          "id": "913ae57e-d53b-4d88-b7d1-a53deb56092a",
+          "term": "Static Stretching",
+          "kind": "standard",
+          "definition": "Involves holding a stretch at its end range for a period of time. It is best done when your muscles are warm, like after a workout, when performed as part of a post-exercise cooldown. It can improve flexibility and decrease tension. It can also increase range of motion and improve posture. Some Examples: Hamstring stretch, quadriceps stretch, overhead triceps stretch, shoulder stretch, and child pose.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 14
+        },
+        {
+          "id": "ca69a597-a63d-4e6c-85d1-92937b1a2325",
+          "term": "Proprioceptive Neuromuscular Facilitation Stretching",
+          "kind": "standard",
+          "definition": "A more advanced type of stretch, typically performed with the help of a partner. It alternates between contracting and relaxing a muscle to deepen range of motion. Some Examples: Hamstring stretch, quadriceps stretch, overhead triceps stretch, and child pose (with partner).",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 15
+        },
+        {
+          "id": "4ea56597-4ec0-4285-bb67-92e8467c927a",
+          "term": "Dynamic vs. Static Stretching",
+          "kind": "standard",
+          "definition": "Dynamic stretching (moving safely through a joint's full range of motion) warms up muscles and boosts power. Static stretching (holding a position for 15-60 seconds) lengthens tight muscles and promotes relaxation. Use dynamic stretches before workouts to improve performance. Use static stretches after exercise to cool down and aid recovery.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 16
+        },
+        {
+          "id": "733ed942-2ac9-4248-9566-676025c2729f",
+          "term": "The 4 Benefits of Dynamic Stretching",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Warms the Body",
+            "Activates Nerves",
+            "Boosts Athletic Output",
+            "Prepares Joints"
+          ],
+          "updatedAt": 1787286300827,
+          "position": 17
+        },
+        {
+          "id": "869a257d-eb29-4eb3-82a5-35d0fc68d283",
+          "term": "Warms the Body",
+          "kind": "standard",
+          "definition": "Like an engine warming up in a car, dynamic movements increase blood flow and raise your muscle temperature, making them less prone to injury.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 18
+        },
+        {
+          "id": "9ac495a7-7bf3-4700-9ff7-7e9a4debf7c6",
+          "term": "Activates Nerves",
+          "kind": "standard",
+          "definition": "It wakes up your nervous system so your brain and muscles communicate better for tasks involving agility and coordination.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 19
+        },
+        {
+          "id": "6a603f71-4d3d-42da-8aaf-bb116c2881b0",
+          "term": "Boosts Athletic Output",
+          "kind": "standard",
+          "definition": "Movements like walking lunges, high knees, or leg swings can improve your power, vertical jump, and running speed.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 20
+        },
+        {
+          "id": "6a2c322b-6c8a-4832-ba8a-481b4ceaae9f",
+          "term": "Prepares Joints",
+          "kind": "standard",
+          "definition": "It lubricates your joints with synovial fluid, allowing for smoother and more fluid movement.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 21
+        },
+        {
+          "id": "6d895979-aab0-450e-b3f3-08c47ee14eae",
+          "term": "The 4 Benefits of Static Stretching",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Enhances Long-Term Flexibility",
+            "Relieves Muscle Tension",
+            "Aids Recovery",
+            "Improves Posture"
+          ],
+          "updatedAt": 1787286300827,
+          "position": 22
+        },
+        {
+          "id": "c73afa58-8374-412e-a77c-889deb3dfeab",
+          "term": "Enhances Long-Term Flexibility",
+          "kind": "standard",
+          "definition": "Holding these stretches over time permanently lengthens the muscle-tendon unit.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 23
+        },
+        {
+          "id": "79ca7fcb-c04e-4ade-8c40-b828cf055c82",
+          "term": "Relieves Muscle Tension",
+          "kind": "standard",
+          "definition": "After a hard workout, muscles shorten and tighten. Static stretches help them relax and return to their normal resting state.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 24
+        },
+        {
+          "id": "bcdf2dc0-cf33-4648-8e29-f8c3a8a6fa2a",
+          "term": "Aids Recovery",
+          "kind": "standard",
+          "definition": "By lowering your heart rate and easing tension, it promotes blood flow to help muscles recover faster.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 25
+        },
+        {
+          "id": "62f51e31-4415-4f9e-9e3e-4630338fd48f",
+          "term": "Improves Posture",
+          "kind": "standard",
+          "definition": "Regularly stretching tight muscle groups (like the chest or hamstrings) helps align your body correctly throughout the day.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 26
+        }
+      ]
+    }
+  ]
+}

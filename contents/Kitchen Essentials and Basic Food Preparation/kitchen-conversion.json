@@ -1,0 +1,339 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "59c849ab-7f2a-4c8a-bcea-66e54d9a1051",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Conversion",
+      "description": "What kitchen conversion is and why it matters, the types of kitchen measurements, common measurement abbreviations, and key volume, weight, and temperature equivalents.",
+      "position": 6,
+      "updatedAt": 1787287766288,
+      "terms": [
+        {
+          "id": "5b828bbb-ad6f-4458-96b0-676a52c23921",
+          "term": "Kitchen Conversion",
+          "kind": "standard",
+          "definition": "Refers to the process of changing one unit of measurement to another when preparing food or following recipes in the kitchen. It is essential for accuracy in cooking and baking, especially when recipes use different systems of measurement.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 0
+        },
+        {
+          "id": "7c179737-3ee7-4295-bccb-23887e162797",
+          "term": "The 6 Reasons Kitchen Conversions Are Important",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Ensures Accurate Recipes",
+            "Maintains Consistency",
+            "Saves Time",
+            "Reduces Waste",
+            "Helps with Large-Scale Cooking",
+            "Important for Cost Control"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 1
+        },
+        {
+          "id": "778b16cd-64db-4e64-96ca-55420132189a",
+          "term": "Ensures Accurate Recipes",
+          "kind": "standard",
+          "definition": "Helps chefs follow recipes exactly for consistent quality.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 2
+        },
+        {
+          "id": "c7f264c4-f6c0-4632-867d-94c5ef551f36",
+          "term": "Maintains Consistency",
+          "kind": "standard",
+          "definition": "Same taste, look, and portion every time for every customer.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 3
+        },
+        {
+          "id": "2ee02e6e-5f43-4551-8cf8-a126cf66f1b0",
+          "term": "Saves Time",
+          "kind": "standard",
+          "definition": "Quick conversions help kitchen staff work faster.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 4
+        },
+        {
+          "id": "3b55e360-b6b8-4d16-b7c1-21a5699ab4f8",
+          "term": "Reduces Waste",
+          "kind": "standard",
+          "definition": "Right measurements mean less ingredient waste.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 5
+        },
+        {
+          "id": "daed1da1-9a45-4fc2-83dd-eddb1a63fd35",
+          "term": "Helps with Large-Scale Cooking",
+          "kind": "standard",
+          "definition": "Easy to adjust recipes for big batches or events.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 6
+        },
+        {
+          "id": "c35246f2-1e53-4267-b23f-db4a3170eb06",
+          "term": "Important for Cost Control",
+          "kind": "standard",
+          "definition": "Accurate portions help control food costs and avoid overuse.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 7
+        },
+        {
+          "id": "ca6da264-9ccf-4e9f-816f-9dc24cf4b6b1",
+          "term": "The 4 Types of Kitchen Measurements",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Volume",
+            "Weight",
+            "Temperature",
+            "Length"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 8
+        },
+        {
+          "id": "7e8af2fd-d18c-4d0c-9cfb-903aa1b7a445",
+          "term": "Volume",
+          "kind": "standard",
+          "definition": "Measured in milliliters (ml), liters (L), cups, tablespoons (tbsp), teaspoons (tsp), fluid ounces (fl oz), pints, quarts, and gallons; used for liquid ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 9
+        },
+        {
+          "id": "d3e7a771-fee7-4927-88e5-e94750e50fea",
+          "term": "Weight",
+          "kind": "standard",
+          "definition": "Measured in grams (g), kilograms (kg), ounces (oz), and pounds (lbs); used for solid ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 10
+        },
+        {
+          "id": "730caaa5-e758-4918-be18-08e5cfae6870",
+          "term": "Temperature",
+          "kind": "standard",
+          "definition": "Measured in Celsius (°C) and Fahrenheit (°F).",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 11
+        },
+        {
+          "id": "2568081a-9cba-4a97-abcc-607b0794a7d0",
+          "term": "Length",
+          "kind": "standard",
+          "definition": "Measured in inches and centimeters; used for cutting and portioning.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 12
+        },
+        {
+          "id": "bfab35be-283a-45e7-85e5-03d8883cf662",
+          "term": "Teaspoon",
+          "kind": "standard",
+          "definition": "Abbreviated tsp. A volume unit used for small amounts of ingredients, such as salt and spices.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 13
+        },
+        {
+          "id": "bb349dde-3c66-4938-8bde-6506c88eef2d",
+          "term": "Tablespoon",
+          "kind": "standard",
+          "definition": "Abbreviated tbsp. A volume unit larger than a teaspoon; commonly used in cooking and baking.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 14
+        },
+        {
+          "id": "a2f58883-4bbf-44f0-aa70-eda322f6938c",
+          "term": "Cup",
+          "kind": "standard",
+          "definition": "Abbreviated c. A volume unit used for both liquid and dry ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 15
+        },
+        {
+          "id": "3a91405b-ec20-4b9d-9893-2b14674cb4bf",
+          "term": "Ounce",
+          "kind": "standard",
+          "definition": "Abbreviated oz. Used for weight (solid ingredients) or as fluid ounces (liquid ingredients).",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 16
+        },
+        {
+          "id": "9659d1ec-c758-42da-99f5-47c4e1196279",
+          "term": "Fluid Ounce",
+          "kind": "standard",
+          "definition": "Abbreviated fl oz. A volume unit used specifically for liquid measurements.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 17
+        },
+        {
+          "id": "62394a75-026c-4327-989c-d5886a0804c9",
+          "term": "Pound",
+          "kind": "standard",
+          "definition": "Abbreviated lb. A weight unit equal to 16 ounces; used for heavier ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 18
+        },
+        {
+          "id": "06eaa7dc-2d31-40ab-b419-c437edf39747",
+          "term": "Gram",
+          "kind": "standard",
+          "definition": "Abbreviated g. A metric weight unit used for measuring light ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 19
+        },
+        {
+          "id": "f9fbab9c-6b47-4a58-a9f9-35dc65980bf8",
+          "term": "Kilogram",
+          "kind": "standard",
+          "definition": "Abbreviated kg. A metric weight unit equal to 1000 grams; used for bulk ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 20
+        },
+        {
+          "id": "9fb54d09-ab54-4ecc-8916-d44759d82cca",
+          "term": "Milliliter",
+          "kind": "standard",
+          "definition": "Abbreviated mL. A metric volume unit used for measuring liquids, including bulk ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 21
+        },
+        {
+          "id": "07ede687-5e02-4e18-b07d-82f53289f8b5",
+          "term": "Liter",
+          "kind": "standard",
+          "definition": "Abbreviated L. A metric volume unit equal to 1000 milliliters; used for larger liquids.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 22
+        },
+        {
+          "id": "9d87898b-1730-4c80-bc2d-c4b1950d4fac",
+          "term": "Pint",
+          "kind": "standard",
+          "definition": "Abbreviated pt. A volume unit common in liquid measurements, equal to 2 cups.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 23
+        },
+        {
+          "id": "02c96a87-5acd-40b1-ad7e-33e9b2fce717",
+          "term": "Quart",
+          "kind": "standard",
+          "definition": "Abbreviated qt. A volume unit equal to 4 cups.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 24
+        },
+        {
+          "id": "74328f3a-d28a-4d66-b632-173055699285",
+          "term": "Gallon",
+          "kind": "standard",
+          "definition": "Abbreviated gal. A volume unit equal to 16 cups; used for large quantities.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 25
+        },
+        {
+          "id": "2af8f413-e731-4c07-a79c-d791e183430c",
+          "term": "Degree Celsius",
+          "kind": "standard",
+          "definition": "Abbreviated °C. The metric unit for temperature in cooking.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 26
+        },
+        {
+          "id": "5930385b-792d-4580-9076-49bc6746f06c",
+          "term": "Degree Fahrenheit",
+          "kind": "standard",
+          "definition": "Abbreviated °F. The standard unit for temperature, used in ovens.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 27
+        },
+        {
+          "id": "0bd4b80c-c804-4d58-a996-09a8ef2d6870",
+          "term": "Volume Equivalents (Teaspoons to Cup)",
+          "kind": "standard",
+          "definition": "3 teaspoons = 1 tablespoon = 1/16 cup. 6 teaspoons = 2 tablespoons = 1/8 cup. 12 teaspoons = 4 tablespoons = 1/4 cup. 24 teaspoons = 8 tablespoons = 1/2 cup. 36 teaspoons = 12 tablespoons = 3/4 cup. 48 teaspoons = 16 tablespoons = 1 cup.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 28
+        },
+        {
+          "id": "366b709c-d372-4683-91bb-29a034bc8ef3",
+          "term": "What 1 Cup Equals",
+          "kind": "standard",
+          "definition": "1 cup = 8 fluid ounces = 16 tablespoons = 48 teaspoons = 1/2 pint = 1/4 quart = 1/16 gallon.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 29
+        },
+        {
+          "id": "f16a44cb-78d8-4b1f-8efe-47bad81a32c5",
+          "term": "Gallon, Quart, and Pint Equivalents",
+          "kind": "standard",
+          "definition": "1 gallon = 4 quarts = 8 pints = 16 cups = 128 ounces = 3.8 liters. 1 quart = 2 pints = 4 cups = 32 ounces = 0.95 liters. 1 pint = 2 cups = 16 ounces = 480 mL.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 30
+        },
+        {
+          "id": "8ecf860a-686d-426a-9013-2b3feff777cb",
+          "term": "1 Kilogram (Kitchen Equivalent)",
+          "kind": "standard",
+          "definition": "Equal to 1,000 g/ml, 4.22 cups, and 2.2 lbs.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 31
+        },
+        {
+          "id": "f9d18a30-3743-4994-ac55-b01a49075ac2",
+          "term": "1 Stick of Butter",
+          "kind": "standard",
+          "definition": "By volume, 1/2 cup or 125 mL. By weight, 1/4 lb (4 oz) or 115 g.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 32
+        },
+        {
+          "id": "2678ea31-fd9c-4d5b-8293-89f6f81ec4f5",
+          "term": "Oven Temperature Conversions (Fahrenheit to Celsius)",
+          "kind": "standard",
+          "definition": "275°F = 140°C. 300°F = 150°C. 325°F = 165°C. 350°F = 180°C. 375°F = 190°C. 400°F = 200°C. 425°F = 220°C. 450°F = 230°C. 475°F = 240°C.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 33
+        }
+      ]
+    }
+  ]
+}

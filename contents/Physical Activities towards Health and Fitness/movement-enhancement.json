@@ -1,0 +1,131 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "3f7c1a94-5e2b-4d68-9a03-6c1e8b7d2f45",
+      "name": "Physical Activities towards Health and Fitness"
+    }
+  ],
+  "sets": [
+    {
+      "id": "07787e47-fc31-45a9-a9eb-5747052bf2b6",
+      "folderId": "3f7c1a94-5e2b-4d68-9a03-6c1e8b7d2f45",
+      "name": "Movement Enhancement",
+      "description": "Exercise vs. physical activity, the three main types of exercise (aerobic, flexibility, strength training), muscular strength and endurance, and the benefits of strength training.",
+      "position": 2,
+      "updatedAt": 1787286300827,
+      "terms": [
+        {
+          "id": "7872649d-2705-4b6f-b6cc-1fa106460aba",
+          "term": "Exercise",
+          "kind": "standard",
+          "definition": "A structured program of activity geared toward achieving or maintaining physical fitness. It is actually a sub-category of physical activity.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 0
+        },
+        {
+          "id": "7f1f83ea-a5c2-42df-915d-d046681dfbb4",
+          "term": "Physical Activity",
+          "kind": "standard",
+          "definition": "Any form of exercise or movement of the body that uses energy. Some of your daily life activities doing active chores around the house, yard work, walking the dog are examples.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 1
+        },
+        {
+          "id": "efe78dea-cf4f-4b82-b8cd-e56002b49f90",
+          "term": "Exercise and Physical Activity",
+          "kind": "standard",
+          "definition": "Exercise is a form of physical activity. But physical activity does not require exercise.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 2
+        },
+        {
+          "id": "231ad226-868f-41ca-93f1-f350ae813aec",
+          "term": "The 3 Main Types of Exercise",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Aerobic Exercise",
+            "Flexibility Training",
+            "Strength Training"
+          ],
+          "updatedAt": 1787286300827,
+          "position": 3
+        },
+        {
+          "id": "c7b45285-5322-4c90-8936-5ff0f4ba3e4d",
+          "term": "Aerobic Exercise",
+          "kind": "standard",
+          "definition": "Any vigorous activity that increases heart rate and respiration and raises oxygen and blood flow throughout the body while using large muscle groups of the body repetitively and rhythmically. It boosts your heart and lungs health, gives you more energy, and helps you burn calories. It is an endurance-type exercise that increases a person's heart and breathing rate over a sustained period — it means \"with oxygen\" for sustained endurance, i.e. continuous, repetitive movements performed at low-moderate intensity. Real-world Examples: Brisk walking, jogging, running, swimming, hiking, dancing, riding a bike, cycling, and rowing.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 4
+        },
+        {
+          "id": "0290731f-a3a4-4de2-be8e-199a53292b5f",
+          "term": "Anaerobic Exercise",
+          "kind": "standard",
+          "definition": "Involves short, intense bursts of physical activity. It means \"without oxygen\" for short, intense bursts of power — brief exercise done at near maximal effort. Examples: Weightlifting, sprinting, jumping rope, and High-Intensity Interval Training (HIIT).",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 5
+        },
+        {
+          "id": "99ad0708-2d05-4bd5-b5d1-c29238701536",
+          "term": "Flexibility Training",
+          "kind": "standard",
+          "definition": "A form of physical exercise in which a specific muscle or tendon (or muscle group) is deliberately flexed or stretched to improve the muscle's felt elasticity and achieve comfortable muscle tone. The result is a feeling of increased muscle control, flexibility, and its full range of motion. It keeps your joints limber, helps you bend and twist, and lowers your chances of getting hurt. Flexibility can be tested by stretching individual muscles or by performing exercises such as the lunge or the sit and reach. Real-world Examples: Yoga, Pilates, and reaching or stretching your arms and legs.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 6
+        },
+        {
+          "id": "9c2bcc4d-b1a9-4ebd-87a6-6c76a3349265",
+          "term": "Strength Training",
+          "kind": "standard",
+          "definition": "Makes your muscles work against a resistance. It builds strong muscles, protects your bones, and makes everyday tasks like carrying groceries much easier. Real-world Examples: Lifting weights, using resistance bands, or doing bodyweight exercises like push-ups, and sit-ups.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 7
+        },
+        {
+          "id": "6a705f4c-c5f7-4313-aad7-76a35ae243a1",
+          "term": "Muscular Strength",
+          "kind": "standard",
+          "definition": "The amount of force you can put out or the amount of weight you can lift. It's measured by how much force you can exert, and how much weight you can lift for a short period of time.",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 8
+        },
+        {
+          "id": "4cb83f0a-2b64-4010-979c-3d3df160ceef",
+          "term": "Muscular Endurance",
+          "kind": "standard",
+          "definition": "The ability of a muscle or group of muscles to perform repetitive contractions against a force for an extended period. It is how many times you can move that weight without getting exhausted (very tired).",
+          "answers": null,
+          "updatedAt": 1787286300827,
+          "position": 9
+        },
+        {
+          "id": "a3e78356-1004-435e-b1f0-a9fa27af7e66",
+          "term": "The 6 Benefits of Strength Training",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Makes you stronger",
+            "Burns calories efficiently",
+            "Decreases abdominal fat",
+            "Can help you appear leaner",
+            "Decreases your risk of falls",
+            "Lowers your risk of injury"
+          ],
+          "updatedAt": 1787286300827,
+          "position": 10
+        }
+      ]
+    }
+  ]
+}

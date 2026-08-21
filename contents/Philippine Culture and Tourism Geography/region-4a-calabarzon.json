@@ -1,0 +1,225 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Philippine Culture and Tourism Geography"
+    }
+  ],
+  "sets": [
+    {
+      "id": "d730b7b3-5d2c-403c-951b-f758a881b16d",
+      "folderId": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Region 4A - CALABARZON",
+      "description": "The provinces and capitals of CALABARZON, with its attractions, foods and delicacies, and festivals.",
+      "position": 6,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "643d3822-a58d-4ac5-826b-7c85cfdfaaf2",
+          "term": "5 Provinces of Region 4A and Their Capitals",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Cavite - Trece Martires City",
+            "Laguna - Santa Cruz",
+            "Batangas - Batangas City",
+            "Rizal - Antipolo City",
+            "Quezon - Lucena City"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "41eac664-e376-4ea6-a69b-bc5732c10866",
+          "term": "Aguinaldo Shrine and Museum",
+          "kind": "standard",
+          "definition": "An attraction in Cavite. Site where Philippine independence was declared on June 12, 1898. Former residence of the first Philippine President. Preserved as a national shrine and venue for Independence Day ceremonies.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "f139b7e0-876e-44eb-95b6-669738772941",
+          "term": "Corregidor Island",
+          "kind": "standard",
+          "definition": "An attraction in Cavite. Strategic military defense site during World War II. Fortified by Spanish and American forces before the Japanese occupation. Features war ruins, tunnels, and memorials open for historical tours.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "d0348f95-d9ba-41a0-9166-014c209dae6b",
+          "term": "Nagcarlan Underground Cemetery",
+          "kind": "standard",
+          "definition": "An attraction in Laguna. Built in 1845 with a chapel and underground burial chamber. Used as a secret meeting place during the Philippine Revolution. Declared a National Historical Landmark in 1973.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "678c4f99-825e-4c39-8448-26cd44979597",
+          "term": "Laguna de Bay",
+          "kind": "standard",
+          "definition": "The largest freshwater lake in the Philippines. Supports fishing, agriculture, and local livelihoods. Drains into the Pasig River and contributes to regional ecology.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "af02e435-c13c-4050-ae71-f85bc460cfc0",
+          "term": "Basilica of St. Martin de Tours",
+          "kind": "standard",
+          "definition": "An attraction in Batangas. Considered the largest Catholic church in Asia. Features massive Baroque architecture and Spanish-era design. Houses a notable silver tabernacle and serves as a pilgrimage site.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "9b9fd654-d8a5-4c23-90ff-c607d7503d51",
+          "term": "Calatagan Mangrove Forest",
+          "kind": "standard",
+          "definition": "An attraction in Batangas. Protected mangrove area locally known as \"Ang Pulo\". Features walkways, viewing decks, and eco-tourism activities. Promotes environmental conservation and coastal protection.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "dbbfda87-7af0-42cd-8eab-1a0ed98ee28e",
+          "term": "Angono Petroglyphs",
+          "kind": "standard",
+          "definition": "An attraction in Rizal. The oldest known artworks in the Philippines, discovered in 1965. Features ancient carvings etched on rock surfaces. Recognized as an important cultural and historical site.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "6f972682-63de-4d49-be8e-389c7b1de29b",
+          "term": "Masungi Georeserve",
+          "kind": "standard",
+          "definition": "An attraction in Rizal. Conservation area known for limestone formations and forest landscapes. Offers guided trails focused on adventure and environmental education. Promotes sustainable tourism and ecological preservation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "f5081971-f4d9-4faa-a949-b2bacf1c1b3b",
+          "term": "Kamay ni Hesus Shrine",
+          "kind": "standard",
+          "definition": "An attraction in Quezon. Religious site featuring a large statue of the Ascending Christ. Includes pilgrimage steps, prayer areas, and biblical displays.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "fa615fce-53f9-485c-aebe-44af5d3e9391",
+          "term": "Balesin Island",
+          "kind": "standard",
+          "definition": "An attraction in Quezon. A private luxury island resort in the province. Known for white-sand beaches and well-preserved natural surroundings. Features themed villages inspired by international destinations.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "ac19c350-ffa7-4536-9d8f-ae4e333bf9d3",
+          "term": "Pansit Pusit",
+          "kind": "standard",
+          "definition": "A delicacy of Cavite. A noodle dish flavored with squid ink, giving it a distinct dark color and savory taste.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "90984e03-3ae0-4c97-9fe2-6b304ee9ab92",
+          "term": "Inutak",
+          "kind": "standard",
+          "definition": "A delicacy of Laguna. A sweet, sticky rice delicacy layered with coconut cream, often served warm.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "45725f1a-a84a-47bb-a818-956ca9f62501",
+          "term": "Tapang Taal",
+          "kind": "standard",
+          "definition": "A delicacy of Batangas. A sweet and savory cured beef specialty from one of the province's historic towns.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "208def03-4589-4ef2-b3c2-e922a596675b",
+          "term": "Okoy",
+          "kind": "standard",
+          "definition": "A delicacy of Rizal. A fritter made from shrimp and vegetables, fried until crispy.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "81b9ab60-b944-462f-8b9b-cabe3f8a8101",
+          "term": "Pancit Habhab",
+          "kind": "standard",
+          "definition": "A delicacy of Quezon. A noodle dish eaten without utensils, traditionally served on banana leaves.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "64774adb-14f4-499a-9378-9105003698e5",
+          "term": "Hardinera",
+          "kind": "standard",
+          "definition": "A delicacy of Quezon. A meatloaf dish cooked in llaneras, similar to embutido.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "8bc218f8-f3f7-42a2-b68a-ab0ac9705af3",
+          "term": "Kalayaan Festival",
+          "kind": "standard",
+          "definition": "A festival of Cavite held on June 12. Celebrated in Kawit to commemorate Philippine independence in 1898. Features flag-raising ceremonies, parades, and cultural performances. Includes historical reenactments of significant events. Promotes patriotism and national pride.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "9380e23c-c16e-423f-8327-f5b5250341ec",
+          "term": "Gat Tayaw Festival",
+          "kind": "standard",
+          "definition": "A festival of Laguna held on May 15. Celebrated in Liliw in honor of the town's founding and its founder. Highlights the footwear industry through trade fairs and exhibits. Includes street dancing and cultural presentations.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "ec6e9ad5-9826-4518-b8d2-62b4a387572d",
+          "term": "Maliputo Festival",
+          "kind": "standard",
+          "definition": "A festival of Batangas held usually on May 9. Celebrates a fish found in Taal Lake. Features cooking contests, food fairs, and cultural shows. Promotes local fishing traditions and livelihoods. Encourages tourism and community participation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "9b04b0f4-48ed-4309-b084-2ae7c09aaa3b",
+          "term": "Higantes Festival",
+          "kind": "standard",
+          "definition": "A festival of Rizal held on November 23. Known for giant papier-mâché figures paraded in Angono. Celebrated in honor of San Clemente, patron saint of fishermen. Showcases creativity, artistry, and humor. Highlights Angono as the Art Capital of the Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "0b6cba43-4ca3-4123-b6b3-65ab318cd865",
+          "term": "Pahiyas Festival",
+          "kind": "standard",
+          "definition": "A festival of Quezon held on May 15. Celebrated in Lucban to honor San Isidro Labrador. Houses are decorated with colorful kiping and agricultural products. Serves as a thanksgiving for a bountiful harvest. Known for vibrant and creative street displays.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        }
+      ]
+    }
+  ]
+}

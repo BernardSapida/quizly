@@ -1,0 +1,308 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Philippine Culture and Tourism Geography"
+    }
+  ],
+  "sets": [
+    {
+      "id": "374ba6e3-ddf7-4d7d-b0f1-cb9b64cf21b7",
+      "folderId": "f138414c-67de-4e36-a72f-fa878b7f2d07",
+      "name": "Region 3 - Central Luzon",
+      "description": "The provinces and capitals of Central Luzon, with its attractions, foods and delicacies, and festivals.",
+      "position": 4,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "a2158f63-bec2-4f35-a31c-efa88a88b764",
+          "term": "7 Provinces of Region 3 and Their Capitals",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Aurora - Baler",
+            "Bataan - Balanga",
+            "Bulacan - Malolos",
+            "Nueva Ecija - Palayan",
+            "Pampanga - San Fernando",
+            "Tarlac - Tarlac City",
+            "Zambales - Iba"
+          ],
+          "updatedAt": 1783971504483,
+          "position": 0
+        },
+        {
+          "id": "77180415-383d-4b65-a923-ffb294b85997",
+          "term": "Quezon's Rest House",
+          "kind": "standard",
+          "definition": "An attraction in Aurora. Located in Baler and served as the rest house of a former Philippine President. The structure is made of concrete, wood, and nipa, reflecting a simple lifestyle. Displays photographs, antique kitchenware, and preserved personal items.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 1
+        },
+        {
+          "id": "614e97f5-fc68-4bea-9642-5873d75090ab",
+          "term": "Baler Catholic Church",
+          "kind": "standard",
+          "definition": "An attraction in Aurora. Built in the 18th century. Known for a historic siege involving Spanish soldiers, where 54 Spanish soldiers continued to defend it even after the Spanish-American War had ended.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 2
+        },
+        {
+          "id": "582faf29-2379-48c8-9aed-1bef860c8508",
+          "term": "Balete Park and Millennium Tree",
+          "kind": "standard",
+          "definition": "An attraction in Aurora. Home to a tree believed to be over 600 years old, considered one of the largest of its kind in Asia. Its trunk is so large that around 60 people are needed to encircle it.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 3
+        },
+        {
+          "id": "f47aebcb-7d0b-419e-b225-6b90834192fe",
+          "term": "Las Casas Filipinas de Acuzar",
+          "kind": "standard",
+          "definition": "An attraction in Bataan. A heritage resort featuring Spanish-Filipino colonial houses. The houses were transferred from different parts of the country and restored. It is the first heritage hotel in the Philippines.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 4
+        },
+        {
+          "id": "a01483dd-af91-4eed-b842-c3445e685d48",
+          "term": "Shrine of Valor",
+          "kind": "standard",
+          "definition": "An attraction in Bataan. Located on Mt. Samat in Pilar. Dedicated to Filipino and American soldiers of World War II. Serves as a historical monument.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 5
+        },
+        {
+          "id": "1cf567d2-ab07-422d-aff6-3bcb9745da3f",
+          "term": "Barasoain Church",
+          "kind": "standard",
+          "definition": "An attraction in Bulacan. Known as the \"Cradle of Democracy in the East\". Site of the First Philippine Congress in 1898. Site where the Malolos Constitution was drafted and the First Philippine Republic was inaugurated.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 6
+        },
+        {
+          "id": "63a07c79-6d0b-4aaf-bb6e-57c8b53e0540",
+          "term": "Philippine Arena",
+          "kind": "standard",
+          "definition": "An attraction in Bulacan. One of the largest indoor venues in the world. Has a seating capacity of more than 50,000. Used for concerts, sports events, and large gatherings.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 7
+        },
+        {
+          "id": "6c35f61b-d0f3-49f8-8e8a-b5a49caa4712",
+          "term": "Minalungao National Park",
+          "kind": "standard",
+          "definition": "An attraction in Nueva Ecija. A protected natural area. Known for its clear emerald river. Surrounded by high limestone cliffs.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 8
+        },
+        {
+          "id": "4fbcd1f3-768b-4b56-b40a-8b8457809413",
+          "term": "Gapan Ancestral Houses",
+          "kind": "standard",
+          "definition": "An attraction in Nueva Ecija. Well-preserved historical residences. Reflect Spanish and early American architectural influences. Feature wooden structures and capiz shell windows.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 9
+        },
+        {
+          "id": "ba8efd48-23a4-4c5d-8c6b-f794c45111f1",
+          "term": "San Guillermo Parish Church",
+          "kind": "standard",
+          "definition": "An attraction in Pampanga. One of the oldest churches in the province. Partially buried by lahar during the 1991 Mt. Pinatubo eruption. Known as the \"half-buried church\".",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 10
+        },
+        {
+          "id": "33b8e30a-7288-4bcc-b84b-c2d26a317d9b",
+          "term": "Clark Barn Houses",
+          "kind": "standard",
+          "definition": "An attraction in Pampanga. Built in 1903 during the establishment of Fort Stotsenburg. Originally used as officers' quarters. Considered among the earliest structures in the area.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 11
+        },
+        {
+          "id": "14a1125d-8a6d-4d8b-83d2-09c3e4d37638",
+          "term": "Mt. Pinatubo Crater Lake",
+          "kind": "standard",
+          "definition": "An attraction in Pampanga. Formed after the 1991 eruption of a volcano, one of the largest eruptions of the 20th century. Features scenic waters at the volcano's summit.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 12
+        },
+        {
+          "id": "d507148a-d6e4-4953-9086-9572a4d29d64",
+          "term": "Capas National Shrine",
+          "kind": "standard",
+          "definition": "An attraction in Tarlac. Features a 70-meter tall black monument. Honors Filipino and American soldiers. Located at the end site of the Bataan Death March.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 13
+        },
+        {
+          "id": "05014845-36b3-4269-856a-ff54d2e24e6b",
+          "term": "Monasterio de Tarlac",
+          "kind": "standard",
+          "definition": "An attraction in Tarlac. Located on a mountain in San Jose. A known religious site. Houses a relic believed to be part of the Holy Cross.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 14
+        },
+        {
+          "id": "8b26ddd3-32e8-4110-9e9c-f33e8250aeb1",
+          "term": "Ramon Magsaysay Ancestral House",
+          "kind": "standard",
+          "definition": "An attraction in Zambales. A museum dedicated to a former Philippine President. Displays personal belongings and memorabilia. Highlights his leadership and public service.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 15
+        },
+        {
+          "id": "36fa7d90-5121-4ceb-82ff-1bffedff683f",
+          "term": "Anawangin Cove",
+          "kind": "standard",
+          "definition": "An attraction in Zambales. Known for its ash-colored sand and calm waters. Surrounded by agoho trees. Formed after the eruption of Mt. Pinatubo.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 16
+        },
+        {
+          "id": "1c48e6c2-cba5-4800-82d0-1e66cddd5064",
+          "term": "Ensaladang Pako",
+          "kind": "standard",
+          "definition": "A delicacy of Aurora. A salad made from edible fern leaves mixed with tomatoes and onions. Known for its fresh taste and simple preparation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 17
+        },
+        {
+          "id": "be850cd5-fbab-4e0d-b265-9dac582ef517",
+          "term": "Gabi Ice Cream",
+          "kind": "standard",
+          "definition": "A delicacy of Bataan. Made from taro root. Known for its creamy texture and natural sweetness.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 18
+        },
+        {
+          "id": "31a17b28-f1f9-4b08-9317-c4808d96b65d",
+          "term": "Hamon Bulakenya",
+          "kind": "standard",
+          "definition": "A delicacy of Bulacan. A sweet cured ham commonly served during celebrations. Known for its rich and festive flavor.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 19
+        },
+        {
+          "id": "076cb131-e0a2-4f2e-be6d-0c7199d9cff3",
+          "term": "Batutay Longganisa",
+          "kind": "standard",
+          "definition": "A delicacy of Nueva Ecija. A sweet and garlicky beef sausage, distinct from other pork varieties.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 20
+        },
+        {
+          "id": "57758832-25e8-431e-a6ec-aee79025a664",
+          "term": "Sisig",
+          "kind": "standard",
+          "definition": "A delicacy of Pampanga. Made from chopped pork, onions, and seasonings. Known for its savory, tangy, and slightly spicy taste.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 21
+        },
+        {
+          "id": "59c1075b-a08c-43bb-ae42-5d2804302cf5",
+          "term": "Tupig",
+          "kind": "standard",
+          "definition": "A delicacy of Tarlac. A grilled rice cake made from glutinous rice and coconut. Wrapped in banana leaves and has a smoky flavor.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 22
+        },
+        {
+          "id": "a36a5ae8-3abd-411e-b819-d3a1f308735c",
+          "term": "Mango Products",
+          "kind": "standard",
+          "definition": "A delicacy of Zambales. Known for its sweet and juicy flavor. One of the main agricultural products of the province.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 23
+        },
+        {
+          "id": "f1af64db-7747-4e8a-b441-5597251f22e4",
+          "term": "Sabutan Festival",
+          "kind": "standard",
+          "definition": "A festival of Aurora held on August 24-25. Celebrated in San Luis to highlight a local plant used in weaving mats, hats, and handicrafts. The festival includes street dancing, exhibits, and trade fairs. It showcases the skills of local artisans and promotes local livelihood. The event also supports cultural preservation.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 24
+        },
+        {
+          "id": "364b2d6c-6716-416d-9190-8765aa654be2",
+          "term": "Pawikan Festival",
+          "kind": "standard",
+          "definition": "A festival of Bataan held on the last week of November, usually November 29-30. Celebrated in Morong to promote the protection of endangered sea turtles. Activities include turtle release, coastal clean-ups, and awareness campaigns. The festival highlights marine conservation. It also encourages sustainable tourism practices.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 25
+        },
+        {
+          "id": "1cb5a62a-8bf6-4c13-9fdd-efd395581198",
+          "term": "Obando Fertility Dance",
+          "kind": "standard",
+          "definition": "A festival of Bulacan held on May 17-19. A religious festival where devotees dance in honor of patron saints while praying for fertility and blessings. The tradition combines Catholic practices and local beliefs. Participants perform ritual dances in the streets. The festival attracts pilgrims from different places.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 26
+        },
+        {
+          "id": "f07c45f0-d876-4429-ac37-9fc231b4bd53",
+          "term": "Araquio of Peñaranda",
+          "kind": "standard",
+          "definition": "A festival of Nueva Ecija celebrated every May. A traditional theatrical presentation about the search for the Holy Cross. It includes music, dance, and dialogue influenced by Spanish traditions. The event reflects strong religious faith. It remains an important cultural practice in the province.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 27
+        },
+        {
+          "id": "272d3025-2c71-408d-a955-0a84ad84b73a",
+          "term": "Grand Lantern Festival",
+          "kind": "standard",
+          "definition": "A festival of Pampanga held on the Saturday before Christmas Day in December. Held in San Fernando and known for giant illuminated displays with moving lights. The displays feature detailed designs and vibrant colors. The festival highlights Filipino creativity. It is a major Christmas attraction.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 28
+        },
+        {
+          "id": "fde0a915-ab52-40b9-ab11-ad9bfee98b31",
+          "term": "Belenismo Festival",
+          "kind": "standard",
+          "definition": "A festival of Tarlac held on the first week of December. Showcases nativity scenes displayed in homes and public places. The festival promotes faith, family, and creativity. Communities create artistic displays. It is an important Christmas tradition in the province.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 29
+        },
+        {
+          "id": "44c465a5-956f-4263-8c71-32c7dcc9a764",
+          "term": "Dinamulag Festival",
+          "kind": "standard",
+          "definition": "A festival of Zambales held in April, usually the 3rd week. Celebrates the mango harvest in the province. Activities include street dancing, exhibits, and trade fairs. The festival highlights the importance of mango production. It also promotes tourism and local products.",
+          "answers": null,
+          "updatedAt": 1783971504483,
+          "position": 30
+        }
+      ]
+    }
+  ]
+}

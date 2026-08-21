@@ -1,0 +1,613 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "01374e51-1743-456f-8ce1-0134d2a04831",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Basic Food Preparation and Technique",
+      "description": "Mise en place, knife safety and parts, cutting and chopping styles, measuring techniques, mixing techniques, and seasonings, flavorings, marinating, and brining.",
+      "position": 5,
+      "updatedAt": 1787287766288,
+      "terms": [
+        {
+          "id": "6ce344b2-b37d-4bc0-8952-5cb87d7cdd12",
+          "term": "Mise en Place",
+          "kind": "standard",
+          "definition": "A French culinary word which means \"Everything put in place.\" Refers to the practice of preparing and organizing all ingredients and equipment before cooking. It's a crucial concept in professional kitchens, ensuring a smooth and efficient cooking process. This involves tasks like chopping vegetables, measuring spices, and arranging everything in an organized manner.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 0
+        },
+        {
+          "id": "d8a50663-a071-4fdd-9e55-69fb8a497f85",
+          "term": "How to Properly Use Mise en Place",
+          "kind": "standard",
+          "definition": "Have your recipe handy and develop a plan. Gather all of your ingredients, utensils, and equipment needed. One by one, wash, cut, dice, chop, and measure all of your ingredients. Place them into appropriately sized dishes, bowls, and containers for easy grabbing. Set your ingredients around your cooking station for better accessibility. For a larger-scale cooking project, you can place all of your cold ingredients in containers that fit in a commercial refrigerator to easily grab from as you cook.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 1
+        },
+        {
+          "id": "a1649edb-a9b7-4802-9a40-54e4afa3dc2e",
+          "term": "Knife Safety",
+          "kind": "standard",
+          "definition": "A sharp knife is a safe knife. Using a dull knife is an invitation to disaster — if you try to force a dull knife through the surface of a food product, it is more likely to slip and cause an injury. Never, ever grab a falling knife; the best way to avoid having to think about this rule is to make sure your knife is always completely on your work surface, without the handle sticking out into traffic areas. Use the right knife for the right job. Always cut away from — never towards — yourself. When you have a knife, keep your eyes on the blade. Carry a knife properly. Never, ever put a knife in a sink full of water. Always cut on a cutting board — never on wooden tables — and do not cut on metal, glass, or marble, as this will ultimately damage a knife's edge.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 2
+        },
+        {
+          "id": "74598531-fe42-4821-86cf-824587b7f3a2",
+          "term": "The 12 Parts of a Kitchen Knife",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Blade",
+            "Handle",
+            "Point",
+            "Tip",
+            "Belly",
+            "Edge",
+            "Heel",
+            "Bolster",
+            "Spine",
+            "Tang",
+            "Rivet",
+            "Butt"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 3
+        },
+        {
+          "id": "a0a0de47-4287-4990-8d9e-5e5d6079e8a7",
+          "term": "Tip",
+          "kind": "standard",
+          "definition": "The end of the blade. It serves to create a pivot point used in several different cutting methods, and includes the knifepoint.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 4
+        },
+        {
+          "id": "77d10411-d7ce-418b-b30e-36c02c1d76fb",
+          "term": "Belly",
+          "kind": "standard",
+          "definition": "The portion of the blade between the tip and heel. Knives with \"curvy\" bellies and small tips are good for chopping vegetables, as they allow quick and smooth cutting motions.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 5
+        },
+        {
+          "id": "6ab679b4-e980-4385-9ff7-ddd80f1c1050",
+          "term": "Heel",
+          "kind": "standard",
+          "definition": "The end of the blade just before the handle, opposite the tip. Some blades have the heel blended into an extended bolster for more protection at the cost of versatility.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 6
+        },
+        {
+          "id": "885dd0f0-5a77-457f-97c8-39f55da5f503",
+          "term": "Bolster",
+          "kind": "standard",
+          "definition": "Its primary function is to add strength where the handle joins the blade.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 7
+        },
+        {
+          "id": "352c944c-0cd5-48fd-acd8-d97a202f39a5",
+          "term": "Spine",
+          "kind": "standard",
+          "definition": "The back of the blade, opposite the cutting edge.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 8
+        },
+        {
+          "id": "f66f0de9-1915-439c-bc1e-ebbba0bd527e",
+          "term": "Point",
+          "kind": "standard",
+          "definition": "The front part of the knife. It is used for scoring and piercing.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 9
+        },
+        {
+          "id": "bcc56e72-d2ad-4746-b6fb-11e9fd95ff4e",
+          "term": "Cutting Edge",
+          "kind": "standard",
+          "definition": "The cutting part of the blade. It is used for chopping and slicing.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 10
+        },
+        {
+          "id": "ef975302-6ce9-4352-8e55-757fb0b6bc95",
+          "term": "Butt",
+          "kind": "standard",
+          "definition": "The butt, or pommel, serves as a reference point for the hand.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 11
+        },
+        {
+          "id": "2be431ae-363b-4ef3-b2ad-169476df8177",
+          "term": "Chef's Knife",
+          "kind": "standard",
+          "definition": "Also called the French knife, it is the most frequently used knife in the kitchen. The positioning of the grip and of the food under the blade both influence the degree of control and leverage a person has over it.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 12
+        },
+        {
+          "id": "611e1121-acf3-4e90-a4cb-3a73ede6ef9d",
+          "term": "Proper Knife Grip",
+          "kind": "standard",
+          "definition": "Grasp the blade firmly between the pad of the thumb and the knuckle of the index finger, just in front of the bolster, curling the remaining fingers around the bottom of the handle. Curl the fingers of the guiding hand inward for protection. A good grip allows the user to control the movement of the knife, avoiding slippage. Resist the temptation to extend the index finger along the spine of the knife, because that method results in a lack of control of the angle being worked with.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 13
+        },
+        {
+          "id": "bb01c1e3-f144-4554-89c1-4720309dcac1",
+          "term": "Slice",
+          "kind": "standard",
+          "definition": "Cutting of food into large or thin pieces. The base of the knife is lifted up and down with a forward and backward motion.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 14
+        },
+        {
+          "id": "2114ee3a-be66-45e2-9beb-b82091afc8cf",
+          "term": "Julienne",
+          "kind": "standard",
+          "definition": "This cut looks like a matchstick and has the nickname \"shoestring.\" It is also a good size for cutting potatoes for French fries. A julienne of potato is sometimes referred to as an allumette.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 15
+        },
+        {
+          "id": "8edd53a1-0ff2-4b42-8ada-c83074b40cab",
+          "term": "Shred",
+          "kind": "standard",
+          "definition": "To cut leaf vegetables into thin strips.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 16
+        },
+        {
+          "id": "c269a042-7105-46dc-9a9f-20d819ce9387",
+          "term": "Dice",
+          "kind": "standard",
+          "definition": "To cut food into even-size cubes (1/8 to 1/4 inch).",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 17
+        },
+        {
+          "id": "94617595-8c55-47cd-b825-ad4808e37af0",
+          "term": "Mince",
+          "kind": "standard",
+          "definition": "To chop food into very fine pieces (less than 1/8 inch).",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 18
+        },
+        {
+          "id": "cf4875ac-4040-4c2e-bd33-04cc6c738393",
+          "term": "Chiffonade",
+          "kind": "standard",
+          "definition": "Means \"little ribbons\" in French. This cut is mainly used for vegetable leaves and fresh herbs, in particular basil. The leaves are stacked, rolled, and then sliced perpendicularly, creating thin strips.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 19
+        },
+        {
+          "id": "7f2915f2-b504-4599-a7dd-8ec02c8fcb2a",
+          "term": "Cube",
+          "kind": "standard",
+          "definition": "To cut food into even-size cubes (about 1/2 inch).",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 20
+        },
+        {
+          "id": "9fcae427-e72e-4b6c-b873-e5ac3b753f2f",
+          "term": "Chop",
+          "kind": "standard",
+          "definition": "Uneven cutting of foods into small pieces (less than 1/4 inch), or a coarse chop with 1/2 or 3/4 inch irregular pieces.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 21
+        },
+        {
+          "id": "0f480984-7d7a-4a41-931c-33a3ad62f3f4",
+          "term": "Parer",
+          "kind": "standard",
+          "definition": "To cut off the outer coating (peel) of vegetables or fruits. Squaring off, or \"parer\" in French, is the first step for creating most of the classic cuts. The first step in squaring off is to cut the product into roughly 2 to 2 1/2 inch segments.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 22
+        },
+        {
+          "id": "98f78262-8229-497d-be3f-f7a00a0b6824",
+          "term": "Brunoise",
+          "kind": "standard",
+          "definition": "Measures 5 mm on each side, which makes it the smallest of the dice cuts. Brunoise is usually used for garnishes.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 23
+        },
+        {
+          "id": "1e4fb8fb-fcc2-4246-a9b3-1aaf9edefd37",
+          "term": "Paysanne",
+          "kind": "standard",
+          "definition": "A French cooking term used to describe a style of cutting vegetables which means \"country-style.\" It consists of slices of vegetables about 1 mm thick.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 24
+        },
+        {
+          "id": "615c6ea4-e9eb-4a66-b779-e93dc6ca1020",
+          "term": "Batonnet",
+          "kind": "standard",
+          "definition": "A vegetable cut into batons or sticks. Batonnet, or baton, is a matchstick knife cut with precise dimensions of about 1/4 inch by 1/4 inch, and roughly 2 to 2 1/2 inches long.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 25
+        },
+        {
+          "id": "fd5cc974-d3e8-4945-b539-0034f4a967e7",
+          "term": "Jardinière",
+          "kind": "standard",
+          "definition": "A French cooking term meaning to cut a vegetable into thickish batons. This is the size of vegetables commonly used in frozen vegetable mixes.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 26
+        },
+        {
+          "id": "bb43ffbe-0312-4bb8-adb8-7ee72dc22ce6",
+          "term": "Macedoine",
+          "kind": "standard",
+          "definition": "A French cooking term for a mixture of vegetables. The vegetables should be chopped into cubes 4 mm x 4 mm x 4 mm (1/6th inch each side), or cut into a larger brunoise of 1/4 inch dice, or cut into larger and thicker cubes based on jardinière.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 27
+        },
+        {
+          "id": "8b10c5ab-b5d8-4b71-b443-06c806612a60",
+          "term": "Flake",
+          "kind": "standard",
+          "definition": "To break food into small thin pieces, usually by using a fork.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 28
+        },
+        {
+          "id": "065fafc9-7b29-47d7-bfc0-33bb1382b1ec",
+          "term": "Grind",
+          "kind": "standard",
+          "definition": "To reduce food into tiny particles using a grinder or a food processor.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 29
+        },
+        {
+          "id": "5b524338-3fa3-4d38-b4c1-2df1719a962d",
+          "term": "Crush",
+          "kind": "standard",
+          "definition": "To break food into small pieces. A rolling pin, mortar and pestle, blender, or food processor can be used in crushing food.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 30
+        },
+        {
+          "id": "52732a0d-0e94-4bc5-89ae-dc9c8755a7c4",
+          "term": "Mash",
+          "kind": "standard",
+          "definition": "To crush into a smooth, evenly textured mixture.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 31
+        },
+        {
+          "id": "c21351cd-adc8-43ff-ac60-3ac27f10b611",
+          "term": "Puree",
+          "kind": "standard",
+          "definition": "To mash or grind food until completely smooth, usually in a food processor, blender, sieve, or food mill.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 32
+        },
+        {
+          "id": "15d72865-382a-457c-8a6e-cdd789667334",
+          "term": "Snip",
+          "kind": "standard",
+          "definition": "To use scissors to cut an object into pieces, to remove sections, or to make slits or holes in a product.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 33
+        },
+        {
+          "id": "40aa1903-31a2-4015-bc94-9c30766aeb26",
+          "term": "Measuring Techniques",
+          "kind": "standard",
+          "definition": "Proper measurement of ingredients is essential to having a successful food product. Too much or too little of certain elements, such as salt, baking soda, baking powder, and other hot or spicy ingredients, can affect the texture or taste of the food. There are different measuring methods and measuring equipment used for liquids, dry ingredients, and fats.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 34
+        },
+        {
+          "id": "b49e1c8b-e977-43b2-b5ed-451e451d139c",
+          "term": "How to Measure Liquid Ingredients Using a Measuring Cup",
+          "kind": "standard",
+          "definition": "Use a liquid measuring cup for accurately measuring thin liquids such as milk, juice, and oil. Put the cup on a flat surface to get an accurate measurement, then pour the liquid in until it reaches the correct measurement line. Use the measurement line, leaning down until reaching eye-level on the measuring cup.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 35
+        },
+        {
+          "id": "419227d3-7ec0-427c-a5c0-36c0c41b58b5",
+          "term": "How to Measure Liquid Ingredients Using a Spoon",
+          "kind": "standard",
+          "definition": "Use a measuring spoon for a small quantity of liquid — use a measuring spoon if measuring less than a quarter cup of a thin liquid. To catch the excess liquid, hold the spoon over a separate bowl and gently pour in the liquid until the spoon is full.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 36
+        },
+        {
+          "id": "3a55a50e-ffb6-419b-bce0-2f29e7fea684",
+          "term": "How to Measure a Small Amount of Liquid",
+          "kind": "standard",
+          "definition": "Use a syringe to measure a small amount of liquid. This tool can also give an accurate result of measurement.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 37
+        },
+        {
+          "id": "82034f1f-9718-4895-bdc6-036b0f49ab43",
+          "term": "Measuring Dry Ingredients",
+          "kind": "standard",
+          "definition": "Use a measuring spoon or measuring cup to measure dry ingredients.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 38
+        },
+        {
+          "id": "63c9d066-c60c-4b10-b66a-a61d763c872c",
+          "term": "Deep and Sweep Method",
+          "kind": "standard",
+          "definition": "The most common way of measuring dry ingredients. It requires dipping the measuring cup into the dry ingredient with the cup overflowing, then taking the back of a knife or a flat spoon handle and sweeping the excess across and off of the measuring cup.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 39
+        },
+        {
+          "id": "50721cc3-578f-4002-83ea-0564a61360a5",
+          "term": "Spoon and Sweep Method",
+          "kind": "standard",
+          "definition": "Uses a spoon to fill up the measuring cup with dry ingredients before sweeping off the overflow.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 40
+        },
+        {
+          "id": "7dce921c-5dcd-4bcd-902c-3996278dfd8a",
+          "term": "Dash",
+          "kind": "standard",
+          "definition": "Technically defined as a small fraction of a teaspoon. It often refers to liquids, such as a quick shake of hot sauce or soy sauce.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 41
+        },
+        {
+          "id": "968a495d-781f-4d9d-8b51-d623aff5b6b8",
+          "term": "Pinch",
+          "kind": "standard",
+          "definition": "Technically defined as a small fraction of a teaspoon. It represents the amount that can be held between the thumb and forefinger (e.g., salt, spices) — a way of measuring smaller quantities using the thumb and index finger.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 42
+        },
+        {
+          "id": "cd6b6ad4-9903-4d38-9c60-0861477bed48",
+          "term": "Mixing",
+          "kind": "standard",
+          "definition": "A technique where two or more ingredients are combined and mixed. All terms, such as mix, combine, and blend, refer to mixing. Mixing tools and techniques are used to blend foods in a variety of ways and achieve an array of textures; different tools and appliances are used, including spoons, forks, blenders, and food processors.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 43
+        },
+        {
+          "id": "d5bd45c1-a02b-4595-b8bc-c45246d0a3cb",
+          "term": "The 7 Mixing Techniques",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Creaming",
+            "Beating",
+            "Cut-In",
+            "Tossing",
+            "Stirring",
+            "Whipping",
+            "Folding"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 44
+        },
+        {
+          "id": "7ee2f4b1-1a2e-4a60-b449-5be089fad277",
+          "term": "Creaming",
+          "kind": "standard",
+          "definition": "Also known as the \"sugar shortening\" method. The sugar and shortening fat are blended first, then creamed by continued mixing.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 45
+        },
+        {
+          "id": "805d6339-e0c8-4fb0-91b2-eaf4893fab4d",
+          "term": "Beating",
+          "kind": "standard",
+          "definition": "To rapidly stir a batter to incorporate the ingredients along with air thoroughly.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 46
+        },
+        {
+          "id": "2edb4933-c313-4bb3-8c94-2354902b92bb",
+          "term": "Cut-In",
+          "kind": "standard",
+          "definition": "A mixing method used to incorporate butter or shortening into dry flour. A pastry blender or a pastry cutter (also called a dough cutter) is used.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 47
+        },
+        {
+          "id": "b30259b0-c0d8-48d1-a71c-6209857125df",
+          "term": "Tossing",
+          "kind": "standard",
+          "definition": "To mix the ingredients of a food dish, such as salads and pasta, by lifting and dropping the ingredients/mixture. The food is turned over and mixed, enabling sauces and food items to be seasoned with the flavors of each item.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 48
+        },
+        {
+          "id": "f66b55e0-95f9-4cee-8bfb-3975bbf4709d",
+          "term": "Stirring",
+          "kind": "standard",
+          "definition": "To mix a substance in a circular pattern using a spoon, spatula, or other similar utensils.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 49
+        },
+        {
+          "id": "eb752b8b-6dbe-40a4-be55-47fc74b83513",
+          "term": "Whipping",
+          "kind": "standard",
+          "definition": "The process of beating ingredients vigorously to incorporate air, making the ingredient frothy.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 50
+        },
+        {
+          "id": "db6d0724-b227-4565-a48f-61b9131becd0",
+          "term": "Folding",
+          "kind": "standard",
+          "definition": "Combining two mixtures of different thicknesses and weights into one smooth mixture. This is accomplished by a specific technique of using a spoon to lift the two mixtures together, turning them over, so they combine.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 51
+        },
+        {
+          "id": "bd8f2612-e097-421e-a289-7b43300a11f2",
+          "term": "Seasonings and Flavorings",
+          "kind": "standard",
+          "definition": "Even the most nutritious or beautifully presented meal cannot be truly enjoyed or appreciated by the people eating it if it does not taste good. Seasonings and flavorings are added to foods to enhance their flavor.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 52
+        },
+        {
+          "id": "bfb78757-cdae-4c6c-8866-1d76d2feed8b",
+          "term": "Salt",
+          "kind": "standard",
+          "definition": "Considered the second most frequently used seasoning additive — the first is sugar — although it was introduced as a preservative.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 53
+        },
+        {
+          "id": "fa4e7ac9-9c22-441c-b88e-166e94d32959",
+          "term": "Pepper",
+          "kind": "standard",
+          "definition": "Just behind salt in popularity as a seasoning. Pepper is added most frequently to meats, soups, sauces, and salads.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 54
+        },
+        {
+          "id": "f1d89e79-d736-47aa-9bed-66c2fbc4f01a",
+          "term": "Herbs",
+          "kind": "standard",
+          "definition": "The aromatic, green leafy parts of non-woody plants. Herbs are well known for their seasoning capabilities in food preparation. The best-known seasoning herbs include basil, sage, thyme, oregano, bay leaves, cilantro, dill, marjoram, mint, parsley, tarragon, rosemary, and savory. For the best flavor and texture, fresh herbs are generally preferred over dried.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 55
+        },
+        {
+          "id": "198ea0c5-6f18-49df-8489-6de289fe91f7",
+          "term": "Spices",
+          "kind": "standard",
+          "definition": "Derived from other dried plant parts like roots, bark, seeds, or berries. Some examples include allspice, saffron, cinnamon, mustard, sesame seeds, ginger, and turmeric.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 56
+        },
+        {
+          "id": "c354217e-4c62-4227-9234-5d38eed4fb11",
+          "term": "Marinating",
+          "kind": "standard",
+          "definition": "A process of soaking food in a seasoned liquid. Acids (such as vinegar, lemon juice, or wine) and enzymes (such as pineapple, papaya, or ginger) are popularly used, as they help enhance flavors and tenderize the food during marination.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 57
+        },
+        {
+          "id": "cabe766f-b89a-4e13-b655-57126e27de76",
+          "term": "The 3 Components of Marinade",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Fats",
+            "Acids",
+            "Seasonings"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 58
+        },
+        {
+          "id": "e54619bc-c144-425f-82c5-2c93eb9d4e68",
+          "term": "Fats",
+          "kind": "standard",
+          "definition": "In a marinade, fats such as olive oil, canola oil, coconut milk, full-fat yogurt, or other vegetable oil help preserve the food's moisture.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 59
+        },
+        {
+          "id": "c4089b1f-86a7-4f33-8eda-761ab02775d9",
+          "term": "Acids",
+          "kind": "standard",
+          "definition": "In a marinade, be cautious when using acid — strong acids make the meat tough. Strong acids can be used in marinades if they are in small quantities or if the meat is marinated only for a few hours.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 60
+        },
+        {
+          "id": "2ed3376c-d4ae-4ae0-abc6-7f6d22a2f24f",
+          "term": "Seasonings",
+          "kind": "standard",
+          "definition": "In a marinade, garlic, onion, salt, chili, peppers, sugars, and aromatics are some of the seasonings that release flavors and add life to the marinade. Whole spices release flavors more slowly, so they are more suitable for long marination.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 61
+        },
+        {
+          "id": "7a44e535-2de8-4aed-a619-053264d73d99",
+          "term": "Brining",
+          "kind": "standard",
+          "definition": "A high concentration solution of salt in water. The salt solution dissolves the protein in muscle, and the salt and protein reduce moisture loss during cooking, making the food tender and juicy.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 62
+        }
+      ]
+    }
+  ]
+}

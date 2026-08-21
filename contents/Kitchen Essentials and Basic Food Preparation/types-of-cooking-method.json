@@ -1,0 +1,379 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "355119ec-94e1-4e56-84c5-0d4c8625ecab",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Types of Cooking Method",
+      "description": "The three categories of cooking methods, the moist heat and dry heat techniques, dry heat techniques using fat, and the combination heat techniques of braising and stewing.",
+      "position": 7,
+      "updatedAt": 1787287766288,
+      "terms": [
+        {
+          "id": "4dbf2cbb-667e-44d5-893e-9a7081d15001",
+          "term": "Cooking Method",
+          "kind": "standard",
+          "definition": "Cooking methods are divided into three main categories: dry heat, moist heat, and combination heat, which use conduction, convection, or radiation to change food texture and flavor. Choosing the right method affects nutrition, texture, and flavor.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 0
+        },
+        {
+          "id": "c56884d0-d6f9-4cc2-a826-63f4342b16af",
+          "term": "The 3 Categories of Cooking Methods",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Moist Heat Method",
+            "Dry Heat Method",
+            "Combination Heat Method"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 1
+        },
+        {
+          "id": "a32e0422-13dc-4d54-89a5-bf59169110d6",
+          "term": "Moist Heat Method",
+          "kind": "standard",
+          "definition": "The process of heating food using liquid other than oil.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 2
+        },
+        {
+          "id": "cf6397ac-86f6-420e-96d6-81d865ce7f37",
+          "term": "Dry Heat Method",
+          "kind": "standard",
+          "definition": "A way of cooking food without using water, broth, or steam as the primary heat transfer medium. Instead, it uses direct heat (like from flames, hot air, or hot metal) or indirect heat (like in an oven) to cook the food.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 3
+        },
+        {
+          "id": "549352a5-66c0-4b29-b866-f7b84b6209fc",
+          "term": "Combination Heat Method",
+          "kind": "standard",
+          "definition": "Techniques that combine dry and moist heat, starting with high heat to brown the food and finishing with low, moist heat to tenderize it.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 4
+        },
+        {
+          "id": "08e91365-cc07-418c-b09b-91ff08c1a669",
+          "term": "The 6 Moist Heat Cooking Techniques",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Boiling",
+            "Simmering",
+            "Poaching",
+            "Blanching",
+            "Parboiling",
+            "Steaming"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 5
+        },
+        {
+          "id": "216ae313-5d10-4841-8f78-12ea425f3dea",
+          "term": "Boiling",
+          "kind": "standard",
+          "definition": "A moist heat cooking technique that cooks food in a liquid, such as water or stocks, that is bubbling rapidly and greatly agitated. The boiling point of water is 100°C (212°F) at sea level. The food can be added and cooked when the liquid reaches its boiling point; no matter how high the heat is on, the liquid temperature will go no higher. Boiling is commonly used in cooking vegetables and starches — the protein of meats is toughened by the high temperatures, while the rapid bubbling breaks up delicate foods.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 6
+        },
+        {
+          "id": "adee5ace-e8e8-4745-9b7f-e15e19275558",
+          "term": "Simmering",
+          "kind": "standard",
+          "definition": "A moist heat cooking technique that involves cooking food in a liquid heated at 85°C to 93°C (185°F to 200°F). With a lower temperature, simmering makes a gentler process of cooking compared to boiling. The food is cooked slower, creating better control of evaporation and breaking up of delicate foods. This cooking technique is used to lessen the volume of liquid.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 7
+        },
+        {
+          "id": "583ae522-b024-4e06-ae6e-33929e77b8c9",
+          "term": "Poaching",
+          "kind": "standard",
+          "definition": "A moist heat cooking technique that involves cooking food in a small amount of liquid, enough to cover the food, between 66°C (150°F) and 85°C (185°F). This process is gentler than simmering. Poaching is used to cook delicate food, such as egg and fish, or to cook a variety of meat to remove undesirable flavors and firm the product before final cooking.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 8
+        },
+        {
+          "id": "94913f02-56f9-4746-8823-3e245c45aa75",
+          "term": "Blanching",
+          "kind": "standard",
+          "definition": "A moist heat cooking technique where food is partially and briefly immersed into boiling water. This is the fastest way to change the flavor and enhance the color of the food. Blanching is also used to preserve the nutritional value of the food and remove blood, salt, or impurities from meats and bones. It also helps loosen the skin of vegetables and fruits, which simplifies peeling.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 9
+        },
+        {
+          "id": "ad33b365-813c-44f6-85be-6ce120809395",
+          "term": "Shocking",
+          "kind": "standard",
+          "definition": "The two steps involved in blanching food in water: immerse the food in boiling water and return the pot to a boil to partially cook it, then remove the blanched food from the liquid and plunge it into ice water to stop the cooking process.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 10
+        },
+        {
+          "id": "ddb00b03-2495-4646-a546-dacb9aa94459",
+          "term": "Parboiling",
+          "kind": "standard",
+          "definition": "A moist heat cooking technique similar to blanching, where food is partially cooked by immersing it into boiling water; however, it requires a longer cooking time than blanching, and it does not cool the food using cold water or ice after removing it from the boiling water. Poisonous and bad-tasting substances from foods can be removed through parboiling. It is also used to soften vegetables before grilling and roasting them.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 11
+        },
+        {
+          "id": "3bd3eb82-6745-4ed3-be08-d4a727dc2cc5",
+          "term": "Steaming",
+          "kind": "standard",
+          "definition": "A moist heat cooking technique where food is cooked by directly exposing it to hot steam. Food is cooked using an enclosed pot and a steamer basket: the food is put inside a covered steamer basket and placed over the pot filled with a small amount of water. The water from the pot is heated until it reaches the boiling point, and from a closed environment, it creates hot steam that serves as heat to the food.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 12
+        },
+        {
+          "id": "cd461118-b5d3-4119-ae72-f3d6f2f0b7c3",
+          "term": "Dry Heat Cooking",
+          "kind": "standard",
+          "definition": "Works without the presence of any moisture, broth, or water. Instead, it relies on the circulation of hot air or contact with fat to transfer heat to foods. Temperatures of 300 degrees or hotter are used to create browning, a reaction where the amino acids and sugars in food turn brown and create a distinct aroma and flavor.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 13
+        },
+        {
+          "id": "d0690aaa-e532-4ecb-8060-3be8e2df02c2",
+          "term": "Maillard",
+          "kind": "standard",
+          "definition": "The reaction that occurs at temperatures of 300 degrees or hotter, where the amino acids and sugars in food turn brown and create a distinct aroma and flavor.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 14
+        },
+        {
+          "id": "7be23b29-adff-43c2-8bc3-cba684eaf8d6",
+          "term": "Baking",
+          "kind": "standard",
+          "definition": "Baking and roasting both use indirect heat to surround foods and cook from all sides. The term roasting is used when cooking meats or vegetables, and baking is used when making bread, rolls, and cakes. Technically, these cooking methods are the same, but baking is usually performed at lower temperatures than roasting.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 15
+        },
+        {
+          "id": "eeed2226-8ecd-40be-a961-023ac3f3b94f",
+          "term": "Roasting",
+          "kind": "standard",
+          "definition": "Can be performed at very low temperatures between 200 degrees and 350 degrees Fahrenheit for tougher cuts of meat, or higher temperatures up to 450 degrees Fahrenheit for more tender cuts.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 16
+        },
+        {
+          "id": "3447a609-6f4e-41b1-92ac-c3a2ab6230b6",
+          "term": "Broiling",
+          "kind": "standard",
+          "definition": "Works by transferring extremely high heat onto food, usually directed from a radiant located above the food, which cooks on one side at a time. Browning can occur very quickly with this method, sealing juices and flavor inside and leaving a crisp exterior. Because this cooking method is fast, it's helpful to use a timer or check the doneness so foods don't become burnt or overcooked. In commercial kitchens, broiling can be performed with a broiler oven.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 17
+        },
+        {
+          "id": "8228b68c-75fa-484f-a40b-7df957ea7f2d",
+          "term": "Things to Remember When Broiling",
+          "kind": "standard",
+          "definition": "The heat should be turned on full. The cooking temperature can be controlled by adjusting the rack nearer or farther from the heat source: thicker food items should be placed farther from the heat source, while thinner items should be placed nearer the heat source, so the inner and outer portions of the food cook at the same rate. The broiler should be preheated, which helps the food product sear quickly and achieve the desired grill marks. Dipping food in oil will avoid it from drying and sticking, though this is not necessary for high-fat foods — be careful about the amount of fat, as too much oil on a hot broiler may cause a fire.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 18
+        },
+        {
+          "id": "164b9f0f-2b8c-448d-a0e7-36214b8dc40e",
+          "term": "Salamander",
+          "kind": "standard",
+          "definition": "A low-intensity broiler that is used for browning or melting the top of food items before being served.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 19
+        },
+        {
+          "id": "f3edfcb9-2f4c-43af-a2d8-cec822f1e582",
+          "term": "The 3 Dry Heat Cooking Techniques That Use Heat Underneath",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Grilling",
+            "Griddling",
+            "Pan Broiling"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 20
+        },
+        {
+          "id": "6369cd81-3b2a-4a61-b0c0-9e08af10a77c",
+          "term": "Grilling",
+          "kind": "standard",
+          "definition": "Similar to broiling, in that it uses radiant heat to cook foods quickly. Most commonly, grilling equipment will feature an open grate with a heat source located beneath the food. Flipping is required to cook foods on both sides, and grill marks from the hot grate or rack are desirable.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 21
+        },
+        {
+          "id": "0a265a52-02ca-45a6-863b-3124f7ceada9",
+          "term": "Griddling",
+          "kind": "standard",
+          "definition": "Done on a solid metal surface called a griddle, with a gas or an electric heat source. A small amount of fat is added, depending on the type of food being cooked, to prevent the food from sticking. The temperature is adjustable and much lower (around 177°C/350°F) than on a grill.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 22
+        },
+        {
+          "id": "c32721a1-5c7e-4dc4-a0ac-a8cb04257dc3",
+          "term": "Pan Broiling",
+          "kind": "standard",
+          "definition": "Like griddling, except it is done in a sauté pan or skillet instead of a griddle. Fat must be poured off as it accumulates, or the process becomes pan-frying.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 23
+        },
+        {
+          "id": "ed5b0133-fd43-42b4-b68a-587181513c8a",
+          "term": "The 6 Dry Heat Cooking Techniques That Use Fat",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Searing",
+            "Sautéing",
+            "Stir-Frying",
+            "Pan Frying",
+            "Deep-Frying",
+            "Shallow Frying"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 24
+        },
+        {
+          "id": "cf6aa27e-54f8-422d-b591-e78b1ffef392",
+          "term": "Searing",
+          "kind": "standard",
+          "definition": "A cooking technique that exposes ingredients (typically meat) to a high temperature to create a crisp browning on the outside. This method enhances the flavor of the dish and is often done in a small amount of oil, butter, or fat.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 25
+        },
+        {
+          "id": "3b463e6f-84ac-4de1-ba16-8e58a3bb3c17",
+          "term": "Searing Food on a Range Top",
+          "kind": "standard",
+          "definition": "Heat the pan and put in a small amount of oil. Place the food when the oil is already hot. Brown the meat on one side, then turn it to brown the other side. Once both sides are browned, place the pan into a hot oven to finish the cooking process.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 26
+        },
+        {
+          "id": "52ff4c0f-7de5-4f22-8b82-6f2bfb8149f5",
+          "term": "Searing Food in an Oven",
+          "kind": "standard",
+          "definition": "Place the food into a pan and cook it at 232°C to 242°C (450°F to 475°F) in an oven for 15 to 20 minutes, or until the outer surface of the food becomes golden brown. Then, lower the heat to 163°C to 177°C (325°F to 350°F) to finish the cooking process.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 27
+        },
+        {
+          "id": "de7dc25e-0c87-46c7-8ca7-3f7297e4f2a2",
+          "term": "Sautéing",
+          "kind": "standard",
+          "definition": "A cooking technique which derives its name from the French verb for jumping. Sauté is a dry-heat cooking method that involves cooking a small amount of fat in a hot pan while tossing ingredients around. It is also used to enhance the flavors in a dish by browning the surface area of food. Ingredients must be stirred regularly with a utensil throughout the sautéing process to ensure all ingredients are evenly exposed to the heat source.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 28
+        },
+        {
+          "id": "30de0fa6-2155-4dba-9901-2d2b398f7e39",
+          "term": "Stir-Frying",
+          "kind": "standard",
+          "definition": "A fast and fresh way to cook: bite-sized pieces of food are tossed and turned in a little hot oil in a wok over high heat, and in five minutes or less, the work is done. Vegetables emerge crisp and bright; meats are flavorful, tender, and well seared.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 29
+        },
+        {
+          "id": "910f74d2-f3fd-409f-a5f1-edf213e2d590",
+          "term": "Pan Frying",
+          "kind": "standard",
+          "definition": "A method of cooking that uses a heavy pan containing a moderate amount of fat for cooking foods over moderate heat. The fat helps prevent the fried food from sticking to the pan. Food is generally cooked until brown on one side, then turned over so it can be cooked until brown on the other side.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 30
+        },
+        {
+          "id": "6b3493ec-478b-40a5-ad59-61e4c240b017",
+          "term": "Deep-Frying",
+          "kind": "standard",
+          "definition": "A process in which food is completely submerged (or only partially submerged, i.e., doughnuts) in hot oil whose temperature is typically between 350°F (177°C) and 375°F (191°C).",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 31
+        },
+        {
+          "id": "ba7e5a88-ca8c-4058-9834-b6b4fd6be52c",
+          "term": "Shallow Frying",
+          "kind": "standard",
+          "definition": "A cooking technique that involves cooking in oil, generally in a frying pan. It is usually used to cook small pieces of meat or fish that are generally covered in flour or some type of batter. In shallow frying, the pan is filled two-thirds of the way with oil so that the food will be only partly submerged.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 32
+        },
+        {
+          "id": "4222ec8f-f6ae-4b2c-aedb-d68d2ca8c7d2",
+          "term": "Combination of Dry Heat and Moist Heat Cooking Techniques",
+          "kind": "standard",
+          "definition": "Useful for tough yet flavorful cuts of meat. The combination techniques create tenderness in the meat. Examples of the combination technique are braising and stewing.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 33
+        },
+        {
+          "id": "1e632adb-ee4e-4f65-8d14-2996eed2f599",
+          "term": "The 2 Combination Heat Cooking Techniques",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Braising",
+            "Stewing"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 34
+        },
+        {
+          "id": "ff35279c-b352-4dcb-9c33-49e56cb257e7",
+          "term": "Braising",
+          "kind": "standard",
+          "definition": "Comes from the French word braiser, meaning a technique that uses both dry heat and moist heat cooking. Braising is used to tenderize tough cuts of meat, such as shank, shoulder, and round. It is a long and slow cooking process that helps break down the connective tissue in the meat, making it tender and combined with flavor sauce. The meat is first seared at a high temperature to brown it, then removed from the pot while onion, leeks, garlic, and other aromatics are added. Liquid, such as stocks, sauce, or water, is added to help deglaze the bottom of the pot. After deglazing, the browned meat is placed back in, but the liquid should not rise over the meat. The mixture is brought to a boil, then the heat is lowered to cook slowly for an extended amount of time.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 35
+        },
+        {
+          "id": "54b7e5f0-efed-4b20-836c-381fed77922e",
+          "term": "Stewing",
+          "kind": "standard",
+          "definition": "Another combination cooking technique. The cooking time for stewing is much shorter than braising because the food item in stewing is cut into smaller portions. The cooking process for stewing is the same as braising, wherein meat is first seared at a high temperature. Tender cuts of meat are not stewed, to avoid toughening the meat. It is removed from the pot while onion, leeks, garlic, and other aromatics are added, then liquid, such as stocks, sauce, or water, is added to help deglaze the bottom of the pot. Once deglazed, the browned meat is placed back into the pot, and all ingredients are submerged in liquid.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 36
+        }
+      ]
+    }
+  ]
+}

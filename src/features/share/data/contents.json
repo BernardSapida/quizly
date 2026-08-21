@@ -325,6 +325,607 @@
       },
       "sets": [
         {
+          "id": "01374e51-1743-456f-8ce1-0134d2a04831",
+          "name": "Basic Food Preparation and Technique",
+          "description": "Mise en place, knife safety and parts, cutting and chopping styles, measuring techniques, mixing techniques, and seasonings, flavorings, marinating, and brining.",
+          "position": 5,
+          "updatedAt": 1787287889562,
+          "terms": [
+            {
+              "id": "6ce344b2-b37d-4bc0-8952-5cb87d7cdd12",
+              "kind": "standard",
+              "term": "Mise en Place",
+              "definition": "A French culinary word which means \"Everything put in place.\" Refers to the practice of preparing and organizing all ingredients and equipment before cooking. It's a crucial concept in professional kitchens, ensuring a smooth and efficient cooking process. This involves tasks like chopping vegetables, measuring spices, and arranging everything in an organized manner.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "d8a50663-a071-4fdd-9e55-69fb8a497f85",
+              "kind": "standard",
+              "term": "How to Properly Use Mise en Place",
+              "definition": "Have your recipe handy and develop a plan. Gather all of your ingredients, utensils, and equipment needed. One by one, wash, cut, dice, chop, and measure all of your ingredients. Place them into appropriately sized dishes, bowls, and containers for easy grabbing. Set your ingredients around your cooking station for better accessibility. For a larger-scale cooking project, you can place all of your cold ingredients in containers that fit in a commercial refrigerator to easily grab from as you cook.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "a1649edb-a9b7-4802-9a40-54e4afa3dc2e",
+              "kind": "standard",
+              "term": "Knife Safety",
+              "definition": "A sharp knife is a safe knife. Using a dull knife is an invitation to disaster — if you try to force a dull knife through the surface of a food product, it is more likely to slip and cause an injury. Never, ever grab a falling knife; the best way to avoid having to think about this rule is to make sure your knife is always completely on your work surface, without the handle sticking out into traffic areas. Use the right knife for the right job. Always cut away from — never towards — yourself. When you have a knife, keep your eyes on the blade. Carry a knife properly. Never, ever put a knife in a sink full of water. Always cut on a cutting board — never on wooden tables — and do not cut on metal, glass, or marble, as this will ultimately damage a knife's edge.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "74598531-fe42-4821-86cf-824587b7f3a2",
+              "kind": "enumeration",
+              "term": "The 12 Parts of a Kitchen Knife",
+              "definition": "",
+              "answers": [
+                "Blade",
+                "Handle",
+                "Point",
+                "Tip",
+                "Belly",
+                "Edge",
+                "Heel",
+                "Bolster",
+                "Spine",
+                "Tang",
+                "Rivet",
+                "Butt"
+              ],
+              "position": 3,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "a0a0de47-4287-4990-8d9e-5e5d6079e8a7",
+              "kind": "standard",
+              "term": "Tip",
+              "definition": "The end of the blade. It serves to create a pivot point used in several different cutting methods, and includes the knifepoint.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "77d10411-d7ce-418b-b30e-36c02c1d76fb",
+              "kind": "standard",
+              "term": "Belly",
+              "definition": "The portion of the blade between the tip and heel. Knives with \"curvy\" bellies and small tips are good for chopping vegetables, as they allow quick and smooth cutting motions.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "6ab679b4-e980-4385-9ff7-ddd80f1c1050",
+              "kind": "standard",
+              "term": "Heel",
+              "definition": "The end of the blade just before the handle, opposite the tip. Some blades have the heel blended into an extended bolster for more protection at the cost of versatility.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "885dd0f0-5a77-457f-97c8-39f55da5f503",
+              "kind": "standard",
+              "term": "Bolster",
+              "definition": "Its primary function is to add strength where the handle joins the blade.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "352c944c-0cd5-48fd-acd8-d97a202f39a5",
+              "kind": "standard",
+              "term": "Spine",
+              "definition": "The back of the blade, opposite the cutting edge.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "f66f0de9-1915-439c-bc1e-ebbba0bd527e",
+              "kind": "standard",
+              "term": "Point",
+              "definition": "The front part of the knife. It is used for scoring and piercing.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "bcc56e72-d2ad-4746-b6fb-11e9fd95ff4e",
+              "kind": "standard",
+              "term": "Cutting Edge",
+              "definition": "The cutting part of the blade. It is used for chopping and slicing.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "ef975302-6ce9-4352-8e55-757fb0b6bc95",
+              "kind": "standard",
+              "term": "Butt",
+              "definition": "The butt, or pommel, serves as a reference point for the hand.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "2be431ae-363b-4ef3-b2ad-169476df8177",
+              "kind": "standard",
+              "term": "Chef's Knife",
+              "definition": "Also called the French knife, it is the most frequently used knife in the kitchen. The positioning of the grip and of the food under the blade both influence the degree of control and leverage a person has over it.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "611e1121-acf3-4e90-a4cb-3a73ede6ef9d",
+              "kind": "standard",
+              "term": "Proper Knife Grip",
+              "definition": "Grasp the blade firmly between the pad of the thumb and the knuckle of the index finger, just in front of the bolster, curling the remaining fingers around the bottom of the handle. Curl the fingers of the guiding hand inward for protection. A good grip allows the user to control the movement of the knife, avoiding slippage. Resist the temptation to extend the index finger along the spine of the knife, because that method results in a lack of control of the angle being worked with.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "bb01c1e3-f144-4554-89c1-4720309dcac1",
+              "kind": "standard",
+              "term": "Slice",
+              "definition": "Cutting of food into large or thin pieces. The base of the knife is lifted up and down with a forward and backward motion.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "2114ee3a-be66-45e2-9beb-b82091afc8cf",
+              "kind": "standard",
+              "term": "Julienne",
+              "definition": "This cut looks like a matchstick and has the nickname \"shoestring.\" It is also a good size for cutting potatoes for French fries. A julienne of potato is sometimes referred to as an allumette.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "8edd53a1-0ff2-4b42-8ada-c83074b40cab",
+              "kind": "standard",
+              "term": "Shred",
+              "definition": "To cut leaf vegetables into thin strips.",
+              "answers": null,
+              "position": 16,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "c269a042-7105-46dc-9a9f-20d819ce9387",
+              "kind": "standard",
+              "term": "Dice",
+              "definition": "To cut food into even-size cubes (1/8 to 1/4 inch).",
+              "answers": null,
+              "position": 17,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "94617595-8c55-47cd-b825-ad4808e37af0",
+              "kind": "standard",
+              "term": "Mince",
+              "definition": "To chop food into very fine pieces (less than 1/8 inch).",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "cf4875ac-4040-4c2e-bd33-04cc6c738393",
+              "kind": "standard",
+              "term": "Chiffonade",
+              "definition": "Means \"little ribbons\" in French. This cut is mainly used for vegetable leaves and fresh herbs, in particular basil. The leaves are stacked, rolled, and then sliced perpendicularly, creating thin strips.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "7f2915f2-b504-4599-a7dd-8ec02c8fcb2a",
+              "kind": "standard",
+              "term": "Cube",
+              "definition": "To cut food into even-size cubes (about 1/2 inch).",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "9fcae427-e72e-4b6c-b873-e5ac3b753f2f",
+              "kind": "standard",
+              "term": "Chop",
+              "definition": "Uneven cutting of foods into small pieces (less than 1/4 inch), or a coarse chop with 1/2 or 3/4 inch irregular pieces.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "0f480984-7d7a-4a41-931c-33a3ad62f3f4",
+              "kind": "standard",
+              "term": "Parer",
+              "definition": "To cut off the outer coating (peel) of vegetables or fruits. Squaring off, or \"parer\" in French, is the first step for creating most of the classic cuts. The first step in squaring off is to cut the product into roughly 2 to 2 1/2 inch segments.",
+              "answers": null,
+              "position": 22,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "98f78262-8229-497d-be3f-f7a00a0b6824",
+              "kind": "standard",
+              "term": "Brunoise",
+              "definition": "Measures 5 mm on each side, which makes it the smallest of the dice cuts. Brunoise is usually used for garnishes.",
+              "answers": null,
+              "position": 23,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "1e4fb8fb-fcc2-4246-a9b3-1aaf9edefd37",
+              "kind": "standard",
+              "term": "Paysanne",
+              "definition": "A French cooking term used to describe a style of cutting vegetables which means \"country-style.\" It consists of slices of vegetables about 1 mm thick.",
+              "answers": null,
+              "position": 24,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "615c6ea4-e9eb-4a66-b779-e93dc6ca1020",
+              "kind": "standard",
+              "term": "Batonnet",
+              "definition": "A vegetable cut into batons or sticks. Batonnet, or baton, is a matchstick knife cut with precise dimensions of about 1/4 inch by 1/4 inch, and roughly 2 to 2 1/2 inches long.",
+              "answers": null,
+              "position": 25,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "fd5cc974-d3e8-4945-b539-0034f4a967e7",
+              "kind": "standard",
+              "term": "Jardinière",
+              "definition": "A French cooking term meaning to cut a vegetable into thickish batons. This is the size of vegetables commonly used in frozen vegetable mixes.",
+              "answers": null,
+              "position": 26,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "bb43ffbe-0312-4bb8-adb8-7ee72dc22ce6",
+              "kind": "standard",
+              "term": "Macedoine",
+              "definition": "A French cooking term for a mixture of vegetables. The vegetables should be chopped into cubes 4 mm x 4 mm x 4 mm (1/6th inch each side), or cut into a larger brunoise of 1/4 inch dice, or cut into larger and thicker cubes based on jardinière.",
+              "answers": null,
+              "position": 27,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "8b10c5ab-b5d8-4b71-b443-06c806612a60",
+              "kind": "standard",
+              "term": "Flake",
+              "definition": "To break food into small thin pieces, usually by using a fork.",
+              "answers": null,
+              "position": 28,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "065fafc9-7b29-47d7-bfc0-33bb1382b1ec",
+              "kind": "standard",
+              "term": "Grind",
+              "definition": "To reduce food into tiny particles using a grinder or a food processor.",
+              "answers": null,
+              "position": 29,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "5b524338-3fa3-4d38-b4c1-2df1719a962d",
+              "kind": "standard",
+              "term": "Crush",
+              "definition": "To break food into small pieces. A rolling pin, mortar and pestle, blender, or food processor can be used in crushing food.",
+              "answers": null,
+              "position": 30,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "52732a0d-0e94-4bc5-89ae-dc9c8755a7c4",
+              "kind": "standard",
+              "term": "Mash",
+              "definition": "To crush into a smooth, evenly textured mixture.",
+              "answers": null,
+              "position": 31,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "c21351cd-adc8-43ff-ac60-3ac27f10b611",
+              "kind": "standard",
+              "term": "Puree",
+              "definition": "To mash or grind food until completely smooth, usually in a food processor, blender, sieve, or food mill.",
+              "answers": null,
+              "position": 32,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "15d72865-382a-457c-8a6e-cdd789667334",
+              "kind": "standard",
+              "term": "Snip",
+              "definition": "To use scissors to cut an object into pieces, to remove sections, or to make slits or holes in a product.",
+              "answers": null,
+              "position": 33,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "40aa1903-31a2-4015-bc94-9c30766aeb26",
+              "kind": "standard",
+              "term": "Measuring Techniques",
+              "definition": "Proper measurement of ingredients is essential to having a successful food product. Too much or too little of certain elements, such as salt, baking soda, baking powder, and other hot or spicy ingredients, can affect the texture or taste of the food. There are different measuring methods and measuring equipment used for liquids, dry ingredients, and fats.",
+              "answers": null,
+              "position": 34,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "b49e1c8b-e977-43b2-b5ed-451e451d139c",
+              "kind": "standard",
+              "term": "How to Measure Liquid Ingredients Using a Measuring Cup",
+              "definition": "Use a liquid measuring cup for accurately measuring thin liquids such as milk, juice, and oil. Put the cup on a flat surface to get an accurate measurement, then pour the liquid in until it reaches the correct measurement line. Use the measurement line, leaning down until reaching eye-level on the measuring cup.",
+              "answers": null,
+              "position": 35,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "419227d3-7ec0-427c-a5c0-36c0c41b58b5",
+              "kind": "standard",
+              "term": "How to Measure Liquid Ingredients Using a Spoon",
+              "definition": "Use a measuring spoon for a small quantity of liquid — use a measuring spoon if measuring less than a quarter cup of a thin liquid. To catch the excess liquid, hold the spoon over a separate bowl and gently pour in the liquid until the spoon is full.",
+              "answers": null,
+              "position": 36,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "3a55a50e-ffb6-419b-bce0-2f29e7fea684",
+              "kind": "standard",
+              "term": "How to Measure a Small Amount of Liquid",
+              "definition": "Use a syringe to measure a small amount of liquid. This tool can also give an accurate result of measurement.",
+              "answers": null,
+              "position": 37,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "82034f1f-9718-4895-bdc6-036b0f49ab43",
+              "kind": "standard",
+              "term": "Measuring Dry Ingredients",
+              "definition": "Use a measuring spoon or measuring cup to measure dry ingredients.",
+              "answers": null,
+              "position": 38,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "63c9d066-c60c-4b10-b66a-a61d763c872c",
+              "kind": "standard",
+              "term": "Deep and Sweep Method",
+              "definition": "The most common way of measuring dry ingredients. It requires dipping the measuring cup into the dry ingredient with the cup overflowing, then taking the back of a knife or a flat spoon handle and sweeping the excess across and off of the measuring cup.",
+              "answers": null,
+              "position": 39,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "50721cc3-578f-4002-83ea-0564a61360a5",
+              "kind": "standard",
+              "term": "Spoon and Sweep Method",
+              "definition": "Uses a spoon to fill up the measuring cup with dry ingredients before sweeping off the overflow.",
+              "answers": null,
+              "position": 40,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "7dce921c-5dcd-4bcd-902c-3996278dfd8a",
+              "kind": "standard",
+              "term": "Dash",
+              "definition": "Technically defined as a small fraction of a teaspoon. It often refers to liquids, such as a quick shake of hot sauce or soy sauce.",
+              "answers": null,
+              "position": 41,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "968a495d-781f-4d9d-8b51-d623aff5b6b8",
+              "kind": "standard",
+              "term": "Pinch",
+              "definition": "Technically defined as a small fraction of a teaspoon. It represents the amount that can be held between the thumb and forefinger (e.g., salt, spices) — a way of measuring smaller quantities using the thumb and index finger.",
+              "answers": null,
+              "position": 42,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "cd6b6ad4-9903-4d38-9c60-0861477bed48",
+              "kind": "standard",
+              "term": "Mixing",
+              "definition": "A technique where two or more ingredients are combined and mixed. All terms, such as mix, combine, and blend, refer to mixing. Mixing tools and techniques are used to blend foods in a variety of ways and achieve an array of textures; different tools and appliances are used, including spoons, forks, blenders, and food processors.",
+              "answers": null,
+              "position": 43,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "d5bd45c1-a02b-4595-b8bc-c45246d0a3cb",
+              "kind": "enumeration",
+              "term": "The 7 Mixing Techniques",
+              "definition": "",
+              "answers": [
+                "Creaming",
+                "Beating",
+                "Cut-In",
+                "Tossing",
+                "Stirring",
+                "Whipping",
+                "Folding"
+              ],
+              "position": 44,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "7ee2f4b1-1a2e-4a60-b449-5be089fad277",
+              "kind": "standard",
+              "term": "Creaming",
+              "definition": "Also known as the \"sugar shortening\" method. The sugar and shortening fat are blended first, then creamed by continued mixing.",
+              "answers": null,
+              "position": 45,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "805d6339-e0c8-4fb0-91b2-eaf4893fab4d",
+              "kind": "standard",
+              "term": "Beating",
+              "definition": "To rapidly stir a batter to incorporate the ingredients along with air thoroughly.",
+              "answers": null,
+              "position": 46,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "2edb4933-c313-4bb3-8c94-2354902b92bb",
+              "kind": "standard",
+              "term": "Cut-In",
+              "definition": "A mixing method used to incorporate butter or shortening into dry flour. A pastry blender or a pastry cutter (also called a dough cutter) is used.",
+              "answers": null,
+              "position": 47,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "b30259b0-c0d8-48d1-a71c-6209857125df",
+              "kind": "standard",
+              "term": "Tossing",
+              "definition": "To mix the ingredients of a food dish, such as salads and pasta, by lifting and dropping the ingredients/mixture. The food is turned over and mixed, enabling sauces and food items to be seasoned with the flavors of each item.",
+              "answers": null,
+              "position": 48,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "f66b55e0-95f9-4cee-8bfb-3975bbf4709d",
+              "kind": "standard",
+              "term": "Stirring",
+              "definition": "To mix a substance in a circular pattern using a spoon, spatula, or other similar utensils.",
+              "answers": null,
+              "position": 49,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "eb752b8b-6dbe-40a4-be55-47fc74b83513",
+              "kind": "standard",
+              "term": "Whipping",
+              "definition": "The process of beating ingredients vigorously to incorporate air, making the ingredient frothy.",
+              "answers": null,
+              "position": 50,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "db6d0724-b227-4565-a48f-61b9131becd0",
+              "kind": "standard",
+              "term": "Folding",
+              "definition": "Combining two mixtures of different thicknesses and weights into one smooth mixture. This is accomplished by a specific technique of using a spoon to lift the two mixtures together, turning them over, so they combine.",
+              "answers": null,
+              "position": 51,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "bd8f2612-e097-421e-a289-7b43300a11f2",
+              "kind": "standard",
+              "term": "Seasonings and Flavorings",
+              "definition": "Even the most nutritious or beautifully presented meal cannot be truly enjoyed or appreciated by the people eating it if it does not taste good. Seasonings and flavorings are added to foods to enhance their flavor.",
+              "answers": null,
+              "position": 52,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "bfb78757-cdae-4c6c-8866-1d76d2feed8b",
+              "kind": "standard",
+              "term": "Salt",
+              "definition": "Considered the second most frequently used seasoning additive — the first is sugar — although it was introduced as a preservative.",
+              "answers": null,
+              "position": 53,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "fa4e7ac9-9c22-441c-b88e-166e94d32959",
+              "kind": "standard",
+              "term": "Pepper",
+              "definition": "Just behind salt in popularity as a seasoning. Pepper is added most frequently to meats, soups, sauces, and salads.",
+              "answers": null,
+              "position": 54,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "f1d89e79-d736-47aa-9bed-66c2fbc4f01a",
+              "kind": "standard",
+              "term": "Herbs",
+              "definition": "The aromatic, green leafy parts of non-woody plants. Herbs are well known for their seasoning capabilities in food preparation. The best-known seasoning herbs include basil, sage, thyme, oregano, bay leaves, cilantro, dill, marjoram, mint, parsley, tarragon, rosemary, and savory. For the best flavor and texture, fresh herbs are generally preferred over dried.",
+              "answers": null,
+              "position": 55,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "198ea0c5-6f18-49df-8489-6de289fe91f7",
+              "kind": "standard",
+              "term": "Spices",
+              "definition": "Derived from other dried plant parts like roots, bark, seeds, or berries. Some examples include allspice, saffron, cinnamon, mustard, sesame seeds, ginger, and turmeric.",
+              "answers": null,
+              "position": 56,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "c354217e-4c62-4227-9234-5d38eed4fb11",
+              "kind": "standard",
+              "term": "Marinating",
+              "definition": "A process of soaking food in a seasoned liquid. Acids (such as vinegar, lemon juice, or wine) and enzymes (such as pineapple, papaya, or ginger) are popularly used, as they help enhance flavors and tenderize the food during marination.",
+              "answers": null,
+              "position": 57,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "cabe766f-b89a-4e13-b655-57126e27de76",
+              "kind": "enumeration",
+              "term": "The 3 Components of Marinade",
+              "definition": "",
+              "answers": [
+                "Fats",
+                "Acids",
+                "Seasonings"
+              ],
+              "position": 58,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "e54619bc-c144-425f-82c5-2c93eb9d4e68",
+              "kind": "standard",
+              "term": "Fats",
+              "definition": "In a marinade, fats such as olive oil, canola oil, coconut milk, full-fat yogurt, or other vegetable oil help preserve the food's moisture.",
+              "answers": null,
+              "position": 59,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "c4089b1f-86a7-4f33-8eda-761ab02775d9",
+              "kind": "standard",
+              "term": "Acids",
+              "definition": "In a marinade, be cautious when using acid — strong acids make the meat tough. Strong acids can be used in marinades if they are in small quantities or if the meat is marinated only for a few hours.",
+              "answers": null,
+              "position": 60,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "2ed3376c-d4ae-4ae0-abc6-7f6d22a2f24f",
+              "kind": "standard",
+              "term": "Seasonings",
+              "definition": "In a marinade, garlic, onion, salt, chili, peppers, sugars, and aromatics are some of the seasonings that release flavors and add life to the marinade. Whole spices release flavors more slowly, so they are more suitable for long marination.",
+              "answers": null,
+              "position": 61,
+              "updatedAt": 1787287889562
+            },
+            {
+              "id": "7a44e535-2de8-4aed-a619-053264d73d99",
+              "kind": "standard",
+              "term": "Brining",
+              "definition": "A high concentration solution of salt in water. The salt solution dissolves the protein in muscle, and the salt and protein reduce moisture loss during cooking, making the food tender and juicy.",
+              "answers": null,
+              "position": 62,
+              "updatedAt": 1787287889562
+            }
+          ]
+        },
+        {
           "id": "3d482cef-f600-4f7c-be7a-a51e4fd55ca8",
           "name": "Definition of Cooking Terms",
           "description": "Fundamental culinary terms: cooking processes, technical terms, and French cooking terminology used in kitchen operations.",
@@ -2001,6 +2602,844 @@
           ]
         },
         {
+          "id": "59c849ab-7f2a-4c8a-bcea-66e54d9a1051",
+          "name": "Kitchen Conversion",
+          "description": "What kitchen conversion is and why it matters, the types of kitchen measurements, common measurement abbreviations, and key volume, weight, and temperature equivalents.",
+          "position": 6,
+          "updatedAt": 1787287986048,
+          "terms": [
+            {
+              "id": "5b828bbb-ad6f-4458-96b0-676a52c23921",
+              "kind": "standard",
+              "term": "Kitchen Conversion",
+              "definition": "Refers to the process of changing one unit of measurement to another when preparing food or following recipes in the kitchen. It is essential for accuracy in cooking and baking, especially when recipes use different systems of measurement.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "7c179737-3ee7-4295-bccb-23887e162797",
+              "kind": "enumeration",
+              "term": "The 6 Reasons Kitchen Conversions Are Important",
+              "definition": "",
+              "answers": [
+                "Ensures Accurate Recipes",
+                "Maintains Consistency",
+                "Saves Time",
+                "Reduces Waste",
+                "Helps with Large-Scale Cooking",
+                "Important for Cost Control"
+              ],
+              "position": 1,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "778b16cd-64db-4e64-96ca-55420132189a",
+              "kind": "standard",
+              "term": "Ensures Accurate Recipes",
+              "definition": "Helps chefs follow recipes exactly for consistent quality.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "c7f264c4-f6c0-4632-867d-94c5ef551f36",
+              "kind": "standard",
+              "term": "Maintains Consistency",
+              "definition": "Same taste, look, and portion every time for every customer.",
+              "answers": null,
+              "position": 3,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "2ee02e6e-5f43-4551-8cf8-a126cf66f1b0",
+              "kind": "standard",
+              "term": "Saves Time",
+              "definition": "Quick conversions help kitchen staff work faster.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "3b55e360-b6b8-4d16-b7c1-21a5699ab4f8",
+              "kind": "standard",
+              "term": "Reduces Waste",
+              "definition": "Right measurements mean less ingredient waste.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "daed1da1-9a45-4fc2-83dd-eddb1a63fd35",
+              "kind": "standard",
+              "term": "Helps with Large-Scale Cooking",
+              "definition": "Easy to adjust recipes for big batches or events.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "c35246f2-1e53-4267-b23f-db4a3170eb06",
+              "kind": "standard",
+              "term": "Important for Cost Control",
+              "definition": "Accurate portions help control food costs and avoid overuse.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "ca6da264-9ccf-4e9f-816f-9dc24cf4b6b1",
+              "kind": "enumeration",
+              "term": "The 4 Types of Kitchen Measurements",
+              "definition": "",
+              "answers": [
+                "Volume",
+                "Weight",
+                "Temperature",
+                "Length"
+              ],
+              "position": 8,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "7e8af2fd-d18c-4d0c-9cfb-903aa1b7a445",
+              "kind": "standard",
+              "term": "Volume",
+              "definition": "Measured in milliliters (ml), liters (L), cups, tablespoons (tbsp), teaspoons (tsp), fluid ounces (fl oz), pints, quarts, and gallons; used for liquid ingredients.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "d3e7a771-fee7-4927-88e5-e94750e50fea",
+              "kind": "standard",
+              "term": "Weight",
+              "definition": "Measured in grams (g), kilograms (kg), ounces (oz), and pounds (lbs); used for solid ingredients.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "730caaa5-e758-4918-be18-08e5cfae6870",
+              "kind": "standard",
+              "term": "Temperature",
+              "definition": "Measured in Celsius (°C) and Fahrenheit (°F).",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "2568081a-9cba-4a97-abcc-607b0794a7d0",
+              "kind": "standard",
+              "term": "Length",
+              "definition": "Measured in inches and centimeters; used for cutting and portioning.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "bfab35be-283a-45e7-85e5-03d8883cf662",
+              "kind": "standard",
+              "term": "Teaspoon",
+              "definition": "Abbreviated tsp. A volume unit used for small amounts of ingredients, such as salt and spices.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "bb349dde-3c66-4938-8bde-6506c88eef2d",
+              "kind": "standard",
+              "term": "Tablespoon",
+              "definition": "Abbreviated tbsp. A volume unit larger than a teaspoon; commonly used in cooking and baking.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "a2f58883-4bbf-44f0-aa70-eda322f6938c",
+              "kind": "standard",
+              "term": "Cup",
+              "definition": "Abbreviated c. A volume unit used for both liquid and dry ingredients.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "3a91405b-ec20-4b9d-9893-2b14674cb4bf",
+              "kind": "standard",
+              "term": "Ounce",
+              "definition": "Abbreviated oz. Used for weight (solid ingredients) or as fluid ounces (liquid ingredients).",
+              "answers": null,
+              "position": 16,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "9659d1ec-c758-42da-99f5-47c4e1196279",
+              "kind": "standard",
+              "term": "Fluid Ounce",
+              "definition": "Abbreviated fl oz. A volume unit used specifically for liquid measurements.",
+              "answers": null,
+              "position": 17,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "62394a75-026c-4327-989c-d5886a0804c9",
+              "kind": "standard",
+              "term": "Pound",
+              "definition": "Abbreviated lb. A weight unit equal to 16 ounces; used for heavier ingredients.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "06eaa7dc-2d31-40ab-b419-c437edf39747",
+              "kind": "standard",
+              "term": "Gram",
+              "definition": "Abbreviated g. A metric weight unit used for measuring light ingredients.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "f9fbab9c-6b47-4a58-a9f9-35dc65980bf8",
+              "kind": "standard",
+              "term": "Kilogram",
+              "definition": "Abbreviated kg. A metric weight unit equal to 1000 grams; used for bulk ingredients.",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "9fb54d09-ab54-4ecc-8916-d44759d82cca",
+              "kind": "standard",
+              "term": "Milliliter",
+              "definition": "Abbreviated mL. A metric volume unit used for measuring liquids, including bulk ingredients.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "07ede687-5e02-4e18-b07d-82f53289f8b5",
+              "kind": "standard",
+              "term": "Liter",
+              "definition": "Abbreviated L. A metric volume unit equal to 1000 milliliters; used for larger liquids.",
+              "answers": null,
+              "position": 22,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "9d87898b-1730-4c80-bc2d-c4b1950d4fac",
+              "kind": "standard",
+              "term": "Pint",
+              "definition": "Abbreviated pt. A volume unit common in liquid measurements, equal to 2 cups.",
+              "answers": null,
+              "position": 23,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "02c96a87-5acd-40b1-ad7e-33e9b2fce717",
+              "kind": "standard",
+              "term": "Quart",
+              "definition": "Abbreviated qt. A volume unit equal to 4 cups.",
+              "answers": null,
+              "position": 24,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "74328f3a-d28a-4d66-b632-173055699285",
+              "kind": "standard",
+              "term": "Gallon",
+              "definition": "Abbreviated gal. A volume unit equal to 16 cups; used for large quantities.",
+              "answers": null,
+              "position": 25,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "2af8f413-e731-4c07-a79c-d791e183430c",
+              "kind": "standard",
+              "term": "Degree Celsius",
+              "definition": "Abbreviated °C. The metric unit for temperature in cooking.",
+              "answers": null,
+              "position": 26,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "5930385b-792d-4580-9076-49bc6746f06c",
+              "kind": "standard",
+              "term": "Degree Fahrenheit",
+              "definition": "Abbreviated °F. The standard unit for temperature, used in ovens.",
+              "answers": null,
+              "position": 27,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "0bd4b80c-c804-4d58-a996-09a8ef2d6870",
+              "kind": "standard",
+              "term": "Volume Equivalents (Teaspoons to Cup)",
+              "definition": "3 teaspoons = 1 tablespoon = 1/16 cup. 6 teaspoons = 2 tablespoons = 1/8 cup. 12 teaspoons = 4 tablespoons = 1/4 cup. 24 teaspoons = 8 tablespoons = 1/2 cup. 36 teaspoons = 12 tablespoons = 3/4 cup. 48 teaspoons = 16 tablespoons = 1 cup.",
+              "answers": null,
+              "position": 28,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "366b709c-d372-4683-91bb-29a034bc8ef3",
+              "kind": "standard",
+              "term": "What 1 Cup Equals",
+              "definition": "1 cup = 8 fluid ounces = 16 tablespoons = 48 teaspoons = 1/2 pint = 1/4 quart = 1/16 gallon.",
+              "answers": null,
+              "position": 29,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "f16a44cb-78d8-4b1f-8efe-47bad81a32c5",
+              "kind": "standard",
+              "term": "Gallon, Quart, and Pint Equivalents",
+              "definition": "1 gallon = 4 quarts = 8 pints = 16 cups = 128 ounces = 3.8 liters. 1 quart = 2 pints = 4 cups = 32 ounces = 0.95 liters. 1 pint = 2 cups = 16 ounces = 480 mL.",
+              "answers": null,
+              "position": 30,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "8ecf860a-686d-426a-9013-2b3feff777cb",
+              "kind": "standard",
+              "term": "1 Kilogram (Kitchen Equivalent)",
+              "definition": "Equal to 1,000 g/ml, 4.22 cups, and 2.2 lbs.",
+              "answers": null,
+              "position": 31,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "f9d18a30-3743-4994-ac55-b01a49075ac2",
+              "kind": "standard",
+              "term": "1 Stick of Butter",
+              "definition": "By volume, 1/2 cup or 125 mL. By weight, 1/4 lb (4 oz) or 115 g.",
+              "answers": null,
+              "position": 32,
+              "updatedAt": 1787287986048
+            },
+            {
+              "id": "2678ea31-fd9c-4d5b-8293-89f6f81ec4f5",
+              "kind": "standard",
+              "term": "Oven Temperature Conversions (Fahrenheit to Celsius)",
+              "definition": "275°F = 140°C. 300°F = 150°C. 325°F = 165°C. 350°F = 180°C. 375°F = 190°C. 400°F = 200°C. 425°F = 220°C. 450°F = 230°C. 475°F = 240°C.",
+              "answers": null,
+              "position": 33,
+              "updatedAt": 1787287986048
+            }
+          ]
+        },
+        {
+          "id": "c98012e2-f8cc-427d-a901-938afad07945",
+          "name": "Meat",
+          "description": "What meat is, beef and pork classifications, the structure of meat, beef and pork retail cuts and their Filipino names, variety meats, and processed meats.",
+          "position": 8,
+          "updatedAt": 1787288179795,
+          "terms": [
+            {
+              "id": "940dcb6e-4300-4882-80d4-12720de0179f",
+              "kind": "standard",
+              "term": "Meat",
+              "definition": "One of the most important ingredients in culinary, valued for its rich flavor, nutritional content, and versatility in cooking. It is a primary source of protein, vitamins, and minerals essential for body growth and development. In the kitchen, understanding meat is crucial because its quality, cut, and preparation greatly affect the outcome of a dish. In the Philippines, meat from herbivores such as beef cattle, sheep, goat, and swine serves as the most common source of meat. Meat is generally defined as the muscles of animals, but in a broader sense, it also covers the organs and glands obtained from the animal. Although the word meat includes the flesh of poultry and fish, these are each covered separately.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "5d38a762-8a66-47eb-8f1d-6156f3a9387f",
+              "kind": "standard",
+              "term": "Beef",
+              "definition": "Originates from cattle that are classified according to age and gender.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "6cb67c64-e54c-4fdd-89be-454533678d23",
+              "kind": "enumeration",
+              "term": "The 4 Classifications of Beef Cattle",
+              "definition": "",
+              "answers": [
+                "Steers",
+                "Bulls",
+                "Heifers and Cows",
+                "Calves"
+              ],
+              "position": 2,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "03ad555d-ca70-4676-902a-6537cfb3fcc0",
+              "kind": "standard",
+              "term": "Steers",
+              "definition": "Male cattle that are castrated while young so that they will gain weight quickly.",
+              "answers": null,
+              "position": 3,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "ddef90da-5b1f-4694-938e-d69d67335128",
+              "kind": "standard",
+              "term": "Bulls",
+              "definition": "Older, uncastrated male cattle that provide stag meat. Consumers often do not see the tougher meat from bulls, as they are usually used for breeding and then later for processed meats and pet foods.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "e5cba906-3a3a-467a-a10d-feeef2614b3c",
+              "kind": "standard",
+              "term": "Heifers",
+              "definition": "Female cattle that have not borne a calf; also used for meat.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "64b78db8-7b49-4ac5-b531-ead5fc69e145",
+              "kind": "standard",
+              "term": "Cows",
+              "definition": "Female cattle that have borne calves. The meat from cows is less desirable than that from steers or heifers.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "dbaf0baa-fdfa-40e4-9322-5ab567597389",
+              "kind": "standard",
+              "term": "Calves",
+              "definition": "Cattle 3 to 8 months old — too old for veal and too young for beef. If they go to market between 8 and 12 months, their meat is referred to as baby beef.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "ae267c43-3f71-4cb2-8ed0-ff173ad315ef",
+              "kind": "standard",
+              "term": "Pork",
+              "definition": "Young swine of either gender (male or female) slaughtered between the first 5 1/2 and 7 months of age are the most common source of pork. About 1/3 of all pork is sold fresh, and the rest is made into ham, sausage, luncheon meats, and bacon.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "14fc0bb2-2f17-45e2-9e18-5ab90fcb25c5",
+              "kind": "standard",
+              "term": "Pigs",
+              "definition": "Technically, swine less than 4 months old.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "7a5fd3d2-13b9-402f-8765-99695f0e2442",
+              "kind": "standard",
+              "term": "Hogs",
+              "definition": "Technically, swine older than 4 months.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "2f0dc56e-afd1-45ac-ac1a-2cdced33527f",
+              "kind": "standard",
+              "term": "Structure of Meat",
+              "definition": "Meats are composed of a combination of water, muscle, connective tissue, adipose (fatty) tissue, and often bone.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "21653e16-c5a0-4874-ad4d-c6556f8b3291",
+              "kind": "enumeration",
+              "term": "The 4 Components of Meat's Structure",
+              "definition": "",
+              "answers": [
+                "Muscle Tissue",
+                "Connective Tissue",
+                "Adipose Tissue",
+                "Bone"
+              ],
+              "position": 12,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "5ea0c20f-16fe-4538-b6af-e14e1fdf1c3d",
+              "kind": "standard",
+              "term": "Muscle Tissue",
+              "definition": "Most of the proteins in meat are found in the muscles. Leaner cuts of muscle tissue yield lesser calories.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "8a187115-dd94-4a95-8126-9abc4a545984",
+              "kind": "standard",
+              "term": "Connective Tissue",
+              "definition": "Part of ligaments and tendons; it acts as the \"glue\" that holds muscle cells together. The most abundant protein in connective tissue is collagen and elastin. Collagen is tough and fibrous, but converts to a gel when exposed to moist heat.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "db277720-4e2c-4367-b9d7-6e3b1ccf3be0",
+              "kind": "standard",
+              "term": "Adipose Tissue",
+              "definition": "Simply, fat, which serves as insulation under the skin and as padding for internal organs.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "3127cf59-50f8-456e-b02e-b7eef00c6ab1",
+              "kind": "standard",
+              "term": "Marbling",
+              "definition": "Fat found within muscles, also called intramuscular fat, deposited in the muscle and seen as little white streaks or drops. Marbling contributes to the flavor and juiciness of meat.",
+              "answers": null,
+              "position": 16,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "9738e827-37a9-420e-a8e8-990c0797c3aa",
+              "kind": "standard",
+              "term": "Bone",
+              "definition": "In meat, bones are used as landmarks for identifying the various meat cuts from a carcass. Older animals have whiter bones; younger animals have reddish bones.",
+              "answers": null,
+              "position": 17,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "1c913cb1-3f43-4c16-9948-f0dd30023b47",
+              "kind": "standard",
+              "term": "Marrow",
+              "definition": "A soft, fatty material in the center of most large bones. Marrow is a valued food in many countries, as it provides much of the flavor in stocks and soups.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "3cdb89cc-b762-409a-aa92-4211550d0747",
+              "kind": "standard",
+              "term": "Beef Retail Cuts",
+              "definition": "Rib, short loin, and sirloin wholesale cuts lie along the back of the animal and are usually the most tender and expensive cuts of beef. Rib roasts are the most tender roasts, and tenderloin is the most tender steak. The least tender wholesale cuts are flank, short plate, brisket, and foreshank.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "f1435371-12ed-4efb-a4da-79329ef33676",
+              "kind": "standard",
+              "term": "Filet Mignon",
+              "definition": "The small end of the tenderloin.",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "44035a8e-f085-4a8a-a1ea-1c9b674bc350",
+              "kind": "enumeration",
+              "term": "The 9 Wholesale Cuts of Beef",
+              "definition": "",
+              "answers": [
+                "Chuck",
+                "Rib",
+                "Short Loin",
+                "Sirloin",
+                "Round",
+                "Fore Shank",
+                "Short Plate",
+                "Flank",
+                "Brisket"
+              ],
+              "position": 21,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "34418559-3f85-4754-9f13-b1b8c8ba6e27",
+              "kind": "enumeration",
+              "term": "The 9 Filipino Names for Beef Cuts",
+              "definition": "",
+              "answers": [
+                "Bulalo",
+                "Kadera",
+                "Kalitiran",
+                "Tagiliran",
+                "Tapadera",
+                "Solomilyo",
+                "Paypay",
+                "Punta y Pecho",
+                "Camto"
+              ],
+              "position": 22,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "22374fd5-99d9-49c8-b5c8-5f2a018c444c",
+              "kind": "standard",
+              "term": "Bulalo",
+              "definition": "The Filipino butchery term for the beef shank and bone marrow cut.",
+              "answers": null,
+              "position": 23,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "abb34a29-8ce8-47ab-becb-90c41bf13b69",
+              "kind": "standard",
+              "term": "Kadera",
+              "definition": "The Filipino butchery term for the beef chuck rib cut.",
+              "answers": null,
+              "position": 24,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "d236b3df-576b-4c03-9c60-92e0d2b84393",
+              "kind": "standard",
+              "term": "Kalitiran",
+              "definition": "The Filipino butchery term for the beef blade clod cut.",
+              "answers": null,
+              "position": 25,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "7610319e-a103-44df-b286-89c2a1ff7165",
+              "kind": "standard",
+              "term": "Tagiliran",
+              "definition": "The Filipino butchery term for beef short ribs.",
+              "answers": null,
+              "position": 26,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "15be6c36-4b00-490c-aa19-adde39925e90",
+              "kind": "standard",
+              "term": "Tapadera",
+              "definition": "The Filipino butchery term for the beef sirloin cut.",
+              "answers": null,
+              "position": 27,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "f7731648-7da7-4167-8ee6-53a5e7eb550d",
+              "kind": "standard",
+              "term": "Solomilyo",
+              "definition": "The Filipino butchery term for beef tenderloin.",
+              "answers": null,
+              "position": 28,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "b32c374f-9025-482b-be9c-39e246e19639",
+              "kind": "standard",
+              "term": "Paypay",
+              "definition": "The Filipino butchery term for the tender chuck cut of beef.",
+              "answers": null,
+              "position": 29,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "86566535-f068-48a2-8561-25605c25e5ff",
+              "kind": "standard",
+              "term": "Punta y Pecho",
+              "definition": "The Filipino butchery term for beef brisket.",
+              "answers": null,
+              "position": 30,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "01db2ea8-28d7-44ad-b83f-c9b4e7e765c1",
+              "kind": "standard",
+              "term": "Camto",
+              "definition": "The Filipino butchery term for the beef flank steak cut.",
+              "answers": null,
+              "position": 31,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "e95f0597-cf7c-4a21-930b-fd29741865a5",
+              "kind": "standard",
+              "term": "Pork Retail Cuts",
+              "definition": "Pork is usually tender regardless of the cut. Wholesale loin and spare rib cuts of pork are much longer than beef and lamb, because the rib and sirloin are not separated in the carcass. The leg is the largest primal cut in pork; because pork is slaughtered at a young age, pork legs are very tender for roasting.",
+              "answers": null,
+              "position": 32,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "78b82d5d-b96e-4380-8ce3-97abf5399968",
+              "kind": "enumeration",
+              "term": "The 2 Wholesale Cuts That Provide Most Fresh Pork Retail Cuts",
+              "definition": "",
+              "answers": [
+                "Loin",
+                "Spare Rib"
+              ],
+              "position": 33,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "aaff4cdd-99a0-4405-a6b7-93187df53475",
+              "kind": "standard",
+              "term": "Loin",
+              "definition": "As a wholesale pork cut, it provides pork loin chop or roast, Canadian-style bacon, and pork loin tenderloin.",
+              "answers": null,
+              "position": 34,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "bef405ba-a523-4987-9258-178edb81f2c4",
+              "kind": "standard",
+              "term": "Spare Rib",
+              "definition": "As a wholesale pork cut, it provides spare ribs, bacon, and rib bacon.",
+              "answers": null,
+              "position": 35,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "4528aa99-a5ae-42f5-8a3e-930f6d4cb735",
+              "kind": "enumeration",
+              "term": "The 17 Parts of a Pork Carcass",
+              "definition": "",
+              "answers": [
+                "Ear",
+                "Jowl",
+                "Neck",
+                "Boston Shoulder",
+                "Picnic Shoulder",
+                "Fat Back",
+                "Back Ribs",
+                "Center Loin",
+                "Sirloin",
+                "Tenderloin",
+                "Spare Ribs",
+                "Side Bacon",
+                "Rib Bacon",
+                "Belly Bacon",
+                "Ham",
+                "Hock",
+                "Foot"
+              ],
+              "position": 36,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "79f19dda-9502-4acb-84ee-93c98017aaa8",
+              "kind": "enumeration",
+              "term": "The 5 Filipino Names for Pork Cuts",
+              "definition": "",
+              "answers": [
+                "Kasim",
+                "Lomo",
+                "Pigue",
+                "Liempo",
+                "Pata"
+              ],
+              "position": 37,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "76ca8d98-ff6b-454c-ad14-9148c87b21e0",
+              "kind": "standard",
+              "term": "Kasim",
+              "definition": "The Filipino butchery term for the pork shoulder cut.",
+              "answers": null,
+              "position": 38,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "89518c92-9ab4-4e59-8278-cc0b76fb385b",
+              "kind": "standard",
+              "term": "Lomo",
+              "definition": "The Filipino butchery term for the pork loin cut.",
+              "answers": null,
+              "position": 39,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "a9e7156f-3f46-48c1-abcb-52e8ad9694f2",
+              "kind": "standard",
+              "term": "Pigue",
+              "definition": "The Filipino butchery term for the pork ham cut.",
+              "answers": null,
+              "position": 40,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "b1b32ff6-bfe3-445a-9543-5f94bdf35391",
+              "kind": "standard",
+              "term": "Liempo",
+              "definition": "The Filipino butchery term for pork belly.",
+              "answers": null,
+              "position": 41,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "f0df9a9f-3891-4e99-86b5-1ca6e6053f6f",
+              "kind": "standard",
+              "term": "Pata",
+              "definition": "The Filipino butchery term for the pork hock.",
+              "answers": null,
+              "position": 42,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "d521c1bc-15d5-48ae-80d6-efdc39482803",
+              "kind": "standard",
+              "term": "Variety Meats",
+              "definition": "Also known as organ and offal. They can be either organ meats or muscle meats. Organ meats are very soft, extremely tender, and easily cooked — examples are liver, kidneys, and brains. Muscle meats require long and slow cooking, as they are heavily exercised muscles and are quite tough — examples include tongue and heart.",
+              "answers": null,
+              "position": 43,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "f28dc5e3-2de6-444c-8d9a-a2450760748c",
+              "kind": "standard",
+              "term": "Processed Meats",
+              "definition": "About one-third of all meat is processed by different methods such as curing, smoking, canning, and drying, meaning it has changed from its original \"fresh\" cut. Examples include ham, sausages, and bacon.",
+              "answers": null,
+              "position": 44,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "1d9a03ac-3dea-40c5-b15b-4169642d2a71",
+              "kind": "enumeration",
+              "term": "The 3 Common Processed Meats",
+              "definition": "",
+              "answers": [
+                "Ham",
+                "Bacon",
+                "Sausage"
+              ],
+              "position": 45,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "fdc000bb-aced-412a-b8c4-6d1840722402",
+              "kind": "standard",
+              "term": "Ham",
+              "definition": "Cured pork. According to USDA (United States Department of Agriculture) standards, only meat from the hind leg of a hog can be labeled ham.",
+              "answers": null,
+              "position": 46,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "e0727d02-5cea-4c15-8920-ae859e75e2ce",
+              "kind": "standard",
+              "term": "Bacon",
+              "definition": "Cured and smoked meat from the side of a hog.",
+              "answers": null,
+              "position": 47,
+              "updatedAt": 1787288179795
+            },
+            {
+              "id": "e8129e6d-822a-4952-a5e9-91b4a8fc62e1",
+              "kind": "standard",
+              "term": "Sausage",
+              "definition": "Meat that has been finely chopped or ground and blended with various ingredients, seasonings, and spices. It is then stuffed into casings or skins.",
+              "answers": null,
+              "position": 48,
+              "updatedAt": 1787288179795
+            }
+          ]
+        },
+        {
           "id": "824389bf-ccf1-40a9-9ddc-2146b421c5ef",
           "name": "Sanitation and Food Safety in Culinary Operations",
           "description": "Food safety, R.A. 10611, the three major types of food hazards, food handlers, and the ten principles of safe food handling and hygiene.",
@@ -2618,6 +4057,373 @@
               "answers": null,
               "position": 51,
               "updatedAt": 1784187496484
+            }
+          ]
+        },
+        {
+          "id": "355119ec-94e1-4e56-84c5-0d4c8625ecab",
+          "name": "Types of Cooking Method",
+          "description": "The three categories of cooking methods, the moist heat and dry heat techniques, dry heat techniques using fat, and the combination heat techniques of braising and stewing.",
+          "position": 7,
+          "updatedAt": 1787288092682,
+          "terms": [
+            {
+              "id": "4dbf2cbb-667e-44d5-893e-9a7081d15001",
+              "kind": "standard",
+              "term": "Cooking Method",
+              "definition": "Cooking methods are divided into three main categories: dry heat, moist heat, and combination heat, which use conduction, convection, or radiation to change food texture and flavor. Choosing the right method affects nutrition, texture, and flavor.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "c56884d0-d6f9-4cc2-a826-63f4342b16af",
+              "kind": "enumeration",
+              "term": "The 3 Categories of Cooking Methods",
+              "definition": "",
+              "answers": [
+                "Moist Heat Method",
+                "Dry Heat Method",
+                "Combination Heat Method"
+              ],
+              "position": 1,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "a32e0422-13dc-4d54-89a5-bf59169110d6",
+              "kind": "standard",
+              "term": "Moist Heat Method",
+              "definition": "The process of heating food using liquid other than oil.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "cf6397ac-86f6-420e-96d6-81d865ce7f37",
+              "kind": "standard",
+              "term": "Dry Heat Method",
+              "definition": "A way of cooking food without using water, broth, or steam as the primary heat transfer medium. Instead, it uses direct heat (like from flames, hot air, or hot metal) or indirect heat (like in an oven) to cook the food.",
+              "answers": null,
+              "position": 3,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "549352a5-66c0-4b29-b866-f7b84b6209fc",
+              "kind": "standard",
+              "term": "Combination Heat Method",
+              "definition": "Techniques that combine dry and moist heat, starting with high heat to brown the food and finishing with low, moist heat to tenderize it.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "08e91365-cc07-418c-b09b-91ff08c1a669",
+              "kind": "enumeration",
+              "term": "The 6 Moist Heat Cooking Techniques",
+              "definition": "",
+              "answers": [
+                "Boiling",
+                "Simmering",
+                "Poaching",
+                "Blanching",
+                "Parboiling",
+                "Steaming"
+              ],
+              "position": 5,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "216ae313-5d10-4841-8f78-12ea425f3dea",
+              "kind": "standard",
+              "term": "Boiling",
+              "definition": "A moist heat cooking technique that cooks food in a liquid, such as water or stocks, that is bubbling rapidly and greatly agitated. The boiling point of water is 100°C (212°F) at sea level. The food can be added and cooked when the liquid reaches its boiling point; no matter how high the heat is on, the liquid temperature will go no higher. Boiling is commonly used in cooking vegetables and starches — the protein of meats is toughened by the high temperatures, while the rapid bubbling breaks up delicate foods.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "adee5ace-e8e8-4745-9b7f-e15e19275558",
+              "kind": "standard",
+              "term": "Simmering",
+              "definition": "A moist heat cooking technique that involves cooking food in a liquid heated at 85°C to 93°C (185°F to 200°F). With a lower temperature, simmering makes a gentler process of cooking compared to boiling. The food is cooked slower, creating better control of evaporation and breaking up of delicate foods. This cooking technique is used to lessen the volume of liquid.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "583ae522-b024-4e06-ae6e-33929e77b8c9",
+              "kind": "standard",
+              "term": "Poaching",
+              "definition": "A moist heat cooking technique that involves cooking food in a small amount of liquid, enough to cover the food, between 66°C (150°F) and 85°C (185°F). This process is gentler than simmering. Poaching is used to cook delicate food, such as egg and fish, or to cook a variety of meat to remove undesirable flavors and firm the product before final cooking.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "94913f02-56f9-4746-8823-3e245c45aa75",
+              "kind": "standard",
+              "term": "Blanching",
+              "definition": "A moist heat cooking technique where food is partially and briefly immersed into boiling water. This is the fastest way to change the flavor and enhance the color of the food. Blanching is also used to preserve the nutritional value of the food and remove blood, salt, or impurities from meats and bones. It also helps loosen the skin of vegetables and fruits, which simplifies peeling.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "ad33b365-813c-44f6-85be-6ce120809395",
+              "kind": "standard",
+              "term": "Shocking",
+              "definition": "The two steps involved in blanching food in water: immerse the food in boiling water and return the pot to a boil to partially cook it, then remove the blanched food from the liquid and plunge it into ice water to stop the cooking process.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "ddb00b03-2495-4646-a546-dacb9aa94459",
+              "kind": "standard",
+              "term": "Parboiling",
+              "definition": "A moist heat cooking technique similar to blanching, where food is partially cooked by immersing it into boiling water; however, it requires a longer cooking time than blanching, and it does not cool the food using cold water or ice after removing it from the boiling water. Poisonous and bad-tasting substances from foods can be removed through parboiling. It is also used to soften vegetables before grilling and roasting them.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "3bd3eb82-6745-4ed3-be08-d4a727dc2cc5",
+              "kind": "standard",
+              "term": "Steaming",
+              "definition": "A moist heat cooking technique where food is cooked by directly exposing it to hot steam. Food is cooked using an enclosed pot and a steamer basket: the food is put inside a covered steamer basket and placed over the pot filled with a small amount of water. The water from the pot is heated until it reaches the boiling point, and from a closed environment, it creates hot steam that serves as heat to the food.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "cd461118-b5d3-4119-ae72-f3d6f2f0b7c3",
+              "kind": "standard",
+              "term": "Dry Heat Cooking",
+              "definition": "Works without the presence of any moisture, broth, or water. Instead, it relies on the circulation of hot air or contact with fat to transfer heat to foods. Temperatures of 300 degrees or hotter are used to create browning, a reaction where the amino acids and sugars in food turn brown and create a distinct aroma and flavor.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "d0690aaa-e532-4ecb-8060-3be8e2df02c2",
+              "kind": "standard",
+              "term": "Maillard",
+              "definition": "The reaction that occurs at temperatures of 300 degrees or hotter, where the amino acids and sugars in food turn brown and create a distinct aroma and flavor.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "7be23b29-adff-43c2-8bc3-cba684eaf8d6",
+              "kind": "standard",
+              "term": "Baking",
+              "definition": "Baking and roasting both use indirect heat to surround foods and cook from all sides. The term roasting is used when cooking meats or vegetables, and baking is used when making bread, rolls, and cakes. Technically, these cooking methods are the same, but baking is usually performed at lower temperatures than roasting.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "eeed2226-8ecd-40be-a961-023ac3f3b94f",
+              "kind": "standard",
+              "term": "Roasting",
+              "definition": "Can be performed at very low temperatures between 200 degrees and 350 degrees Fahrenheit for tougher cuts of meat, or higher temperatures up to 450 degrees Fahrenheit for more tender cuts.",
+              "answers": null,
+              "position": 16,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "3447a609-6f4e-41b1-92ac-c3a2ab6230b6",
+              "kind": "standard",
+              "term": "Broiling",
+              "definition": "Works by transferring extremely high heat onto food, usually directed from a radiant located above the food, which cooks on one side at a time. Browning can occur very quickly with this method, sealing juices and flavor inside and leaving a crisp exterior. Because this cooking method is fast, it's helpful to use a timer or check the doneness so foods don't become burnt or overcooked. In commercial kitchens, broiling can be performed with a broiler oven.",
+              "answers": null,
+              "position": 17,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "8228b68c-75fa-484f-a40b-7df957ea7f2d",
+              "kind": "standard",
+              "term": "Things to Remember When Broiling",
+              "definition": "The heat should be turned on full. The cooking temperature can be controlled by adjusting the rack nearer or farther from the heat source: thicker food items should be placed farther from the heat source, while thinner items should be placed nearer the heat source, so the inner and outer portions of the food cook at the same rate. The broiler should be preheated, which helps the food product sear quickly and achieve the desired grill marks. Dipping food in oil will avoid it from drying and sticking, though this is not necessary for high-fat foods — be careful about the amount of fat, as too much oil on a hot broiler may cause a fire.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "164b9f0f-2b8c-448d-a0e7-36214b8dc40e",
+              "kind": "standard",
+              "term": "Salamander",
+              "definition": "A low-intensity broiler that is used for browning or melting the top of food items before being served.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "f3edfcb9-2f4c-43af-a2d8-cec822f1e582",
+              "kind": "enumeration",
+              "term": "The 3 Dry Heat Cooking Techniques That Use Heat Underneath",
+              "definition": "",
+              "answers": [
+                "Grilling",
+                "Griddling",
+                "Pan Broiling"
+              ],
+              "position": 20,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "6369cd81-3b2a-4a61-b0c0-9e08af10a77c",
+              "kind": "standard",
+              "term": "Grilling",
+              "definition": "Similar to broiling, in that it uses radiant heat to cook foods quickly. Most commonly, grilling equipment will feature an open grate with a heat source located beneath the food. Flipping is required to cook foods on both sides, and grill marks from the hot grate or rack are desirable.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "0a265a52-02ca-45a6-863b-3124f7ceada9",
+              "kind": "standard",
+              "term": "Griddling",
+              "definition": "Done on a solid metal surface called a griddle, with a gas or an electric heat source. A small amount of fat is added, depending on the type of food being cooked, to prevent the food from sticking. The temperature is adjustable and much lower (around 177°C/350°F) than on a grill.",
+              "answers": null,
+              "position": 22,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "c32721a1-5c7e-4dc4-a0ac-a8cb04257dc3",
+              "kind": "standard",
+              "term": "Pan Broiling",
+              "definition": "Like griddling, except it is done in a sauté pan or skillet instead of a griddle. Fat must be poured off as it accumulates, or the process becomes pan-frying.",
+              "answers": null,
+              "position": 23,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "ed5b0133-fd43-42b4-b68a-587181513c8a",
+              "kind": "enumeration",
+              "term": "The 6 Dry Heat Cooking Techniques That Use Fat",
+              "definition": "",
+              "answers": [
+                "Searing",
+                "Sautéing",
+                "Stir-Frying",
+                "Pan Frying",
+                "Deep-Frying",
+                "Shallow Frying"
+              ],
+              "position": 24,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "cf6aa27e-54f8-422d-b591-e78b1ffef392",
+              "kind": "standard",
+              "term": "Searing",
+              "definition": "A cooking technique that exposes ingredients (typically meat) to a high temperature to create a crisp browning on the outside. This method enhances the flavor of the dish and is often done in a small amount of oil, butter, or fat.",
+              "answers": null,
+              "position": 25,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "3b463e6f-84ac-4de1-ba16-8e58a3bb3c17",
+              "kind": "standard",
+              "term": "Searing Food on a Range Top",
+              "definition": "Heat the pan and put in a small amount of oil. Place the food when the oil is already hot. Brown the meat on one side, then turn it to brown the other side. Once both sides are browned, place the pan into a hot oven to finish the cooking process.",
+              "answers": null,
+              "position": 26,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "52ff4c0f-7de5-4f22-8b82-6f2bfb8149f5",
+              "kind": "standard",
+              "term": "Searing Food in an Oven",
+              "definition": "Place the food into a pan and cook it at 232°C to 242°C (450°F to 475°F) in an oven for 15 to 20 minutes, or until the outer surface of the food becomes golden brown. Then, lower the heat to 163°C to 177°C (325°F to 350°F) to finish the cooking process.",
+              "answers": null,
+              "position": 27,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "de7dc25e-0c87-46c7-8ca7-3f7297e4f2a2",
+              "kind": "standard",
+              "term": "Sautéing",
+              "definition": "A cooking technique which derives its name from the French verb for jumping. Sauté is a dry-heat cooking method that involves cooking a small amount of fat in a hot pan while tossing ingredients around. It is also used to enhance the flavors in a dish by browning the surface area of food. Ingredients must be stirred regularly with a utensil throughout the sautéing process to ensure all ingredients are evenly exposed to the heat source.",
+              "answers": null,
+              "position": 28,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "30de0fa6-2155-4dba-9901-2d2b398f7e39",
+              "kind": "standard",
+              "term": "Stir-Frying",
+              "definition": "A fast and fresh way to cook: bite-sized pieces of food are tossed and turned in a little hot oil in a wok over high heat, and in five minutes or less, the work is done. Vegetables emerge crisp and bright; meats are flavorful, tender, and well seared.",
+              "answers": null,
+              "position": 29,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "910f74d2-f3fd-409f-a5f1-edf213e2d590",
+              "kind": "standard",
+              "term": "Pan Frying",
+              "definition": "A method of cooking that uses a heavy pan containing a moderate amount of fat for cooking foods over moderate heat. The fat helps prevent the fried food from sticking to the pan. Food is generally cooked until brown on one side, then turned over so it can be cooked until brown on the other side.",
+              "answers": null,
+              "position": 30,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "6b3493ec-478b-40a5-ad59-61e4c240b017",
+              "kind": "standard",
+              "term": "Deep-Frying",
+              "definition": "A process in which food is completely submerged (or only partially submerged, i.e., doughnuts) in hot oil whose temperature is typically between 350°F (177°C) and 375°F (191°C).",
+              "answers": null,
+              "position": 31,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "ba7e5a88-ca8c-4058-9834-b6b4fd6be52c",
+              "kind": "standard",
+              "term": "Shallow Frying",
+              "definition": "A cooking technique that involves cooking in oil, generally in a frying pan. It is usually used to cook small pieces of meat or fish that are generally covered in flour or some type of batter. In shallow frying, the pan is filled two-thirds of the way with oil so that the food will be only partly submerged.",
+              "answers": null,
+              "position": 32,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "4222ec8f-f6ae-4b2c-aedb-d68d2ca8c7d2",
+              "kind": "standard",
+              "term": "Combination of Dry Heat and Moist Heat Cooking Techniques",
+              "definition": "Useful for tough yet flavorful cuts of meat. The combination techniques create tenderness in the meat. Examples of the combination technique are braising and stewing.",
+              "answers": null,
+              "position": 33,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "1e632adb-ee4e-4f65-8d14-2996eed2f599",
+              "kind": "enumeration",
+              "term": "The 2 Combination Heat Cooking Techniques",
+              "definition": "",
+              "answers": [
+                "Braising",
+                "Stewing"
+              ],
+              "position": 34,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "ff35279c-b352-4dcb-9c33-49e56cb257e7",
+              "kind": "standard",
+              "term": "Braising",
+              "definition": "Comes from the French word braiser, meaning a technique that uses both dry heat and moist heat cooking. Braising is used to tenderize tough cuts of meat, such as shank, shoulder, and round. It is a long and slow cooking process that helps break down the connective tissue in the meat, making it tender and combined with flavor sauce. The meat is first seared at a high temperature to brown it, then removed from the pot while onion, leeks, garlic, and other aromatics are added. Liquid, such as stocks, sauce, or water, is added to help deglaze the bottom of the pot. After deglazing, the browned meat is placed back in, but the liquid should not rise over the meat. The mixture is brought to a boil, then the heat is lowered to cook slowly for an extended amount of time.",
+              "answers": null,
+              "position": 35,
+              "updatedAt": 1787288092682
+            },
+            {
+              "id": "54b7e5f0-efed-4b20-836c-381fed77922e",
+              "kind": "standard",
+              "term": "Stewing",
+              "definition": "Another combination cooking technique. The cooking time for stewing is much shorter than braising because the food item in stewing is cut into smaller portions. The cooking process for stewing is the same as braising, wherein meat is first seared at a high temperature. Tender cuts of meat are not stewed, to avoid toughening the meat. It is removed from the pot while onion, leeks, garlic, and other aromatics are added, then liquid, such as stocks, sauce, or water, is added to help deglaze the bottom of the pot. Once deglazed, the browned meat is placed back into the pot, and all ingredients are submerged in liquid.",
+              "answers": null,
+              "position": 36,
+              "updatedAt": 1787288092682
             }
           ]
         }
@@ -4940,6 +6746,515 @@
               "updatedAt": 1784192905253
             }
           ]
+        },
+        {
+          "id": "374ba6e3-ddf7-4d7d-b0f1-cb9b64cf21b7",
+          "name": "Region 3 - Central Luzon",
+          "description": "The provinces and capitals of Central Luzon, with its attractions, foods and delicacies, and festivals.",
+          "position": 4,
+          "updatedAt": 1786628072708,
+          "terms": [
+            {
+              "id": "a2158f63-bec2-4f35-a31c-efa88a88b764",
+              "kind": "enumeration",
+              "term": "7 Provinces of Region 3 and Their Capitals",
+              "definition": "",
+              "answers": [
+                "Aurora - Baler",
+                "Bataan - Balanga",
+                "Bulacan - Malolos",
+                "Nueva Ecija - Palayan",
+                "Pampanga - San Fernando",
+                "Tarlac - Tarlac City",
+                "Zambales - Iba"
+              ],
+              "position": 0,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "77180415-383d-4b65-a923-ffb294b85997",
+              "kind": "standard",
+              "term": "Quezon's Rest House",
+              "definition": "An attraction in Aurora. Located in Baler and served as the rest house of a former Philippine President. The structure is made of concrete, wood, and nipa, reflecting a simple lifestyle. Displays photographs, antique kitchenware, and preserved personal items.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "614e97f5-fc68-4bea-9642-5873d75090ab",
+              "kind": "standard",
+              "term": "Baler Catholic Church",
+              "definition": "An attraction in Aurora. Built in the 18th century. Known for a historic siege involving Spanish soldiers, where 54 Spanish soldiers continued to defend it even after the Spanish-American War had ended.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "582faf29-2379-48c8-9aed-1bef860c8508",
+              "kind": "standard",
+              "term": "Balete Park and Millennium Tree",
+              "definition": "An attraction in Aurora. Home to a tree believed to be over 600 years old, considered one of the largest of its kind in Asia. Its trunk is so large that around 60 people are needed to encircle it.",
+              "answers": null,
+              "position": 3,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "f47aebcb-7d0b-419e-b225-6b90834192fe",
+              "kind": "standard",
+              "term": "Las Casas Filipinas de Acuzar",
+              "definition": "An attraction in Bataan. A heritage resort featuring Spanish-Filipino colonial houses. The houses were transferred from different parts of the country and restored. It is the first heritage hotel in the Philippines.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "a01483dd-af91-4eed-b842-c3445e685d48",
+              "kind": "standard",
+              "term": "Shrine of Valor",
+              "definition": "An attraction in Bataan. Located on Mt. Samat in Pilar. Dedicated to Filipino and American soldiers of World War II. Serves as a historical monument.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "1cf567d2-ab07-422d-aff6-3bcb9745da3f",
+              "kind": "standard",
+              "term": "Barasoain Church",
+              "definition": "An attraction in Bulacan. Known as the \"Cradle of Democracy in the East\". Site of the First Philippine Congress in 1898. Site where the Malolos Constitution was drafted and the First Philippine Republic was inaugurated.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "63a07c79-6d0b-4aaf-bb6e-57c8b53e0540",
+              "kind": "standard",
+              "term": "Philippine Arena",
+              "definition": "An attraction in Bulacan. One of the largest indoor venues in the world. Has a seating capacity of more than 50,000. Used for concerts, sports events, and large gatherings.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "6c35f61b-d0f3-49f8-8e8a-b5a49caa4712",
+              "kind": "standard",
+              "term": "Minalungao National Park",
+              "definition": "An attraction in Nueva Ecija. A protected natural area. Known for its clear emerald river. Surrounded by high limestone cliffs.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "4fbcd1f3-768b-4b56-b40a-8b8457809413",
+              "kind": "standard",
+              "term": "Gapan Ancestral Houses",
+              "definition": "An attraction in Nueva Ecija. Well-preserved historical residences. Reflect Spanish and early American architectural influences. Feature wooden structures and capiz shell windows.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "ba8efd48-23a4-4c5d-8c6b-f794c45111f1",
+              "kind": "standard",
+              "term": "San Guillermo Parish Church",
+              "definition": "An attraction in Pampanga. One of the oldest churches in the province. Partially buried by lahar during the 1991 Mt. Pinatubo eruption. Known as the \"half-buried church\".",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "33b8e30a-7288-4bcc-b84b-c2d26a317d9b",
+              "kind": "standard",
+              "term": "Clark Barn Houses",
+              "definition": "An attraction in Pampanga. Built in 1903 during the establishment of Fort Stotsenburg. Originally used as officers' quarters. Considered among the earliest structures in the area.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "14a1125d-8a6d-4d8b-83d2-09c3e4d37638",
+              "kind": "standard",
+              "term": "Mt. Pinatubo Crater Lake",
+              "definition": "An attraction in Pampanga. Formed after the 1991 eruption of a volcano, one of the largest eruptions of the 20th century. Features scenic waters at the volcano's summit.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "d507148a-d6e4-4953-9086-9572a4d29d64",
+              "kind": "standard",
+              "term": "Capas National Shrine",
+              "definition": "An attraction in Tarlac. Features a 70-meter tall black monument. Honors Filipino and American soldiers. Located at the end site of the Bataan Death March.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "05014845-36b3-4269-856a-ff54d2e24e6b",
+              "kind": "standard",
+              "term": "Monasterio de Tarlac",
+              "definition": "An attraction in Tarlac. Located on a mountain in San Jose. A known religious site. Houses a relic believed to be part of the Holy Cross.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "8b26ddd3-32e8-4110-9e9c-f33e8250aeb1",
+              "kind": "standard",
+              "term": "Ramon Magsaysay Ancestral House",
+              "definition": "An attraction in Zambales. A museum dedicated to a former Philippine President. Displays personal belongings and memorabilia. Highlights his leadership and public service.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "36fa7d90-5121-4ceb-82ff-1bffedff683f",
+              "kind": "standard",
+              "term": "Anawangin Cove",
+              "definition": "An attraction in Zambales. Known for its ash-colored sand and calm waters. Surrounded by agoho trees. Formed after the eruption of Mt. Pinatubo.",
+              "answers": null,
+              "position": 16,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "1c48e6c2-cba5-4800-82d0-1e66cddd5064",
+              "kind": "standard",
+              "term": "Ensaladang Pako",
+              "definition": "A delicacy of Aurora. A salad made from edible fern leaves mixed with tomatoes and onions. Known for its fresh taste and simple preparation.",
+              "answers": null,
+              "position": 17,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "be850cd5-fbab-4e0d-b265-9dac582ef517",
+              "kind": "standard",
+              "term": "Gabi Ice Cream",
+              "definition": "A delicacy of Bataan. Made from taro root. Known for its creamy texture and natural sweetness.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "31a17b28-f1f9-4b08-9317-c4808d96b65d",
+              "kind": "standard",
+              "term": "Hamon Bulakenya",
+              "definition": "A delicacy of Bulacan. A sweet cured ham commonly served during celebrations. Known for its rich and festive flavor.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "076cb131-e0a2-4f2e-be6d-0c7199d9cff3",
+              "kind": "standard",
+              "term": "Batutay Longganisa",
+              "definition": "A delicacy of Nueva Ecija. A sweet and garlicky beef sausage, distinct from other pork varieties.",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "57758832-25e8-431e-a6ec-aee79025a664",
+              "kind": "standard",
+              "term": "Sisig",
+              "definition": "A delicacy of Pampanga. Made from chopped pork, onions, and seasonings. Known for its savory, tangy, and slightly spicy taste.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "59c1075b-a08c-43bb-ae42-5d2804302cf5",
+              "kind": "standard",
+              "term": "Tupig",
+              "definition": "A delicacy of Tarlac. A grilled rice cake made from glutinous rice and coconut. Wrapped in banana leaves and has a smoky flavor.",
+              "answers": null,
+              "position": 22,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "a36a5ae8-3abd-411e-b819-d3a1f308735c",
+              "kind": "standard",
+              "term": "Mango Products",
+              "definition": "A delicacy of Zambales. Known for its sweet and juicy flavor. One of the main agricultural products of the province.",
+              "answers": null,
+              "position": 23,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "f1af64db-7747-4e8a-b441-5597251f22e4",
+              "kind": "standard",
+              "term": "Sabutan Festival",
+              "definition": "A festival of Aurora held on August 24-25. Celebrated in San Luis to highlight a local plant used in weaving mats, hats, and handicrafts. The festival includes street dancing, exhibits, and trade fairs. It showcases the skills of local artisans and promotes local livelihood. The event also supports cultural preservation.",
+              "answers": null,
+              "position": 24,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "364b2d6c-6716-416d-9190-8765aa654be2",
+              "kind": "standard",
+              "term": "Pawikan Festival",
+              "definition": "A festival of Bataan held on the last week of November, usually November 29-30. Celebrated in Morong to promote the protection of endangered sea turtles. Activities include turtle release, coastal clean-ups, and awareness campaigns. The festival highlights marine conservation. It also encourages sustainable tourism practices.",
+              "answers": null,
+              "position": 25,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "1cb5a62a-8bf6-4c13-9fdd-efd395581198",
+              "kind": "standard",
+              "term": "Obando Fertility Dance",
+              "definition": "A festival of Bulacan held on May 17-19. A religious festival where devotees dance in honor of patron saints while praying for fertility and blessings. The tradition combines Catholic practices and local beliefs. Participants perform ritual dances in the streets. The festival attracts pilgrims from different places.",
+              "answers": null,
+              "position": 26,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "f07c45f0-d876-4429-ac37-9fc231b4bd53",
+              "kind": "standard",
+              "term": "Araquio of Peñaranda",
+              "definition": "A festival of Nueva Ecija celebrated every May. A traditional theatrical presentation about the search for the Holy Cross. It includes music, dance, and dialogue influenced by Spanish traditions. The event reflects strong religious faith. It remains an important cultural practice in the province.",
+              "answers": null,
+              "position": 27,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "272d3025-2c71-408d-a955-0a84ad84b73a",
+              "kind": "standard",
+              "term": "Grand Lantern Festival",
+              "definition": "A festival of Pampanga held on the Saturday before Christmas Day in December. Held in San Fernando and known for giant illuminated displays with moving lights. The displays feature detailed designs and vibrant colors. The festival highlights Filipino creativity. It is a major Christmas attraction.",
+              "answers": null,
+              "position": 28,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "fde0a915-ab52-40b9-ab11-ad9bfee98b31",
+              "kind": "standard",
+              "term": "Belenismo Festival",
+              "definition": "A festival of Tarlac held on the first week of December. Showcases nativity scenes displayed in homes and public places. The festival promotes faith, family, and creativity. Communities create artistic displays. It is an important Christmas tradition in the province.",
+              "answers": null,
+              "position": 29,
+              "updatedAt": 1786628072708
+            },
+            {
+              "id": "44c465a5-956f-4263-8c71-32c7dcc9a764",
+              "kind": "standard",
+              "term": "Dinamulag Festival",
+              "definition": "A festival of Zambales held in April, usually the 3rd week. Celebrates the mango harvest in the province. Activities include street dancing, exhibits, and trade fairs. The festival highlights the importance of mango production. It also promotes tourism and local products.",
+              "answers": null,
+              "position": 30,
+              "updatedAt": 1786628072708
+            }
+          ]
+        },
+        {
+          "id": "d730b7b3-5d2c-403c-951b-f758a881b16d",
+          "name": "Region 4A - CALABARZON",
+          "description": "The provinces and capitals of CALABARZON, with its attractions, foods and delicacies, and festivals.",
+          "position": 6,
+          "updatedAt": 1786628117493,
+          "terms": [
+            {
+              "id": "643d3822-a58d-4ac5-826b-7c85cfdfaaf2",
+              "kind": "enumeration",
+              "term": "5 Provinces of Region 4A and Their Capitals",
+              "definition": "",
+              "answers": [
+                "Cavite - Trece Martires City",
+                "Laguna - Santa Cruz",
+                "Batangas - Batangas City",
+                "Rizal - Antipolo City",
+                "Quezon - Lucena City"
+              ],
+              "position": 0,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "41eac664-e376-4ea6-a69b-bc5732c10866",
+              "kind": "standard",
+              "term": "Aguinaldo Shrine and Museum",
+              "definition": "An attraction in Cavite. Site where Philippine independence was declared on June 12, 1898. Former residence of the first Philippine President. Preserved as a national shrine and venue for Independence Day ceremonies.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "f139b7e0-876e-44eb-95b6-669738772941",
+              "kind": "standard",
+              "term": "Corregidor Island",
+              "definition": "An attraction in Cavite. Strategic military defense site during World War II. Fortified by Spanish and American forces before the Japanese occupation. Features war ruins, tunnels, and memorials open for historical tours.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "d0348f95-d9ba-41a0-9166-014c209dae6b",
+              "kind": "standard",
+              "term": "Nagcarlan Underground Cemetery",
+              "definition": "An attraction in Laguna. Built in 1845 with a chapel and underground burial chamber. Used as a secret meeting place during the Philippine Revolution. Declared a National Historical Landmark in 1973.",
+              "answers": null,
+              "position": 3,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "678c4f99-825e-4c39-8448-26cd44979597",
+              "kind": "standard",
+              "term": "Laguna de Bay",
+              "definition": "The largest freshwater lake in the Philippines. Supports fishing, agriculture, and local livelihoods. Drains into the Pasig River and contributes to regional ecology.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "af02e435-c13c-4050-ae71-f85bc460cfc0",
+              "kind": "standard",
+              "term": "Basilica of St. Martin de Tours",
+              "definition": "An attraction in Batangas. Considered the largest Catholic church in Asia. Features massive Baroque architecture and Spanish-era design. Houses a notable silver tabernacle and serves as a pilgrimage site.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "9b9fd654-d8a5-4c23-90ff-c607d7503d51",
+              "kind": "standard",
+              "term": "Calatagan Mangrove Forest",
+              "definition": "An attraction in Batangas. Protected mangrove area locally known as \"Ang Pulo\". Features walkways, viewing decks, and eco-tourism activities. Promotes environmental conservation and coastal protection.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "dbbfda87-7af0-42cd-8eab-1a0ed98ee28e",
+              "kind": "standard",
+              "term": "Angono Petroglyphs",
+              "definition": "An attraction in Rizal. The oldest known artworks in the Philippines, discovered in 1965. Features ancient carvings etched on rock surfaces. Recognized as an important cultural and historical site.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "6f972682-63de-4d49-be8e-389c7b1de29b",
+              "kind": "standard",
+              "term": "Masungi Georeserve",
+              "definition": "An attraction in Rizal. Conservation area known for limestone formations and forest landscapes. Offers guided trails focused on adventure and environmental education. Promotes sustainable tourism and ecological preservation.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "f5081971-f4d9-4faa-a949-b2bacf1c1b3b",
+              "kind": "standard",
+              "term": "Kamay ni Hesus Shrine",
+              "definition": "An attraction in Quezon. Religious site featuring a large statue of the Ascending Christ. Includes pilgrimage steps, prayer areas, and biblical displays.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "fa615fce-53f9-485c-aebe-44af5d3e9391",
+              "kind": "standard",
+              "term": "Balesin Island",
+              "definition": "An attraction in Quezon. A private luxury island resort in the province. Known for white-sand beaches and well-preserved natural surroundings. Features themed villages inspired by international destinations.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "ac19c350-ffa7-4536-9d8f-ae4e333bf9d3",
+              "kind": "standard",
+              "term": "Pansit Pusit",
+              "definition": "A delicacy of Cavite. A noodle dish flavored with squid ink, giving it a distinct dark color and savory taste.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "90984e03-3ae0-4c97-9fe2-6b304ee9ab92",
+              "kind": "standard",
+              "term": "Inutak",
+              "definition": "A delicacy of Laguna. A sweet, sticky rice delicacy layered with coconut cream, often served warm.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "45725f1a-a84a-47bb-a818-956ca9f62501",
+              "kind": "standard",
+              "term": "Tapang Taal",
+              "definition": "A delicacy of Batangas. A sweet and savory cured beef specialty from one of the province's historic towns.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "208def03-4589-4ef2-b3c2-e922a596675b",
+              "kind": "standard",
+              "term": "Okoy",
+              "definition": "A delicacy of Rizal. A fritter made from shrimp and vegetables, fried until crispy.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "81b9ab60-b944-462f-8b9b-cabe3f8a8101",
+              "kind": "standard",
+              "term": "Pancit Habhab",
+              "definition": "A delicacy of Quezon. A noodle dish eaten without utensils, traditionally served on banana leaves.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "64774adb-14f4-499a-9378-9105003698e5",
+              "kind": "standard",
+              "term": "Hardinera",
+              "definition": "A delicacy of Quezon. A meatloaf dish cooked in llaneras, similar to embutido.",
+              "answers": null,
+              "position": 16,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "8bc218f8-f3f7-42a2-b68a-ab0ac9705af3",
+              "kind": "standard",
+              "term": "Kalayaan Festival",
+              "definition": "A festival of Cavite held on June 12. Celebrated in Kawit to commemorate Philippine independence in 1898. Features flag-raising ceremonies, parades, and cultural performances. Includes historical reenactments of significant events. Promotes patriotism and national pride.",
+              "answers": null,
+              "position": 17,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "9380e23c-c16e-423f-8327-f5b5250341ec",
+              "kind": "standard",
+              "term": "Gat Tayaw Festival",
+              "definition": "A festival of Laguna held on May 15. Celebrated in Liliw in honor of the town's founding and its founder. Highlights the footwear industry through trade fairs and exhibits. Includes street dancing and cultural presentations.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "ec6e9ad5-9826-4518-b8d2-62b4a387572d",
+              "kind": "standard",
+              "term": "Maliputo Festival",
+              "definition": "A festival of Batangas held usually on May 9. Celebrates a fish found in Taal Lake. Features cooking contests, food fairs, and cultural shows. Promotes local fishing traditions and livelihoods. Encourages tourism and community participation.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "9b04b0f4-48ed-4309-b084-2ae7c09aaa3b",
+              "kind": "standard",
+              "term": "Higantes Festival",
+              "definition": "A festival of Rizal held on November 23. Known for giant papier-mâché figures paraded in Angono. Celebrated in honor of San Clemente, patron saint of fishermen. Showcases creativity, artistry, and humor. Highlights Angono as the Art Capital of the Philippines.",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1786628117493
+            },
+            {
+              "id": "0b6cba43-4ca3-4123-b6b3-65ab318cd865",
+              "kind": "standard",
+              "term": "Pahiyas Festival",
+              "definition": "A festival of Quezon held on May 15. Celebrated in Lucban to honor San Isidro Labrador. Houses are decorated with colorful kiping and agricultural products. Serves as a thanksgiving for a bountiful harvest. Known for vibrant and creative street displays.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1786628117493
+            }
+          ]
         }
       ]
     },
@@ -4949,6 +7264,565 @@
         "name": "Physical Activities towards Health and Fitness"
       },
       "sets": [
+        {
+          "id": "5b9c3d7d-2a41-43e9-9a50-9748773d0583",
+          "name": "Fitness",
+          "description": "The five basic principles of fitness (overload, FITT, specificity, rest and recovery, use or lose), and dynamic, static, and PNF stretching with their benefits.",
+          "position": 3,
+          "updatedAt": 1787286398753,
+          "terms": [
+            {
+              "id": "9c47956d-cab0-4f8c-90a3-820c92fcf140",
+              "kind": "enumeration",
+              "term": "The 5 Basic Principles of Fitness",
+              "definition": "",
+              "answers": [
+                "The Overload Principle",
+                "The FITT Principle",
+                "The Specificity Principle",
+                "The Rest and Recovery Principle",
+                "The Use or Lose Principle"
+              ],
+              "position": 0,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "c0c6fe3c-19c0-4129-8386-7d22bfa14201",
+              "kind": "standard",
+              "term": "The Overload Principle",
+              "definition": "Means that the body will adapt to the workload placed upon it. The more you do, the more you will be capable of doing. This is how all the fitness improvements occur when exercising and training. When you are working out, you want to strive to increase the workload you are doing above what you did on your previous workout so you have overloaded your body to create a training adaptation.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "44051468-f893-4502-b3f1-6dc8f1e4b832",
+              "kind": "standard",
+              "term": "The FITT Principle",
+              "definition": "An easy way to get started on developing a personal fitness program. This acronym stands for Frequency, Intensity, Time and Type. These are the areas in which someone could increase or overload in order to improve physical fitness.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "100a9cea-6182-45c0-9fb0-bc3a561a1502",
+              "kind": "enumeration",
+              "term": "The 4 Components of the FITT Principle",
+              "definition": "",
+              "answers": [
+                "Frequency",
+                "Intensity",
+                "Time",
+                "Type"
+              ],
+              "position": 3,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "8dc41c3f-6f81-4d9b-a449-bfe09a1f7007",
+              "kind": "standard",
+              "term": "Frequency",
+              "definition": "In the FITT Principle, this refers to how often you will exercise.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "2fc037c7-ceae-4914-8067-3ffd7c0cf345",
+              "kind": "standard",
+              "term": "Intensity",
+              "definition": "In the FITT Principle, this is defined as the amount of effort or work that must be completed in a specific exercise.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "7abb2d4d-9806-47da-89d8-1b74f6901385",
+              "kind": "standard",
+              "term": "Time",
+              "definition": "In the FITT Principle, this is simply how long each individual session should last. This will vary based on the intensity and type.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "6f2e5ccc-c53f-4c1d-ab9e-ca6a9b3454f0",
+              "kind": "standard",
+              "term": "Type",
+              "definition": "In the FITT Principle, this asks what type of exercise you will be doing, and what specific exercises you will perform.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "b60c5eec-a259-448d-b660-69e3d0f86d07",
+              "kind": "standard",
+              "term": "Applying FITT to Strength vs. Cardio Training",
+              "definition": "For Resistance/Strength Training: Frequency means increase the number of workout days; Intensity means increase the resistance/weight; Time means increase time involved in exercise or increased repetitions; Type means perform a different exercise for the same muscle group. For Cardiovascular Training: Frequency means increase the number of workout days; Intensity means increase pace for a given time or distance, or % of max heart rate; Time means increase time involved in exercise, increase the length; Type means perform a different type of exercise, e.g. running to cycling.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "bc22aad9-eac9-4477-bfc1-26e6cf6b1b28",
+              "kind": "standard",
+              "term": "The Specificity Principle",
+              "definition": "How you exercise should be specific to your goals. For example, if your main goal is simply health, fitness and weight management, you should focus on total body strength, cardio and a healthy diet. Make sure your training matches your goals.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "5d5d628b-20be-4aa5-9c78-8d2e47cd2526",
+              "kind": "standard",
+              "term": "The Rest and Recovery Principle",
+              "definition": "Rest and recovery is also essential for reaching your weight loss and fitness goals. While you can often do cardio every day you should have at least a day of rest between strength training workouts. Make sure you don't work the same muscles two days in a row to give your body the time it needs to rest and recover.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "52569646-d431-4d91-a5f5-7abc6867ad67",
+              "kind": "standard",
+              "term": "The Use or Lose Principle",
+              "definition": "Implies that when it comes to fitness, you \"use it or lose it.\" This simply means that your muscles build strength (hypertrophy) with use and lose strength (atrophy) with lack of use. This also explains why we lose fitness when we stop exercising. Be consistent.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "7df802ca-fe12-4bee-bf93-910a59737372",
+              "kind": "standard",
+              "term": "Stretching",
+              "definition": "A type of exercise that improves flexibility and mobility by lengthening the muscles. Stretching is a must, not just for athletes but for anyone who wants to feel good (less pain) in life.",
+              "answers": null,
+              "position": 12,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "2a29f2d5-a82f-480e-a004-0cf5b51dfc50",
+              "kind": "standard",
+              "term": "Dynamic Stretching",
+              "definition": "Involves moving parts of your body and gradually increasing reach and speed of movement. Dynamic stretches aim to get the body moving and prepared for exercise. It is for warming up before an active workout or any physical activity. Some Examples: Walking lunges, high knees, butt kicks, leg swings, arm circles, and torso twists.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "913ae57e-d53b-4d88-b7d1-a53deb56092a",
+              "kind": "standard",
+              "term": "Static Stretching",
+              "definition": "Involves holding a stretch at its end range for a period of time. It is best done when your muscles are warm, like after a workout, when performed as part of a post-exercise cooldown. It can improve flexibility and decrease tension. It can also increase range of motion and improve posture. Some Examples: Hamstring stretch, quadriceps stretch, overhead triceps stretch, shoulder stretch, and child pose.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "ca69a597-a63d-4e6c-85d1-92937b1a2325",
+              "kind": "standard",
+              "term": "Proprioceptive Neuromuscular Facilitation Stretching",
+              "definition": "A more advanced type of stretch, typically performed with the help of a partner. It alternates between contracting and relaxing a muscle to deepen range of motion. Some Examples: Hamstring stretch, quadriceps stretch, overhead triceps stretch, and child pose (with partner).",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "4ea56597-4ec0-4285-bb67-92e8467c927a",
+              "kind": "standard",
+              "term": "Dynamic vs. Static Stretching",
+              "definition": "Dynamic stretching (moving safely through a joint's full range of motion) warms up muscles and boosts power. Static stretching (holding a position for 15-60 seconds) lengthens tight muscles and promotes relaxation. Use dynamic stretches before workouts to improve performance. Use static stretches after exercise to cool down and aid recovery.",
+              "answers": null,
+              "position": 16,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "733ed942-2ac9-4248-9566-676025c2729f",
+              "kind": "enumeration",
+              "term": "The 4 Benefits of Dynamic Stretching",
+              "definition": "",
+              "answers": [
+                "Warms the Body",
+                "Activates Nerves",
+                "Boosts Athletic Output",
+                "Prepares Joints"
+              ],
+              "position": 17,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "869a257d-eb29-4eb3-82a5-35d0fc68d283",
+              "kind": "standard",
+              "term": "Warms the Body",
+              "definition": "Like an engine warming up in a car, dynamic movements increase blood flow and raise your muscle temperature, making them less prone to injury.",
+              "answers": null,
+              "position": 18,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "9ac495a7-7bf3-4700-9ff7-7e9a4debf7c6",
+              "kind": "standard",
+              "term": "Activates Nerves",
+              "definition": "It wakes up your nervous system so your brain and muscles communicate better for tasks involving agility and coordination.",
+              "answers": null,
+              "position": 19,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "6a603f71-4d3d-42da-8aaf-bb116c2881b0",
+              "kind": "standard",
+              "term": "Boosts Athletic Output",
+              "definition": "Movements like walking lunges, high knees, or leg swings can improve your power, vertical jump, and running speed.",
+              "answers": null,
+              "position": 20,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "6a2c322b-6c8a-4832-ba8a-481b4ceaae9f",
+              "kind": "standard",
+              "term": "Prepares Joints",
+              "definition": "It lubricates your joints with synovial fluid, allowing for smoother and more fluid movement.",
+              "answers": null,
+              "position": 21,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "6d895979-aab0-450e-b3f3-08c47ee14eae",
+              "kind": "enumeration",
+              "term": "The 4 Benefits of Static Stretching",
+              "definition": "",
+              "answers": [
+                "Enhances Long-Term Flexibility",
+                "Relieves Muscle Tension",
+                "Aids Recovery",
+                "Improves Posture"
+              ],
+              "position": 22,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "c73afa58-8374-412e-a77c-889deb3dfeab",
+              "kind": "standard",
+              "term": "Enhances Long-Term Flexibility",
+              "definition": "Holding these stretches over time permanently lengthens the muscle-tendon unit.",
+              "answers": null,
+              "position": 23,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "79ca7fcb-c04e-4ade-8c40-b828cf055c82",
+              "kind": "standard",
+              "term": "Relieves Muscle Tension",
+              "definition": "After a hard workout, muscles shorten and tighten. Static stretches help them relax and return to their normal resting state.",
+              "answers": null,
+              "position": 24,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "bcdf2dc0-cf33-4648-8e29-f8c3a8a6fa2a",
+              "kind": "standard",
+              "term": "Aids Recovery",
+              "definition": "By lowering your heart rate and easing tension, it promotes blood flow to help muscles recover faster.",
+              "answers": null,
+              "position": 25,
+              "updatedAt": 1787286398753
+            },
+            {
+              "id": "62f51e31-4415-4f9e-9e3e-4630338fd48f",
+              "kind": "standard",
+              "term": "Improves Posture",
+              "definition": "Regularly stretching tight muscle groups (like the chest or hamstrings) helps align your body correctly throughout the day.",
+              "answers": null,
+              "position": 26,
+              "updatedAt": 1787286398753
+            }
+          ]
+        },
+        {
+          "id": "07787e47-fc31-45a9-a9eb-5747052bf2b6",
+          "name": "Movement Enhancement",
+          "description": "Exercise vs. physical activity, the three main types of exercise (aerobic, flexibility, strength training), muscular strength and endurance, and the benefits of strength training.",
+          "position": 2,
+          "updatedAt": 1787286353820,
+          "terms": [
+            {
+              "id": "7872649d-2705-4b6f-b6cc-1fa106460aba",
+              "kind": "standard",
+              "term": "Exercise",
+              "definition": "A structured program of activity geared toward achieving or maintaining physical fitness. It is actually a sub-category of physical activity.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "7f1f83ea-a5c2-42df-915d-d046681dfbb4",
+              "kind": "standard",
+              "term": "Physical Activity",
+              "definition": "Any form of exercise or movement of the body that uses energy. Some of your daily life activities doing active chores around the house, yard work, walking the dog are examples.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "efe78dea-cf4f-4b82-b8cd-e56002b49f90",
+              "kind": "standard",
+              "term": "Exercise and Physical Activity",
+              "definition": "Exercise is a form of physical activity. But physical activity does not require exercise.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "231ad226-868f-41ca-93f1-f350ae813aec",
+              "kind": "enumeration",
+              "term": "The 3 Main Types of Exercise",
+              "definition": "",
+              "answers": [
+                "Aerobic Exercise",
+                "Flexibility Training",
+                "Strength Training"
+              ],
+              "position": 3,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "c7b45285-5322-4c90-8936-5ff0f4ba3e4d",
+              "kind": "standard",
+              "term": "Aerobic Exercise",
+              "definition": "Any vigorous activity that increases heart rate and respiration and raises oxygen and blood flow throughout the body while using large muscle groups of the body repetitively and rhythmically. It boosts your heart and lungs health, gives you more energy, and helps you burn calories. It is an endurance-type exercise that increases a person's heart and breathing rate over a sustained period — it means \"with oxygen\" for sustained endurance, i.e. continuous, repetitive movements performed at low-moderate intensity. Real-world Examples: Brisk walking, jogging, running, swimming, hiking, dancing, riding a bike, cycling, and rowing.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "0290731f-a3a4-4de2-be8e-199a53292b5f",
+              "kind": "standard",
+              "term": "Anaerobic Exercise",
+              "definition": "Involves short, intense bursts of physical activity. It means \"without oxygen\" for short, intense bursts of power — brief exercise done at near maximal effort. Examples: Weightlifting, sprinting, jumping rope, and High-Intensity Interval Training (HIIT).",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "99ad0708-2d05-4bd5-b5d1-c29238701536",
+              "kind": "standard",
+              "term": "Flexibility Training",
+              "definition": "A form of physical exercise in which a specific muscle or tendon (or muscle group) is deliberately flexed or stretched to improve the muscle's felt elasticity and achieve comfortable muscle tone. The result is a feeling of increased muscle control, flexibility, and its full range of motion. It keeps your joints limber, helps you bend and twist, and lowers your chances of getting hurt. Flexibility can be tested by stretching individual muscles or by performing exercises such as the lunge or the sit and reach. Real-world Examples: Yoga, Pilates, and reaching or stretching your arms and legs.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "9c2bcc4d-b1a9-4ebd-87a6-6c76a3349265",
+              "kind": "standard",
+              "term": "Strength Training",
+              "definition": "Makes your muscles work against a resistance. It builds strong muscles, protects your bones, and makes everyday tasks like carrying groceries much easier. Real-world Examples: Lifting weights, using resistance bands, or doing bodyweight exercises like push-ups, and sit-ups.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "6a705f4c-c5f7-4313-aad7-76a35ae243a1",
+              "kind": "standard",
+              "term": "Muscular Strength",
+              "definition": "The amount of force you can put out or the amount of weight you can lift. It's measured by how much force you can exert, and how much weight you can lift for a short period of time.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "4cb83f0a-2b64-4010-979c-3d3df160ceef",
+              "kind": "standard",
+              "term": "Muscular Endurance",
+              "definition": "The ability of a muscle or group of muscles to perform repetitive contractions against a force for an extended period. It is how many times you can move that weight without getting exhausted (very tired).",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787286353820
+            },
+            {
+              "id": "a3e78356-1004-435e-b1f0-a9fa27af7e66",
+              "kind": "enumeration",
+              "term": "The 6 Benefits of Strength Training",
+              "definition": "",
+              "answers": [
+                "Makes you stronger",
+                "Burns calories efficiently",
+                "Decreases abdominal fat",
+                "Can help you appear leaner",
+                "Decreases your risk of falls",
+                "Lowers your risk of injury"
+              ],
+              "position": 10,
+              "updatedAt": 1787286353820
+            }
+          ]
+        },
+        {
+          "id": "71fbbf1d-77a7-44f7-8ef9-768bd7d6a912",
+          "name": "Nutrition",
+          "description": "Definition of nutrition, macronutrients and micronutrients, the role of water, and the three eating disorders.",
+          "position": 1,
+          "updatedAt": 1787286328103,
+          "terms": [
+            {
+              "id": "0b2f26c0-183a-4956-abd1-14c28b7d41ce",
+              "kind": "standard",
+              "term": "Nutrition",
+              "definition": "The study of how the body uses nutrients in food to survive, grow, and maintain health. It refers to the intake of food that meets the nutritional needs of the body. It involves the processes of consuming, absorbing, and utilizing compounds that provide energy and regulate vital bodily functions.",
+              "answers": null,
+              "position": 0,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "5961bd10-dfeb-4d40-8cbf-23b078f981da",
+              "kind": "enumeration",
+              "term": "The 2 Main Categories of Dietary Nutrients",
+              "definition": "",
+              "answers": [
+                "Macronutrients",
+                "Micronutrients"
+              ],
+              "position": 1,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "06f15a17-b02c-42c1-aa27-869e6003418a",
+              "kind": "standard",
+              "term": "Macronutrients",
+              "definition": "Nutrients the body needs in large quantities to provide energy (measured in calories) and physical building blocks.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "a0d0c870-d6c4-4eae-82ae-4f5e6741e88a",
+              "kind": "enumeration",
+              "term": "The 3 Macronutrients",
+              "definition": "",
+              "answers": [
+                "Carbohydrates",
+                "Proteins",
+                "Fats"
+              ],
+              "position": 3,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "9a69338e-6be2-4d62-a630-75a4ae5bc4c2",
+              "kind": "standard",
+              "term": "Carbohydrates",
+              "definition": "The body's primary and most readily available source of energy. Found in foods like whole grains, fruits, and vegetables.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "63ee41fb-aa7f-4e09-b225-b85ba6ae3656",
+              "kind": "standard",
+              "term": "Proteins",
+              "definition": "Crucial for building and repairing tissues, hormones, and enzymes. Sourced from meats, poultry, fish, beans, and nuts.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "5ed42294-5d72-44da-8bde-7fd3c3c4331c",
+              "kind": "standard",
+              "term": "Fats",
+              "definition": "Dense sources of sustainable energy that insulate organs, regulate body temperature, and aid in absorbing fat-soluble vitamins.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "d0ae63ae-892a-4f4c-b5c9-5ce3263c49ae",
+              "kind": "standard",
+              "term": "Micronutrients",
+              "definition": "Essential elements required in smaller amounts to protect and promote bodily functions.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "692ab0be-8768-44fa-b931-caeefd205bc3",
+              "kind": "enumeration",
+              "term": "The 2 Micronutrients",
+              "definition": "",
+              "answers": [
+                "Vitamins",
+                "Minerals"
+              ],
+              "position": 8,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "03d2a0af-abd4-47e1-8e0a-632f4e0d05c1",
+              "kind": "standard",
+              "term": "Vitamins",
+              "definition": "Organic compounds vital for immunity, energy production, and cellular protection.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "75efa8ee-b744-4287-bd3d-f6951c5a13bb",
+              "kind": "standard",
+              "term": "Minerals",
+              "definition": "Inorganic substances (like calcium, iron, and potassium) that regulate fluid levels, build strong bones, and support muscle/nerve function.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "4e8d8fa7-c359-4c16-9516-56a00d2b4b5e",
+              "kind": "standard",
+              "term": "Water",
+              "definition": "Technically required in macronutrient quantities, it acts as a universal solvent that transports nutrients, regulates temperature, and eliminates waste. Adult men typically average around 60% body water, while adult women average around 50%.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "2ef63330-f57d-4088-92e9-996678a53b61",
+              "kind": "enumeration",
+              "term": "The 3 Eating Disorders",
+              "definition": "",
+              "answers": [
+                "Anorexia Nervosa",
+                "Bulimia Nervosa",
+                "Binge-Eating Disorder"
+              ],
+              "position": 12,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "84e8544c-a2d8-48cd-bf4c-53dde0189413",
+              "kind": "standard",
+              "term": "Anorexia Nervosa",
+              "definition": "A person will control his or her weight by means of starving himself or herself for fear of being overweight even though he or she is underweight.",
+              "answers": null,
+              "position": 13,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "1820da6f-7255-4c80-b0bd-96bec001f07e",
+              "kind": "standard",
+              "term": "Bulimia Nervosa",
+              "definition": "A person will eat a large amount of food and then force to eliminate it from the body by means of vomiting, also called purging.",
+              "answers": null,
+              "position": 14,
+              "updatedAt": 1787286328103
+            },
+            {
+              "id": "9f199f79-04e2-42e2-a66d-857a70e60950",
+              "kind": "standard",
+              "term": "Binge-Eating Disorder",
+              "definition": "This is characterized by compulsive overeating in which a person cannot control how much he or she eats.",
+              "answers": null,
+              "position": 15,
+              "updatedAt": 1787286328103
+            }
+          ]
+        },
         {
           "id": "153badfe-1ac2-4377-9da8-15a1933fec4d",
           "name": "Physical Education, Physical Activities & Exercises",
@@ -7436,5 +10310,5 @@
       ]
     }
   ],
-  "hash": "3b3cd95de96331d9"
+  "hash": "0ddcf4ff5768b1a9"
 }

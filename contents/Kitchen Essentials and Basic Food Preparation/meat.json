@@ -1,0 +1,523 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Kitchen Essentials and Basic Food Preparation"
+    }
+  ],
+  "sets": [
+    {
+      "id": "c98012e2-f8cc-427d-a901-938afad07945",
+      "folderId": "d8a80502-bfb9-4590-bc7a-0e8f26d8fb3a",
+      "name": "Meat",
+      "description": "What meat is, beef and pork classifications, the structure of meat, beef and pork retail cuts and their Filipino names, variety meats, and processed meats.",
+      "position": 8,
+      "updatedAt": 1787287766288,
+      "terms": [
+        {
+          "id": "940dcb6e-4300-4882-80d4-12720de0179f",
+          "term": "Meat",
+          "kind": "standard",
+          "definition": "One of the most important ingredients in culinary, valued for its rich flavor, nutritional content, and versatility in cooking. It is a primary source of protein, vitamins, and minerals essential for body growth and development. In the kitchen, understanding meat is crucial because its quality, cut, and preparation greatly affect the outcome of a dish. In the Philippines, meat from herbivores such as beef cattle, sheep, goat, and swine serves as the most common source of meat. Meat is generally defined as the muscles of animals, but in a broader sense, it also covers the organs and glands obtained from the animal. Although the word meat includes the flesh of poultry and fish, these are each covered separately.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 0
+        },
+        {
+          "id": "5d38a762-8a66-47eb-8f1d-6156f3a9387f",
+          "term": "Beef",
+          "kind": "standard",
+          "definition": "Originates from cattle that are classified according to age and gender.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 1
+        },
+        {
+          "id": "6cb67c64-e54c-4fdd-89be-454533678d23",
+          "term": "The 4 Classifications of Beef Cattle",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Steers",
+            "Bulls",
+            "Heifers and Cows",
+            "Calves"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 2
+        },
+        {
+          "id": "03ad555d-ca70-4676-902a-6537cfb3fcc0",
+          "term": "Steers",
+          "kind": "standard",
+          "definition": "Male cattle that are castrated while young so that they will gain weight quickly.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 3
+        },
+        {
+          "id": "ddef90da-5b1f-4694-938e-d69d67335128",
+          "term": "Bulls",
+          "kind": "standard",
+          "definition": "Older, uncastrated male cattle that provide stag meat. Consumers often do not see the tougher meat from bulls, as they are usually used for breeding and then later for processed meats and pet foods.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 4
+        },
+        {
+          "id": "e5cba906-3a3a-467a-a10d-feeef2614b3c",
+          "term": "Heifers",
+          "kind": "standard",
+          "definition": "Female cattle that have not borne a calf; also used for meat.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 5
+        },
+        {
+          "id": "64b78db8-7b49-4ac5-b531-ead5fc69e145",
+          "term": "Cows",
+          "kind": "standard",
+          "definition": "Female cattle that have borne calves. The meat from cows is less desirable than that from steers or heifers.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 6
+        },
+        {
+          "id": "dbaf0baa-fdfa-40e4-9322-5ab567597389",
+          "term": "Calves",
+          "kind": "standard",
+          "definition": "Cattle 3 to 8 months old — too old for veal and too young for beef. If they go to market between 8 and 12 months, their meat is referred to as baby beef.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 7
+        },
+        {
+          "id": "ae267c43-3f71-4cb2-8ed0-ff173ad315ef",
+          "term": "Pork",
+          "kind": "standard",
+          "definition": "Young swine of either gender (male or female) slaughtered between the first 5 1/2 and 7 months of age are the most common source of pork. About 1/3 of all pork is sold fresh, and the rest is made into ham, sausage, luncheon meats, and bacon.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 8
+        },
+        {
+          "id": "14fc0bb2-2f17-45e2-9e18-5ab90fcb25c5",
+          "term": "Pigs",
+          "kind": "standard",
+          "definition": "Technically, swine less than 4 months old.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 9
+        },
+        {
+          "id": "7a5fd3d2-13b9-402f-8765-99695f0e2442",
+          "term": "Hogs",
+          "kind": "standard",
+          "definition": "Technically, swine older than 4 months.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 10
+        },
+        {
+          "id": "2f0dc56e-afd1-45ac-ac1a-2cdced33527f",
+          "term": "Structure of Meat",
+          "kind": "standard",
+          "definition": "Meats are composed of a combination of water, muscle, connective tissue, adipose (fatty) tissue, and often bone.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 11
+        },
+        {
+          "id": "21653e16-c5a0-4874-ad4d-c6556f8b3291",
+          "term": "The 4 Components of Meat's Structure",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Muscle Tissue",
+            "Connective Tissue",
+            "Adipose Tissue",
+            "Bone"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 12
+        },
+        {
+          "id": "5ea0c20f-16fe-4538-b6af-e14e1fdf1c3d",
+          "term": "Muscle Tissue",
+          "kind": "standard",
+          "definition": "Most of the proteins in meat are found in the muscles. Leaner cuts of muscle tissue yield lesser calories.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 13
+        },
+        {
+          "id": "8a187115-dd94-4a95-8126-9abc4a545984",
+          "term": "Connective Tissue",
+          "kind": "standard",
+          "definition": "Part of ligaments and tendons; it acts as the \"glue\" that holds muscle cells together. The most abundant protein in connective tissue is collagen and elastin. Collagen is tough and fibrous, but converts to a gel when exposed to moist heat.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 14
+        },
+        {
+          "id": "db277720-4e2c-4367-b9d7-6e3b1ccf3be0",
+          "term": "Adipose Tissue",
+          "kind": "standard",
+          "definition": "Simply, fat, which serves as insulation under the skin and as padding for internal organs.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 15
+        },
+        {
+          "id": "3127cf59-50f8-456e-b02e-b7eef00c6ab1",
+          "term": "Marbling",
+          "kind": "standard",
+          "definition": "Fat found within muscles, also called intramuscular fat, deposited in the muscle and seen as little white streaks or drops. Marbling contributes to the flavor and juiciness of meat.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 16
+        },
+        {
+          "id": "9738e827-37a9-420e-a8e8-990c0797c3aa",
+          "term": "Bone",
+          "kind": "standard",
+          "definition": "In meat, bones are used as landmarks for identifying the various meat cuts from a carcass. Older animals have whiter bones; younger animals have reddish bones.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 17
+        },
+        {
+          "id": "1c913cb1-3f43-4c16-9948-f0dd30023b47",
+          "term": "Marrow",
+          "kind": "standard",
+          "definition": "A soft, fatty material in the center of most large bones. Marrow is a valued food in many countries, as it provides much of the flavor in stocks and soups.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 18
+        },
+        {
+          "id": "3cdb89cc-b762-409a-aa92-4211550d0747",
+          "term": "Beef Retail Cuts",
+          "kind": "standard",
+          "definition": "Rib, short loin, and sirloin wholesale cuts lie along the back of the animal and are usually the most tender and expensive cuts of beef. Rib roasts are the most tender roasts, and tenderloin is the most tender steak. The least tender wholesale cuts are flank, short plate, brisket, and foreshank.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 19
+        },
+        {
+          "id": "f1435371-12ed-4efb-a4da-79329ef33676",
+          "term": "Filet Mignon",
+          "kind": "standard",
+          "definition": "The small end of the tenderloin.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 20
+        },
+        {
+          "id": "44035a8e-f085-4a8a-a1ea-1c9b674bc350",
+          "term": "The 9 Wholesale Cuts of Beef",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Chuck",
+            "Rib",
+            "Short Loin",
+            "Sirloin",
+            "Round",
+            "Fore Shank",
+            "Short Plate",
+            "Flank",
+            "Brisket"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 21
+        },
+        {
+          "id": "34418559-3f85-4754-9f13-b1b8c8ba6e27",
+          "term": "The 9 Filipino Names for Beef Cuts",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Bulalo",
+            "Kadera",
+            "Kalitiran",
+            "Tagiliran",
+            "Tapadera",
+            "Solomilyo",
+            "Paypay",
+            "Punta y Pecho",
+            "Camto"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 22
+        },
+        {
+          "id": "22374fd5-99d9-49c8-b5c8-5f2a018c444c",
+          "term": "Bulalo",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the beef shank and bone marrow cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 23
+        },
+        {
+          "id": "abb34a29-8ce8-47ab-becb-90c41bf13b69",
+          "term": "Kadera",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the beef chuck rib cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 24
+        },
+        {
+          "id": "d236b3df-576b-4c03-9c60-92e0d2b84393",
+          "term": "Kalitiran",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the beef blade clod cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 25
+        },
+        {
+          "id": "7610319e-a103-44df-b286-89c2a1ff7165",
+          "term": "Tagiliran",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for beef short ribs.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 26
+        },
+        {
+          "id": "15be6c36-4b00-490c-aa19-adde39925e90",
+          "term": "Tapadera",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the beef sirloin cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 27
+        },
+        {
+          "id": "f7731648-7da7-4167-8ee6-53a5e7eb550d",
+          "term": "Solomilyo",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for beef tenderloin.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 28
+        },
+        {
+          "id": "b32c374f-9025-482b-be9c-39e246e19639",
+          "term": "Paypay",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the tender chuck cut of beef.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 29
+        },
+        {
+          "id": "86566535-f068-48a2-8561-25605c25e5ff",
+          "term": "Punta y Pecho",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for beef brisket.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 30
+        },
+        {
+          "id": "01db2ea8-28d7-44ad-b83f-c9b4e7e765c1",
+          "term": "Camto",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the beef flank steak cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 31
+        },
+        {
+          "id": "e95f0597-cf7c-4a21-930b-fd29741865a5",
+          "term": "Pork Retail Cuts",
+          "kind": "standard",
+          "definition": "Pork is usually tender regardless of the cut. Wholesale loin and spare rib cuts of pork are much longer than beef and lamb, because the rib and sirloin are not separated in the carcass. The leg is the largest primal cut in pork; because pork is slaughtered at a young age, pork legs are very tender for roasting.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 32
+        },
+        {
+          "id": "78b82d5d-b96e-4380-8ce3-97abf5399968",
+          "term": "The 2 Wholesale Cuts That Provide Most Fresh Pork Retail Cuts",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Loin",
+            "Spare Rib"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 33
+        },
+        {
+          "id": "aaff4cdd-99a0-4405-a6b7-93187df53475",
+          "term": "Loin",
+          "kind": "standard",
+          "definition": "As a wholesale pork cut, it provides pork loin chop or roast, Canadian-style bacon, and pork loin tenderloin.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 34
+        },
+        {
+          "id": "bef405ba-a523-4987-9258-178edb81f2c4",
+          "term": "Spare Rib",
+          "kind": "standard",
+          "definition": "As a wholesale pork cut, it provides spare ribs, bacon, and rib bacon.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 35
+        },
+        {
+          "id": "4528aa99-a5ae-42f5-8a3e-930f6d4cb735",
+          "term": "The 17 Parts of a Pork Carcass",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Ear",
+            "Jowl",
+            "Neck",
+            "Boston Shoulder",
+            "Picnic Shoulder",
+            "Fat Back",
+            "Back Ribs",
+            "Center Loin",
+            "Sirloin",
+            "Tenderloin",
+            "Spare Ribs",
+            "Side Bacon",
+            "Rib Bacon",
+            "Belly Bacon",
+            "Ham",
+            "Hock",
+            "Foot"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 36
+        },
+        {
+          "id": "79f19dda-9502-4acb-84ee-93c98017aaa8",
+          "term": "The 5 Filipino Names for Pork Cuts",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Kasim",
+            "Lomo",
+            "Pigue",
+            "Liempo",
+            "Pata"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 37
+        },
+        {
+          "id": "76ca8d98-ff6b-454c-ad14-9148c87b21e0",
+          "term": "Kasim",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the pork shoulder cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 38
+        },
+        {
+          "id": "89518c92-9ab4-4e59-8278-cc0b76fb385b",
+          "term": "Lomo",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the pork loin cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 39
+        },
+        {
+          "id": "a9e7156f-3f46-48c1-abcb-52e8ad9694f2",
+          "term": "Pigue",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the pork ham cut.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 40
+        },
+        {
+          "id": "b1b32ff6-bfe3-445a-9543-5f94bdf35391",
+          "term": "Liempo",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for pork belly.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 41
+        },
+        {
+          "id": "f0df9a9f-3891-4e99-86b5-1ca6e6053f6f",
+          "term": "Pata",
+          "kind": "standard",
+          "definition": "The Filipino butchery term for the pork hock.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 42
+        },
+        {
+          "id": "d521c1bc-15d5-48ae-80d6-efdc39482803",
+          "term": "Variety Meats",
+          "kind": "standard",
+          "definition": "Also known as organ and offal. They can be either organ meats or muscle meats. Organ meats are very soft, extremely tender, and easily cooked — examples are liver, kidneys, and brains. Muscle meats require long and slow cooking, as they are heavily exercised muscles and are quite tough — examples include tongue and heart.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 43
+        },
+        {
+          "id": "f28dc5e3-2de6-444c-8d9a-a2450760748c",
+          "term": "Processed Meats",
+          "kind": "standard",
+          "definition": "About one-third of all meat is processed by different methods such as curing, smoking, canning, and drying, meaning it has changed from its original \"fresh\" cut. Examples include ham, sausages, and bacon.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 44
+        },
+        {
+          "id": "1d9a03ac-3dea-40c5-b15b-4169642d2a71",
+          "term": "The 3 Common Processed Meats",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Ham",
+            "Bacon",
+            "Sausage"
+          ],
+          "updatedAt": 1787287766288,
+          "position": 45
+        },
+        {
+          "id": "fdc000bb-aced-412a-b8c4-6d1840722402",
+          "term": "Ham",
+          "kind": "standard",
+          "definition": "Cured pork. According to USDA (United States Department of Agriculture) standards, only meat from the hind leg of a hog can be labeled ham.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 46
+        },
+        {
+          "id": "e0727d02-5cea-4c15-8920-ae859e75e2ce",
+          "term": "Bacon",
+          "kind": "standard",
+          "definition": "Cured and smoked meat from the side of a hog.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 47
+        },
+        {
+          "id": "e8129e6d-822a-4952-a5e9-91b4a8fc62e1",
+          "term": "Sausage",
+          "kind": "standard",
+          "definition": "Meat that has been finely chopped or ground and blended with various ingredients, seasonings, and spices. It is then stuffed into casings or skins.",
+          "answers": null,
+          "updatedAt": 1787287766288,
+          "position": 48
+        }
+      ]
+    }
+  ]
+}
