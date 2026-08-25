@@ -6331,6 +6331,141 @@
           ]
         },
         {
+          "id": "3a7d0e9c-2b3f-4b1a-9e3d-6c2f5a7d8e10",
+          "name": "National Capital Region",
+          "description": "The cities and municipality of Metro Manila, with its attractions, foods and delicacies, and festivals.",
+          "position": 5,
+          "updatedAt": 1787661120907,
+          "terms": [
+            {
+              "id": "5f2c1a4d-8b6e-4c3a-9d1f-2e4b6a8c0d21",
+              "kind": "enumeration",
+              "term": "16 Cities and 1 Municipality of the National Capital Region",
+              "definition": "",
+              "answers": [
+                "Manila",
+                "Muntinlupa",
+                "Quezon City",
+                "Navotas",
+                "Caloocan",
+                "Parañaque",
+                "Las Piñas",
+                "Pasay",
+                "Makati",
+                "Pasig",
+                "Malabon",
+                "San Juan",
+                "Mandaluyong",
+                "Taguig",
+                "Marikina",
+                "Valenzuela",
+                "Pateros"
+              ],
+              "position": 0,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "7b3d2e5f-9c7a-4d4b-8e2f-3a5c7b9d1e32",
+              "kind": "standard",
+              "term": "San Agustin Church",
+              "definition": "Located in Intramuros. Oldest stone church in the Philippines, completed in 1607. UNESCO World Heritage Site under Baroque Churches of the Philippines. Known for its Baroque architecture, ornate interiors, and religious artifacts.",
+              "answers": null,
+              "position": 1,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "8c4e3f60-ad8b-4e5c-9f30-4b6d8c0e2f43",
+              "kind": "standard",
+              "term": "Fort Santiago",
+              "definition": "Built in 1571 by the Spanish as a military defense fortress. Served as the prison of Dr. José Rizal before his execution in 1896. Now a preserved historical site and museum showcasing colonial history.",
+              "answers": null,
+              "position": 2,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "9d5f4071-be9c-4f6d-a041-5c7e9d1f3054",
+              "kind": "standard",
+              "term": "Rizal Park",
+              "definition": "One of the largest urban parks in Asia. Site of Dr. Jose Rizal's execution and location of the Rizal Monument. Serves as a national landmark and public recreational space.",
+              "answers": null,
+              "position": 3,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "ae605182-cfad-4a7e-b152-6d8fae204165",
+              "kind": "standard",
+              "term": "Paco Park",
+              "definition": "Originally built as a Spanish-era cemetery. Former burial site of Dr. José Rizal and the Gomburza priests. Now a historical park and venue for cultural events.",
+              "answers": null,
+              "position": 4,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "bf716293-d0be-4b8f-c263-7e90bf315276",
+              "kind": "standard",
+              "term": "La Mesa Eco Park",
+              "definition": "33-hectare ecological park near the La Mesa Watershed. Offers activities such as nature walks, bird watching, and outdoor recreation. Promotes environmental conservation and biodiversity awareness.",
+              "answers": null,
+              "position": 5,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "c08273a4-e1cf-4c90-d374-8fa1c0426387",
+              "kind": "standard",
+              "term": "Pancit Malabon",
+              "definition": "A rich noodle dish with thick sauce, seafood, and toppings, known for its distinct orange color and flavor.",
+              "answers": null,
+              "position": 6,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "d193846b-f2d0-4da1-e485-90b2d1537498",
+              "kind": "standard",
+              "term": "Hopiang Tipas",
+              "definition": "A flaky pastry filled with sweet bean paste, originating from Tipas, Taguig.",
+              "answers": null,
+              "position": 7,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "e2a4957c-03e1-4eb2-f596-a1c3e2648509",
+              "kind": "standard",
+              "term": "Sapin-sapin",
+              "definition": "A layered rice cake made from glutinous rice flour, coconut milk, and sugar.",
+              "answers": null,
+              "position": 8,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "f3b5a68d-14f2-4fc3-a6a7-b2d4f375961a",
+              "kind": "standard",
+              "term": "Street Foods",
+              "definition": "Affordable skewered snacks served with savory sauces, popular in urban areas.",
+              "answers": null,
+              "position": 9,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "04c6b79e-2503-4ad4-b7b8-c3e504a6a72b",
+              "kind": "standard",
+              "term": "Feast of the Black Nazarene",
+              "definition": "Held on January 9. A major religious celebration held in Quiapo, Manila, honoring a revered devotional image. Millions of devotees participate in the Traslación. Many participants walk barefoot as a sign of deep faith and devotion.",
+              "answers": null,
+              "position": 10,
+              "updatedAt": 1787661120907
+            },
+            {
+              "id": "15d7c80f-3614-4be5-c8c9-d4f615b7b83c",
+              "kind": "standard",
+              "term": "Chinese New Year",
+              "definition": "Held January–February (varies annually). Widely celebrated in Binondo, Manila, known as the oldest Chinatown in the world. Features colorful dragon and lion dances, fireworks displays, and cultural performances. Highlights the strong Chinese-Filipino cultural influence and the multicultural identity of the National Capital Region.",
+              "answers": null,
+              "position": 11,
+              "updatedAt": 1787661120907
+            }
+          ]
+        },
+        {
           "id": "efc9db95-ea9a-4177-9be5-411d468f623d",
           "name": "Region 1 - Ilocos Region",
           "description": "The provinces and capitals of the Ilocos Region, with its attractions, foods and delicacies, and festivals.",
@@ -10310,5 +10445,5 @@
       ]
     }
   ],
-  "hash": "0ddcf4ff5768b1a9"
+  "hash": "2f747d085352184e"
 }
