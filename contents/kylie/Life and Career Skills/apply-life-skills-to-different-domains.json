@@ -1,0 +1,225 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Life and Career Skills"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Apply Life Skills to Different Domains",
+      "description": "The four life-skill domains and the specific skills within each: personal and social, academic, career, and digital.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "e451199c-91e6-4a1e-b047-b5de3c9fd86c",
+          "term": "4 Types of Domain",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Personal and Social Domain",
+            "Academic Domain",
+            "Career Domain",
+            "Digital Domain"
+          ],
+          "position": 0,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Personal and Social Domain",
+          "kind": "standard",
+          "definition": "Focuses on understanding yourself and building healthy relationships with others.",
+          "answers": null,
+          "position": 1,
+          "id": "e4ca5708-c0d5-4371-ac63-b8161419fa2f"
+        },
+        {
+          "term": "3 Types of the Personal and Social Domain",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Self-awareness",
+            "Interpersonal Skills",
+            "Emotional Intelligence"
+          ],
+          "position": 2,
+          "id": "3e4bc68a-8b7b-4fef-a15a-8f932fb40d1a"
+        },
+        {
+          "term": "Self-Awareness",
+          "kind": "standard",
+          "definition": "Knowing your own feelings, strengths, and weaknesses.",
+          "answers": null,
+          "position": 3,
+          "id": "c941404e-120c-4826-af7f-541f1613bf7d"
+        },
+        {
+          "term": "Interpersonal Skills",
+          "kind": "standard",
+          "definition": "The ability to communicate and build relationships with others.",
+          "answers": null,
+          "position": 4,
+          "id": "fee59947-acae-439d-bbc8-a918c05d7b09"
+        },
+        {
+          "term": "Emotional Intelligence",
+          "kind": "standard",
+          "definition": "Managing and understanding emotions.",
+          "answers": null,
+          "position": 5,
+          "id": "757b9846-ecb0-4dd5-a8fe-732c614dfe66"
+        },
+        {
+          "term": "4 Skills in the Academic Domain",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Critical Thinking",
+            "Problem Solving",
+            "Time Management",
+            "Study Skills"
+          ],
+          "position": 6,
+          "id": "8b2b7cd4-b885-4197-84f9-9d298c141e41"
+        },
+        {
+          "term": "Critical Thinking",
+          "kind": "standard",
+          "definition": "Analyzing information and making good decisions.",
+          "answers": null,
+          "position": 7,
+          "id": "cbffa38c-5476-4c4e-a7fa-21504a471b9b"
+        },
+        {
+          "term": "Problem Solving",
+          "kind": "standard",
+          "definition": "Finding solutions to challenges.",
+          "answers": null,
+          "position": 8,
+          "id": "80138bd7-f2ee-43e5-bad9-bde925b5a649"
+        },
+        {
+          "term": "Time Management",
+          "kind": "standard",
+          "definition": "Using time wisely to complete tasks.",
+          "answers": null,
+          "position": 9,
+          "id": "fd3e0fb6-5032-4444-8763-7458670756ef"
+        },
+        {
+          "term": "Study Skills",
+          "kind": "standard",
+          "definition": "Techniques for effective learning.",
+          "answers": null,
+          "position": 10,
+          "id": "f7f88f32-6d99-4834-9f55-e6e1289bdb62"
+        },
+        {
+          "id": "1bbc93c6-a5d3-4590-877a-bee6b0568af7",
+          "term": "4 Skills in the Career Domain",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Career Exploration",
+            "Job Searching and Job Application",
+            "Workplace",
+            "Financial Literacy"
+          ],
+          "position": 11,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Career Exploration",
+          "kind": "standard",
+          "definition": "Learning about careers and interests.",
+          "answers": null,
+          "position": 12,
+          "id": "6658159d-22de-4f28-8790-cd048425ea6f"
+        },
+        {
+          "term": "Job Searching and Job Application",
+          "kind": "standard",
+          "definition": "Finding and applying for jobs.",
+          "answers": null,
+          "position": 13,
+          "id": "d36e4789-4d6f-4c01-ad80-b892638afaf4"
+        },
+        {
+          "term": "Workplace",
+          "kind": "standard",
+          "definition": "Skills and behavior needed at work.",
+          "answers": null,
+          "position": 14,
+          "id": "eff541ba-e4b7-4537-8cc7-467a671d4067"
+        },
+        {
+          "term": "Financial Literacy",
+          "kind": "standard",
+          "definition": "Managing money and finances.",
+          "answers": null,
+          "position": 15,
+          "id": "8fc76287-2d8c-42d5-b7a3-adc543f30139"
+        },
+        {
+          "id": "9e7e94b7-82fe-487e-b737-1375961b6f66",
+          "term": "5 Skills in the Digital Domain",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Digital Literacy",
+            "Personal Safety and Security",
+            "Digital Communication",
+            "Information Evaluation",
+            "Transferring Life Skills"
+          ],
+          "position": 16,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Digital Literacy",
+          "kind": "standard",
+          "definition": "Using digital tools and technology effectively.",
+          "answers": null,
+          "position": 17,
+          "id": "a5b47b23-472a-4fd2-ba62-5f1d7855efed"
+        },
+        {
+          "term": "Personal Safety and Security",
+          "kind": "standard",
+          "definition": "Protecting yourself online.",
+          "answers": null,
+          "position": 18,
+          "id": "7f8a82bf-dcad-40b4-81d0-331e52b5947f"
+        },
+        {
+          "term": "Digital Communication",
+          "kind": "standard",
+          "definition": "Communicating through digital platforms.",
+          "answers": null,
+          "position": 19,
+          "id": "d651cc42-b997-41c5-addf-aae955c43578"
+        },
+        {
+          "term": "Information Evaluation",
+          "kind": "standard",
+          "definition": "Checking if information is reliable.",
+          "answers": null,
+          "position": 20,
+          "id": "5d60f2b7-750e-418d-9614-3e499cd7f20c"
+        },
+        {
+          "term": "Transferring Life Skills",
+          "kind": "standard",
+          "definition": "Applying skills in different situations.",
+          "answers": null,
+          "position": 21,
+          "id": "b0a4e1a0-a639-462e-8397-1710dfd9d473"
+        }
+      ],
+      "id": "fc0f7ce6-04e8-4631-ab0a-16a43e6bd270"
+    }
+  ]
+}

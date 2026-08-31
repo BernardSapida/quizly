@@ -1,0 +1,244 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "First Aid"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "First Aider",
+      "description": "The first aider's characteristics, roles, the Philippine legal bases for first aid, and first aid ethical standards.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "First Aider",
+          "kind": "standard",
+          "definition": "Trained person who gives emergency care, looks after the injured or ill, and keeps them safe from further harm.",
+          "answers": null,
+          "position": 0,
+          "id": "734ed928-3ae6-4086-be0c-2297f63650de"
+        },
+        {
+          "term": "6 Characteristics of a Good First Aider",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Gentle",
+            "Resourceful",
+            "Observant",
+            "Tactful",
+            "Emphatic",
+            "Respectable"
+          ],
+          "position": 1,
+          "id": "74641a71-adbe-4367-b2d1-efe08e2de6aa"
+        },
+        {
+          "term": "Gentle",
+          "kind": "standard",
+          "definition": "Does not cause pain.",
+          "answers": null,
+          "position": 2,
+          "id": "43096795-ac7e-46ee-8abe-174bb20870d8"
+        },
+        {
+          "term": "Resourceful",
+          "kind": "standard",
+          "definition": "Makes the best use of what is available.",
+          "answers": null,
+          "position": 3,
+          "id": "cfe3785e-7682-4e49-b253-e805c5f8773d"
+        },
+        {
+          "term": "Observant",
+          "kind": "standard",
+          "definition": "Notices all signs.",
+          "answers": null,
+          "position": 4,
+          "id": "4a67f09a-55ad-40a7-a14f-427667ea5b79"
+        },
+        {
+          "term": "Tactful",
+          "kind": "standard",
+          "definition": "Does not alarm the victim.",
+          "answers": null,
+          "position": 5,
+          "id": "a5ddd9fb-9495-4051-9d06-2e4dcc187850"
+        },
+        {
+          "term": "Emphatic",
+          "kind": "standard",
+          "definition": "Comforting.",
+          "answers": null,
+          "position": 6,
+          "id": "5fe3799f-f7c2-4e2c-98e7-e4ece0906c83"
+        },
+        {
+          "term": "Respectable",
+          "kind": "standard",
+          "definition": "Professional and caring.",
+          "answers": null,
+          "position": 7,
+          "id": "5cbd38ee-f31d-4bd8-917a-1f55e3816d43"
+        },
+        {
+          "id": "0f67aa89-4b85-4db8-aa83-5f2f73d219ff",
+          "term": "3 Roles and Responsibilities of a First Aider",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Treat each casualty, serious conditions first",
+            "Arrange transport to hospital",
+            "Stay with casualty until proper care arrives"
+          ],
+          "position": 8,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "R.A. 10871",
+          "kind": "standard",
+          "definition": "Also called the Samboy Lim Law; mandates Basic Life Support training in all schools. Named after Avelino \"Samboy\" Lim, who suffered cardiac arrest in 2014. Section 3 requires all schools to provide BLS training.",
+          "answers": null,
+          "position": 9,
+          "id": "98ad81fd-964e-456b-92df-1da187eb1078"
+        },
+        {
+          "term": "R.A. 10121",
+          "kind": "standard",
+          "definition": "The Disaster Risk Reduction Act of 2010. Section 4: government plans for disaster preparedness, warning, and response. Section 14: disaster education integrated into the school curriculum.",
+          "answers": null,
+          "position": 10,
+          "id": "ecd8cb45-70e5-4dbd-8b07-293f80248dc5"
+        },
+        {
+          "term": "Article 275",
+          "kind": "standard",
+          "definition": "Under the Revised Penal Code; punishes abandonment of a person in danger. Penalty: 1 month and 1 day to 6 months imprisonment.",
+          "answers": null,
+          "position": 11,
+          "id": "7ecae4bb-a07d-4b36-b2f7-5ea2d7c9310c"
+        },
+        {
+          "term": "Article 2176",
+          "kind": "standard",
+          "definition": "Under the Civil Code; establishes liability for quasi-delicts: harm caused by fault or negligence, even without a pre-existing contract.",
+          "answers": null,
+          "position": 12,
+          "id": "d984a9f3-01bd-4790-a5fd-017bc47bfe1d"
+        },
+        {
+          "term": "Ethics",
+          "kind": "standard",
+          "definition": "Moral principles that guide behavior.",
+          "answers": null,
+          "position": 13,
+          "id": "2a88dee4-817c-44c3-bddf-9656fa76ed88"
+        },
+        {
+          "term": "First Aid Ethics",
+          "kind": "standard",
+          "definition": "Safe, respectful, responsible care.",
+          "answers": null,
+          "position": 14,
+          "id": "28d5d4b4-dede-4899-a6a8-1a714a19e03a"
+        },
+        {
+          "id": "2047a8e8-b43d-4037-bdb0-f513b6860ee2",
+          "term": "9 First Aid Ethical Standards",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Consent",
+            "Confidentiality",
+            "Beneficence",
+            "Non-Maleficence",
+            "Respect for Dignity",
+            "Duty of Care",
+            "Justice",
+            "Competence",
+            "Respect for Autonomy"
+          ],
+          "position": 15,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Consent",
+          "kind": "standard",
+          "definition": "Get permission before helping.",
+          "answers": null,
+          "position": 16,
+          "id": "2f916ced-2f65-4d79-b4ac-a3c9f8c4bc31"
+        },
+        {
+          "term": "Confidentiality",
+          "kind": "standard",
+          "definition": "Keep their information private.",
+          "answers": null,
+          "position": 17,
+          "id": "97767fee-3c19-48e4-b56a-60ad4f384a5e"
+        },
+        {
+          "term": "Beneficence",
+          "kind": "standard",
+          "definition": "Act in their best interest.",
+          "answers": null,
+          "position": 18,
+          "id": "cbdd404c-21df-4ed7-beb0-a479d1d08287"
+        },
+        {
+          "term": "Non-Maleficence",
+          "kind": "standard",
+          "definition": "Do no harm; do not make it worse.",
+          "answers": null,
+          "position": 19,
+          "id": "18c45927-4137-406f-9fbc-091e2236d4fb"
+        },
+        {
+          "term": "Respect for Dignity",
+          "kind": "standard",
+          "definition": "Treat with respect and compassion.",
+          "answers": null,
+          "position": 20,
+          "id": "75b7c876-30d0-4a74-8cf0-9917bc9fca99"
+        },
+        {
+          "term": "Duty of Care",
+          "kind": "standard",
+          "definition": "Do not abandon once you start helping.",
+          "answers": null,
+          "position": 21,
+          "id": "b9252368-8158-444c-aa83-ee9f9ee27a8f"
+        },
+        {
+          "term": "Justice",
+          "kind": "standard",
+          "definition": "Treat everyone equally; prioritize by severity.",
+          "answers": null,
+          "position": 22,
+          "id": "08c784b5-c35e-4839-8753-9fd146a3f49d"
+        },
+        {
+          "term": "Competence",
+          "kind": "standard",
+          "definition": "Only act within your training.",
+          "answers": null,
+          "position": 23,
+          "id": "e23ed62c-38d8-436e-bb2a-32382d2dfdb4"
+        },
+        {
+          "term": "Respect for Autonomy",
+          "kind": "standard",
+          "definition": "They can refuse care; document it.",
+          "answers": null,
+          "position": 24,
+          "id": "f6301f26-6bd0-4264-98de-365daf85be67"
+        }
+      ],
+      "id": "4e3aa483-4f59-4192-ace9-44be31cdf586"
+    }
+  ]
+}

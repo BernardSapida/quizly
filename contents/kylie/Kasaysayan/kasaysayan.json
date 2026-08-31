@@ -1,0 +1,184 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kasaysayan"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kasaysayan",
+      "description": "Kahulugan ng kasaysayan, mga pinagkukunan ng datos, mga piling historyador, at ang apat na aspeto ng kamalayang pangkasaysayan.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Kasaysayan",
+          "kind": "standard",
+          "definition": "Mula sa Griyegong Historia na nangangahulugang pag-uusisa at pagsisiyasat; pag-aaral ng mga pangyayaring naganap sa nakaraan.",
+          "answers": null,
+          "position": 0,
+          "id": "46ed8a57-2092-480b-b1fb-13b73e96d26b"
+        },
+        {
+          "term": "2 Pinagkukunan ng Datos",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Primaryang Datos",
+            "Sekondaryang Datos"
+          ],
+          "position": 1,
+          "id": "e7d09c9a-68bd-45f1-9c63-75cfcc006fde"
+        },
+        {
+          "term": "Primaryang Datos",
+          "kind": "standard",
+          "definition": "Relics, labi, manuskripto, o dokumentong direktang may kaugnayan sa paksa.",
+          "answers": null,
+          "position": 2,
+          "id": "40f72983-ccbc-43cd-9916-dd1357d76ba8"
+        },
+        {
+          "term": "Sekondaryang Datos",
+          "kind": "standard",
+          "definition": "Mga unang pag-aaral na ginawa tungkol sa paksa.",
+          "answers": null,
+          "position": 3,
+          "id": "9452ac49-59bf-4ae1-9e64-1897caf52705"
+        },
+        {
+          "term": "Kamalayang Pangkasaysayan",
+          "kind": "standard",
+          "definition": "Malalim na pag-unawa sa kasaysayan bilang salik sa paghubog ng pagkakakilanlan at pananaw; hindi lamang pag-alala sa petsa at pangalan, kundi pag-unawa sa sanhi, proseso, at bunga ng mga pangyayari.",
+          "answers": null,
+          "position": 4,
+          "id": "0adef88f-d473-48b2-959d-e8b921bda483"
+        },
+        {
+          "term": "Herodotus ng Gresya",
+          "kind": "standard",
+          "definition": "Kilala bilang Ama ng Kasaysayan; kauna-unahang nag-imbestiga at nagtala ng nakaraan gamit ang ebidensya.",
+          "answers": null,
+          "position": 5,
+          "id": "8a4322a8-6288-4dce-bc53-b518134e01f6"
+        },
+        {
+          "term": "Teodoro A. Agoncillo",
+          "kind": "standard",
+          "definition": "Kilala bilang Ama ng Makabansang Pananaw; para sa kanya ang kasaysayan ay kuwento ng karanasan ng mga mamamayan.",
+          "answers": null,
+          "position": 6,
+          "id": "5e436afc-2c46-4bd8-8ac4-5ba62bf0ee4a"
+        },
+        {
+          "term": "Renato Constantino",
+          "kind": "standard",
+          "definition": "Iginigiit na pag-aralan ang kasaysayan mula sa perspektibo ng mga Pilipino, hindi lamang ng mga dayuhan.",
+          "answers": null,
+          "position": 7,
+          "id": "c20150a4-417d-4f96-972e-40620ef15560"
+        },
+        {
+          "term": "Ambeth Ocampo",
+          "kind": "standard",
+          "definition": "Para sa kanya, ang kasaysayan ay hindi lamang tungkol sa mga petsa, kundi sa kuwento at karanasan ng mga tao.",
+          "answers": null,
+          "position": 8,
+          "id": "e5f0bfec-7e7a-44b3-ac67-27e494a3d813"
+        },
+        {
+          "id": "1dd09e38-8036-4223-b3c0-30ae5295190e",
+          "term": "3 Layunin ng Kamalayang Pangkasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Mapaunlad ang pagkakakilanlan bilang Pilipino",
+            "Maiwasang maulit ang mga pagkakamali ng nakaraan",
+            "Magkaroon ng malay na pananagutan sa lipunan"
+          ],
+          "position": 9,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "ab436386-1cab-4e95-a9c4-a8e7d57641c6",
+          "term": "5 Katangian ng Kamalayang Pangkasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Mapanuri",
+            "Makabansa",
+            "Pagpapahalaga sa sariling identidad",
+            "Makatarungan sa iba't ibang pananaw",
+            "Malawak na pag-unawa sa kasaysayan"
+          ],
+          "position": 10,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "58210fa7-cefe-4014-8773-96043baf0cfd",
+          "term": "4 na Palatandaan ng Kamalayang Pangkasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "May interes sa mga pangyayari sa kasaysayan",
+            "Marunong magsuri ng impormasyon",
+            "Nakikilahok sa mga gawaing pangkultura at pambansa",
+            "Nakapagbibigay ng makatwirang paliwanag sa mga isyung panlipunan"
+          ],
+          "position": 11,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "b64eb56c-a795-4b94-95c3-e7ed2b77369a",
+          "term": "4 na Aspeto ng Kamalayang Pangkasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Personal na Aspekto",
+            "Panlipunang Aspekto",
+            "Pambansang Aspekto",
+            "Pandaigdigang Aspekto"
+          ],
+          "position": 12,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Personal na Aspekto",
+          "kind": "standard",
+          "definition": "Pag-unawa sa sariling pinagmulan, pamilya, at karanasan; pagkilala sa sariling kwento.",
+          "answers": null,
+          "position": 13,
+          "id": "600e673e-88f0-4589-9a15-9ab65c5f38d0"
+        },
+        {
+          "term": "Panlipunang Aspekto",
+          "kind": "standard",
+          "definition": "Pag-unawa sa pagbuo at pag-unlad ng komunidad, institusyon, at kultura ng lipunan.",
+          "answers": null,
+          "position": 14,
+          "id": "49795c5d-134a-4e58-a5c6-bdd51b52a8b5"
+        },
+        {
+          "term": "Pambansang Aspekto",
+          "kind": "standard",
+          "definition": "Pagpapahalaga sa kasaysayan, kultura, at pagkakakilanlan ng buong bansa.",
+          "answers": null,
+          "position": 15,
+          "id": "2532ff6f-0bcf-4444-8348-28c8c8fd85a9"
+        },
+        {
+          "term": "Pandaigdigang Aspekto",
+          "kind": "standard",
+          "definition": "Pag-unawa sa ugnayan ng kasaysayan ng Pilipinas at ng buong daigdig.",
+          "answers": null,
+          "position": 16,
+          "id": "c62a1914-d544-4531-94bf-5b0cd68dcd70"
+        }
+      ],
+      "id": "34c9727d-13ba-45f6-881f-720341fd9140"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "First Aid"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "Principles of Splinting and Bone Injuries",
+      "description": "Splinting: its purpose, when to use it, its principles and sequence, plus the types of bones.",
+      "position": 5,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Splinting",
+          "kind": "standard",
+          "definition": "Immobilizing an injured body part with rigid or flexible support to prevent movement before medical treatment.",
+          "answers": null,
+          "position": 0,
+          "id": "b4b498f3-d62d-4bdd-acdb-d596f708408c"
+        },
+        {
+          "term": "Splint",
+          "kind": "standard",
+          "definition": "Device that keeps the injured part stable, reduces pain, and prevents further injury while waiting for medical care.",
+          "answers": null,
+          "position": 1,
+          "id": "cbb9a0ac-1dff-46d3-bd7c-f417c8c76a7d"
+        },
+        {
+          "id": "e3e5b625-2e54-41ab-bda6-ed29ed1f9ef6",
+          "term": "5 Purposes of Splinting",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Reduce movement of the injured part",
+            "Reduce pain from unnecessary movement",
+            "Prevent further damage to bones and tissues",
+            "Protect blood vessels and nerves",
+            "Support the injured extremity during transport"
+          ],
+          "position": 2,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "3 Conditions That Require Splinting",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Fracture",
+            "Dislocation",
+            "Sprain"
+          ],
+          "position": 3,
+          "id": "d7836b08-c33f-495e-b3fb-301f4f6b63e7"
+        },
+        {
+          "term": "Fracture",
+          "kind": "standard",
+          "definition": "Broken bone.",
+          "answers": null,
+          "position": 4,
+          "id": "9bfcb8c4-cf7a-42e6-b076-8e02735c4168"
+        },
+        {
+          "term": "Dislocation",
+          "kind": "standard",
+          "definition": "Bone forced out of its joint.",
+          "answers": null,
+          "position": 5,
+          "id": "762e6a2b-6648-4515-824f-838329632393"
+        },
+        {
+          "term": "Sprain",
+          "kind": "standard",
+          "definition": "Stretched or torn ligaments.",
+          "answers": null,
+          "position": 6,
+          "id": "30447326-fdf0-4528-8064-6b21ab28c101"
+        },
+        {
+          "id": "3f470e7b-a365-49c8-81d5-dbc1b6667620",
+          "term": "9 Principles of Splinting",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Ensure scene safety",
+            "Assess the victim first",
+            "Examine without unnecessary movement",
+            "Control bleeding and cover open wounds",
+            "Splint in the position found",
+            "Immobilize above and below the injury",
+            "Pad the splint",
+            "Secure the splint",
+            "Check circulation and sensation"
+          ],
+          "position": 7,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Easy Sequence of Splinting",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Assess",
+            "Support",
+            "Splint",
+            "Secure",
+            "Check"
+          ],
+          "position": 8,
+          "id": "0e04638a-16c1-437f-bcbb-f825275516e5"
+        },
+        {
+          "term": "Human Skeletal System",
+          "kind": "standard",
+          "definition": "Adults have 206 bones; babies have 270 to 300 bones.",
+          "answers": null,
+          "position": 9,
+          "id": "4bcda472-644d-4a0e-b1e1-4087ae8bc5a8"
+        },
+        {
+          "term": "2 Types of Bones",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Long Bones",
+            "Short Bones"
+          ],
+          "position": 10,
+          "id": "a75ba6ac-422d-4b94-8254-fd68553811d8"
+        },
+        {
+          "term": "Long Bones",
+          "kind": "standard",
+          "definition": "Longer than they are wide; for movement and support.",
+          "answers": null,
+          "position": 11,
+          "id": "bf231ce1-343f-490b-aff4-4db97649f00e"
+        },
+        {
+          "term": "Short Bones",
+          "kind": "standard",
+          "definition": "Compact; provide stability with controlled movement. Examples: carpals in the wrist and tarsals in the ankle.",
+          "answers": null,
+          "position": 12,
+          "id": "1d4c2ce4-8417-4797-bad1-272a765fe724"
+        },
+        {
+          "term": "5 Upper-Body Long Bones",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Humerus",
+            "Ulna",
+            "Radius",
+            "Metacarpals",
+            "Phalanges"
+          ],
+          "position": 13,
+          "id": "34e35e62-ee50-474e-adba-417b2021fa90"
+        },
+        {
+          "term": "5 Lower-Body Long Bones",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Femur",
+            "Tibia",
+            "Fibula",
+            "Metatarsals",
+            "Phalanges"
+          ],
+          "position": 14,
+          "id": "3f8eb246-dace-4602-ad68-f05ba92abae8"
+        }
+      ],
+      "id": "6e61024f-5291-403b-a3a9-1836d2395ec3"
+    }
+  ]
+}

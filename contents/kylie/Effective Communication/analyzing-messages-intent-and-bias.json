@@ -1,0 +1,182 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Effective Communication"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Analyzing Messages, Intent, and Bias",
+      "description": "Roman Jakobson's functions of communication and the theory of speech acts.",
+      "position": 4,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Roman Jakobson's 3 Functions of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Referential Function",
+            "Emotive Function",
+            "Conative Function"
+          ],
+          "position": 0,
+          "id": "bf6d673d-cce6-4408-a3f8-84cf7ad8782b"
+        },
+        {
+          "term": "Referential Function",
+          "kind": "standard",
+          "definition": "Shares objective, verifiable facts and information; focuses on context and reality.",
+          "answers": null,
+          "position": 1,
+          "id": "084e156f-4b46-4d90-aade-37064c157ac7"
+        },
+        {
+          "term": "Emotive Function",
+          "kind": "standard",
+          "definition": "Expresses the speaker's feelings, emotions, attitude, and tone; focuses on the sender's internal state.",
+          "answers": null,
+          "position": 2,
+          "id": "202db379-9acb-4178-8cb1-c766553902ed"
+        },
+        {
+          "term": "Conative Function",
+          "kind": "standard",
+          "definition": "Directs, influences, or persuades the receiver to act or think; focuses on the audience's response.",
+          "answers": null,
+          "position": 3,
+          "id": "a3d3b755-eb1d-47e0-83ab-5c16cfe16845"
+        },
+        {
+          "term": "Speech Acts",
+          "kind": "standard",
+          "definition": "Every utterance performs three simultaneous acts.",
+          "answers": null,
+          "position": 4,
+          "id": "8492522d-d2ae-4d6a-a5de-a5ed2059707f"
+        },
+        {
+          "term": "3 Acts Performed by Every Utterance",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Locutionary Act",
+            "Illocutionary Act",
+            "Perlocutionary Act"
+          ],
+          "position": 5,
+          "id": "31f16cf8-c665-4d0e-abf2-3488e04fa4f8"
+        },
+        {
+          "term": "Locutionary Act",
+          "kind": "standard",
+          "definition": "The literal words and meaning of what is said; the actual utterance.",
+          "answers": null,
+          "position": 6,
+          "id": "24056eeb-8dd6-4b9f-92c6-55be1a9cdd9f"
+        },
+        {
+          "term": "Illocutionary Act",
+          "kind": "standard",
+          "definition": "The intended purpose or force behind the speech, such as a request, promise, or statement.",
+          "answers": null,
+          "position": 7,
+          "id": "545108cd-13b8-4b91-8ed4-712e53c66650"
+        },
+        {
+          "term": "2 Types of Illocutionary Act",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Constantive",
+            "Performative"
+          ],
+          "position": 8,
+          "id": "3edcc2cd-8681-45f9-9df3-fb0b9402045f"
+        },
+        {
+          "term": "Constantive",
+          "kind": "standard",
+          "definition": "States something as true or false.",
+          "answers": null,
+          "position": 9,
+          "id": "35d441f5-1878-4740-bd4c-bea680e77d54"
+        },
+        {
+          "term": "Performative",
+          "kind": "standard",
+          "definition": "Does something by saying it, such as nominate, promise, or sentence.",
+          "answers": null,
+          "position": 10,
+          "id": "79dddf03-c458-4ee7-b484-33b75a81f33b"
+        },
+        {
+          "term": "John Searle's 5 Categories of Illocutionary Acts",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Assertives",
+            "Directives",
+            "Commissives",
+            "Expressives",
+            "Declaratives"
+          ],
+          "position": 11,
+          "id": "d8c2dbcf-d60e-44e3-a0e9-6e3d8a33d51f"
+        },
+        {
+          "term": "Assertives",
+          "kind": "standard",
+          "definition": "Commit to truth or fact (state, conclude, swear).",
+          "answers": null,
+          "position": 12,
+          "id": "061f0a32-ddc0-4ae8-be58-c54bc3e7743f"
+        },
+        {
+          "term": "Directives",
+          "kind": "standard",
+          "definition": "Try to get the listener to act (command, request, invite).",
+          "answers": null,
+          "position": 13,
+          "id": "9fcff32c-c6c1-40db-b26e-a0adb3eda5f1"
+        },
+        {
+          "term": "Commissives",
+          "kind": "standard",
+          "definition": "Commit the speaker to future action (promise, pledge, guarantee).",
+          "answers": null,
+          "position": 14,
+          "id": "e697dfdf-0255-4e28-8187-3586bb82e899"
+        },
+        {
+          "term": "Expressives",
+          "kind": "standard",
+          "definition": "Show attitude (apologize, thank, congratulate).",
+          "answers": null,
+          "position": 15,
+          "id": "0ae86492-d2a8-4de7-a22a-8b084d826f34"
+        },
+        {
+          "term": "Declaratives",
+          "kind": "standard",
+          "definition": "Make something true by saying it (constantive + performative).",
+          "answers": null,
+          "position": 16,
+          "id": "152df8be-4128-472f-b35f-cda02cd9acb8"
+        },
+        {
+          "term": "Perlocutionary Act",
+          "kind": "standard",
+          "definition": "The actual effect or response on the listener; how the speech changes their thoughts, feelings, or actions.",
+          "answers": null,
+          "position": 17,
+          "id": "9acaafe9-7a98-434e-af59-03d77d900b62"
+        }
+      ],
+      "id": "a76ddb4d-4181-4922-94e6-fea918ad19f0"
+    }
+  ]
+}

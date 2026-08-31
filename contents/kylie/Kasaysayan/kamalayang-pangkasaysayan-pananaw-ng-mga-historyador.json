@@ -1,0 +1,195 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kasaysayan"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kamalayang Pangkasaysayan: Pananaw ng mga Historyador",
+      "description": "Ang pananaw ng mga historyador, ang layunin at katangian ng taong may kamalayang pangkasaysayan, at karagdagang kahulugan ng kasaysayan.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Kamalayang Pangkasaysayan",
+          "kind": "standard",
+          "definition": "Pag-unawa at pagpapahalaga sa kasaysayan at epekto nito sa kasalukuyan at hinaharap; hindi lang petsa at pangalan, kundi pag-unawa kung bakit nangyari at paano humubog sa lipunan.",
+          "answers": null,
+          "position": 0,
+          "id": "dc64267a-d1f1-46ac-a3c4-5797fbab5be3"
+        },
+        {
+          "term": "Pananaw ng Historyador",
+          "kind": "standard",
+          "definition": "Paraan ng pagtingin at pagpapaliwanag sa mga pangyayari gamit ang ebidensya; maaaring magkaiba depende sa pinagmulan.",
+          "answers": null,
+          "position": 1,
+          "id": "9bb65132-c651-4e45-8811-23990be0e339"
+        },
+        {
+          "term": "Teodoro A. Agoncillo",
+          "kind": "standard",
+          "definition": "Para sa kanya, ang kasaysayan ay kwento ng karanasan at damdamin ng mga Pilipino, hindi lang ng mga bayani.",
+          "answers": null,
+          "position": 2,
+          "id": "b774886a-ec3f-49c2-a57a-e91768c3ff24"
+        },
+        {
+          "term": "Renato Constantino",
+          "kind": "standard",
+          "definition": "Huwag tanggapin agad ang impormasyon; suriin kung sino, ano, at paano nakakaapekto sa lipunan.",
+          "answers": null,
+          "position": 3,
+          "id": "b7c391be-c370-4e75-a908-631e219d569b"
+        },
+        {
+          "term": "Zeus Salazar",
+          "kind": "standard",
+          "definition": "Tagapagtaguyod ng Pantayong Pananaw; ang kasaysayan ay dapat para sa Pilipino, gamit ang sariling wika at pananaw, at may koneksyon sa pang-araw-araw na buhay.",
+          "answers": null,
+          "position": 4,
+          "id": "b7c72942-7071-41cd-8ea5-5ef625a1634b"
+        },
+        {
+          "term": "Ambeth Ocampo",
+          "kind": "standard",
+          "definition": "Para sa kanya, ang kasaysayan ay hindi lang facts, kundi buhay na kwento: tao + kwento + dokumento = kasaysayan.",
+          "answers": null,
+          "position": 5,
+          "id": "b5709eed-8c37-417c-b303-3c4d92bf5417"
+        },
+        {
+          "term": "Siyang Bayan",
+          "kind": "standard",
+          "definition": "Ang kasaysayan ay kwento rin ng ordinaryong tao, hindi lang ng mga pinuno.",
+          "answers": null,
+          "position": 6,
+          "id": "79083490-ef1d-499d-9174-aa7552fdaba4"
+        },
+        {
+          "id": "d6863efb-ab48-4498-b6ae-8e9fe1874bcb",
+          "term": "3 Layunin ng Pag-aaral ng Kasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Malinang ang pagkakakilanlang Pilipino",
+            "Hindi ulitin ang mga pagkakamali ng nakaraan",
+            "Maging mabuting mamamayan"
+          ],
+          "position": 7,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "3 Katangian ng Taong May Kamalayang Pangkasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Mapanuri",
+            "Makabansa",
+            "May Pagkakakilanlan"
+          ],
+          "position": 8,
+          "id": "4c6cbfd2-93d4-4ca2-a769-430ccd93826f"
+        },
+        {
+          "term": "Mapanuri",
+          "kind": "standard",
+          "definition": "Hindi agad naniniwala; sinusuri ang pinagmulan at katotohanan ng impormasyon.",
+          "answers": null,
+          "position": 9,
+          "id": "9b0e3598-6ed6-4b00-8d0e-c9e74775e32e"
+        },
+        {
+          "term": "Makabansa",
+          "kind": "standard",
+          "definition": "May pagmamahal at pagpapahalaga sa bayan; ipinapakita sa pagtangkilik sa lokal na produkto, paggalang sa watawat, at pagsunod sa batas.",
+          "answers": null,
+          "position": 10,
+          "id": "9bee92f1-6a95-4a28-902e-b1a83c70aac4"
+        },
+        {
+          "term": "May Pagkakakilanlan",
+          "kind": "standard",
+          "definition": "Malinaw na pagkilala sa sarili bilang Pilipino.",
+          "answers": null,
+          "position": 11,
+          "id": "1f8af777-a9dc-4a80-80be-a08d7348f60d"
+        },
+        {
+          "id": "40cefa5f-ee2d-4c93-8ef9-564cfd7938b4",
+          "term": "3 Bahagi ng Pagkakakilanlang Pilipino",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Batas at Lipunan",
+            "Kultura at Lipunan",
+            "Sikolohiya"
+          ],
+          "position": 12,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Batas at Lipunan",
+          "kind": "standard",
+          "definition": "Ang opisyal na pagiging mamamayan.",
+          "answers": null,
+          "position": 13,
+          "id": "aa0bb99f-b065-4671-9f69-eeb70505472a"
+        },
+        {
+          "term": "Kultura at Lipunan",
+          "kind": "standard",
+          "definition": "Pagmamalaki sa sariling wika at tradisyon.",
+          "answers": null,
+          "position": 14,
+          "id": "ce05e56f-e588-492b-a1ff-5e842f1acbc4"
+        },
+        {
+          "term": "Sikolohiya",
+          "kind": "standard",
+          "definition": "Pagkilala sa sariling pagkatao.",
+          "answers": null,
+          "position": 15,
+          "id": "e44ca9e2-ada3-4dfc-9d6c-0976e54d4a63"
+        },
+        {
+          "term": "Kahulugan ng Kasaysayan",
+          "kind": "standard",
+          "definition": "Mula sa salitang \"saysay\" na nangangahulugang kahulugan, kabuluhan, o kwento; hindi lang listahan, kundi pag-unawa sa kabuluhan ng mga pangyayari.",
+          "answers": null,
+          "position": 16,
+          "id": "5025eef3-d197-413b-a52e-913d4cb4f692"
+        },
+        {
+          "term": "Dahilan ng Pag-aaral ng Kasaysayan",
+          "kind": "standard",
+          "definition": "Nagbibigay ng pagkakakilanlan, pag-unawa sa kasalukuyan, gabay sa hinaharap, at inspirasyon.",
+          "answers": null,
+          "position": 17,
+          "id": "2c6ec4c7-5283-4f0c-8dd9-e9ab5d7c3ca2"
+        },
+        {
+          "term": "Mga Maling Pananaw sa Kasaysayan",
+          "kind": "standard",
+          "definition": "Hindi totoo na hindi ito nagbabago o na ito ay para lang sa mga bayani; ito ay kwento ng lahat.",
+          "answers": null,
+          "position": 18,
+          "id": "7ac1e23d-8b87-4270-aef3-c9504a184ea5"
+        },
+        {
+          "term": "Pagtasa ng Katotohanan",
+          "kind": "standard",
+          "definition": "Hindi lahat ng nakasulat ay totoo; suriin ang may-akda, layunin, at ebidensya.",
+          "answers": null,
+          "position": 19,
+          "id": "c6f10995-faf6-44fe-8d8d-896aaa929b7b"
+        }
+      ],
+      "id": "a8bcb740-ad1f-4582-80fb-1cd2c798e158"
+    }
+  ]
+}

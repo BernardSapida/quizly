@@ -1,0 +1,257 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Mabisang Komunikasyon"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Pananaliksik sa Wika at Kulturang Pilipino",
+      "description": "Mga kahulugan ng komunikasyon ayon sa iba't ibang awtor, ang katangian nito, at ang mga elemento at proseso ng komunikasyon.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Komunikasyon",
+          "kind": "standard",
+          "definition": "Galing sa salitang Latin na \"communis\" na ibig sabihin ay saklaw ang lahat ng bumubuo sa lipunan; proseso ng pagpapalitan ng impormasyon.",
+          "answers": null,
+          "position": 0,
+          "id": "bf94ef26-5126-451f-93ed-858411219416"
+        },
+        {
+          "term": "Komunikasyon ayon kay Webster",
+          "kind": "standard",
+          "definition": "Aktong pagpapahayag ng idea sa pamamagitan ng salita o pasulat na paraan.",
+          "answers": null,
+          "position": 1,
+          "id": "bd19b6f9-9276-4fd7-bcf3-0568f8c3163a"
+        },
+        {
+          "term": "Komunikasyon ayon kina Tanawan",
+          "kind": "standard",
+          "definition": "Sining ng pagpapahayag ng kaisipan o idea sa paraang pasalita o pasulat.",
+          "answers": null,
+          "position": 2,
+          "id": "f9d6fbbf-07a8-4e1d-bfcd-a2fa8b66318f"
+        },
+        {
+          "term": "Komunikasyon ayon kina Bernales",
+          "kind": "standard",
+          "definition": "Proseso ng pagpapadala at pagtanggap ng mensahe sa pamamagitan ng simbolikong cues na maaaring berbal o di-berbal.",
+          "answers": null,
+          "position": 3,
+          "id": "3272926f-65b1-4128-bd97-3bd6a81ef243"
+        },
+        {
+          "term": "5 Makrong Kasanayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pagsasalita",
+            "Pakikinig",
+            "Pagsusulat",
+            "Pagbasa",
+            "Panonood"
+          ],
+          "position": 4,
+          "id": "7269aadf-f551-4450-909a-65197e0fa770"
+        },
+        {
+          "term": "5 Katangian ng Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Proseso",
+            "Dinamiko",
+            "Komplikado",
+            "Depende sa tumatanggap ang pagpapakahulugan",
+            "Hindi maiiwasan"
+          ],
+          "position": 5,
+          "id": "2b24f0db-62f6-4c5e-914e-95693e9cedc5"
+        },
+        {
+          "term": "Dinamiko",
+          "kind": "standard",
+          "definition": "Ang komunikasyon ay nagbabago depende sa lugar, oras, at taong sangkot.",
+          "answers": null,
+          "position": 6,
+          "id": "1b2d8b17-31c7-4f9d-9f3b-b894a67c1a40"
+        },
+        {
+          "term": "Komplikado",
+          "kind": "standard",
+          "definition": "Ang komunikasyon ay nakadepende sa persepsyon ng bawat isa.",
+          "answers": null,
+          "position": 7,
+          "id": "9290fd3a-c91b-41b9-bf75-30022104e373"
+        },
+        {
+          "term": "Encoding",
+          "kind": "standard",
+          "definition": "Pagbuo ng mensahe, pagpili ng paraan ng pagpapadala, at pag-aasahan ng reaksyon ng tatanggap.",
+          "answers": null,
+          "position": 8,
+          "id": "88f3be90-09bb-44aa-b689-a29b8bc5c19f"
+        },
+        {
+          "term": "Decoding",
+          "kind": "standard",
+          "definition": "Pag-unawa at pagbibigay-kahulugan sa natanggap na mensahe.",
+          "answers": null,
+          "position": 9,
+          "id": "4c70395c-8233-4b3d-95c6-acf57280b8de"
+        },
+        {
+          "term": "2 Uri ng Pahiwatig",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Panglinggwistika",
+            "Relasyonal"
+          ],
+          "position": 10,
+          "id": "e0a691ba-667d-43de-848b-e09e6b42894a"
+        },
+        {
+          "term": "Panglinggwistika",
+          "kind": "standard",
+          "definition": "Pasulat o pasalitang pahiwatig gamit ang wika.",
+          "answers": null,
+          "position": 11,
+          "id": "adef9a29-c904-48c0-b229-64756f2d9e5e"
+        },
+        {
+          "term": "Relasyonal",
+          "kind": "standard",
+          "definition": "Di-berbal na damdamin o pagtingin sa kausap.",
+          "answers": null,
+          "position": 12,
+          "id": "365a609e-66fc-4e44-a2f5-5886553fda19"
+        },
+        {
+          "term": "5 Elemento at Proseso ng Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Tagapaghatid",
+            "Mensahe",
+            "Daluyan",
+            "Tagatanggap",
+            "Balik-tugon"
+          ],
+          "position": 13,
+          "id": "a17f8995-3327-4075-9d3f-0a0240543244"
+        },
+        {
+          "term": "Tagapaghatid",
+          "kind": "standard",
+          "definition": "Pinagmulan ng mensahe; nag-iisip, naglalahad, at nagpapadala batay sa kaalaman, karanasan, at kakayahan.",
+          "answers": null,
+          "position": 14,
+          "id": "916f8962-a428-422e-88b9-91e54c5207d3"
+        },
+        {
+          "term": "Mensahe",
+          "kind": "standard",
+          "definition": "Naglalaman ng impormasyon, damdamin, opinyon, o kaisipan.",
+          "answers": null,
+          "position": 15,
+          "id": "ca250e81-bf8c-45ad-86ab-2f57ee3214af"
+        },
+        {
+          "term": "Daluyan",
+          "kind": "standard",
+          "definition": "Daanan ng mensahe.",
+          "answers": null,
+          "position": 16,
+          "id": "e0651963-c0e3-40db-b351-ef6370f977ee"
+        },
+        {
+          "term": "2 Uri ng Daluyan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Daluyang Sensori",
+            "Daluyang Institusyonal"
+          ],
+          "position": 17,
+          "id": "413316d7-fcef-4257-aba9-35a4e86923fc"
+        },
+        {
+          "term": "Daluyang Sensori",
+          "kind": "standard",
+          "definition": "Gamit ang pandama tulad ng paningin at pandinig.",
+          "answers": null,
+          "position": 18,
+          "id": "900fef2a-a0ae-4574-adb2-86736bd63842"
+        },
+        {
+          "term": "Daluyang Institusyonal",
+          "kind": "standard",
+          "definition": "Gamit ang kagamitang elektroniko tulad ng telepono, e-mail, at fax.",
+          "answers": null,
+          "position": 19,
+          "id": "0c724a45-d9e8-4250-82e8-bf09d550c144"
+        },
+        {
+          "term": "Tagatanggap",
+          "kind": "standard",
+          "definition": "Tumatanggap at nagbibigay-kahulugan sa mensahe.",
+          "answers": null,
+          "position": 20,
+          "id": "98b549e0-9cb5-4961-95ed-8174d7fa50f7"
+        },
+        {
+          "term": "Balik-tugon",
+          "kind": "standard",
+          "definition": "Tugon ng tagatanggap na nagpapatunay na naunawaan ang mensahe.",
+          "answers": null,
+          "position": 21,
+          "id": "c5e39cd7-e323-45cc-a823-8a13234d69fd"
+        },
+        {
+          "term": "3 Uri ng Tugon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Tuwirang Tugon",
+            "Di-tuwirang Tugon",
+            "Naantalang Tugon"
+          ],
+          "position": 22,
+          "id": "bb2d94b8-46fd-4ef4-bbc0-1823ccc263e0"
+        },
+        {
+          "term": "Tuwirang Tugon",
+          "kind": "standard",
+          "definition": "Ipinapadala agad pagkatapos matanggap ang mensahe.",
+          "answers": null,
+          "position": 23,
+          "id": "8a03ba71-584c-44cf-b11a-375571afcc48"
+        },
+        {
+          "term": "Di-tuwirang Tugon",
+          "kind": "standard",
+          "definition": "Ipinahahayag sa pamamagitan ng di-berbal na pagkilos tulad ng pagngiti, pagtango, o pagkaway ng kamay.",
+          "answers": null,
+          "position": 24,
+          "id": "4b195755-196a-448a-b1c1-e7bc2cb5d4c6"
+        },
+        {
+          "term": "Naantalang Tugon",
+          "kind": "standard",
+          "definition": "Hindi agad naipapadala ang tugon; naipagpaliban pa ng ilang panahon bago tugunan.",
+          "answers": null,
+          "position": 25,
+          "id": "0371a1ba-3572-48af-a414-ccaaafc5c1ac"
+        }
+      ],
+      "id": "f62c13b7-f9a2-48ca-991f-13b88140bc7b"
+    }
+  ]
+}

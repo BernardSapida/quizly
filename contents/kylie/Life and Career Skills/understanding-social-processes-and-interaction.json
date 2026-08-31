@@ -1,0 +1,464 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Life and Career Skills"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Understanding Social Processes and Interaction",
+      "description": "Social influence, interaction, cooperation, accommodation, competition, and conflict, plus interpersonal and intrapersonal communication.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Social Processes",
+          "kind": "standard",
+          "definition": "Shape how we interact with others, form relationships, and deal with our social world.",
+          "answers": null,
+          "position": 0,
+          "id": "09749a0c-a80c-45e5-bce8-33cbc7f161a0"
+        },
+        {
+          "term": "Social Influence",
+          "kind": "standard",
+          "definition": "The way people affect others' thoughts and actions.",
+          "answers": null,
+          "position": 1,
+          "id": "2633dfe7-3369-458b-b37e-78d41823b651"
+        },
+        {
+          "term": "Peer Pressure",
+          "kind": "standard",
+          "definition": "Influence from friends or people of the same group.",
+          "answers": null,
+          "position": 2,
+          "id": "611622c2-f315-4ac4-8b3a-a8890dd5c567"
+        },
+        {
+          "term": "Advertising",
+          "kind": "standard",
+          "definition": "Messages that persuade people to buy or support something.",
+          "answers": null,
+          "position": 3,
+          "id": "d58b882f-79ce-465b-bca2-03f05c2fd3ee"
+        },
+        {
+          "term": "Conformity",
+          "kind": "standard",
+          "definition": "Changing behavior to match a group.",
+          "answers": null,
+          "position": 4,
+          "id": "b7745d6f-2e14-4daf-b8e0-20c7cba8a76f"
+        },
+        {
+          "term": "Obedience to Authority",
+          "kind": "standard",
+          "definition": "Following instructions from a person in power.",
+          "answers": null,
+          "position": 5,
+          "id": "6eb2534b-a8e1-4460-8800-2cc93e7e3719"
+        },
+        {
+          "term": "Social Perception",
+          "kind": "standard",
+          "definition": "Understanding and interpreting others.",
+          "answers": null,
+          "position": 6,
+          "id": "046cd3b3-a423-4c04-8f1c-00d9562b4e43"
+        },
+        {
+          "term": "Social Interaction",
+          "kind": "standard",
+          "definition": "Communication and relationships between people.",
+          "answers": null,
+          "position": 7,
+          "id": "96916ec1-7b92-4780-9342-e3a43e2662c6"
+        },
+        {
+          "term": "4 Types of Social Interaction",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Conversation",
+            "Helping Others",
+            "Playing Games",
+            "Group Activities"
+          ],
+          "position": 8,
+          "id": "493f1227-b991-4c71-8993-acd4834f19ef"
+        },
+        {
+          "term": "Conversation",
+          "kind": "standard",
+          "definition": "Sharing thoughts and ideas through communication.",
+          "answers": null,
+          "position": 9,
+          "id": "6b6420ba-0c27-4f9a-8da4-0e10aec059ed"
+        },
+        {
+          "term": "Helping Others",
+          "kind": "standard",
+          "definition": "Providing support or assistance.",
+          "answers": null,
+          "position": 10,
+          "id": "4fd1bb3e-febb-40c0-9518-27734b5033e7"
+        },
+        {
+          "term": "Playing Games",
+          "kind": "standard",
+          "definition": "Engaging in fun activities with others.",
+          "answers": null,
+          "position": 11,
+          "id": "026f4f6e-6a2e-4956-8ab9-5cbd12329c35"
+        },
+        {
+          "term": "Group Activities",
+          "kind": "standard",
+          "definition": "Tasks done with a group of people.",
+          "answers": null,
+          "position": 12,
+          "id": "1605ef17-7f24-42f3-9ea8-79841aba5002"
+        },
+        {
+          "term": "Cooperation",
+          "kind": "standard",
+          "definition": "Working together to achieve a goal.",
+          "answers": null,
+          "position": 13,
+          "id": "3bf3a25c-79ce-4572-9711-de73becc6763"
+        },
+        {
+          "term": "Accommodation",
+          "kind": "standard",
+          "definition": "Adjusting to differences and reaching agreement.",
+          "answers": null,
+          "position": 14,
+          "id": "60f8401c-2c42-4fea-899f-7e82d66a0f19"
+        },
+        {
+          "term": "3 Parts of Accommodation",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Recognize Difference",
+            "Adjust Expectations",
+            "Peaceful Resolution"
+          ],
+          "position": 15,
+          "id": "ba2f98fa-25f8-4756-9ff2-db626c85fe9b"
+        },
+        {
+          "term": "Recognize Difference",
+          "kind": "standard",
+          "definition": "Accepting and understanding others' differences.",
+          "answers": null,
+          "position": 16,
+          "id": "391682a4-7bdb-4611-b47f-7ec9d0ffad40"
+        },
+        {
+          "term": "Adjust Expectations",
+          "kind": "standard",
+          "definition": "Changing expectations based on situations.",
+          "answers": null,
+          "position": 17,
+          "id": "daeb0413-c3ac-4216-886f-1318683ff2b1"
+        },
+        {
+          "term": "Peaceful Resolution",
+          "kind": "standard",
+          "definition": "Solving problems calmly.",
+          "answers": null,
+          "position": 18,
+          "id": "f8297571-9a34-494c-b8f6-71d7567ff0fa"
+        },
+        {
+          "term": "Competition",
+          "kind": "standard",
+          "definition": "Trying to achieve a goal against others.",
+          "answers": null,
+          "position": 19,
+          "id": "e50ffdc2-839e-4f99-abaf-53ba213a3dfc"
+        },
+        {
+          "term": "Conflict",
+          "kind": "standard",
+          "definition": "A disagreement or struggle between people.",
+          "answers": null,
+          "position": 20,
+          "id": "d7830e99-a150-4954-9126-afa30aa392e5"
+        },
+        {
+          "term": "3 Types of Conflict",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Interpersonal Conflict",
+            "Group Conflict",
+            "Value Conflict"
+          ],
+          "position": 21,
+          "id": "06f6526a-0e38-48a4-9859-d1f347e38065"
+        },
+        {
+          "term": "Interpersonal Conflict",
+          "kind": "standard",
+          "definition": "Conflict between individuals.",
+          "answers": null,
+          "position": 22,
+          "id": "1daeda78-2181-4b54-9ca1-c2ca2a7949f3"
+        },
+        {
+          "term": "Group Conflict",
+          "kind": "standard",
+          "definition": "Conflict between groups.",
+          "answers": null,
+          "position": 23,
+          "id": "0f34ea7d-f880-4663-a788-a877d06f78d2"
+        },
+        {
+          "term": "Value Conflict",
+          "kind": "standard",
+          "definition": "Disagreement caused by different beliefs or values.",
+          "answers": null,
+          "position": 24,
+          "id": "9f036567-9a2e-421f-9698-30f05f0051a9"
+        },
+        {
+          "term": "Intergenerational Relationship",
+          "kind": "standard",
+          "definition": "Relationship between different age groups.",
+          "answers": null,
+          "position": 25,
+          "id": "3c456e00-ac07-4b4f-a059-ba4b08f45474"
+        },
+        {
+          "id": "dea16a9d-d43f-4ce9-af7a-54db49406b3e",
+          "term": "6 Interconnected Social Processes",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Social Influence",
+            "Competition and Conflict",
+            "Accommodation",
+            "Social Perception",
+            "Social Interaction",
+            "Cooperation"
+          ],
+          "position": 26,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "66b74ddd-37d0-42a0-9872-6c8bb0135e12",
+          "term": "5 Characteristics of Healthy Relationships",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Mutual respect",
+            "Open and honest communication",
+            "Trust and reliability",
+            "Emotional support and understanding",
+            "Clear personal boundaries"
+          ],
+          "position": 27,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "d60817c7-6fa2-4780-ba78-dda2131cbb54",
+          "term": "8 Skills for Positive Social Interaction",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Personal Growth and Group Productivity",
+            "Mental Health and Well-being",
+            "Conflict Management",
+            "Active Listening",
+            "Calm Communication",
+            "Empathy",
+            "Compromise",
+            "Problem-solving"
+          ],
+          "position": 28,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Conflict Management",
+          "kind": "standard",
+          "definition": "Handling disagreements in a positive way.",
+          "answers": null,
+          "position": 29,
+          "id": "9f3c70cf-cf33-4de5-a6c3-68b4a35ff51a"
+        },
+        {
+          "term": "Active Listening",
+          "kind": "standard",
+          "definition": "Paying attention and understanding what others say.",
+          "answers": null,
+          "position": 30,
+          "id": "89f4d6c1-b74a-45bd-85bf-7eed60d1b193"
+        },
+        {
+          "term": "Calm Communication",
+          "kind": "standard",
+          "definition": "Expressing thoughts respectfully and peacefully.",
+          "answers": null,
+          "position": 31,
+          "id": "907bf65c-83cc-4415-88f9-043614a06b63"
+        },
+        {
+          "term": "Empathy",
+          "kind": "standard",
+          "definition": "Understanding and sharing others' feelings.",
+          "answers": null,
+          "position": 32,
+          "id": "22359a3b-805c-4185-8b27-4adcbdf7c637"
+        },
+        {
+          "term": "Compromise",
+          "kind": "standard",
+          "definition": "Finding a solution by meeting halfway.",
+          "answers": null,
+          "position": 33,
+          "id": "a42813b8-e455-4fbd-b5c9-7aeefe64a7eb"
+        },
+        {
+          "term": "Problem-Solving",
+          "kind": "standard",
+          "definition": "Finding answers to challenges or issues.",
+          "answers": null,
+          "position": 34,
+          "id": "e702137e-f9f1-4871-9c66-d1c66a0d4986"
+        },
+        {
+          "term": "Interpersonal",
+          "kind": "standard",
+          "definition": "Communication or interaction between two or more people, such as talking with friends, teamwork, and building relationships.",
+          "answers": null,
+          "position": 35,
+          "id": "6e0ea962-5226-42ea-bec1-ee10669fcd0d"
+        },
+        {
+          "term": "Intrapersonal",
+          "kind": "standard",
+          "definition": "Communication within yourself, such as self-reflection and understanding your thoughts, feelings, and decisions.",
+          "answers": null,
+          "position": 36,
+          "id": "7915e642-6f69-49ef-a9d0-431bec9984a5"
+        },
+        {
+          "term": "Interpersonal Communication",
+          "kind": "standard",
+          "definition": "Talking to one or a limited number of people.",
+          "answers": null,
+          "position": 37,
+          "id": "dbd11f13-334c-41a1-9b8f-2cb150e4593d"
+        },
+        {
+          "term": "2 Types of Interpersonal Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Dyad",
+            "Small Group"
+          ],
+          "position": 38,
+          "id": "cb52da66-89d0-4fe1-bd8b-66026615b0b8"
+        },
+        {
+          "term": "Dyad",
+          "kind": "standard",
+          "definition": "Between two people.",
+          "answers": null,
+          "position": 39,
+          "id": "72e845f0-f953-4c1c-a666-7636f44d6b40"
+        },
+        {
+          "term": "Small Group",
+          "kind": "standard",
+          "definition": "Between 3 or more people.",
+          "answers": null,
+          "position": 40,
+          "id": "dcddc563-6090-4773-b032-26e8cf5ddb9c"
+        },
+        {
+          "term": "Intrapersonal Communication",
+          "kind": "standard",
+          "definition": "Communicating with yourself.",
+          "answers": null,
+          "position": 41,
+          "id": "ba195b59-edb6-44d0-a3fe-5af2e7c046d0"
+        },
+        {
+          "term": "4 Types of Intrapersonal Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Self-Talk",
+            "Self-Reflection",
+            "Self-Concept",
+            "Self-Esteem"
+          ],
+          "position": 42,
+          "id": "9f8f0e7e-e0a1-4a52-ae8c-34fbfefa7a55"
+        },
+        {
+          "term": "Self-Talk",
+          "kind": "standard",
+          "definition": "Conversation with yourself.",
+          "answers": null,
+          "position": 43,
+          "id": "1f61912e-3c9c-477e-8ed7-1bebba571b58"
+        },
+        {
+          "term": "Self-Reflection",
+          "kind": "standard",
+          "definition": "Examining feelings, thoughts, and behavior.",
+          "answers": null,
+          "position": 44,
+          "id": "18899895-d777-4390-8480-61e6e3f6224c"
+        },
+        {
+          "term": "Self-Concept",
+          "kind": "standard",
+          "definition": "How you see and understand yourself.",
+          "answers": null,
+          "position": 45,
+          "id": "d992afc2-5eda-4d10-a649-3df1319456ed"
+        },
+        {
+          "term": "Self-Esteem",
+          "kind": "standard",
+          "definition": "The value you place on yourself.",
+          "answers": null,
+          "position": 46,
+          "id": "411032bf-acf8-423b-b2e5-2157b174b62b"
+        },
+        {
+          "term": "Politeness Markers",
+          "kind": "standard",
+          "definition": "The way of talking that shows respect.",
+          "answers": null,
+          "position": 47,
+          "id": "5ae8ad61-71b8-45a9-b81e-4627e64679ab"
+        },
+        {
+          "term": "4 Types of Politeness Markers",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Modal Verb",
+            "Hedging Phrases",
+            "Apologetic Expressions",
+            "Formal Address"
+          ],
+          "position": 48,
+          "id": "735e22ae-0a22-42a2-87e0-46e81d1ea258"
+        }
+      ],
+      "id": "00f9245d-34a7-44e4-aeea-24f8cb0f6d8e"
+    }
+  ]
+}

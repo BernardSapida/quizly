@@ -1,6 +1,6 @@
 # Reviewer → Quizly JSON
 
-You turn one lesson's source material into one Quizly reviewer file under `contents/`.
+You turn one lesson's source material into one Quizly reviewer file under `contents/<profile>/`, where `<profile>` is the person the reviewer is for (`gf` or `kylie`). If I haven't said which, ask before writing anything.
 
 ## Workflow
 
@@ -9,14 +9,14 @@ I send you **one lesson at a time** — slides, a PDF, a handout, notes, or past
 Write it to:
 
 ```
-contents/<Subject Name>/<lesson-title-slug>.json
+contents/<profile>/<Subject Name>/<lesson-title-slug>.json
 ```
 
-The directory is named exactly as the folder should read in the app — spaces, capitals, and all: `contents/Heritage Tourism/the-ecosystem-of-heritage-tourism.json`. **Reuse the existing directory** for that subject (`ls contents/`); the directory name is both the folder's name and its identity, so a new directory means a new, separate folder in the app.
+The subject directory is named exactly as the folder should read in the app — spaces, capitals, and all: `contents/gf/Heritage Tourism/the-ecosystem-of-heritage-tourism.json`. **Reuse the existing directory** for that subject (`ls contents/<profile>/`); the directory name is both the folder's name and its identity, so a new directory means a new, separate folder in the app.
 
 The file itself is named for the **lesson's own title**, slugged — not `lesson-<n>`, and not the source file. See `set.name` under [File shape](#file-shape).
 
-Then run `npm run contents` to recompile the bundle. The file is not live in the app until you do.
+Then run `npm run contents:<profile>` (e.g. `npm run contents:gf`) to recompile the bundle. The file is not live in the app until you do.
 
 ## The prime rule: copy, don't compose
 
@@ -74,7 +74,14 @@ Exactly two, and the choice is mechanical.
 
 Not `"Palawan (Largest Province)"`, `"Mount Apo (Highest Point)"`, `"Aklan (Oldest Province)"`. The slide heading "5. Largest Province: Palawan" names the card **Palawan** — the heading is the question, and the answer is the bare name.
 
-Parentheses stay only when the term is genuinely ambiguous without them. If you can delete the parenthetical and still know what the card is about, delete it.
+**A typed term never carries a parenthetical — no exceptions.** Not for disambiguation,
+not for the source, not for a category tag: `Article 275`, never `Article 275 (Revised
+Penal Code)`; `Protect`, never `Protect (P.R.I.C.E.)`. Typing a bracketed clause back is
+bad UX and a way to get marked wrong on a right answer. If the bare name is ambiguous,
+the context goes in the **definition** ("Under the Revised Penal Code; punishes …"), and
+if that makes two cards collide, the fix is a better definition or a merged card — not a
+parenthetical. If a term still looks naked without its bracket, that bracket was doing
+real work the definition should be doing instead.
 
 This applies to `standard` terms. An `enumeration` label is a prompt I read, never type, so it keeps its count and its framing.
 
@@ -96,7 +103,7 @@ Every string I have to **type** — a `standard` term, an `enumeration` answer �
 
 For an agency, that means the **full name** — the acronym is a mechanical contraction of it, so a card that teaches the name teaches the acronym for free, and the reverse is not true. Whichever form you keep, keep it consistently across a list: don't mix `Region I` with `CALABARZON`.
 
-A parenthetical survives in a **`standard`** term only when the bare name is genuinely ambiguous without it. It never survives in an `enumeration` answer — those are a typed list, and the label already supplies the context.
+A parenthetical **never** survives in a typed string — not in a `standard` term, not in an `enumeration` answer. Both are typed, so both are one bare name; any context a bracket was carrying moves into the definition (for a `standard` term) or the enumeration label (for a list).
 
 ### The definition is the question, so it must not contain the answer
 
@@ -140,25 +147,34 @@ Read every definition back as a quiz question before you ship it. If knowing onl
 
 - Put the **count in the term label** when the source states or implies one (`"4 Roles of NGOs and Public Interest Groups"`) — recalling how many is half the exam question.
 - Keep the source's order.
-- Each answer is a **short item, not a sentence**. If the source's bullets run long, keep the key phrase and cut the trailing explanation — in written mode I have to type these.
 - Each answer is a **bare name**: no slashed alternatives (`"Ilocano"`, not `"Ilokano/Ilocano"`) and no parentheticals (`"Ilocos Region"`, not `"Region I (Ilocos Region)"`). I type these, so see [Anything I type is one bare name](#anything-i-type-is-one-bare-name--no-slashes-no-parentheses) above.
+- Ideal answers are a **single word or short name** I can type and have accepted on an exact match (`Abrasion`, `Femur`, `Dyad`, `Katoliko`). Longer phrase answers (`Fear of Making Mistakes`, `Trust vs Mistrust`) still work as `enumeration`s — but they are exactly the ones I may want demoted to `standard` cards, so they go in the confirmation table below rather than being decided for me.
 
-### Don't make an enumeration I can't type back
+### Every enumeration is mine to confirm
 
-The trim rule above assumes each bullet *has* a short key phrase to keep. Some lists don't: each item is a full phrase or clause that loses its meaning the moment you shorten it — a principle stated as a sentence, a step described in a line. A list of those isn't a recall card; it's a paragraph I'd have to reproduce word for word, and in written mode I'm typing every word of it.
+Build **every** list the source presents as an `enumeration` first — don't pre-decide
+that a phrase-list should be `standard` cards. Then, before compiling, show me a table
+of every `enumeration` in the set:
 
-Past a handful of such items it's hopeless — nobody types 8+ phrases back verbatim, and a card I can never clear is worse than no card. So when a list is **both long and un-trimmable**, don't force it into an `enumeration`. Instead:
+| # | Label | Items | Suggest |
+| --- | --- | --- | --- |
+| 1 | Erikson's 8 Stages of Psychosocial Development | Trust vs Mistrust; Autonomy vs Shame and Doubt; … (8) | demote? |
+| 2 | 5 Types of Open Wounds | Abrasion; Incised Wound; Laceration; Punctured Wound; Avulsion (5) | keep |
 
-- If each item stands as its own concept, give each its **own `standard` card** — the phrase becomes a term or a definition, not one entry in an eight-way typing test.
-- If the items only make sense together, make **one `standard` card** for the concept as a whole and let the definition carry the list as prose.
+Put a **Suggest** hint on each — `keep` for short-name lists, `demote?` where the answers
+are multi-word phrases the app would grade harshly — but the call is mine. I reply with
+which ones to convert; the rest stay `enumeration`s untouched. When I demote one:
 
-Reserve `enumeration` for lists of **short, nameable items** — the seven stakeholders, the five categories, the region names. A short list of longer phrases can still work (recalling three is doable); it's the combination of *long* and *many* that breaks it. When in doubt, ask whether I could actually type every answer correctly; if not, it's the wrong kind.
+- If every item already has its own `standard` card, just drop the `enumeration`.
+- Otherwise replace it with a `standard` card whose definition carries the list as prose.
+
+Do not skip this table, and do not act on your own `demote?` suggestions without my go-ahead.
 
 A concept can legitimately be both: a `standard` card for what a stakeholder *is*, plus an `enumeration` card for the seven of them. Do that whenever the source does.
 
 ## File shape
 
-Match [`contents/Heritage Tourism/lesson-2.json`](../contents/Heritage%20Tourism/lesson-2.json) exactly:
+Match [`contents/gf/Heritage Tourism/the-ecosystem-of-heritage-tourism.json`](../contents/gf/Heritage%20Tourism/the-ecosystem-of-heritage-tourism.json) exactly:
 
 ```json
 {
@@ -208,12 +224,12 @@ Match [`contents/Heritage Tourism/lesson-2.json`](../contents/Heritage%20Tourism
 - [ ] Valid JSON — parses, no trailing commas, no comments.
 - [ ] Every `standard` has a non-empty `definition` and `answers: null`.
 - [ ] Every `enumeration` has `definition: ""` and a non-empty `answers` array.
-- [ ] No `enumeration` asks me to type back long phrases — nothing both long and un-trimmable (roughly 8+ phrase-length items) survived as a list; those became `standard` cards instead.
-- [ ] No typed string carries a `/` alternative. No `enumeration` answer carries a parenthetical; a `standard` term carries one only when the bare name is ambiguous without it.
+- [ ] I showed you the enumeration confirmation table and applied only the demotions you named — every other list from the source is still an `enumeration`.
+- [ ] No typed string carries a `/` alternative. No typed string carries a parenthetical at all — not a `standard` term, not an `enumeration` answer; any needed context sits in the definition or the enumeration label instead.
 - [ ] No `definition` gives away its own term — no acronym of it, no alternate spelling of it, no restatement of it.
 - [ ] Term `position` runs 0…n-1 with no gaps.
 - [ ] Every `id` is a distinct UUID; `folder.name` matches the subject's other lessons.
 - [ ] `set.name` is the lesson's own title — no `Lesson <n>:` prefix, nothing from the filename — and the filename is that title slugged. Ordering lives in `set.position`.
 - [ ] Every term and definition traces back to a line in the source I sent. If you can't point at the slide, delete the card.
-- [ ] `npm run contents` runs clean and reports the new set.
+- [ ] `npm run contents:<profile>` runs clean and reports the new set.
 - [ ] Tell me how many pages/slides you covered and how many terms you pulled.

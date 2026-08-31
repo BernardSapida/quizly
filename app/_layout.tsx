@@ -3,6 +3,7 @@ import { View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { Stack } from "expo-router";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import { HeroUINativeProvider } from "heroui-native";
 import * as SplashScreen from "expo-splash-screen";
 import "react-native-reanimated";
@@ -10,6 +11,7 @@ import "../global.css";
 
 import { syncContentIfChanged } from "@/features/share/content";
 import { LaunchScreen } from "@/components/ui/LaunchScreen";
+import { ToastProvider } from "@/components/ui/Toast";
 import { usePreferencesStore } from "@/store";
 import { COLORS } from "@/theme";
 
@@ -64,34 +66,38 @@ export default function RootLayout() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <HeroUINativeProvider config={{ devInfo: { stylingPrinciples: false } }}>
         <StatusBar style="light" />
-        <View style={{ flex: 1, backgroundColor: COLORS.dark.base }}>
-          {/* Detail and study screens live outside (app) so they push over the
-              tab bar rather than swapping a tab's content. The study session is
-              fullscreen — the tab bar has no business being there. */}
-          <Stack
-            screenOptions={{
-              headerShown: false,
-              contentStyle: { backgroundColor: COLORS.dark.base },
-            }}
-          >
-            <Stack.Screen name="(app)" />
-            <Stack.Screen name="folder/[id]" />
-            <Stack.Screen name="set/[id]/index" />
-            <Stack.Screen name="set/[id]/edit" />
-            <Stack.Screen name="set/[id]/move" options={{ presentation: "modal" }} />
-            <Stack.Screen
-              name="study"
-              options={{ animation: "fade", gestureEnabled: false }}
-            />
-            {/* Same treatment as study: fullscreen, and no swipe-back. Backing out
-                of an exam by accident is worse than backing out of a session. */}
-            <Stack.Screen
-              name="test"
-              options={{ animation: "fade", gestureEnabled: false }}
-            />
-            <Stack.Screen name="import" options={{ presentation: "modal" }} />
-          </Stack>
-        </View>
+        <BottomSheetModalProvider>
+          <ToastProvider>
+            <View style={{ flex: 1, backgroundColor: COLORS.dark.base }}>
+              {/* Detail and study screens live outside (app) so they push over the
+                  tab bar rather than swapping a tab's content. The study session is
+                  fullscreen — the tab bar has no business being there. */}
+              <Stack
+                screenOptions={{
+                  headerShown: false,
+                  contentStyle: { backgroundColor: COLORS.dark.base },
+                }}
+              >
+                <Stack.Screen name="(app)" />
+                <Stack.Screen name="folder/[id]" />
+                <Stack.Screen name="set/[id]/index" />
+                <Stack.Screen name="set/[id]/edit" />
+                <Stack.Screen name="set/[id]/move" options={{ presentation: "modal" }} />
+                <Stack.Screen
+                  name="study"
+                  options={{ animation: "fade", gestureEnabled: false }}
+                />
+                {/* Same treatment as study: fullscreen, and no swipe-back. Backing out
+                    of an exam by accident is worse than backing out of a session. */}
+                <Stack.Screen
+                  name="test"
+                  options={{ animation: "fade", gestureEnabled: false }}
+                />
+                <Stack.Screen name="import" options={{ presentation: "modal" }} />
+              </Stack>
+            </View>
+          </ToastProvider>
+        </BottomSheetModalProvider>
       </HeroUINativeProvider>
     </GestureHandlerRootView>
   );

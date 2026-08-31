@@ -1,0 +1,205 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "First Aid"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "Risk Management, Safety, and First Aid",
+      "description": "Safety, risk management, and the definition, importance, principles, and hindrances of first aid.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Safety",
+          "kind": "standard",
+          "definition": "Being free from danger, injury, or harm.",
+          "answers": null,
+          "position": 0,
+          "id": "5c29da74-93b1-4a4c-bce5-aaa76caebca4"
+        },
+        {
+          "term": "Risk Management",
+          "kind": "standard",
+          "definition": "The process of identifying, assessing, and controlling hazards to prevent accidents and injuries.",
+          "answers": null,
+          "position": 1,
+          "id": "f60e8486-9874-48d4-bf70-3318d747a3f7"
+        },
+        {
+          "term": "First Aid",
+          "kind": "standard",
+          "definition": "The immediate care given to a person who is injured or suddenly becomes ill before professional medical help arrives.",
+          "answers": null,
+          "position": 2,
+          "id": "0c12a101-1def-4013-aa2f-3f6fe2ba5c83"
+        },
+        {
+          "id": "3311ad98-fad3-4024-b31c-f635c16b01cf",
+          "term": "4 Examples of First Aid",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Cleaning and bandaging a wound",
+            "Applying ice to a sprain",
+            "Helping someone who is choking",
+            "Performing CPR on an unconscious person"
+          ],
+          "position": 3,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "f437b866-d30d-41a5-adc6-e9cf8d6fce53",
+          "term": "4 Points on the Importance of First Aid",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Saves Lives",
+            "Prevents the Condition from Worsening",
+            "Promotes Recovery",
+            "Builds Confidence and Preparedness"
+          ],
+          "position": 4,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Saves Lives",
+          "kind": "standard",
+          "definition": "Immediate care can prevent minor injuries from becoming life-threatening.",
+          "answers": null,
+          "position": 5,
+          "id": "af391a19-6f78-4894-8fc1-5c773cc9c2fd"
+        },
+        {
+          "term": "Prevents the Condition from Worsening",
+          "kind": "standard",
+          "definition": "Proper care stops further injury or complications.",
+          "answers": null,
+          "position": 6,
+          "id": "bfa5b6fe-b88e-4b58-9c50-b3c6209af0bb"
+        },
+        {
+          "term": "Promotes Recovery",
+          "kind": "standard",
+          "definition": "Early treatment speeds up healing.",
+          "answers": null,
+          "position": 7,
+          "id": "95fb29d5-be5a-4e57-b6cf-7dab55dc2fb3"
+        },
+        {
+          "term": "Builds Confidence and Preparedness",
+          "kind": "standard",
+          "definition": "Trained people can respond calmly and effectively during emergencies.",
+          "answers": null,
+          "position": 8,
+          "id": "cd5ebffd-4e5e-411f-901f-904f4c6fc9d4"
+        },
+        {
+          "id": "f93c4e9f-de89-47dd-a4f9-5cbc18e122ec",
+          "term": "The 3 P's of First Aid",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Preserve Life",
+            "Prevent Further Injury",
+            "Promote Recovery"
+          ],
+          "position": 9,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Preserve Life",
+          "kind": "standard",
+          "definition": "Check breathing and call emergency services immediately.",
+          "answers": null,
+          "position": 10,
+          "id": "2306124f-79a7-4988-ae1d-553bfcb351bc"
+        },
+        {
+          "term": "Prevent Further Injury",
+          "kind": "standard",
+          "definition": "Do not move the victim unnecessarily, especially if spinal injury is suspected.",
+          "answers": null,
+          "position": 11,
+          "id": "b027cea1-2dea-4d01-9065-425589a7db53"
+        },
+        {
+          "term": "Promote Recovery",
+          "kind": "standard",
+          "definition": "Keep the victim comfortable and reassure them while waiting for help.",
+          "answers": null,
+          "position": 12,
+          "id": "df8bd3f5-5c63-41bd-8260-f39ebc8b4995"
+        },
+        {
+          "id": "0b2cba96-a189-4bba-b8bb-c9f822a4b07c",
+          "term": "5 Hindrances in Giving First Aid",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Fear of Making Mistakes",
+            "Lack of Knowledge or Training",
+            "Fear of Legal Consequences",
+            "Panic or Emotional Stress",
+            "Unsafe Environment"
+          ],
+          "position": 13,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Fear of Making Mistakes",
+          "kind": "standard",
+          "definition": "Afraid of causing more harm.",
+          "answers": null,
+          "position": 14,
+          "id": "f59b9059-89a5-468f-94b4-01589875e83c"
+        },
+        {
+          "term": "Lack of Knowledge or Training",
+          "kind": "standard",
+          "definition": "Unsure of proper procedures.",
+          "answers": null,
+          "position": 15,
+          "id": "bc2277f5-bbfc-4ba4-9154-d331b221bee4"
+        },
+        {
+          "term": "Fear of Legal Consequences",
+          "kind": "standard",
+          "definition": "Worried about being blamed.",
+          "answers": null,
+          "position": 16,
+          "id": "113c4890-3b15-467a-99d9-e2530bf4d975"
+        },
+        {
+          "term": "Panic or Emotional Stress",
+          "kind": "standard",
+          "definition": "Unable to think clearly during emergencies.",
+          "answers": null,
+          "position": 17,
+          "id": "1830e3be-d9fd-48fe-ad23-35a2e9292490"
+        },
+        {
+          "term": "Unsafe Environment",
+          "kind": "standard",
+          "definition": "Fire, electrical hazards, or other dangers put the rescuer at risk.",
+          "answers": null,
+          "position": 18,
+          "id": "90dbedf5-caa3-4e93-8b9d-7b8406d55264"
+        },
+        {
+          "term": "Body Substance Isolation",
+          "kind": "standard",
+          "definition": "Safety practices to prevent contact with another person's blood and body fluids, such as wearing disposable gloves, using face masks, washing hands before and after giving first aid, and disposing of contaminated materials properly.",
+          "answers": null,
+          "position": 19,
+          "id": "beb0a325-b7d1-4901-a453-e06d321fe3b5"
+        }
+      ],
+      "id": "28ab81bf-8eb8-40bc-82b8-f38175ef59ad"
+    }
+  ]
+}

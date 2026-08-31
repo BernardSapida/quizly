@@ -1,0 +1,183 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "First Aid"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "Domestic Injuries",
+      "description": "Burns, insect bites and stings, and animal bites, with their types, signs, first aid management, and prevention.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Domestic Injuries",
+          "kind": "standard",
+          "definition": "Physical harm from intentional violence, abuse, or accidental mishap occurring within the home.",
+          "answers": null,
+          "position": 0,
+          "id": "536536d0-7d48-4604-b107-0429ad578d60"
+        },
+        {
+          "term": "Burn",
+          "kind": "standard",
+          "definition": "Damage to skin or deeper tissue caused by heat, electricity, chemicals, radiation, or friction.",
+          "answers": null,
+          "position": 1,
+          "id": "de7bb7bc-8913-48ff-8c8e-e0c1a0161c97"
+        },
+        {
+          "term": "3 Types of Burns",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "First-Degree Burn",
+            "Second-Degree Burn",
+            "Third-Degree Burn"
+          ],
+          "position": 2,
+          "id": "b8f6a419-099d-41f9-813c-0ffafa9b17c2"
+        },
+        {
+          "term": "First-Degree Burn",
+          "kind": "standard",
+          "definition": "Outer skin only; red and painful.",
+          "answers": null,
+          "position": 3,
+          "id": "3ce08170-a250-47b4-a118-a68910b90107"
+        },
+        {
+          "term": "Second-Degree Burn",
+          "kind": "standard",
+          "definition": "Outer and second layer; blisters develop.",
+          "answers": null,
+          "position": 4,
+          "id": "8992358e-fd57-4fe4-8767-64330001b365"
+        },
+        {
+          "term": "Third-Degree Burn",
+          "kind": "standard",
+          "definition": "All skin layers destroyed; may appear white, black, or charred; nerve damage may mean no pain is felt.",
+          "answers": null,
+          "position": 5,
+          "id": "85e7d001-6764-421a-9401-fdca043d93c4"
+        },
+        {
+          "term": "Burn First Aid Management",
+          "kind": "standard",
+          "definition": "Cool under cool running water for at least 20 minutes; remove jewelry and tight clothing before swelling; cover with a clean, non-stick dressing. Do not apply toothpaste, butter, oil, or ice directly. Seek immediate medical attention for severe burns.",
+          "answers": null,
+          "position": 6,
+          "id": "5efab43b-3dd2-45d7-b1b7-fb412c49cc93"
+        },
+        {
+          "term": "Insect Bites and Stings",
+          "kind": "standard",
+          "definition": "An insect bites or injects venom into the skin; usually mild, but may trigger anaphylaxis.",
+          "answers": null,
+          "position": 7,
+          "id": "4ecb6ac5-1cba-46e4-81c7-241e6bd55661"
+        },
+        {
+          "term": "Anaphylaxis",
+          "kind": "standard",
+          "definition": "A severe allergic reaction.",
+          "answers": null,
+          "position": 8,
+          "id": "57bbf4d4-4737-4272-8145-e506e4c94669"
+        },
+        {
+          "term": "7 Common Biting or Stinging Insects",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Mosquito",
+            "Bee",
+            "Wasp",
+            "Ant",
+            "Spider",
+            "Tick",
+            "Flea"
+          ],
+          "position": 9,
+          "id": "86d3a1cc-d948-451a-8b7a-0323649735f0"
+        },
+        {
+          "term": "Mild Insect Reaction",
+          "kind": "standard",
+          "definition": "Signs: pain, redness, swelling, itching, and a small raised bump. First aid: move away from the insect, wash the area with soap and clean water, scrape a bee stinger off without squeezing, apply a cold compress for 10 to 20 minutes, do not scratch, and monitor for worsening symptoms.",
+          "answers": null,
+          "position": 10,
+          "id": "7c121080-c732-4bd5-99be-038e01ddae13"
+        },
+        {
+          "term": "Severe Insect Reaction",
+          "kind": "standard",
+          "definition": "Anaphylaxis signs: difficulty breathing, swelling of the face, lips, or throat, rapid pulse, dizziness, and loss of consciousness. First aid: call emergency services immediately, assist with an epinephrine auto-injector if prescribed and trained, and keep the person calm while monitoring breathing until help arrives.",
+          "answers": null,
+          "position": 11,
+          "id": "26671295-cda9-4a0a-a66d-b9236ed1210e"
+        },
+        {
+          "term": "Animal Bites",
+          "kind": "standard",
+          "definition": "Animals break the skin with their teeth; risks include bleeding, infection, rabies, and tetanus.",
+          "answers": null,
+          "position": 12,
+          "id": "45834cfa-7915-45b5-9e36-3b61f70536b9"
+        },
+        {
+          "term": "5 Common Biting Animals",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Dog",
+            "Cat",
+            "Monkey",
+            "Rat",
+            "Bat"
+          ],
+          "position": 13,
+          "id": "efcfd4d4-9a91-4895-806f-e01c8592b155"
+        },
+        {
+          "term": "Animal Bite First Aid Management",
+          "kind": "standard",
+          "definition": "Ensure safety and move away from the animal; wash the wound with soap and running water for at least 15 minutes; allow it to bleed slightly unless severe; apply antiseptic such as povidone-iodine if available; cover with a clean, sterile dressing; and seek medical attention immediately. Do not apply a tourniquet, suck the wound, use home remedies, or ignore small bites.",
+          "answers": null,
+          "position": 14,
+          "id": "1b03e5a9-34c0-4651-a398-438c17b21d29"
+        },
+        {
+          "term": "Animal Observation Period",
+          "kind": "standard",
+          "definition": "Observe a biting domestic animal for 14 days; complete the full course of anti-rabies shots.",
+          "answers": null,
+          "position": 15,
+          "id": "6edfa632-8485-4458-a50e-9f85cf869570"
+        },
+        {
+          "term": "Insect Bite Prevention",
+          "kind": "standard",
+          "definition": "Wear long sleeves and pants, use repellent, remove standing water, and avoid nests.",
+          "answers": null,
+          "position": 16,
+          "id": "120632f9-ceca-4157-aced-3e6a4bb2a166"
+        },
+        {
+          "term": "Animal Bite Prevention",
+          "kind": "standard",
+          "definition": "Do not provoke animals, avoid strays, supervise children, vaccinate pets, and report aggressive animals.",
+          "answers": null,
+          "position": 17,
+          "id": "6851c985-cf8a-4e73-a445-102aad348482"
+        }
+      ],
+      "id": "c5d85f77-19d3-4881-aed4-9b900fa0f6b1"
+    }
+  ]
+}

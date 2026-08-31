@@ -4,7 +4,11 @@
   "version": "1.0.0",
   "scripts": {
     "contents": "node scripts/build-contents.mjs",
+    "contents:gf": "node scripts/build-contents.mjs gf",
+    "contents:kylie": "node scripts/build-contents.mjs kylie",
     "export:all": "node scripts/export-all.mjs",
+    "export:all:gf": "node scripts/export-all.mjs gf",
+    "export:all:kylie": "node scripts/export-all.mjs kylie",
     "start": "expo start",
     "start:android": "expo run:android",
     "reset-project": "node ./scripts/reset-project.js",

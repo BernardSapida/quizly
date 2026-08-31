@@ -7,6 +7,7 @@ import { ScrollView, Text, TextInput, View } from "react-native";
 
 import { Screen } from "@/components/ui/Screen";
 import { ScreenHeader } from "@/components/ui/ScreenHeader";
+import { useToast } from "@/components/ui/Toast";
 import { useTabBarOverlap } from "@/components/ui/CustomTabBar";
 import { repo } from "@/db";
 import { COLORS, GLASS, SPACING } from "@/theme";
@@ -15,6 +16,7 @@ type Kind = "set" | "folder";
 
 export default function CreateScreen() {
   const router = useRouter();
+  const toast = useToast();
   const [kind, setKind] = useState<Kind>("set");
   const [name, setName] = useState("");
   const [saving, setSaving] = useState(false);
@@ -30,6 +32,7 @@ export default function CreateScreen() {
       const id = await repo.createFolder(name.trim());
       setName("");
       setSaving(false);
+      toast.show("Folder created");
       router.push(`/folder/${id}`);
       return;
     }
@@ -37,6 +40,7 @@ export default function CreateScreen() {
     const id = await repo.createSet(name.trim());
     setName("");
     setSaving(false);
+    toast.show("Set created");
     // Straight into the editor — a set with no terms is useless.
     router.push(`/set/${id}/edit`);
   };

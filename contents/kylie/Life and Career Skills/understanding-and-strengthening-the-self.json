@@ -1,0 +1,301 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Life and Career Skills"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Understanding and Strengthening The Self",
+      "description": "Erikson's eight psychosocial stages, self-concept and self-identity, emotional development, and self-regulation.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Trust vs Mistrust",
+          "kind": "standard",
+          "definition": "Infancy, ages 0 to 1. Babies learn to trust others when their needs are cared for; if not, they may become fearful and distrustful.",
+          "answers": null,
+          "position": 0,
+          "id": "91c50f03-1a77-4140-b40b-38e58f3b29aa"
+        },
+        {
+          "term": "Autonomy vs Shame and Doubt",
+          "kind": "standard",
+          "definition": "Toddler, ages 1 to 3. Children learn independence and confidence; too much criticism can make them feel shame or doubt themselves.",
+          "answers": null,
+          "position": 1,
+          "id": "fcba41b8-88f3-4910-abec-eb957fe0ccc3"
+        },
+        {
+          "term": "Initiative vs Guilt",
+          "kind": "standard",
+          "definition": "Early childhood, ages 3 to 6. Children start creating ideas and taking action; if discouraged, they may feel guilty for trying.",
+          "answers": null,
+          "position": 2,
+          "id": "7a430065-8542-4e12-baed-d570c0244a27"
+        },
+        {
+          "term": "Industry vs Inferiority",
+          "kind": "standard",
+          "definition": "School age, ages 6 to 12. Children develop skills and confidence through learning; failure or comparison may make them feel inferior.",
+          "answers": null,
+          "position": 3,
+          "id": "f1dc79f0-932b-415a-a1eb-d91b18d2b9b7"
+        },
+        {
+          "term": "Identity vs Role Confusion",
+          "kind": "standard",
+          "definition": "Adolescence, ages 12 to 18. Teenagers discover who they are and their goals; without this, they may feel confused about their identity.",
+          "answers": null,
+          "position": 4,
+          "id": "cb37e0ac-ad68-40e5-9910-9bff99e073d0"
+        },
+        {
+          "term": "Intimacy vs Isolation",
+          "kind": "standard",
+          "definition": "Young adulthood, ages 18 to 40. People form deep relationships and connections; difficulty connecting may lead to loneliness.",
+          "answers": null,
+          "position": 5,
+          "id": "636ababa-dcbd-49eb-ae16-63ec21ab439b"
+        },
+        {
+          "term": "Generativity vs Stagnation",
+          "kind": "standard",
+          "definition": "Middle adulthood, ages 40 to 65. Adults contribute to society and help others; lack of purpose may cause feelings of being stuck.",
+          "answers": null,
+          "position": 6,
+          "id": "96d164e4-ecda-4431-a937-bf2af2390a15"
+        },
+        {
+          "term": "Ego Integrity vs Despair",
+          "kind": "standard",
+          "definition": "Late adulthood, ages 65 and older. Older adults reflect on life with acceptance and satisfaction; regret may lead to despair.",
+          "answers": null,
+          "position": 7,
+          "id": "d7f2c73e-7a6c-4286-9ed8-1429719134af"
+        },
+        {
+          "term": "Adolescence",
+          "kind": "standard",
+          "definition": "The stage from childhood to early adulthood.",
+          "answers": null,
+          "position": 8,
+          "id": "6d3249bf-898b-43f2-8ece-5dc5ae507e07"
+        },
+        {
+          "term": "Development",
+          "kind": "standard",
+          "definition": "A challenge in life.",
+          "answers": null,
+          "position": 9,
+          "id": "e5391b41-9967-4f6d-813d-d680e196b4c4"
+        },
+        {
+          "term": "Physiological Development",
+          "kind": "standard",
+          "definition": "Body changes, or puberty.",
+          "answers": null,
+          "position": 10,
+          "id": "e23929ef-42d0-45d9-b3bb-90faace640c8"
+        },
+        {
+          "term": "Self-Concept",
+          "kind": "standard",
+          "definition": "Self-image.",
+          "answers": null,
+          "position": 11,
+          "id": "ca39ddf8-bdc3-49f0-a159-2760472a297c"
+        },
+        {
+          "term": "3 Dimensions of Self-Concept",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Cognitive",
+            "Emotional",
+            "Behavioral"
+          ],
+          "position": 12,
+          "id": "79139a6f-8de7-4efd-8a55-64adbbf265c7"
+        },
+        {
+          "term": "Self-Identity",
+          "kind": "standard",
+          "definition": "How you define yourself in relationship to others.",
+          "answers": null,
+          "position": 13,
+          "id": "84e497fe-3ee9-4c38-ae1c-799ae58fbf3a"
+        },
+        {
+          "term": "3 Dimensions of Self-Identity",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Social",
+            "Cultural",
+            "Personal"
+          ],
+          "position": 14,
+          "id": "b2b28752-1a47-49d7-bc7d-2db18f495237"
+        },
+        {
+          "term": "Self-Esteem",
+          "kind": "standard",
+          "definition": "How you value yourself.",
+          "answers": null,
+          "position": 15,
+          "id": "b8cd46da-0be5-48b3-a8d1-9dac12747d00"
+        },
+        {
+          "term": "Self-Perception",
+          "kind": "standard",
+          "definition": "The way we see or understand ourselves.",
+          "answers": null,
+          "position": 16,
+          "id": "19963409-ab18-4bd9-a534-d1f373e68da8"
+        },
+        {
+          "term": "Emotional Development",
+          "kind": "standard",
+          "definition": "Managing emotions.",
+          "answers": null,
+          "position": 17,
+          "id": "488488ef-4bc9-445c-a82b-794a15ce95d2"
+        },
+        {
+          "term": "6 Stages of Emotional Development",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Infancy",
+            "Toddlerhood",
+            "Early Childhood",
+            "Middle Childhood",
+            "Adolescence",
+            "Adulthood"
+          ],
+          "position": 18,
+          "id": "8a2319bf-d962-49a5-9650-9751cf6d3b44"
+        },
+        {
+          "term": "Infancy",
+          "kind": "standard",
+          "definition": "Expresses emotions through crying and recognizes familiar people.",
+          "answers": null,
+          "position": 19,
+          "id": "c21c3d9d-4050-4e62-a51a-34edf56b1b9a"
+        },
+        {
+          "term": "Toddlerhood",
+          "kind": "standard",
+          "definition": "Shows basic emotions.",
+          "answers": null,
+          "position": 20,
+          "id": "975468eb-d494-4c86-a91b-407191c5253b"
+        },
+        {
+          "term": "Early Childhood",
+          "kind": "standard",
+          "definition": "Manages emotions and develops empathy.",
+          "answers": null,
+          "position": 21,
+          "id": "2365f775-2d7a-4250-ae80-cd5cc6cf0afa"
+        },
+        {
+          "term": "Middle Childhood",
+          "kind": "standard",
+          "definition": "Develops thinking, social, and emotional skills.",
+          "answers": null,
+          "position": 22,
+          "id": "bb328a74-d9fb-49d8-99c2-c859e9df3b9b"
+        },
+        {
+          "term": "Adulthood",
+          "kind": "standard",
+          "definition": "Applies emotional understanding in life and has more developed emotional skills.",
+          "answers": null,
+          "position": 23,
+          "id": "2892a0f4-cbbc-4ee0-b036-a079463328a3"
+        },
+        {
+          "term": "Self-Regulation",
+          "kind": "standard",
+          "definition": "Managing your emotions, thoughts, and actions in a healthy and appropriate way.",
+          "answers": null,
+          "position": 24,
+          "id": "5c90bca8-f985-4687-b41a-111db3d1aac2"
+        },
+        {
+          "term": "Self-Control",
+          "kind": "standard",
+          "definition": "Stopping yourself from doing something inappropriate.",
+          "answers": null,
+          "position": 25,
+          "id": "51ee7599-39da-4988-a37d-98f9381cd554"
+        },
+        {
+          "id": "82bc8fac-633a-4bb3-a19a-17d2d8c68209",
+          "term": "7 Conditions Associated with Self-Regulation Problems",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Eating disorder",
+            "Depression",
+            "Autism",
+            "Chronic stress",
+            "Hyperactivity disorder",
+            "Oppositional defiant disorder",
+            "Substance use disorder and addiction"
+          ],
+          "position": 26,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Eating Disorder",
+          "kind": "standard",
+          "definition": "Unhealthy eating habits.",
+          "answers": null,
+          "position": 27,
+          "id": "8919a63d-1383-4b91-a774-08e6a48a4730"
+        },
+        {
+          "term": "Chronic Stress",
+          "kind": "standard",
+          "definition": "Long-term stress.",
+          "answers": null,
+          "position": 28,
+          "id": "4833e07a-cfa1-437a-bd89-c337485c3119"
+        },
+        {
+          "term": "Hyperactivity Disorder",
+          "kind": "standard",
+          "definition": "Being very active, having difficulty paying attention, and acting without thinking.",
+          "answers": null,
+          "position": 29,
+          "id": "674f8fc3-377f-45b0-98c5-18b0d9ce2070"
+        },
+        {
+          "term": "Oppositional Defiant Disorder",
+          "kind": "standard",
+          "definition": "Often argues or gets upset easily.",
+          "answers": null,
+          "position": 30,
+          "id": "17af1540-2440-4f3d-adaa-fed1fd2049a3"
+        },
+        {
+          "term": "Substance Use Disorder",
+          "kind": "standard",
+          "definition": "Continuing to use alcohol or drugs.",
+          "answers": null,
+          "position": 31,
+          "id": "940bcd8d-654c-4dc7-b3d0-7351bc7cf2e1"
+        }
+      ],
+      "id": "094a3351-4ed9-4ad7-a4d3-aa8f5959321c"
+    }
+  ]
+}

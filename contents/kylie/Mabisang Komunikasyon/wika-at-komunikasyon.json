@@ -1,0 +1,244 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Mabisang Komunikasyon"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Wika at Komunikasyon",
+      "description": "Ang kahulugan, katangian, at kahalagahan ng wika, at ang kahulugan, elemento, at proseso ng komunikasyon.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Wika",
+          "kind": "standard",
+          "definition": "Isang sistema ng mga sinasalitang tunog na pinipili at isinaaayos upang magamit sa komunikasyon; kasangkapan sa pag-iisip, pakikipag-ugnayan, at pagpapahayag ng damdamin.",
+          "answers": null,
+          "position": 0,
+          "id": "b3faa448-9391-4d6c-9599-339e2afcc2da"
+        },
+        {
+          "term": "6 Katangian ng Wika",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Masistemang Balangkas",
+            "Sinasalitang Tunog",
+            "Pinipili at Isinasaayos",
+            "Arbitraryo",
+            "Ginagamit",
+            "Nakabatay sa Kultura"
+          ],
+          "position": 1,
+          "id": "4f0abdc3-7b64-438c-b28b-b9f1c9c82b86"
+        },
+        {
+          "term": "Masistemang Balangkas",
+          "kind": "standard",
+          "definition": "May tiyak na ayos o estruktura.",
+          "answers": null,
+          "position": 2,
+          "id": "83e3c1da-8454-45bf-a490-1ea0cd425951"
+        },
+        {
+          "term": "Sinasalitang Tunog",
+          "kind": "standard",
+          "definition": "Binubuo ng mga tunog na may kahulugan.",
+          "answers": null,
+          "position": 3,
+          "id": "538ce3d1-872e-4c58-b545-d9df4685422d"
+        },
+        {
+          "term": "Pinipili at Isinasaayos",
+          "kind": "standard",
+          "definition": "Ginagamit ayon sa konteksto.",
+          "answers": null,
+          "position": 4,
+          "id": "515324e7-8c03-4f6b-8da9-7e7388f70c1a"
+        },
+        {
+          "term": "Arbitraryo",
+          "kind": "standard",
+          "definition": "Napagkasunduan ng mga tao.",
+          "answers": null,
+          "position": 5,
+          "id": "9f2dd3c0-8d10-46f1-b3e3-e6111b1a3cb5"
+        },
+        {
+          "term": "Ginagamit",
+          "kind": "standard",
+          "definition": "Aktwal na ginagamit sa lipunan.",
+          "answers": null,
+          "position": 6,
+          "id": "320ea28d-00ee-4a7b-a81d-2dc40f36440c"
+        },
+        {
+          "term": "Nakabatay sa Kultura",
+          "kind": "standard",
+          "definition": "Hango sa karanasan ng lipunan.",
+          "answers": null,
+          "position": 7,
+          "id": "aced1cd4-3853-4ee2-bf41-a198d466b4ea"
+        },
+        {
+          "term": "3 Kahalagahan ng Wika",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Instrumento ng Komunikasyon",
+            "Tagapag-ingat ng Kultura",
+            "Pandaigdigang Pakikipag-ugnayan"
+          ],
+          "position": 8,
+          "id": "ea284bea-09b1-461f-bfd1-a87cb5f758cc"
+        },
+        {
+          "term": "Instrumento ng Komunikasyon",
+          "kind": "standard",
+          "definition": "Tulay upang maihatid ang mga ideya, opinyon, at pananaw sa kapwa.",
+          "answers": null,
+          "position": 9,
+          "id": "84fe4394-dacb-49d0-8e14-0d56ce82f391"
+        },
+        {
+          "term": "Tagapag-ingat ng Kultura",
+          "kind": "standard",
+          "definition": "Sinasalamin ang kasaysayan, kaugalian, at tradisyon ng isang lahi.",
+          "answers": null,
+          "position": 10,
+          "id": "31c8be17-13ad-49c4-826c-54373449e300"
+        },
+        {
+          "term": "Pandaigdigang Pakikipag-ugnayan",
+          "kind": "standard",
+          "definition": "Mahalaga sa diplomasya, edukasyon, pakikipagkalakalan, at pagpapaunlad ng kabuhayan at agham.",
+          "answers": null,
+          "position": 11,
+          "id": "95715de8-666a-4e08-948d-6012168f39ea"
+        },
+        {
+          "term": "Komunikasyon",
+          "kind": "standard",
+          "definition": "Hango sa salitang Latin na \"communis\" na nangangahulugang panglahat o para sa lahat; ang pagpapalitan ng ideya, kaisipan, at damdamin sa pagitan ng tao.",
+          "answers": null,
+          "position": 12,
+          "id": "f7d25faf-df29-4da7-8bb2-d2b31fdbc9d7"
+        },
+        {
+          "term": "Komunikasyon ayon kay Webster",
+          "kind": "standard",
+          "definition": "Ang pagpapahayag ng mga saloobin na isinasagawa sa pasulat man o pasalita; tulay ng mga taong magkakalayo na nagbubuklod ng damdamin ng bawat isa.",
+          "answers": null,
+          "position": 13,
+          "id": "aed39166-1d14-4eed-a5ce-82037f76ea0e"
+        },
+        {
+          "term": "5 Elemento ng Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Tagapagpadala",
+            "Mensahe",
+            "Tsanel",
+            "Tagatanggap",
+            "Tugon"
+          ],
+          "position": 14,
+          "id": "b6eaaeda-dd94-47b7-9e15-dc1d420e2eb9"
+        },
+        {
+          "term": "Tagapagpadala",
+          "kind": "standard",
+          "definition": "Pinagmumulan ng mensahe.",
+          "answers": null,
+          "position": 15,
+          "id": "e114f579-df55-44e6-af78-b346125b7b4d"
+        },
+        {
+          "term": "Mensahe",
+          "kind": "standard",
+          "definition": "Ang nilalaman, ideya, o salitang ipinapadala.",
+          "answers": null,
+          "position": 16,
+          "id": "dfacb782-19ae-4ff0-b99f-686440a33854"
+        },
+        {
+          "term": "Tsanel",
+          "kind": "standard",
+          "definition": "Daluyan o paraan ng pagpapadala ng mensahe.",
+          "answers": null,
+          "position": 17,
+          "id": "de109cea-3e02-42a5-b7d8-a833500e0bf3"
+        },
+        {
+          "term": "Tagatanggap",
+          "kind": "standard",
+          "definition": "Tumatanggap at nagpapakahulugan sa mensahe.",
+          "answers": null,
+          "position": 18,
+          "id": "1ee70b11-4e45-4d27-af8f-5b61ebd3262f"
+        },
+        {
+          "term": "Tugon",
+          "kind": "standard",
+          "definition": "Reaksyon o sagot ng tagatanggap; nagpapatunay na naintindihan ang mensahe.",
+          "answers": null,
+          "position": 19,
+          "id": "7e8800ea-e2a1-47cc-8226-ec9af432ad49"
+        },
+        {
+          "term": "5 Hakbang sa Proseso ng Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Encoding",
+            "Pagpapadala",
+            "Decoding",
+            "Tugon",
+            "Pag-uulit"
+          ],
+          "position": 20,
+          "id": "ecb04b7b-74fa-413c-8beb-32d0657be000"
+        },
+        {
+          "term": "Encoding",
+          "kind": "standard",
+          "definition": "Pagbuo ng mensahe ng tagapagpadala.",
+          "answers": null,
+          "position": 21,
+          "id": "e02d662c-e67f-44e2-b0c1-983986b4474d"
+        },
+        {
+          "term": "Pagpapadala",
+          "kind": "standard",
+          "definition": "Ipinadala ang mensahe sa pamamagitan ng tsanel.",
+          "answers": null,
+          "position": 22,
+          "id": "fffa142a-ddf4-4398-ac98-4a63034cdbb1"
+        },
+        {
+          "term": "Decoding",
+          "kind": "standard",
+          "definition": "Natanggap at inintindi ng tagatanggap ang mensahe.",
+          "answers": null,
+          "position": 23,
+          "id": "9d966b25-79ab-42e2-9462-e62dfd4f800a"
+        },
+        {
+          "term": "Pag-uulit",
+          "kind": "standard",
+          "definition": "Patuloy na palitan ng mensahe hanggang sa magkaintindihan.",
+          "answers": null,
+          "position": 24,
+          "id": "2bf1ce74-eb79-41a4-95ff-d79e80167878"
+        }
+      ],
+      "id": "1fefe9d8-a5e4-4695-8a42-ffa6fdcda7b0"
+    }
+  ]
+}

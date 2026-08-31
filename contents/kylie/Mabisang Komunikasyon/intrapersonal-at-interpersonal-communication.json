@@ -1,0 +1,220 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Mabisang Komunikasyon"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Intrapersonal at Interpersonal Communication",
+      "description": "Ang intrapersonal at interpersonal na komunikasyon, ang mga kaparaanan at katangian ng mga ito, at ang mga uri ng interpersonal na komunikasyon.",
+      "position": 4,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Intrapersonal Communication",
+          "kind": "standard",
+          "definition": "Pag-iisip, pagsusuri, at pagpapahayag ng sariling kaisipan at damdamin; pansarili, walang ibang kausap kundi ang sarili, at tumutulong sa pagkilala sa sarili at pagpapasya.",
+          "answers": null,
+          "position": 0,
+          "id": "654d7bf5-f14d-460e-be64-81d418414419"
+        },
+        {
+          "term": "2 Kahalagahan ng Intrapersonal na Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pagkilala sa sarili",
+            "Pagpapabuti ng desisyon"
+          ],
+          "position": 1,
+          "id": "af1dd777-0f04-4845-a7e6-330fc4bcb412"
+        },
+        {
+          "term": "6 Kaparaanan ng Intrapersonal na Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Self-Awareness",
+            "Self-Reflection",
+            "Planning and Decision-Making",
+            "Self-Esteem",
+            "Self-Expression",
+            "Memory Call"
+          ],
+          "position": 2,
+          "id": "db6f1482-7051-4d50-a579-0c8b25fe1a27"
+        },
+        {
+          "term": "Self-Awareness",
+          "kind": "standard",
+          "definition": "Pag-unawa sa sariling katangian, kakayahan, kahinaan, at pagpapahalaga.",
+          "answers": null,
+          "position": 3,
+          "id": "75eea12f-c385-4cba-8ab7-1ae2d54d0292"
+        },
+        {
+          "term": "Self-Reflection",
+          "kind": "standard",
+          "definition": "Pagbabalik-tanaw at pagsusuri sa sariling kilos, desisyon, at karanasan upang matuto at mapabuti ang sarili.",
+          "answers": null,
+          "position": 4,
+          "id": "31ebb79f-0bc9-4454-a3ac-29c920462779"
+        },
+        {
+          "term": "Planning and Decision-Making",
+          "kind": "standard",
+          "definition": "Pag-iisip ng mga hakbang at pagpili ng pinakamabuting solusyon sa isang problema o sitwasyon.",
+          "answers": null,
+          "position": 5,
+          "id": "2f7100fe-611d-4887-bb41-ffba806d2e66"
+        },
+        {
+          "term": "Self-Esteem",
+          "kind": "standard",
+          "definition": "Pagkilala at pagtanggap sa sariling halaga, kakayahan, at pagkatao.",
+          "answers": null,
+          "position": 6,
+          "id": "072510e5-a5b6-4947-83d5-569c96535015"
+        },
+        {
+          "term": "Self-Expression",
+          "kind": "standard",
+          "definition": "Pagbibigay-laya sa sariling kaisipan at damdamin nang may katapatan at paggalang sa sarili.",
+          "answers": null,
+          "position": 7,
+          "id": "4255e8b6-73b8-4b0a-890e-c84e7d23d4f6"
+        },
+        {
+          "term": "Memory Call",
+          "kind": "standard",
+          "definition": "Ang pag-iimbak at pagbawi ng mga karanasan at impormasyon na nakakatulong sa pag-unawa sa sarili at sa iba.",
+          "answers": null,
+          "position": 8,
+          "id": "5fc3954e-d7b0-4856-8617-26fc7000a35c"
+        },
+        {
+          "term": "Interpersonal Communication",
+          "kind": "standard",
+          "definition": "Komunikasyon na nagaganap sa pagitan ng dalawa o higit pang tao; layunin: magkaintindihan, magbahagi ng kaisipan, at magkaroon ng maayos na ugnayan.",
+          "answers": null,
+          "position": 9,
+          "id": "5429126b-c595-43bb-9e12-ee6bceb2a763"
+        },
+        {
+          "term": "3 Katangian ng Interpersonal na Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "May dalawa o higit pang kalahok",
+            "May palitan ng mensahe at tugon",
+            "Nakabubuo at nagpapatatag ng ugnayan sa kapwa"
+          ],
+          "position": 10,
+          "id": "a1269432-7d3f-4085-8433-1b6f39823889"
+        },
+        {
+          "term": "3 Katangian ng Intrapersonal na Komunikasyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pansarili",
+            "Pagmumuni-muni",
+            "Pagpaplano"
+          ],
+          "position": 11,
+          "id": "4a8a0fed-1869-45aa-b79f-39a674016564"
+        },
+        {
+          "term": "Pansarili",
+          "kind": "standard",
+          "definition": "Naganap sa loob ng isipan ng tao; hindi kailangan ng ibang tao para magtagumpay o magpasya.",
+          "answers": null,
+          "position": 12,
+          "id": "c177d54d-1d4d-44af-860d-de334d5eadb2"
+        },
+        {
+          "term": "Pagmumuni-muni",
+          "kind": "standard",
+          "definition": "Kadalasang ginagamit sa pag-iisip nang malalim at pagsusuri ng damdamin at karanasan.",
+          "answers": null,
+          "position": 13,
+          "id": "9fa7bee9-1e54-4aa9-80d1-bee3986cc6f5"
+        },
+        {
+          "term": "Pagpaplano",
+          "kind": "standard",
+          "definition": "Ginagamit sa paghahanda ng gagawin at pagbuo ng desisyon bago kumilos.",
+          "answers": null,
+          "position": 14,
+          "id": "03183ee4-da71-4034-b71b-0b62c29228d8"
+        },
+        {
+          "term": "4 Uri ng Interpersonal Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Dyadic",
+            "Small Group",
+            "Public",
+            "Mass"
+          ],
+          "position": 15,
+          "id": "101b6e6c-72f8-4e90-83d3-0b17c47cfb20"
+        },
+        {
+          "term": "Dyadic",
+          "kind": "standard",
+          "definition": "Nagaganap sa pagitan ng dalawang tao.",
+          "answers": null,
+          "position": 16,
+          "id": "29799070-7b92-43ac-9a34-8eaf9abc94c0"
+        },
+        {
+          "term": "Small Group",
+          "kind": "standard",
+          "definition": "Nagaganap sa tatlo hanggang labindalawang tao.",
+          "answers": null,
+          "position": 17,
+          "id": "f9217045-ef37-4d9f-907d-d3e983031399"
+        },
+        {
+          "term": "Public",
+          "kind": "standard",
+          "definition": "Nagaganap kapag ang tagapagsalita ay nagsasalita sa harap ng maraming tagapakinig.",
+          "answers": null,
+          "position": 18,
+          "id": "ac318a5e-ce14-4e78-bc89-84489181300a"
+        },
+        {
+          "term": "Mass",
+          "kind": "standard",
+          "definition": "Gumagamit ng teknolohiya o midyum upang makarating sa napakaraming tao.",
+          "answers": null,
+          "position": 19,
+          "id": "0570521b-5b4a-4129-bb11-1ec62ecc0ef7"
+        },
+        {
+          "term": "Public Communication",
+          "kind": "standard",
+          "definition": "Pagpapahayag ng isang tao sa harap ng maraming tagapakinig; iisang tagapagsalita at maraming tagapakinig, na mas pormal at organisado ang paghahanda.",
+          "answers": null,
+          "position": 20,
+          "id": "2e198632-6352-49c2-a273-71729052eba5"
+        },
+        {
+          "term": "Mass Communication",
+          "kind": "standard",
+          "definition": "Gumagamit ng midyum o teknolohiya upang makarating sa napakaraming tao nang sabay-sabay; walang direktang ugnayan sa pagitan ng tagapagsalita at tagapakinig.",
+          "answers": null,
+          "position": 21,
+          "id": "43dc9922-17f8-4efe-ac22-c390ad61292f"
+        }
+      ],
+      "id": "e7b28a14-73fe-4b44-962f-25bf86810990"
+    }
+  ]
+}

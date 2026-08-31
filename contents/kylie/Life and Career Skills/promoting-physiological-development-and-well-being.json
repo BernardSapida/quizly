@@ -1,0 +1,103 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Life and Career Skills"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "d9c3b7a2-4e18-4f95-8b06-2a71e4c9d5f3",
+      "name": "Promoting Physiological Development and Well-Being",
+      "description": "Types of physical activity, the harms of prolonged sitting, the components of physical fitness, and types of exercise.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "2 Types of Physical Activity",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Structured",
+            "Unstructured"
+          ],
+          "position": 0,
+          "id": "ea664993-c81e-4457-8f59-7b5ca38c6939"
+        },
+        {
+          "term": "Structured",
+          "kind": "standard",
+          "definition": "Planned physical activity.",
+          "answers": null,
+          "position": 1,
+          "id": "09cda025-2496-4ded-bfca-9d297d0d5ff5"
+        },
+        {
+          "term": "Unstructured",
+          "kind": "standard",
+          "definition": "Physical activity that is not planned.",
+          "answers": null,
+          "position": 2,
+          "id": "b78a173b-b5d9-4a67-959b-e9b937443cd7"
+        },
+        {
+          "term": "Sedentary Behavior",
+          "kind": "standard",
+          "definition": "Low-energy activity such as sitting or watching TV; sitting for long periods is harmful.",
+          "answers": null,
+          "position": 3,
+          "id": "7e57a67c-71d7-4d34-91c2-549cefa1cd1b"
+        },
+        {
+          "term": "3 Risks of Prolonged Sitting",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Heart disease",
+            "Chronic illnesses",
+            "Early death"
+          ],
+          "position": 4,
+          "id": "14a76422-5647-429a-9443-9357c04ec377"
+        },
+        {
+          "term": "5 Components of Physical Fitness",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Flexibility",
+            "Body composition",
+            "Muscular endurance",
+            "Muscular strength",
+            "Cardiorespiratory endurance"
+          ],
+          "position": 5,
+          "id": "4468db3c-5958-4d7c-b11e-3191ed67268d"
+        },
+        {
+          "term": "Recommended Weekly Physical Activity",
+          "kind": "standard",
+          "definition": "Aim for at least 150 minutes of physical activity a week.",
+          "answers": null,
+          "position": 6,
+          "id": "16a6ae1a-d427-43a3-a93f-3c4be574efed"
+        },
+        {
+          "term": "4 Types of Exercise",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Aerobic exercise",
+            "Strength training",
+            "Balance exercise",
+            "Flexibility exercise"
+          ],
+          "position": 7,
+          "id": "13226b6f-4578-4df1-821d-0e917ee93785"
+        }
+      ],
+      "id": "852dff27-bb80-40fb-a557-0bb2536b786b"
+    }
+  ]
+}

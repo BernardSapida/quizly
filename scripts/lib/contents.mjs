@@ -10,7 +10,9 @@ import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-export const SRC = "contents";
+// contents/ is split one level deep by profile (contents/gf/, contents/kylie/), so a
+// read is always scoped to one person. See scripts/lib/profile.mjs.
+export const ROOT = "contents";
 
 // Must match QUIZLY_VERSION in src/features/share/format.ts. One shape, everywhere.
 export const QUIZLY_VERSION = 2;
@@ -46,7 +48,10 @@ const titleCase = (slug) =>
  * Empty directories are kept: standing a subject up now and filling it later is a
  * supported move, and the folder has to exist in the app for that to mean anything.
  */
-export function readContents() {
+export function readContents(profile) {
+  if (!profile) throw new Error("readContents(profile): a profile is required");
+  const SRC = join(ROOT, profile);
+
   let dirs;
   try {
     dirs = readdirSync(SRC, { withFileTypes: true }).filter((d) => d.isDirectory());

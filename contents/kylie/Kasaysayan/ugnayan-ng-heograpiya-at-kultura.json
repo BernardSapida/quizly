@@ -1,0 +1,120 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kasaysayan"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Ugnayan ng Heograpiya at Kultura",
+      "description": "Ang ugnayan ng heograpiya at kultura, ang Ilaya at Ilawod, at ang pagtatagpo ng kalinangan.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Heograpiya",
+          "kind": "standard",
+          "definition": "Pag-aaral ng pisikal na katangian ng daigdig at epekto nito sa buhay ng tao.",
+          "answers": null,
+          "position": 0,
+          "id": "f059617a-d110-48f4-a880-1cebf188984f"
+        },
+        {
+          "term": "Kultura",
+          "kind": "standard",
+          "definition": "Kabuuan ng paniniwala, tradisyon, wika, sining, at pamumuhay ng isang pangkat.",
+          "answers": null,
+          "position": 1,
+          "id": "48a4827b-1edf-43e8-8301-8a581ebb5646"
+        },
+        {
+          "id": "5790ce33-5ee0-4ad9-960b-31922e2b6d0b",
+          "term": "4 na Ugnayan ng Heograpiya at Kultura",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Nakakaapekto ang kapaligiran sa pamumuhay ng tao",
+            "Nahahati ang kultura batay sa rehiyon",
+            "Nakakaapekto ang lokasyon sa komunikasyon at pagkakakilanlan",
+            "Pagkakakilanlan sa tradisyon, sining, at arkitektura"
+          ],
+          "position": 2,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Ilaya",
+          "kind": "standard",
+          "definition": "Mataas na lugar, looban; kabuhayan: pagsasaka, pagtatanim, at pag-aalaga ng hayop.",
+          "answers": null,
+          "position": 3,
+          "id": "f550a703-d3c4-441f-965e-4cac2629c3e0"
+        },
+        {
+          "term": "Igorot",
+          "kind": "standard",
+          "definition": "Naninirahan sa kabundukan ng Cordillera; pagsasaka; kilala sa Hagdan-Hagdang Palayan o Banaue Rice Terraces.",
+          "answers": null,
+          "position": 4,
+          "id": "4065a2e1-7673-4fdd-b565-5637b1c91352"
+        },
+        {
+          "term": "Binukot",
+          "kind": "standard",
+          "definition": "Mula sa Panay Island; tradisyong nagpapahalaga sa kababaihan.",
+          "answers": null,
+          "position": 5,
+          "id": "5cc37fdc-dd41-48ce-ba0a-ce1d9eeb5689"
+        },
+        {
+          "term": "Ilawod",
+          "kind": "standard",
+          "definition": "Tabing-dagat o ilog, mababang lugar; kabuhayan: pangingisda at kalakalan.",
+          "answers": null,
+          "position": 6,
+          "id": "d589e063-adf2-45c3-bc43-b0cc463344d8"
+        },
+        {
+          "term": "Moro",
+          "kind": "standard",
+          "definition": "Mula sa Sulu Archipelago; kalakalan, pagtatanggol sa teritoryo, at paniniwala.",
+          "answers": null,
+          "position": 7,
+          "id": "9b96f784-9f4b-4e5c-becd-725477902292"
+        },
+        {
+          "term": "Badjao",
+          "kind": "standard",
+          "definition": "Sea Gypsies; pamumuhay sa dagat, nakatira sa bahay-tubig.",
+          "answers": null,
+          "position": 8,
+          "id": "34a8c456-6034-40ab-82f4-eb542ae73b7a"
+        },
+        {
+          "term": "Pagtatagpo ng Kalinangan",
+          "kind": "standard",
+          "definition": "Pagpapalitan ng produkto, ideya, at tradisyon sa pagitan ng magkaibang pangkat.",
+          "answers": null,
+          "position": 9,
+          "id": "aa07995f-0b04-4c68-8b64-2f211c44d4b1"
+        },
+        {
+          "id": "1af1fd32-67fa-4b3e-98bb-ac28e9544ddc",
+          "term": "Kahalagahan ng Pagtatagpo ng Kalinangan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Nagpapalawak ng pananaw",
+            "Nagbubuo ng pagkakaisa",
+            "Napananatili ang kultural na pamana"
+          ],
+          "position": 10,
+          "updatedAt": 1783971504483
+        }
+      ],
+      "id": "57258967-2f89-4c62-b593-e347a1095690"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Mabisang Komunikasyon"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Functions of Language",
+      "description": "Ang mga function ng wika ayon sa layunin, ang tatlong pangunahing layunin ng wika, at ang mga konsiderasyon sa audyens.",
+      "position": 5,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "4 Function ng Wika Ayon sa Layunin",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Phatic Function",
+            "Referential Function",
+            "Metalingual Function",
+            "Poetic Function"
+          ],
+          "position": 0,
+          "id": "7032c9a3-ffb0-49b5-98b1-7f447a8869e6"
+        },
+        {
+          "term": "Phatic Function",
+          "kind": "standard",
+          "definition": "Pakikipag-ugnayan upang magsimula, mapanatili, at matapos ang usapan.",
+          "answers": null,
+          "position": 1,
+          "id": "38a57bef-e5aa-43da-8db1-8660037430c0"
+        },
+        {
+          "term": "Referential Function",
+          "kind": "standard",
+          "definition": "Nagbibigay ng impormasyon tungkol sa isang bagay, tao, o pangyayari; ipinapaliwanag ang katotohanan at katangian ng paksa.",
+          "answers": null,
+          "position": 2,
+          "id": "695154e8-dffd-4257-abd8-914c3789871e"
+        },
+        {
+          "term": "Metalingual Function",
+          "kind": "standard",
+          "definition": "Ang paggamit ng wika upang pag-usapan ang wika mismo.",
+          "answers": null,
+          "position": 3,
+          "id": "136ab32b-2521-4cec-a4c3-4a2fcaef37db"
+        },
+        {
+          "term": "Poetic Function",
+          "kind": "standard",
+          "definition": "Pagpapahayag ng kaisipan at damdamin sa masining na paraan.",
+          "answers": null,
+          "position": 4,
+          "id": "9ba21972-563f-4e87-bd36-c0bf5db957d8"
+        },
+        {
+          "term": "3 Pangunahing Layunin ng Wika",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Informative",
+            "Persuasive",
+            "Expressive"
+          ],
+          "position": 5,
+          "id": "94f5718b-7c60-4058-86cb-3155d4b151db"
+        },
+        {
+          "term": "Informative",
+          "kind": "standard",
+          "definition": "Ang pangunahing layunin ay magbigay ng impormasyon, kaalaman, at datos; halimbawa: balita, ulat, at paliwanag sa klase.",
+          "answers": null,
+          "position": 6,
+          "id": "e938b356-5ba4-4b41-a7fd-497d3d2080e9"
+        },
+        {
+          "term": "Persuasive",
+          "kind": "standard",
+          "definition": "Layuning manghikayat, mangumbinsi, o mag-impluwensya sa kaisipan at kilos ng iba; halimbawa: pangangampanya, patalastas, at paninindigan sa isyu.",
+          "answers": null,
+          "position": 7,
+          "id": "ce1aed5c-b2c8-402e-97ee-fcd460c350f3"
+        },
+        {
+          "term": "Expressive",
+          "kind": "standard",
+          "definition": "Pagpapahayag ng damdamin, emosyon, at kaisipan; halimbawa: tula, kanta, at liham ng pag-ibig.",
+          "answers": null,
+          "position": 8,
+          "id": "9beefddc-9da2-4d78-9906-7bec7ed37a4d"
+        },
+        {
+          "term": "6 Konsiderasyon sa Audyens",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Kakayahan",
+            "Kasanayan",
+            "Karanasan",
+            "Pangangailangan",
+            "Saloobin",
+            "Wika"
+          ],
+          "position": 9,
+          "id": "a2cac00c-fe72-4935-9270-a38697bcc927"
+        },
+        {
+          "term": "Kakayahan",
+          "kind": "standard",
+          "definition": "Ang antas ng kaalaman at pag-unawa ng tagapakinig sa paksang tinatalakay; dapat iangkop ang wika at paliwanag sa antas ng nakikinig.",
+          "answers": null,
+          "position": 10,
+          "id": "c13320d7-e743-4286-87ff-93155c8f31ea"
+        },
+        {
+          "term": "Kasanayan",
+          "kind": "standard",
+          "definition": "Kakayahan ng tagapakinig na umunawa, magsuri, at tumugon sa mensahe.",
+          "answers": null,
+          "position": 11,
+          "id": "dff6dccb-fd0b-45d2-ba50-f47ae3ff7fcc"
+        },
+        {
+          "term": "Karanasan",
+          "kind": "standard",
+          "definition": "Ang mga karanasan at pinagdaanan ng tagapakinig na maaaring maging batayan ng pag-unawa.",
+          "answers": null,
+          "position": 12,
+          "id": "a41f4ab6-a880-4216-b7fa-81e897ce8233"
+        },
+        {
+          "term": "Pangangailangan",
+          "kind": "standard",
+          "definition": "Ang mga bagay na kailangan o inaasahan ng tagapakinig mula sa mensahe.",
+          "answers": null,
+          "position": 13,
+          "id": "8d9b7ae8-d8ac-45c2-bfc6-0f0037eae2d3"
+        },
+        {
+          "term": "Saloobin",
+          "kind": "standard",
+          "definition": "Paniniwala, damdamin, at pananaw ng nagpapahayag at ng tagapakinig; nakakaapekto sa paraan ng pagpapahayag at pagtanggap ng mensahe.",
+          "answers": null,
+          "position": 14,
+          "id": "da9175ae-e728-43f8-a8d3-6c62174b0786"
+        },
+        {
+          "term": "Wika bilang Konsiderasyon sa Audyens",
+          "kind": "standard",
+          "definition": "Ang sitwasyon, lugar, at panahon kung saan nagaganap ang komunikasyon.",
+          "answers": null,
+          "position": 15,
+          "id": "23e1e6fb-5b15-4f54-8449-eda44a82deed"
+        }
+      ],
+      "id": "b75bad82-a91a-46b4-b542-44e5ef2ab8ef"
+    }
+  ]
+}

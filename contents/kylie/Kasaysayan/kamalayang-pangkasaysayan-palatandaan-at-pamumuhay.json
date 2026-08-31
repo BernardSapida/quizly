@@ -1,0 +1,149 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kasaysayan"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kamalayang Pangkasaysayan: Palatandaan at Pamumuhay",
+      "description": "Ang palatandaan at katangian ng kamalayang pangkasaysayan, historical distortion, at ang pagkakaiba ng pamumuhay sa Ilaya at Ilawod.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Kamalayang Pangkasaysayan",
+          "kind": "standard",
+          "definition": "Malalim na pagkaunawa at pagpapahalaga sa kasaysayan; hindi lang listahan ng nakaraan, kundi gabay ng kasalukuyan at hinaharap.",
+          "answers": null,
+          "position": 0,
+          "id": "32a64052-ff0c-46d4-98cb-a41a21296bd0"
+        },
+        {
+          "id": "b0c5fc38-a401-459c-8184-14f276782777",
+          "term": "3 Palatandaan ng Kamalayang Pangkasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pagkilala sa mahahalagang pangyayari sa kasaysayan",
+            "Pag-unawa sa ugnayan ng nakaraan, kasalukuyan, at hinaharap",
+            "Pagkakaroon ng kritikal na pananaw sa mga isyu sa kasaysayan"
+          ],
+          "position": 1,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "3f734a68-66d3-41bf-a52a-c7c359fe51d6",
+          "term": "5 Katangian ng Kamalayang Pangkasaysayan",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Mapanuri",
+            "Makabayan",
+            "Matalas ang pag-unawa sa sanhi at bunga",
+            "Nirerespeto ang nakaraan",
+            "Aktibong nag-aaral ng kasaysayan"
+          ],
+          "position": 2,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Historical Distortion",
+          "kind": "standard",
+          "definition": "Ang pagbaluktot ng kasaysayan; nalalabanan ito sa pamamagitan ng pagtatama ng maling impormasyon.",
+          "answers": null,
+          "position": 3,
+          "id": "28570bbd-5971-4e58-a2d4-e89c1adccc5f"
+        },
+        {
+          "term": "Pagkakaiba ng Pamumuhay",
+          "kind": "standard",
+          "definition": "Ang lokasyon at kapaligiran ang nagtatakda ng pamumuhay; ang pagkain, tirahan, at kabuhayan ay nakadepende sa likas na yaman at klima.",
+          "answers": null,
+          "position": 4,
+          "id": "09e1af9b-7853-4685-a490-a8debfec8e01"
+        },
+        {
+          "term": "Ilaya",
+          "kind": "standard",
+          "definition": "Malayo sa tubig, matataas na lugar; pamumuhay: pagsasaka at rice terraces, nakasentro sa lupa.",
+          "answers": null,
+          "position": 5,
+          "id": "26ee544d-c0ef-42a8-b8f5-c475e380b71a"
+        },
+        {
+          "term": "Igorot",
+          "kind": "standard",
+          "definition": "Halimbawa ng pamayanan sa Ilaya; taga-Cordillera na may sariling kultura at pamumuhay sa kabundukan.",
+          "answers": null,
+          "position": 6,
+          "id": "a486f9b8-91ab-4d45-8367-8a70ee0d024e"
+        },
+        {
+          "term": "Ilawod",
+          "kind": "standard",
+          "definition": "Malapit sa tubig, mababang lugar; pamumuhay: pangingisda at paglalayag, nakasentro sa dagat.",
+          "answers": null,
+          "position": 7,
+          "id": "193983b8-894e-489c-bff5-a682ce73528e"
+        },
+        {
+          "term": "Moro",
+          "kind": "standard",
+          "definition": "Halimbawa ng pamayanan sa Ilawod; taga-Sulu Zone at Sulu Archipelago, kilala sa kalakalan at paglalayag; kasama ang Tausug, Iranun, at Sulu Pirates.",
+          "answers": null,
+          "position": 8,
+          "id": "02983d08-fa37-4fa9-b350-f5824cc1a304"
+        },
+        {
+          "term": "Badjao",
+          "kind": "standard",
+          "definition": "Sea Gypsies o Sea Nomads; nakatira sa bangka o bahay-tubig, walang permanenteng tirahan; naglalakbay mula Sulu hanggang Malaysia at Indonesia.",
+          "answers": null,
+          "position": 9,
+          "id": "6380e6f4-88ef-48e7-93c6-855191ec81d6"
+        },
+        {
+          "term": "3 Bunga ng Pagtatagpo ng Ilaya at Ilawod",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Komersyo",
+            "Kultura",
+            "Kaalaman"
+          ],
+          "position": 10,
+          "id": "88b5967c-ece5-44a1-845d-71cd6671275a"
+        },
+        {
+          "term": "Komersyo sa Pagtatagpo ng Ilaya at Ilawod",
+          "kind": "standard",
+          "definition": "Nagpapalitan ng produkto: palay at gulay mula sa lupa, isda at asin mula sa dagat.",
+          "answers": null,
+          "position": 11,
+          "id": "535e67ea-f605-4ddf-9491-6522705934fe"
+        },
+        {
+          "term": "Palitan ng Kultura sa Pagtatagpo ng Ilaya at Ilawod",
+          "kind": "standard",
+          "definition": "Nagpapalitan ang mga pangkat ng kaugalian, paniniwala, at pamamaraan.",
+          "answers": null,
+          "position": 12,
+          "id": "01bfd8ad-a4b6-4367-b073-3e217c63401e"
+        },
+        {
+          "term": "Palitan ng Kaalaman sa Pagtatagpo ng Ilaya at Ilawod",
+          "kind": "standard",
+          "definition": "Nagtutulungan at nagpapalitan ang mga pangkat ng kaalaman at kasanayan.",
+          "answers": null,
+          "position": 13,
+          "id": "ac57fbae-287a-4b3b-a51f-9c93eff32b12"
+        }
+      ],
+      "id": "7fb98880-6cb8-431a-b47c-73d5bea1730a"
+    }
+  ]
+}

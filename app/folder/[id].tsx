@@ -9,6 +9,7 @@ import { Screen } from "@/components/ui/Screen";
 import { ScreenHeader } from "@/components/ui/ScreenHeader";
 import { FolderDetailSkeleton } from "@/components/ui/SkeletonLoader";
 import { useConfirm } from "@/components/ui/useConfirm";
+import { useToast } from "@/components/ui/Toast";
 import { repo } from "@/db";
 import { shareExport } from "@/features/share/transfer";
 import { useAsync } from "@/lib/use-async";
@@ -18,6 +19,7 @@ export default function FolderDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const { confirm, dialog } = useConfirm();
+  const toast = useToast();
   const [adding, setAdding] = useState(false);
   const [newName, setNewName] = useState("");
 
@@ -68,6 +70,7 @@ export default function FolderDetailScreen() {
     const setId = await repo.createSet(newName.trim(), id);
     setNewName("");
     setAdding(false);
+    toast.show("Lesson created");
     router.push(`/set/${setId}/edit`);
   };
 

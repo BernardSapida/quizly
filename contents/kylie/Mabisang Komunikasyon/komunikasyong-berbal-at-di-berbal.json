@@ -1,0 +1,351 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Mabisang Komunikasyon"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Komunikasyong Berbal at Di-Berbal",
+      "description": "Komunikasyong berbal at ang SPEAKING Model ni Dell Hymes, at ang siyam na uri ng nonverbal na komunikasyon.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Komunikasyong Berbal",
+          "kind": "standard",
+          "definition": "Tumutukoy sa paggamit ng salita at wika upang magpahayag ng kaisipan, damdamin, at mensahe; kasama ang pagsasalita, pakikinig, pagbabasa, at pagsusulat.",
+          "answers": null,
+          "position": 0,
+          "id": "e75f78e6-3b53-4d83-9db5-338d59273aa8"
+        },
+        {
+          "term": "SPEAKING Model",
+          "kind": "standard",
+          "definition": "Paraan ni Dell Hymes upang suriin at unawain ang anumang komunikasyong nagaganap sa iba't ibang sitwasyon at kultura.",
+          "answers": null,
+          "position": 1,
+          "id": "7e2098fc-416a-4169-ad29-4024bb6603f8"
+        },
+        {
+          "term": "SPEAKING Model ni Dell Hymes",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Setting and Scene",
+            "Participants",
+            "Ends",
+            "Act Sequence",
+            "Keys",
+            "Instrumentalities",
+            "Norms",
+            "Genre"
+          ],
+          "position": 2,
+          "id": "feb3d04c-8ebd-4c96-8a67-35e3a43d5322"
+        },
+        {
+          "term": "Setting and Scene",
+          "kind": "standard",
+          "definition": "Ang pisikal na lugar (setting) at ang kultural at sikolohikal na konteksto o layunin (scene) ng pag-uusap.",
+          "answers": null,
+          "position": 3,
+          "id": "a16ecc66-8198-4f77-84e1-c13361736c75"
+        },
+        {
+          "term": "Participants",
+          "kind": "standard",
+          "definition": "Sino ang mga kasali sa komunikasyon: sino ang nagsasalita at sino ang nakikinig, kasama ang kanilang ugnayan, katayuan, edad, at papel.",
+          "answers": null,
+          "position": 4,
+          "id": "fbd95bb4-cb42-4f63-b12e-fb9e374096ae"
+        },
+        {
+          "term": "Ends",
+          "kind": "standard",
+          "definition": "Ang layunin ng komunikasyon at ang inaasahang resulta o hangganan ng usapan.",
+          "answers": null,
+          "position": 5,
+          "id": "66e4e6ee-d8a9-49e9-8816-a0c4380f3550"
+        },
+        {
+          "term": "Act Sequence",
+          "kind": "standard",
+          "definition": "Ang pagkakasunod-sunod ng mga sinasabi at ang paraan ng pagpapahayag: estruktura, paksa, at istilo.",
+          "answers": null,
+          "position": 6,
+          "id": "1d15ad6c-8803-48ea-a68f-b7afebdc2664"
+        },
+        {
+          "term": "Keys",
+          "kind": "standard",
+          "definition": "Ang tono, damdamin, at paraan ng pagpapahayag: pormal o di-pormal, seryoso o masaya.",
+          "answers": null,
+          "position": 7,
+          "id": "98eb2ed1-76f2-41e5-888c-e2e0ba2c7b0d"
+        },
+        {
+          "term": "Instrumentalities",
+          "kind": "standard",
+          "definition": "Ang paraan ng pagpapahayag: pasalita, pasulat, o di-berbal, at kung anong wika o diyalekto ang ginagamit.",
+          "answers": null,
+          "position": 8,
+          "id": "a7fc6e60-7e42-484d-8ce8-226fe2deab0c"
+        },
+        {
+          "term": "Norms",
+          "kind": "standard",
+          "definition": "Ang mga tuntunin, inaasahan, at pamantayan ng pag-uugali ng mga kalahok, tulad ng kung paano makikinig at kung kailan maaaring sumingit.",
+          "answers": null,
+          "position": 9,
+          "id": "9a90d40d-58d1-48cc-952a-b0f9841e004a"
+        },
+        {
+          "term": "Genre",
+          "kind": "standard",
+          "definition": "Ang uri o kategorya ng komunikasyon: talumpati, liham, ulat, usapan, kwento, o iba pa.",
+          "answers": null,
+          "position": 10,
+          "id": "3236508c-f4f3-41ba-a368-d61dfd0f1427"
+        },
+        {
+          "term": "Nonverbal Communication",
+          "kind": "standard",
+          "definition": "Pagpapahayag ng mensahe nang hindi gumagamit ng salita; sa pamamagitan ng kilos, galaw, tindig, ekspresyon ng mukha, tono ng boses, oras, at espasyo.",
+          "answers": null,
+          "position": 11,
+          "id": "fb14e8cf-e38e-497d-9303-9f0d51527fb7"
+        },
+        {
+          "term": "9 Uri ng Nonverbal Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Kinesics",
+            "Proxemics",
+            "Haptics",
+            "Paralanguage",
+            "Chronemics",
+            "Iconics",
+            "Oculesics",
+            "Olfactics",
+            "Kulay"
+          ],
+          "position": 12,
+          "id": "be474f20-be65-4b5f-9aa4-3061b4ccaaa2"
+        },
+        {
+          "term": "Kinesics",
+          "kind": "standard",
+          "definition": "Paggalaw ng katawan, kamay, ulo, at paa upang magpahiwatig ng kahulugan, tulad ng pagtango, pagkaway, at pagtaas ng kilay.",
+          "answers": null,
+          "position": 13,
+          "id": "7fdc3556-9b4d-431f-b762-759eaa9bd6df"
+        },
+        {
+          "term": "Proxemics",
+          "kind": "standard",
+          "definition": "Ang distansya sa pagitan ng mga kausap na nagpapakita ng ugnayan at antas ng pagpapahalaga.",
+          "answers": null,
+          "position": 14,
+          "id": "44299894-8235-400f-a56f-cae98bfd4fbb"
+        },
+        {
+          "term": "4 Distansya sa Proxemics",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Intimate",
+            "Personal",
+            "Social",
+            "Public"
+          ],
+          "position": 15,
+          "id": "89cad65e-1e94-4150-a051-c48627f33c8c"
+        },
+        {
+          "term": "Intimate",
+          "kind": "standard",
+          "definition": "Hanggang 1.5 talampakan.",
+          "answers": null,
+          "position": 16,
+          "id": "8e9b99ca-3d0a-4c24-acb6-61635e36bf48"
+        },
+        {
+          "term": "Personal",
+          "kind": "standard",
+          "definition": "1.5 hanggang 4 na talampakan.",
+          "answers": null,
+          "position": 17,
+          "id": "cca843b0-7dad-4e69-81ab-f19db6d4d481"
+        },
+        {
+          "term": "Social",
+          "kind": "standard",
+          "definition": "4 hanggang 12 talampakan.",
+          "answers": null,
+          "position": 18,
+          "id": "0e78aacf-2b02-4250-bd9b-d8d0798e6ea8"
+        },
+        {
+          "term": "Public",
+          "kind": "standard",
+          "definition": "12 talampakan pataas.",
+          "answers": null,
+          "position": 19,
+          "id": "5287a414-3145-4981-a25b-58fac45d93c6"
+        },
+        {
+          "term": "Haptics",
+          "kind": "standard",
+          "definition": "Paggamit ng paghawak at pandama upang magpahayag ng damdamin o mensahe, tulad ng paghawak sa kamay, pagyakap, at pagtapik sa balikat.",
+          "answers": null,
+          "position": 20,
+          "id": "f3149fc2-068d-474f-be39-66b43e1d5963"
+        },
+        {
+          "term": "Paralanguage",
+          "kind": "standard",
+          "definition": "Ang tono, lakas, bilis, at tindi ng boses na nagbibigay ng karagdagang kahulugan sa sinasabi.",
+          "answers": null,
+          "position": 21,
+          "id": "deec7f75-bc6c-41d3-99dc-c315009e13b7"
+        },
+        {
+          "term": "5 Bahagi ng Paralanguage",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pitch",
+            "Volume",
+            "Speaking Rate",
+            "Vocal Quality",
+            "Verbal Filler"
+          ],
+          "position": 22,
+          "id": "767979cc-8c2b-4f64-b535-5b675330b472"
+        },
+        {
+          "term": "Pitch",
+          "kind": "standard",
+          "definition": "Taas-baba ng tono ng boses.",
+          "answers": null,
+          "position": 23,
+          "id": "68f42ece-6cad-467a-b6c4-aef9f7c9d98e"
+        },
+        {
+          "term": "Volume",
+          "kind": "standard",
+          "definition": "Lakas o hina ng boses.",
+          "answers": null,
+          "position": 24,
+          "id": "2bd12a66-bfaf-4394-8adf-0f3a199776b5"
+        },
+        {
+          "term": "Speaking Rate",
+          "kind": "standard",
+          "definition": "Bilis o bagal ng pagsasalita.",
+          "answers": null,
+          "position": 25,
+          "id": "6ce72d76-ef8c-4d23-a6a8-eaed6b24ce8a"
+        },
+        {
+          "term": "Vocal Quality",
+          "kind": "standard",
+          "definition": "Katangian at tono ng boses.",
+          "answers": null,
+          "position": 26,
+          "id": "db1e5e8b-3d80-4962-bef4-6ba79925a6f8"
+        },
+        {
+          "term": "Verbal Filler",
+          "kind": "standard",
+          "definition": "Salitang ginagamit upang punan ang sandali ng pag-iisip habang nagsasalita.",
+          "answers": null,
+          "position": 27,
+          "id": "a294bdd1-f7cf-4396-ba10-344f3a1c080c"
+        },
+        {
+          "term": "Chronemics",
+          "kind": "standard",
+          "definition": "Paggamit ng oras upang magpahayag ng kahulugan, tulad ng pagdating sa takdang oras at paghihintay.",
+          "answers": null,
+          "position": 28,
+          "id": "229fdcd3-03f3-4745-be27-cc7353f0729c"
+        },
+        {
+          "term": "Iconics",
+          "kind": "standard",
+          "definition": "Mga bagay, tanda, o anyo na nagpapahiwatig ng kahulugan nang hindi gumagamit ng salita, tulad ng kasuotan, itsura, at simbolo.",
+          "answers": null,
+          "position": 29,
+          "id": "09aa990e-b8b0-43a8-ac85-78136b224f89"
+        },
+        {
+          "term": "Oculesics",
+          "kind": "standard",
+          "definition": "Ang pagtingin at galaw ng mata na nagpapahayag ng damdamin, katapatan, at atensyon, tulad ng pagtitig, pag-iwas ng tingin, at pagkurap.",
+          "answers": null,
+          "position": 30,
+          "id": "bf234a17-7a19-405f-8841-f88513005887"
+        },
+        {
+          "term": "Olfactics",
+          "kind": "standard",
+          "definition": "Ang amoy na nagbibigay ng impresyon at mensahe tungkol sa tao o kapaligiran.",
+          "answers": null,
+          "position": 31,
+          "id": "ddf65d46-3002-48d5-8b60-348240b012e9"
+        },
+        {
+          "term": "3 Uri ng Olfactics",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Natural Body Odor",
+            "Ambiance",
+            "Personal Scent"
+          ],
+          "position": 32,
+          "id": "bc3bbe70-103e-4a32-88cf-fe053d6821fd"
+        },
+        {
+          "term": "Natural Body Odor",
+          "kind": "standard",
+          "definition": "Amoy ng katawan.",
+          "answers": null,
+          "position": 33,
+          "id": "645d2c90-e6d9-4cc3-8050-590b152f80de"
+        },
+        {
+          "term": "Ambiance",
+          "kind": "standard",
+          "definition": "Amoy ng kapaligiran.",
+          "answers": null,
+          "position": 34,
+          "id": "a04407a9-9e87-4001-ad8c-b817cc4c744f"
+        },
+        {
+          "term": "Personal Scent",
+          "kind": "standard",
+          "definition": "Pabango o amoy ng gamit.",
+          "answers": null,
+          "position": 35,
+          "id": "61ba3734-2d3a-4a80-bb47-ca55e63efaaa"
+        },
+        {
+          "term": "Kulay",
+          "kind": "standard",
+          "definition": "Ang kulay ay may kahulugan at nagpapahiwatig ng damdamin o mensahe; iba-iba ang kahulugan nito sa iba't ibang kultura.",
+          "answers": null,
+          "position": 36,
+          "id": "f5ec898c-2c6f-4701-95af-5943594e10a5"
+        }
+      ],
+      "id": "697e356c-d85a-4dbb-b2db-f093ecd806a6"
+    }
+  ]
+}

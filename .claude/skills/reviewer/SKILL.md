@@ -7,6 +7,14 @@ description: Turn one lesson's source material (.pptx, .docx, or .pdf) into a Qu
 
 One lesson in, one JSON set out, filed under the right subject and compiled into the app.
 
+## 0. Whose reviewer?
+
+Content is split by person: `contents/gf/` (girlfriend) and `contents/kylie/` (sister),
+each with its own `storage/<profile>/` content pack. **Ask which one — Kylie or gf —
+and don't extract anything until you have the answer**, unless the user already said so
+in the request. Every path and command below takes that profile: `<profile>` is `gf`
+or `kylie`. Run `ls contents/` to see the current set of profiles.
+
 ## 1. Find the file and the lesson
 
 The user drops a `.pptx`, `.docx`, or `.pdf` and usually names the subject and lesson ("Heritage Tourism, Lesson 3"). If either is missing, infer from the filename and the material's own title slide, then **state what you inferred** as you go — don't stop to ask unless it is genuinely ambiguous.
@@ -46,15 +54,35 @@ If a slide comes back `(no text - image-only slide)`, its content is in the imag
 - Terms and definitions are **copied from the source, not composed**. Same wording, same qualifiers, same examples.
 - Go through **every** slide/page. Be exhaustive rather than selective.
 - `standard` = one concept, non-empty `definition`, `answers: null`. `enumeration` = a list, `definition: ""`, items in `answers`, count in the term label.
-- `enumeration` is only for lists of **short, nameable items**. When items are long phrases that won't trim, and there are many (roughly 8+), don't make it a list the student has to type back verbatim — split them into `standard` cards, or make one `standard` card for the whole concept.
-- Anything the student **types** — a `standard` term, an `enumeration` answer — is **one bare name**: no slashed alternatives (`Ilocano`, not `Ilokano/Ilocano`) and no parentheticals (`Department of Tourism`, not `Department of Tourism (DOT)`; `Ilocos Region`, not `Region I (Ilocos Region)`).
+- Build **every** list the source presents as an `enumeration` — short-name lists and phrase lists alike. Do **not** pre-convert phrase lists to `standard` cards. Instead, after building the JSON, show the user a confirmation table of every `enumeration` (step 4) and let them pick which to demote.
+- Anything the student **types** — a `standard` term, an `enumeration` answer — is **one bare name**: no slashed alternatives (`Ilocano`, not `Ilokano/Ilocano`) and **no parentheticals, ever** (`Department of Tourism`, not `Department of Tourism (DOT)`; `Article 275`, not `Article 275 (Revised Penal Code)`; `Protect`, not `Protect (P.R.I.C.E.)`). There is no "ambiguous enough to keep the bracket" exception — the context goes in the definition or the enumeration label.
 - The **definition is the question**, so it must not contain the answer. What you strip out of a term does not get parked in that term's definition — an acronym there gives the term away for free.
 - `quizlyVersion: 2`, a `folders` array, and `folderId` on the set. It is the only shape; the build rejects anything else.
 
-## 4. File it
+## 4. Confirm the enumerations with the user
 
-Write to `contents/<Subject Name>/<lesson-title-slug>.json` — e.g.
-`contents/Kitchen Essentials and Basic Food Preparation/history-of-culinary-arts.json`.
+Before writing the file, list **every** `enumeration` in the set as a table and let the
+user decide which stay and which become `standard` cards:
+
+| # | Label | Items (count) | Suggest |
+| --- | --- | --- | --- |
+| 1 | Erikson's 8 Stages of Psychosocial Development | Trust vs Mistrust; Autonomy vs Shame and Doubt; … (8) | demote? |
+| 2 | 5 Types of Open Wounds | Abrasion; Incised Wound; Laceration; Punctured Wound; Avulsion (5) | keep |
+
+- **Suggest** is a hint only: `keep` for single-word / short-name lists, `demote?` where
+  the answers are multi-word phrases the app's exact-match grading would punish. The
+  decision is the user's — never act on your own `demote?` without their reply.
+- When the user demotes one: if every item already has its own `standard` card, just
+  drop the `enumeration`; otherwise replace it with a `standard` card whose definition
+  carries the list as prose.
+- Every list the user does not name stays an `enumeration`, untouched.
+
+For a multi-lesson run, show one table per set (or one combined table keyed by set).
+
+## 5. File it
+
+Write to `contents/<profile>/<Subject Name>/<lesson-title-slug>.json` — e.g.
+`contents/gf/Kitchen Essentials and Basic Food Preparation/history-of-culinary-arts.json`.
 
 **The set is named for the lesson's own title — never `Lesson <n>`, and never the
 filename.** Take the title from the material itself: the deck's title slide, the PDF's
@@ -73,13 +101,13 @@ Order comes from `set.position`, not from the name: use the source's own sequenc
 (week 1, chapter 3) minus one, so sets still sort the way the course teaches them even
 though the number is no longer written anywhere the student reads.
 
-The directory name is the folder's name **and** its identity in the app, spelled exactly as it should read there (spaces and capitals, not a slug). So **reuse the existing subject directory** — run `ls contents/` first; a new directory means a new, separate folder. Directory names contain spaces, so quote every path you pass to a shell.
+The directory name is the folder's name **and** its identity in the app, spelled exactly as it should read there (spaces and capitals, not a slug). So **reuse the existing subject directory** — run `ls contents/<profile>/` first; a new directory means a new, separate folder. Directory names contain spaces, so quote every path you pass to a shell.
 
 If the subject already has a lesson file, open it and copy its `folders[0].id` and `folders[0].name` verbatim. Only create a directory for a genuinely new subject, and name it the way it should appear in the app.
 
-## 5. Compile and report
+## 6. Compile and report
 
-Run `npm run contents`. Without it the lesson is not in the app at all. The build validates as it goes — it fails if a `standard` term has an empty definition — so a clean run is part of the check.
+Run `npm run contents:<profile>` (e.g. `npm run contents:gf`). Without it the lesson is not in the app at all. The build validates as it goes — it fails if a `standard` term has an empty definition — so a clean run is part of the check.
 
 Then report, in this shape. The point of the report is that the user can check your
 coverage **without reopening the deck**, so every card is listed against the slide it

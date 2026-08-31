@@ -1,0 +1,170 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Effective Communication"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Intrapersonal & Interpersonal Communication + Politeness Markers",
+      "description": "Personal, interpersonal, and intrapersonal communication, plus politeness markers.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Personal Communication",
+          "kind": "standard",
+          "definition": "Private communication with oneself or one other person; sharing thoughts and feelings in a personal, controlled way.",
+          "answers": null,
+          "position": 0,
+          "id": "58ec8433-3593-46a2-855e-b591f6e955fb"
+        },
+        {
+          "term": "Interpersonal Communication",
+          "kind": "standard",
+          "definition": "Communication with one or more people; adjust speech to match the audience.",
+          "answers": null,
+          "position": 1,
+          "id": "d74f8b92-3d5c-4ec7-ab37-8eb77bfe2b02"
+        },
+        {
+          "term": "2 Types of Interpersonal Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Dyad",
+            "Small Group"
+          ],
+          "position": 2,
+          "id": "8992fcb2-14bd-408d-84dc-9bfa879e9e3e"
+        },
+        {
+          "term": "Dyad",
+          "kind": "standard",
+          "definition": "Between exactly 2 people.",
+          "answers": null,
+          "position": 3,
+          "id": "4c5b9064-d004-4166-931a-f7b007fe5d41"
+        },
+        {
+          "term": "Small Group",
+          "kind": "standard",
+          "definition": "Between 3 or more people.",
+          "answers": null,
+          "position": 4,
+          "id": "f8092fc9-e2e3-4452-8668-ee23e243209c"
+        },
+        {
+          "term": "Intrapersonal Communication",
+          "kind": "standard",
+          "definition": "Communication with oneself; internal dialogue that shapes self-understanding and personality.",
+          "answers": null,
+          "position": 5,
+          "id": "307e5b6f-8e4f-402d-a3bc-2d158ee6ee00"
+        },
+        {
+          "term": "4 Aspects of Intrapersonal Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Self-Talk",
+            "Self-Reflection",
+            "Self-Concept",
+            "Self-Esteem"
+          ],
+          "position": 6,
+          "id": "aef1e344-4c26-499b-892d-318ca964bf63"
+        },
+        {
+          "term": "Self-Talk",
+          "kind": "standard",
+          "definition": "Internal mental conversation.",
+          "answers": null,
+          "position": 7,
+          "id": "873add34-6f3f-4343-86c8-8d13f6feba55"
+        },
+        {
+          "term": "Self-Reflection",
+          "kind": "standard",
+          "definition": "Examining one's own thoughts, feelings, and actions.",
+          "answers": null,
+          "position": 8,
+          "id": "17a08052-bc95-4bb0-9225-aff334746e40"
+        },
+        {
+          "term": "Self-Concept",
+          "kind": "standard",
+          "definition": "How you perceive yourself.",
+          "answers": null,
+          "position": 9,
+          "id": "c83b578a-ca0a-4f62-8faf-b20469e40dea"
+        },
+        {
+          "term": "Self-Esteem",
+          "kind": "standard",
+          "definition": "How you value and evaluate your own worth.",
+          "answers": null,
+          "position": 10,
+          "id": "329c8b33-968c-4411-870c-8000906c76ef"
+        },
+        {
+          "term": "Politeness Markers",
+          "kind": "standard",
+          "definition": "Language tools used to show respect and soften requests and questions.",
+          "answers": null,
+          "position": 11,
+          "id": "36918ac0-b542-4a14-ab1b-b24133f42ecc"
+        },
+        {
+          "term": "4 Types of Politeness Markers",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Modal Verbs",
+            "Hedging Phrases",
+            "Apologetic Expressions",
+            "Formal Address"
+          ],
+          "position": 12,
+          "id": "91216460-072f-459f-8ab7-d61e93da43b5"
+        },
+        {
+          "term": "Modal Verbs",
+          "kind": "standard",
+          "definition": "Politeness markers such as could, would, and might.",
+          "answers": null,
+          "position": 13,
+          "id": "64bd22d8-3fab-4728-8f31-0048d5ec5d93"
+        },
+        {
+          "term": "Hedging Phrases",
+          "kind": "standard",
+          "definition": "Politeness markers such as perhaps, maybe, and I think.",
+          "answers": null,
+          "position": 14,
+          "id": "379ff881-983f-44e6-99bb-5ee568c7eb87"
+        },
+        {
+          "term": "Apologetic Expressions",
+          "kind": "standard",
+          "definition": "Politeness markers such as excuse me and sorry to bother you.",
+          "answers": null,
+          "position": 15,
+          "id": "84f95764-1dcc-4850-90f7-544ebb83cfd7"
+        },
+        {
+          "term": "Formal Address",
+          "kind": "standard",
+          "definition": "Politeness markers such as sir, ma'am, and professor.",
+          "answers": null,
+          "position": 16,
+          "id": "04ed240d-33ad-476d-9225-4c296eca25e9"
+        }
+      ],
+      "id": "82959233-15f4-4591-baf1-4dc780d7fa52"
+    }
+  ]
+}

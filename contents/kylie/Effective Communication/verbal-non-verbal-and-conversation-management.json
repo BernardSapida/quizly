@@ -1,0 +1,264 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Effective Communication"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Verbal, Non-Verbal, and Conversation Management",
+      "description": "Verbal and non-verbal communication, verbal strategies, and communicative strategies for managing conversation.",
+      "position": 3,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Communication and Civilization",
+          "kind": "standard",
+          "definition": "Communication is central to human progress; it goes beyond spoken and written language.",
+          "answers": null,
+          "position": 0,
+          "id": "f4d7ee67-28f6-436e-b1e4-d7c62854c870"
+        },
+        {
+          "term": "2 Types of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Verbal Communication",
+            "Non-Verbal Communication"
+          ],
+          "position": 1,
+          "id": "c95fc829-ce3d-4fc1-9591-107376e2582d"
+        },
+        {
+          "term": "Verbal Communication",
+          "kind": "standard",
+          "definition": "Exchanging thoughts, information, and ideas through spoken or written words.",
+          "answers": null,
+          "position": 2,
+          "id": "2cec727e-d846-458b-ba10-d8fbf91d3d66"
+        },
+        {
+          "term": "Non-Verbal Communication",
+          "kind": "standard",
+          "definition": "Conveying messages without words; includes facial expressions, body language, and gestures; meanings vary across cultures.",
+          "answers": null,
+          "position": 3,
+          "id": "2180248f-4b63-4877-bf2f-cb8fdfb9f208"
+        },
+        {
+          "id": "0d256e56-8c3a-4230-8ca1-5e973d99c399",
+          "term": "10 Verbal Communication Strategies",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Master the Pause",
+            "Use Concise Language",
+            "Understand Your Audience",
+            "Speak with Confidence",
+            "Be Mindful of Your Tone",
+            "Pay Attention to Body Language",
+            "Employ Active Listening",
+            "Show Your Authentic Self",
+            "Practice Your Skills",
+            "Gain Feedback"
+          ],
+          "position": 4,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Master the Pause",
+          "kind": "standard",
+          "definition": "Pause before speaking to organize thoughts; prevents rushing.",
+          "answers": null,
+          "position": 5,
+          "id": "a4933e7f-e684-449a-af88-704eb1aa0c63"
+        },
+        {
+          "term": "Use Concise Language",
+          "kind": "standard",
+          "definition": "Be direct; avoid unnecessary words and jargon.",
+          "answers": null,
+          "position": 6,
+          "id": "2e77bdbf-396c-4fcd-8d15-5673c2bb6265"
+        },
+        {
+          "term": "Understand Your Audience",
+          "kind": "standard",
+          "definition": "Adapt language to listeners' background and knowledge.",
+          "answers": null,
+          "position": 7,
+          "id": "0af575dd-91f0-4e43-a0fd-40128cb4f481"
+        },
+        {
+          "term": "Speak with Confidence",
+          "kind": "standard",
+          "definition": "Sound self-assured to build trust and authority.",
+          "answers": null,
+          "position": 8,
+          "id": "cb086536-8b85-4392-a30d-c78c3ed868f9"
+        },
+        {
+          "term": "Be Mindful of Your Tone",
+          "kind": "standard",
+          "definition": "Voice tone conveys emotion; keep it warm and varied.",
+          "answers": null,
+          "position": 9,
+          "id": "ca9416a6-a68c-423c-a475-d80308c65cf3"
+        },
+        {
+          "term": "Pay Attention to Body Language",
+          "kind": "standard",
+          "definition": "Use eye contact, posture, and gestures to reinforce your message.",
+          "answers": null,
+          "position": 10,
+          "id": "bfffc0de-f59c-4ed9-9d45-3c9139c2ed24"
+        },
+        {
+          "term": "Employ Active Listening",
+          "kind": "standard",
+          "definition": "Give full attention; communication is two-way.",
+          "answers": null,
+          "position": 11,
+          "id": "6c92a929-da2f-4256-a4cb-458eb89d632c"
+        },
+        {
+          "term": "Show Your Authentic Self",
+          "kind": "standard",
+          "definition": "Be genuine and honest; builds trust.",
+          "answers": null,
+          "position": 12,
+          "id": "45d74de8-3ef1-4080-8333-6561f2137973"
+        },
+        {
+          "term": "Practice Your Skills",
+          "kind": "standard",
+          "definition": "Rehearse to build confidence and habit.",
+          "answers": null,
+          "position": 13,
+          "id": "3f447dcb-9ce1-4d49-99f2-031c2783182e"
+        },
+        {
+          "term": "Gain Feedback",
+          "kind": "standard",
+          "definition": "Ask others for honest input to improve.",
+          "answers": null,
+          "position": 14,
+          "id": "bad6bd29-bf50-4a39-b98f-e973730228e1"
+        },
+        {
+          "term": "3 Common Types of Non-Verbal Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Facial Expressions",
+            "Body Language",
+            "Gestures"
+          ],
+          "position": 15,
+          "id": "7c2303a4-f39d-44f0-9945-44b1b7ea190a"
+        },
+        {
+          "term": "Facial Expressions",
+          "kind": "standard",
+          "definition": "Smiling, frowning, raising eyebrows; universal emotional cues.",
+          "answers": null,
+          "position": 16,
+          "id": "ed5328ab-f110-46eb-aea4-29cb0a2f237f"
+        },
+        {
+          "term": "Body Language",
+          "kind": "standard",
+          "definition": "Posture, stance, openness; shows attitude and confidence.",
+          "answers": null,
+          "position": 17,
+          "id": "7aca162a-36bb-4bbb-8c48-a619d580223f"
+        },
+        {
+          "term": "Gestures",
+          "kind": "standard",
+          "definition": "Nodding, waving, hand movements; meanings differ across cultures.",
+          "answers": null,
+          "position": 18,
+          "id": "0f9c7a78-53ec-4f52-90fe-f028725353ac"
+        },
+        {
+          "term": "7 Communicative Strategies",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Nomination",
+            "Restriction",
+            "Turn-Taking",
+            "Topic Control",
+            "Topic Shifting",
+            "Repair",
+            "Termination"
+          ],
+          "position": 19,
+          "id": "46fd0b6e-cfff-4e44-8bbd-e8b3238d354d"
+        },
+        {
+          "term": "Nomination",
+          "kind": "standard",
+          "definition": "Collaboratively establishing the topic at the start.",
+          "answers": null,
+          "position": 20,
+          "id": "36a2933e-b029-4c6b-adf2-f1bd074ace14"
+        },
+        {
+          "term": "Restriction",
+          "kind": "standard",
+          "definition": "Limiting the topic to keep discussion focused.",
+          "answers": null,
+          "position": 21,
+          "id": "41424914-705a-44d8-9faf-261365593093"
+        },
+        {
+          "term": "Turn-Taking",
+          "kind": "standard",
+          "definition": "Exchanging speaking roles smoothly without disruption.",
+          "answers": null,
+          "position": 22,
+          "id": "2a2cd06f-0c72-49c3-b1dd-b53db7ad1117"
+        },
+        {
+          "term": "Topic Control",
+          "kind": "standard",
+          "definition": "Staying on topic; avoiding unrelated detours.",
+          "answers": null,
+          "position": 23,
+          "id": "2370c5c8-2316-4943-b989-1207e5b68773"
+        },
+        {
+          "term": "Topic Shifting",
+          "kind": "standard",
+          "definition": "Changing to a new topic smoothly and appropriately.",
+          "answers": null,
+          "position": 24,
+          "id": "080b5a9a-f3d5-4d83-ac48-358bbeed3bef"
+        },
+        {
+          "term": "Repair",
+          "kind": "standard",
+          "definition": "Clarifying misunderstandings or unclear statements.",
+          "answers": null,
+          "position": 25,
+          "id": "f9cd8e0e-083a-4ee8-b5e6-2cdc30584d34"
+        },
+        {
+          "term": "Termination",
+          "kind": "standard",
+          "definition": "Ending the conversation clearly; restate main idea to conclude.",
+          "answers": null,
+          "position": 26,
+          "id": "9daa1f8d-8046-4203-92e3-eb008bbad882"
+        }
+      ],
+      "id": "93cb7870-1f2c-4b91-9e2f-4890b134da96"
+    }
+  ]
+}

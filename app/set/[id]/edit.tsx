@@ -8,7 +8,7 @@ import {
   Plus,
   Trash2,
 } from "lucide-react-native";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   KeyboardAvoidingView,
   Platform,
@@ -19,9 +19,11 @@ import {
   View,
 } from "react-native";
 
+import { AddTermSheet, type AddTermSheetRef } from "@/components/ui/AddTermSheet";
 import { Screen } from "@/components/ui/Screen";
 import { TermListSkeleton } from "@/components/ui/SkeletonLoader";
 import { useConfirm } from "@/components/ui/useConfirm";
+import { useToast } from "@/components/ui/Toast";
 import { repo, type Term, type TermKind } from "@/db";
 import { MIN_POOL_FOR_CHOICE } from "@/features/study/engine";
 import { parseAnswers } from "@/features/study/grading";
@@ -32,10 +34,43 @@ export default function TermEditorScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const { confirm, dialog } = useConfirm();
+  const toast = useToast();
+  const addSheet = useRef<AddTermSheetRef>(null);
 
-  // The row to open the keyboard on — set to whatever "Add term" just created, so
-  // adding a term lands you typing in it rather than staring at a new empty card.
-  const [focusId, setFocusId] = useState<string | null>(null);
+  // Every TermRow autosaves on blur, but leaving this screen — the header
+  // buttons, a swipe-back, the Android hardware button — does not reliably blur
+  // the focused input first, so the last edit could be silently dropped. Each row
+  // registers a flush() here; we call them all before navigating away.
+  const flushers = useRef(new Map<string, () => Promise<boolean>>());
+
+  const registerFlush = useCallback(
+    (termId: string, fn: (() => Promise<boolean>) | null) => {
+      if (fn) flushers.current.set(termId, fn);
+      else flushers.current.delete(termId);
+    },
+    [],
+  );
+
+  const flushAll = useCallback(async () => {
+    const wrote = await Promise.all(
+      [...flushers.current.values()].map((fn) => fn().catch(() => false)),
+    );
+    return wrote.some(Boolean);
+  }, []);
+
+  const leave = useCallback(async () => {
+    const wrote = await flushAll();
+    if (wrote) toast.show("Changes saved");
+    router.back();
+  }, [flushAll, router, toast]);
+
+  // Safety net for the exits that skip `leave` — swipe-back and the hardware
+  // button. The writes still land; only the toast is skipped on those paths.
+  useEffect(() => {
+    return () => {
+      void flushAll();
+    };
+  }, [flushAll]);
 
   const load = useCallback(() => repo.listTerms(id), [id]);
   const { data, loading, refetch } = useAsync(load);
@@ -46,10 +81,15 @@ export default function TermEditorScreen() {
   // actually has 40 terms — and then the list pops in over it.
   const isLoading = loading && data === null;
 
-  const addTerm = async () => {
-    const newId = await repo.createTerm(id);
-    setFocusId(newId);
+  const openAddSheet = () => {
+    // Flush whatever row is being edited before the list refetches under it.
+    void flushAll();
+    addSheet.current?.present();
+  };
+
+  const onTermAdded = () => {
     refetch();
+    toast.show("Term added");
   };
 
   const removeTerm = (term: Term, label: string, hasContent: boolean) => {
@@ -91,17 +131,13 @@ export default function TermEditorScreen() {
             marginTop: SPACING.headerTop,
           }}
         >
-          <Pressable
-            onPress={() => router.back()}
-            hitSlop={12}
-            className="-ml-1"
-          >
+          <Pressable onPress={leave} hitSlop={12} className="-ml-1">
             <ChevronLeft color={COLORS.dark.muted} size={26} />
           </Pressable>
           <Text className="text-app-text text-lg font-semibold">
             Edit terms
           </Text>
-          <Pressable onPress={() => router.back()} hitSlop={12}>
+          <Pressable onPress={leave} hitSlop={12}>
             <Check color={COLORS.correct} size={24} />
           </Pressable>
         </View>
@@ -111,7 +147,7 @@ export default function TermEditorScreen() {
             paddingHorizontal: SPACING.gutter,
             paddingTop: SPACING.headerGap,
             gap: 12,
-            paddingBottom: 120,
+            paddingBottom: 24,
           }}
           keyboardShouldPersistTaps="handled"
           showsVerticalScrollIndicator={false}
@@ -145,31 +181,42 @@ export default function TermEditorScreen() {
                       key={term.id}
                       term={term}
                       index={i}
-                      autoFocus={term.id === focusId}
                       onDelete={removeTerm}
+                      registerFlush={registerFlush}
                     />
                   ))}
                 </>
               )}
-
-              <Button variant="secondary" size="lg" onPress={addTerm}>
-                <Button.Label>
-                  <View className="flex-row items-center gap-2">
-                    <Plus color={COLORS.brandTint} size={18} />
-                    <Text
-                      style={{ color: COLORS.brandTint }}
-                      className="font-semibold"
-                    >
-                      Add term
-                    </Text>
-                  </View>
-                </Button.Label>
-              </Button>
             </>
           )}
         </ScrollView>
+
+        {/* Pinned, so adding a term never means scrolling to the end of a long
+            list first. Opens a bottom sheet rather than appending a blank card. */}
+        <View
+          style={{
+            paddingHorizontal: SPACING.gutter,
+            paddingTop: 10,
+            paddingBottom: 14,
+            borderTopWidth: 1,
+            borderTopColor: COLORS.dark.border,
+            backgroundColor: COLORS.dark.base,
+          }}
+        >
+          <Button variant="primary" size="lg" onPress={openAddSheet}>
+            <Button.Label>
+              <View className="flex-row items-center gap-2">
+                <Plus color="#FFFFFF" size={18} />
+                <Text className="font-semibold" style={{ color: "#FFFFFF" }}>
+                  Add term
+                </Text>
+              </View>
+            </Button.Label>
+          </Button>
+        </View>
       </KeyboardAvoidingView>
       {dialog}
+      <AddTermSheet ref={addSheet} setId={id} onAdded={onTermAdded} />
     </Screen>
   );
 }
@@ -190,20 +237,28 @@ function EmptyTerms() {
   );
 }
 
+const sameList = (a: string[], b: string[]) =>
+  a.length === b.length && a.every((v, i) => v === b[i]);
+
 /**
- * Autosaves on blur. There is no save button and no way to lose work by backing
- * out — the most common way a note-taking UI betrays someone.
+ * Autosaves on blur, and — via the flush() it registers with the parent — again
+ * when the screen is left, so the last edit is never lost to an exit that did not
+ * blur the input first. There is no save button and no way to lose work by
+ * backing out, the most common way a note-taking UI betrays someone.
  */
 function TermRow({
   term,
   index,
-  autoFocus,
   onDelete,
+  registerFlush,
 }: {
   term: Term;
   index: number;
-  autoFocus: boolean;
   onDelete: (term: Term, label: string, hasContent: boolean) => void;
+  registerFlush: (
+    termId: string,
+    fn: (() => Promise<boolean>) | null,
+  ) => void;
 }) {
   const [termText, setTermText] = useState(term.term);
   const [defText, setDefText] = useState(term.definition);
@@ -213,33 +268,87 @@ function TermRow({
     return parsed.length > 0 ? parsed : ["", ""];
   });
 
-  const saveTerm = () => {
-    if (termText !== term.term)
-      void repo.updateTerm(term.id, { term: termText });
-  };
-  const saveDef = () => {
-    if (defText !== term.definition)
-      void repo.updateTerm(term.id, { definition: defText });
+  // Current field values, readable synchronously from flush() — it can run
+  // before a blur or re-render has propagated the newest keystroke into state.
+  const latest = useRef({ termText, defText, kind, items });
+  latest.current = { termText, defText, kind, items };
+
+  // What is actually on disk for this row. Seeded from the loaded term and moved
+  // forward on every write, so flush() only ever sends genuine diffs and is a
+  // cheap no-op when nothing changed.
+  const saved = useRef({
+    term: term.term,
+    definition: term.definition,
+    kind: term.kind,
+    answers: parseAnswers(term.answers),
+  });
+
+  // Persists everything that changed since the last write in a single UPDATE.
+  // Returns whether it wrote. Safe to call from every onBlur and again on exit.
+  const flush = useCallback(async (): Promise<boolean> => {
+    const cur = latest.current;
+    const patch: Parameters<typeof repo.updateTerm>[1] = {};
+
+    if (cur.termText !== saved.current.term) patch.term = cur.termText;
+    if (cur.defText !== saved.current.definition)
+      patch.definition = cur.defText;
+    if (cur.kind !== saved.current.kind) patch.kind = cur.kind;
+
+    if (cur.kind === "enumeration") {
+      const answers = cur.items.map((i) => i.trim()).filter(Boolean);
+      if (!sameList(answers, saved.current.answers)) patch.answers = answers;
+    } else if (saved.current.kind === "enumeration") {
+      // Just switched away from a list — drop the now-stale answer JSON.
+      patch.answers = null;
+    }
+
+    if (Object.keys(patch).length === 0) return false;
+
+    await repo.updateTerm(term.id, patch);
+    saved.current = {
+      term: cur.termText,
+      definition: cur.defText,
+      kind: cur.kind,
+      answers:
+        patch.answers === undefined
+          ? saved.current.answers
+          : (patch.answers ?? []),
+    };
+    return true;
+  }, [term.id]);
+
+  useEffect(() => {
+    registerFlush(term.id, flush);
+    return () => registerFlush(term.id, null);
+  }, [term.id, flush, registerFlush]);
+
+  const saveField = () => {
+    void flush();
   };
 
-  const saveItems = (next: string[]) => {
-    setItems(next);
-    void repo.updateTerm(term.id, {
-      answers: next.map((i) => i.trim()).filter(Boolean),
-    });
-  };
-
-  const toggleKind = () => {
+  const toggleKind = async () => {
     const next: TermKind = kind === "standard" ? "enumeration" : "standard";
     setKind(next);
-    void repo.updateTerm(term.id, {
-      kind: next,
-      // Standard terms carry no answer list; enumeration ones need it seeded.
-      answers:
-        next === "enumeration"
-          ? items.map((i) => i.trim()).filter(Boolean)
-          : null,
-    });
+    // Persist right away rather than waiting for flush: this toggles which study
+    // modes the set unlocks, and there may be no blur before the user leaves.
+    const answers =
+      next === "enumeration"
+        ? latest.current.items.map((i) => i.trim()).filter(Boolean)
+        : null;
+    // Keep the refs ahead of the pending re-render so a flush() racing this
+    // write (e.g. from a fast navigate-away) does not send the old kind back.
+    latest.current = { ...latest.current, kind: next };
+    await repo.updateTerm(term.id, { kind: next, answers });
+    saved.current = { ...saved.current, kind: next, answers: answers ?? [] };
+  };
+
+  const removeItem = (target: number) => {
+    const next = items.filter((_, j) => j !== target);
+    setItems(next);
+    latest.current = { ...latest.current, items: next };
+    const answers = next.map((i) => i.trim()).filter(Boolean);
+    void repo.updateTerm(term.id, { answers });
+    saved.current = { ...saved.current, answers };
   };
 
   const remove = () => {
@@ -291,8 +400,7 @@ function TermRow({
       <TextInput
         value={termText}
         onChangeText={setTermText}
-        onBlur={saveTerm}
-        autoFocus={autoFocus}
+        onBlur={saveField}
         placeholder={
           isEnum
             ? "Prompt — e.g. Types of retrievers"
@@ -320,7 +428,7 @@ function TermRow({
                   next[i] = text;
                   setItems(next);
                 }}
-                onBlur={() => saveItems(items)}
+                onBlur={saveField}
                 placeholder="Golden Retriever"
                 placeholderTextColor={COLORS.dark.muted}
                 // Answers here run long — "Transport system (roads, airports, seaports…)"
@@ -331,7 +439,7 @@ function TermRow({
               />
               {items.length > 2 && (
                 <Pressable
-                  onPress={() => saveItems(items.filter((_, j) => j !== i))}
+                  onPress={() => removeItem(i)}
                   hitSlop={8}
                   className="pt-2.5"
                   accessibilityRole="button"
@@ -355,7 +463,7 @@ function TermRow({
         <TextInput
           value={defText}
           onChangeText={setDefText}
-          onBlur={saveDef}
+          onBlur={saveField}
           placeholder="Definition — e.g. Most known as a friendly family dog"
           placeholderTextColor={COLORS.dark.muted}
           multiline

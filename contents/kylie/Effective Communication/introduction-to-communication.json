@@ -1,0 +1,228 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Effective Communication"
+    }
+  ],
+  "sets": [
+    {
+      "id": "a2e7d015-6c93-4f8a-b1d4-90e5c7213f6b",
+      "folderId": "3f1a9c42-7b6e-4d18-9a25-8c0f21e6b4d7",
+      "name": "Introduction to Communication",
+      "description": "Origin and definition of communication, its seven elements, key concepts, and types.",
+      "position": 0,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "id": "1b9c4e7a-2d63-4a15-8f09-7c1e6b3d905a",
+          "term": "Communication",
+          "kind": "standard",
+          "definition": "The act of sharing or transmitting messages, ideas, or feelings.",
+          "answers": null,
+          "position": 0,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "4d2f8a16-9e50-4c73-b8a1-2f6d9051c3e7",
+          "term": "Communis",
+          "kind": "standard",
+          "definition": "Latin word meaning \"common\"; the origin of the term communication.",
+          "answers": null,
+          "position": 1,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "7a3e1c95-6b28-4d40-9f17-5c8e2a91d063",
+          "term": "7 Elements of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Sender",
+            "Encoding",
+            "Message",
+            "Channel",
+            "Receiver",
+            "Decoding",
+            "Feedback"
+          ],
+          "position": 2,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "9c5d2f81-3a74-4e69-b205-8f1c6d9037ae",
+          "term": "Sender",
+          "kind": "standard",
+          "definition": "The source who originates the message.",
+          "answers": null,
+          "position": 3,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "2e8a4c17-5d90-463b-8c71-9a2f5e0361bd",
+          "term": "Encoding",
+          "kind": "standard",
+          "definition": "Converting thoughts into words, symbols, or other meaningful forms.",
+          "answers": null,
+          "position": 4,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "6f1b9d34-7c25-4a80-95e3-2d8a1c604f79",
+          "term": "Message",
+          "kind": "standard",
+          "definition": "The information, idea, or feeling being conveyed.",
+          "answers": null,
+          "position": 5,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "8d4e2a90-1f63-4c57-b9a2-6e0d3f81527c",
+          "term": "Channel",
+          "kind": "standard",
+          "definition": "The medium used to transmit the message.",
+          "answers": null,
+          "position": 6,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "3a7c5e18-9b40-462d-8f15-2c9e6a01d834",
+          "term": "Receiver",
+          "kind": "standard",
+          "definition": "The person who receives and interprets the message.",
+          "answers": null,
+          "position": 7,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "5c9f3d27-4a61-4e08-b7d2-1f8a90536c4e",
+          "term": "Decoding",
+          "kind": "standard",
+          "definition": "Interpreting the received message.",
+          "answers": null,
+          "position": 8,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "1e6b8a45-2d97-4c30-95f1-7a3c0e924d68",
+          "term": "Feedback",
+          "kind": "standard",
+          "definition": "The response or reaction showing how the receiver responds to the message.",
+          "answers": null,
+          "position": 9,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "4f2d9c73-6a18-450e-b8c5-3e1f70a29d56",
+          "term": "Language",
+          "kind": "standard",
+          "definition": "The choice of words and linguistic rules used to create shared understanding.",
+          "answers": null,
+          "position": 10,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "7c1a5e93-8d24-4f60-9b07-2a6f9c103e85",
+          "term": "Tone",
+          "kind": "standard",
+          "definition": "The attitude or emotion conveyed through speech or writing.",
+          "answers": null,
+          "position": 11,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "9a4d2f68-1c75-4e39-b0a8-5f2e6d907143",
+          "term": "Purpose",
+          "kind": "standard",
+          "definition": "The reason or objective for communicating.",
+          "answers": null,
+          "position": 12,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "2c8f5a19-7b63-40d4-9e12-6a1d3c805f7b",
+          "term": "4 Common Purposes of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Inform",
+            "Persuade",
+            "Entertain",
+            "Motivate"
+          ],
+          "position": 13,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "6d3b9e14-5a80-472c-8f19-1c7a2e604d93",
+          "term": "Audience",
+          "kind": "standard",
+          "definition": "The people who receive or read the message.",
+          "answers": null,
+          "position": 14,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "8f5c1a72-9d46-43e8-b213-7e0a6f925c14",
+          "term": "Context",
+          "kind": "standard",
+          "definition": "The situation or setting in which communication occurs.",
+          "answers": null,
+          "position": 15,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "3e9a7c25-1d68-4b40-95f7-2c8e1a039d64",
+          "term": "4 Types of Communication",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Personal Communication",
+            "Interpersonal Communication",
+            "Social Communication",
+            "Cultural Communication"
+          ],
+          "position": 16,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "5a2f8d16-6c93-4e07-b8a1-9f3d5e201c47",
+          "term": "Personal Communication",
+          "kind": "standard",
+          "definition": "Focused on individual needs and self-expression.",
+          "answers": null,
+          "position": 17,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "7d4c1e98-2a65-40b3-9f18-6e0a3c815d29",
+          "term": "Interpersonal Communication",
+          "kind": "standard",
+          "definition": "Between two or more people for mutual understanding and relationships.",
+          "answers": null,
+          "position": 18,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "1c6e9a34-8b27-45d0-93f5-2a7d1e604c8b",
+          "term": "Social Communication",
+          "kind": "standard",
+          "definition": "Within social circles such as family and friends.",
+          "answers": null,
+          "position": 19,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "4a8d2f57-9e63-41c8-b0a5-3f1e7d924068",
+          "term": "Cultural Communication",
+          "kind": "standard",
+          "definition": "Involving people from different cultural backgrounds.",
+          "answers": null,
+          "position": 20,
+          "updatedAt": 1783971504483
+        }
+      ]
+    }
+  ]
+}

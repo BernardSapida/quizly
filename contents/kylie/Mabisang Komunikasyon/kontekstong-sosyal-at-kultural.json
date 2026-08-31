@@ -1,0 +1,142 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Mabisang Komunikasyon"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "e8f2a5c9-3d14-4b67-9a08-1c6f4e9d2b57",
+      "name": "Kontekstong Sosyal at Kultural",
+      "description": "Ang kontekstong sosyal at kultural sa komunikasyon at ang mga bahagi at elemento ng mga ito.",
+      "position": 1,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Kontekstong Sosyal",
+          "kind": "standard",
+          "definition": "Tumutukoy sa relasyon ng mga nag-uusap, katayuan sa lipunan, edad, kasarian, at sitwasyon kung saan naganap ang komunikasyon.",
+          "answers": null,
+          "position": 0,
+          "id": "2aa26c15-ec2e-4206-850d-75ed048fb2b1"
+        },
+        {
+          "term": "3 Bahagi ng Kontekstong Sosyal",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Antas ng Pormalidad",
+            "Papel sa Lipunan",
+            "Pakikipagkapwa"
+          ],
+          "position": 1,
+          "id": "78622d8a-a4a9-4008-8b8d-bd5944e21c03"
+        },
+        {
+          "term": "Antas ng Pormalidad",
+          "kind": "standard",
+          "definition": "Nagbabago ang paraan ng pagsasalita depende kung ang kausap ay guro, boss, kaibigan, o estranghero.",
+          "answers": null,
+          "position": 2,
+          "id": "c04d0bdb-2808-4338-951a-da2877c0051e"
+        },
+        {
+          "term": "Papel sa Lipunan",
+          "kind": "standard",
+          "definition": "Naaayon ang tono at kilos sa ginagampanang papel, tulad ng magulang sa anak o doktor sa pasyente.",
+          "answers": null,
+          "position": 3,
+          "id": "84c62d2a-84ce-4d34-b27f-45ec23ffd8ee"
+        },
+        {
+          "term": "Pakikipagkapwa",
+          "kind": "standard",
+          "definition": "Pagpapakita ng pagtanggap, respeto, at pagiging sensitibo sa damdamin ng iba, o pakikiramdam.",
+          "answers": null,
+          "position": 4,
+          "id": "f2c082b9-48b5-4108-8367-b319ecdccd5f"
+        },
+        {
+          "term": "Kontekstong Kultural",
+          "kind": "standard",
+          "definition": "Tumutukoy sa mga paniniwala, tradisyon, pagpapahalaga, at pagkakakilanlan ng isang grupo.",
+          "answers": null,
+          "position": 5,
+          "id": "85a25749-9311-4c8f-b7ab-981f2d858381"
+        },
+        {
+          "term": "Paggamit ng Po at Opo",
+          "kind": "standard",
+          "definition": "Halimbawa ng kontekstong kultural; pagpapakita ng respeto sa kulturang Pilipino.",
+          "answers": null,
+          "position": 6,
+          "id": "72d44a76-ec2b-4e5e-9613-01cbecca8496"
+        },
+        {
+          "term": "Di-berbal na Komunikasyon",
+          "kind": "standard",
+          "definition": "Paggamit ng kilos at ekspresyon tulad ng pagmamano bilang tanda ng paggalang.",
+          "answers": null,
+          "position": 7,
+          "id": "4d89f55f-c9e6-4450-a25a-c43cc60fb084"
+        },
+        {
+          "term": "High-Context Communication",
+          "kind": "standard",
+          "definition": "Kulturang tulad ng Pilipino kung saan mahalaga ang kilos, tono, at pahiwatig upang maunawaan ang mensahe.",
+          "answers": null,
+          "position": 8,
+          "id": "5b381329-70e9-457b-a85f-7d9110f01b41"
+        },
+        {
+          "term": "4 Elemento ng Kontekstong Sosyal",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Relasyon ng mga Nag-uusap",
+            "Antas o Katayuan sa Lipunan",
+            "Lugar o Sitwasyon",
+            "Layunin ng Pag-uusap"
+          ],
+          "position": 9,
+          "id": "937dfdc4-cd17-42fa-8d1e-827b68395a8b"
+        },
+        {
+          "term": "Relasyon ng mga Nag-uusap",
+          "kind": "standard",
+          "definition": "Nagbabago ang tono depende kung ang kausap ay kaibigan, pamilya, katrabaho, o estranghero.",
+          "answers": null,
+          "position": 10,
+          "id": "c8b777ab-2a72-40a4-8785-bd664447bd04"
+        },
+        {
+          "term": "Antas o Katayuan sa Lipunan",
+          "kind": "standard",
+          "definition": "Naaapektuhan ng edad, posisyon, at awtoridad ang paraan ng pakikipag-usap.",
+          "answers": null,
+          "position": 11,
+          "id": "82914085-c3f2-4bf2-996e-95ce0df32748"
+        },
+        {
+          "term": "Lugar o Sitwasyon",
+          "kind": "standard",
+          "definition": "Mas pormal sa pampublikong lugar at mas kaswal sa bahay o kasama ang kaibigan.",
+          "answers": null,
+          "position": 12,
+          "id": "b24bcd3f-a67e-4ef9-b0a1-8510af67e800"
+        },
+        {
+          "term": "Layunin ng Pag-uusap",
+          "kind": "standard",
+          "definition": "Maaaring magbigay ng impormasyon, manghikayat, magpahayag ng damdamin, o bumuo ng relasyon.",
+          "answers": null,
+          "position": 13,
+          "id": "9dfd056f-3981-4a7b-bbec-4c43657c8cfa"
+        }
+      ],
+      "id": "20d5a564-f57d-4468-8f47-0d61fca2499f"
+    }
+  ]
+}

@@ -15,14 +15,17 @@
 // Older builds that predate the flag ignore it and merge, which is the safe half of the
 // behaviour rather than a crash.
 //
-// Run: npm run export:all
+// Run: npm run export:all:gf   (or  npm run export:all -- <profile>)
 import { writeFileSync, mkdirSync } from "node:fs";
+import { join } from "node:path";
 
 import { QUIZLY_VERSION, readContents, report } from "./lib/contents.mjs";
+import { resolveProfile } from "./lib/profile.mjs";
 
-const OUT = "storage/quizly-contents.json";
+const profile = resolveProfile();
+const OUT = join("storage", profile, "quizly-contents.json");
 
-const { bundles, setCount, termCount } = readContents();
+const { bundles, setCount, termCount } = readContents(profile);
 
 // Flatten bundles into the two-array export shape: the folder moves from wrapping its
 // sets to sitting beside them, and each set points back by id. Empty folders still ship
@@ -44,10 +47,10 @@ const payload = {
   ),
 };
 
-mkdirSync("storage", { recursive: true });
+mkdirSync(join("storage", profile), { recursive: true });
 writeFileSync(OUT, JSON.stringify(payload, null, 2));
 
-console.log(`Wrote ${OUT}\n`);
+console.log(`Wrote ${OUT}  (profile: ${profile})\n`);
 report(bundles, { setCount, termCount });
 console.log(
   `\n  On the phone: Settings → "Import from a file", then pick this file.\n` +

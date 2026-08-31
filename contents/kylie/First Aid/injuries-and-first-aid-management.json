@@ -1,0 +1,286 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "First Aid"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "Injuries and First Aid Management",
+      "description": "Injury and wound classifications, fracture types, other common injuries, the P.R.I.C.E. method, and proper wound care.",
+      "position": 2,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Injury",
+          "kind": "standard",
+          "definition": "Damage to the body; general term for harm from accidents, falls, hits, or weapons.",
+          "answers": null,
+          "position": 0,
+          "id": "b014991d-a95f-4cec-bd9a-0e3a58558ce4"
+        },
+        {
+          "term": "Wound",
+          "kind": "standard",
+          "definition": "Break or opening in the skin from physical or thermal damage, or a medical condition.",
+          "answers": null,
+          "position": 1,
+          "id": "81ea5f0e-c3d3-4597-b55c-4b9e53b3850e"
+        },
+        {
+          "term": "2 Major Classifications of Injury",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Open Wounds",
+            "Closed Wounds"
+          ],
+          "position": 2,
+          "id": "b7e59e5f-7309-4d0e-a2ad-807e8e536da5"
+        },
+        {
+          "term": "Open Wounds",
+          "kind": "standard",
+          "definition": "The skin is broken.",
+          "answers": null,
+          "position": 3,
+          "id": "5793e71a-839d-4e6a-a816-186187997d37"
+        },
+        {
+          "term": "Closed Wounds",
+          "kind": "standard",
+          "definition": "The skin stays intact.",
+          "answers": null,
+          "position": 4,
+          "id": "53bc6663-335d-41f9-be0e-a0bb9bd83fd9"
+        },
+        {
+          "term": "5 Types of Open Wounds",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Abrasion",
+            "Incised Wound",
+            "Laceration",
+            "Punctured Wound",
+            "Avulsion"
+          ],
+          "position": 5,
+          "id": "08e692e1-5c63-4c2b-a4fa-ab9947a2cabb"
+        },
+        {
+          "term": "Abrasion",
+          "kind": "standard",
+          "definition": "Superficial; the skin surface is rubbed off.",
+          "answers": null,
+          "position": 6,
+          "id": "f9a08064-0ed3-4b49-9fe5-022cfa5e669e"
+        },
+        {
+          "term": "Incised Wound",
+          "kind": "standard",
+          "definition": "Clean, straight cut with smooth edges.",
+          "answers": null,
+          "position": 7,
+          "id": "8c268cdb-5ec1-4d31-872a-c7dc023f2cac"
+        },
+        {
+          "term": "Laceration",
+          "kind": "standard",
+          "definition": "Torn, jagged, irregular edges.",
+          "answers": null,
+          "position": 8,
+          "id": "bbfc817c-a4fe-4f14-b94d-d5df5f603699"
+        },
+        {
+          "term": "Punctured Wound",
+          "kind": "standard",
+          "definition": "From a pointed object; depth greater than width.",
+          "answers": null,
+          "position": 9,
+          "id": "bccb5251-8e71-43c8-938c-3d9ee32d3035"
+        },
+        {
+          "term": "Avulsion",
+          "kind": "standard",
+          "definition": "Skin or tissue partially or fully torn away; may expose muscle, tendon, or bone.",
+          "answers": null,
+          "position": 10,
+          "id": "a7d4ac2b-1fec-4d8f-8e53-157b362d5266"
+        },
+        {
+          "term": "3 Types of Closed Wounds",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Contusion",
+            "Haematoma",
+            "Crush Injury"
+          ],
+          "position": 11,
+          "id": "74a53ab3-b264-4c2e-999e-1eea8dfaf4a7"
+        },
+        {
+          "term": "Contusion",
+          "kind": "standard",
+          "definition": "Blunt force; skin discoloration (bruise), with no skin break.",
+          "answers": null,
+          "position": 12,
+          "id": "b0ddb758-c7cf-43af-8479-cd6177635c72"
+        },
+        {
+          "term": "Haematoma",
+          "kind": "standard",
+          "definition": "Localized blood collection under the skin from trauma.",
+          "answers": null,
+          "position": 13,
+          "id": "350716d3-f4b5-4387-9fc4-8e4285a9fbeb"
+        },
+        {
+          "term": "Crush Injury",
+          "kind": "standard",
+          "definition": "Severe damage from prolonged pressure; harms tissues, nerves, vessels, and bones.",
+          "answers": null,
+          "position": 14,
+          "id": "f62fc633-eca6-4eb1-9866-fabf8c50eefb"
+        },
+        {
+          "term": "Muscle Cramps",
+          "kind": "standard",
+          "definition": "Sudden, involuntary muscle contractions or spasms; common after exercise.",
+          "answers": null,
+          "position": 15,
+          "id": "bca4aad1-eb49-45e3-87e5-49905e41f111"
+        },
+        {
+          "term": "Sprain",
+          "kind": "standard",
+          "definition": "Stretching or tearing of ligaments, which connect bone to bone.",
+          "answers": null,
+          "position": 16,
+          "id": "2728196b-bd88-4e84-9c02-04bdd5694dce"
+        },
+        {
+          "term": "Fracture",
+          "kind": "standard",
+          "definition": "Break or crack in a bone from force exceeding the bone's strength.",
+          "answers": null,
+          "position": 17,
+          "id": "7cd05e82-d127-4cd0-ae2d-6ac04dc5fe9a"
+        },
+        {
+          "term": "5 Types of Fracture",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Greenstick",
+            "Transverse",
+            "Comminuted",
+            "Spiral",
+            "Compound"
+          ],
+          "position": 18,
+          "id": "6afd09d9-f121-4485-86ba-146131186c98"
+        },
+        {
+          "term": "Greenstick",
+          "kind": "standard",
+          "definition": "Partial fracture; the bone bends.",
+          "answers": null,
+          "position": 19,
+          "id": "4f66d76b-ed7e-4aa0-b6a4-a40dec01e81b"
+        },
+        {
+          "term": "Transverse",
+          "kind": "standard",
+          "definition": "Straight horizontal break.",
+          "answers": null,
+          "position": 20,
+          "id": "b7cb6d43-463e-4898-873a-693c30df2547"
+        },
+        {
+          "term": "Comminuted",
+          "kind": "standard",
+          "definition": "The bone shatters into pieces.",
+          "answers": null,
+          "position": 21,
+          "id": "ee27985d-de99-474c-9a96-b2e515a5ec3d"
+        },
+        {
+          "term": "Spiral",
+          "kind": "standard",
+          "definition": "Twisting break from rotational force.",
+          "answers": null,
+          "position": 22,
+          "id": "72e1eb94-559b-4808-8cb1-2493359e3a63"
+        },
+        {
+          "term": "Compound",
+          "kind": "standard",
+          "definition": "The broken bone pierces through the skin.",
+          "answers": null,
+          "position": 23,
+          "id": "27ceebe4-23ce-4ec1-8618-44b7c3960193"
+        },
+        {
+          "term": "Head Injury",
+          "kind": "standard",
+          "definition": "Injury to the brain, skull, or scalp; ranges from a mild bump to traumatic brain injury.",
+          "answers": null,
+          "position": 24,
+          "id": "91d0a5e3-9b07-4bf6-b03e-278c7c503203"
+        },
+        {
+          "term": "Heat-Related Illnesses",
+          "kind": "standard",
+          "definition": "The body cannot cool itself; ranges from heat cramps to life-threatening heatstroke; worsened by humidity, sun, and dehydration.",
+          "answers": null,
+          "position": 25,
+          "id": "af83dc08-318a-44f8-9c12-dd598365699e"
+        },
+        {
+          "term": "P.R.I.C.E. Method",
+          "kind": "standard",
+          "definition": "Used for sprains, contusions, dislocations, and fractures to reduce swelling, pain, and inflammation.",
+          "answers": null,
+          "position": 26,
+          "id": "24e0a032-c078-48fa-b7ac-222de5751600"
+        },
+        {
+          "term": "The 5 Steps of the P.R.I.C.E. Method",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Protect",
+            "Rest",
+            "Ice",
+            "Compress",
+            "Elevate"
+          ],
+          "position": 27,
+          "id": "6f6f5abe-7d3f-4676-bf91-f74bf2cc7e13"
+        },
+        {
+          "id": "bfcc73fb-bb13-44e2-b41e-eb8345b901d9",
+          "term": "6 Steps of Proper Wound Care",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Wash your hands",
+            "Stop the bleeding",
+            "Clean the wound",
+            "Apply antibiotic ointment",
+            "Cover the wound",
+            "Change the covering daily"
+          ],
+          "position": 28,
+          "updatedAt": 1783971504483
+        }
+      ],
+      "id": "0c689823-9a48-4c53-accc-93982685158f"
+    }
+  ]
+}

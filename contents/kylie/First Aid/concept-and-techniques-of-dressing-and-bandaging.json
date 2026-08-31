@@ -1,0 +1,156 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "First Aid"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "b7e14d02-9a83-4c56-8e1f-3d0a72b95c48",
+      "name": "Concept and Techniques of Dressing and Bandaging",
+      "description": "Dressings and bandages: their functions, examples, types, and the general rules of bandaging.",
+      "position": 4,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Dressing",
+          "kind": "standard",
+          "definition": "Sterile material placed directly on a wound to protect it and help it heal.",
+          "answers": null,
+          "position": 0,
+          "id": "eadf0642-b14e-4450-9ec0-ba87fb6e4bbe"
+        },
+        {
+          "id": "fcd5fba5-7c7c-478b-84bb-9ee248d81a2b",
+          "term": "5 Functions of a Dressing",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Stops bleeding",
+            "Absorbs blood and fluids",
+            "Protects from dirt and germs",
+            "Prevents infection",
+            "Promotes healing"
+          ],
+          "position": 1,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "3 Examples of Dressing",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Sterile Gauze",
+            "Non-Stick Dressing",
+            "Trauma Dressing"
+          ],
+          "position": 2,
+          "id": "f0825ef1-82a3-4ff6-8b8d-ffeaab4bef25"
+        },
+        {
+          "term": "Sterile Gauze",
+          "kind": "standard",
+          "definition": "Covers cuts, scrapes, and wounds; absorbs blood and fluids.",
+          "answers": null,
+          "position": 3,
+          "id": "7610176f-0fc6-4911-abb7-b06ffc50ee0e"
+        },
+        {
+          "term": "Non-Stick Dressing",
+          "kind": "standard",
+          "definition": "For burns, surgical wounds, and skin injuries; reduces pain during dressing changes.",
+          "answers": null,
+          "position": 4,
+          "id": "9cedde25-07e9-47c7-8e1d-1a41d834f0f1"
+        },
+        {
+          "term": "Trauma Dressing",
+          "kind": "standard",
+          "definition": "For large or deep wounds; found in emergency first aid kits.",
+          "answers": null,
+          "position": 5,
+          "id": "6e17b563-7f69-487d-8a8f-1e3d61379c75"
+        },
+        {
+          "term": "Bandage",
+          "kind": "standard",
+          "definition": "Strip of material used to hold a dressing in place, support an injured body part, or apply pressure.",
+          "answers": null,
+          "position": 6,
+          "id": "dc5314f1-bc30-44ee-b520-3a998ad6c8b8"
+        },
+        {
+          "id": "731ee712-5224-4fb3-acb9-be0e0cc80ea9",
+          "term": "5 Functions of a Bandage",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Secures dressings",
+            "Reduces swelling",
+            "Supports injured joints",
+            "Immobilizes fractures",
+            "Secures splints"
+          ],
+          "position": 7,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "4 Types of Bandages",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Triangular Bandage",
+            "Cravat Bandage",
+            "Roller Bandage",
+            "Binder Bandage"
+          ],
+          "position": 8,
+          "id": "9bd9492a-081b-4049-b395-bc4a7098b4a2"
+        },
+        {
+          "term": "Triangular Bandage",
+          "kind": "standard",
+          "definition": "Large triangular cloth; the most versatile; used full or folded into a cravat. Parts: apex, body (base 60 inches), and 2 tips (40 inches each).",
+          "answers": null,
+          "position": 9,
+          "id": "7a974eca-f1ad-43e4-983b-bf116c149a57"
+        },
+        {
+          "term": "Cravat Bandage",
+          "kind": "standard",
+          "definition": "Made by folding the triangular bandage; available in 1, 2, or 3 folds.",
+          "answers": null,
+          "position": 10,
+          "id": "20ef4468-cd96-4014-86f1-4e09d02f71bd"
+        },
+        {
+          "term": "Roller Bandage",
+          "kind": "standard",
+          "definition": "Long strip of cloth rolled into a cylinder; provides support and pressure.",
+          "answers": null,
+          "position": 11,
+          "id": "cceccdb0-4e85-4f94-9ee1-5a8c523286d1"
+        },
+        {
+          "term": "Binder Bandage",
+          "kind": "standard",
+          "definition": "Wide bandage; secures dressings over large body parts.",
+          "answers": null,
+          "position": 12,
+          "id": "0c44e8ba-08ed-4e6a-9de2-62ea648ad3d5"
+        },
+        {
+          "term": "General Rules in Bandaging",
+          "kind": "standard",
+          "definition": "Wash hands before treatment and wear gloves when available; cover wounds with sterile dressings first; apply firm but gentle pressure; do not tie knots over wounds; check circulation after bandaging and ask if the bandage feels too tight; elevate injured limbs when appropriate.",
+          "answers": null,
+          "position": 13,
+          "id": "1ea0b351-0488-40a7-86ed-20eb7733855f"
+        }
+      ],
+      "id": "68ffde3e-b71a-4ccd-af8e-1442d5fb54dc"
+    }
+  ]
+}

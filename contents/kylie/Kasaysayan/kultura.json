@@ -1,0 +1,211 @@
+{
+  "quizlyVersion": 2,
+  "folders": [
+    {
+      "id": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kasaysayan"
+    }
+  ],
+  "sets": [
+    {
+      "folderId": "c4a5f8e1-2b93-4d67-8a10-6f3e9c25b7d4",
+      "name": "Kultura",
+      "description": "Ang kahulugan ng kultura at kulturang Pilipino, at ang anim na elemento nito: wika, kaugalian, pagkain, paniniwala, sining, at kasuotan.",
+      "position": 4,
+      "updatedAt": 1783971504483,
+      "terms": [
+        {
+          "term": "Kultura",
+          "kind": "standard",
+          "definition": "Kabuuan ng mga pag-uugali, tradisyon, paniniwala, sining, kasaysayan, wika, at kaugalian na ipinapasa mula sa isang henerasyon patungo sa susunod.",
+          "answers": null,
+          "position": 0,
+          "id": "57cff7fb-645e-4723-a4cf-d6d37829e717"
+        },
+        {
+          "term": "Kulturang Pilipino",
+          "kind": "standard",
+          "definition": "Kabuuan ng mga tradisyon, kaugalian, paniniwala, sining, wika, pagkain, at pamumuhay ng mga Pilipino.",
+          "answers": null,
+          "position": 1,
+          "id": "3b3585a8-cd38-4f6c-8e26-ca7898ef0cad"
+        },
+        {
+          "id": "44d3fdbd-281f-4b9e-87d0-515a6738851d",
+          "term": "6 na Elemento ng Kultura",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Wika at Panitikan",
+            "Kaugalian at Tradisyon",
+            "Pagkain",
+            "Paniniwala at Pananampalataya",
+            "Sining at Musika",
+            "Kasuotan"
+          ],
+          "position": 2,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Wika",
+          "kind": "standard",
+          "definition": "Mahalagang bahagi ng kulturang Pilipino; iba't ibang wika at diyalekto sa bawat rehiyon tulad ng Tagalog, Cebuano, Ilocano, at Hiligaynon.",
+          "answers": null,
+          "position": 3,
+          "id": "542931f5-7e4a-4e57-b575-54ad4a74d3a4"
+        },
+        {
+          "term": "Panitikan",
+          "kind": "standard",
+          "definition": "Mga akdang nagpapakita ng karanasan, damdamin, kaisipan, at kultura ng lipunan.",
+          "answers": null,
+          "position": 4,
+          "id": "33b55fae-1a15-4d8f-ab52-bf434f0fcbfe"
+        },
+        {
+          "id": "4412cbee-84be-41a8-bc2b-4267394b8595",
+          "term": "5 Halimbawa ng Kaugaliang Pilipino",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pagmamano",
+            "Paggamit ng po at opo",
+            "Bayanihan",
+            "Pagpapahalaga sa pamilya",
+            "Paggalang sa paniniwala ng iba"
+          ],
+          "position": 5,
+          "updatedAt": 1783971504483
+        },
+        {
+          "id": "bbe45966-fbc2-489e-bf2c-ef5813d44c1e",
+          "term": "5 Halimbawa ng Tradisyong Pilipino",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Fiesta",
+            "Simbang Gabi",
+            "Harana at panliligaw",
+            "Kasal sa tradisyong Pilipino",
+            "Paglalamay at burol"
+          ],
+          "position": 6,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "8 Halimbawa ng Pagkaing Pilipino",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Adobo",
+            "Sinigang",
+            "Lechon",
+            "Pancit",
+            "Kare-kare",
+            "Bibingka",
+            "Puto",
+            "Halo-halo"
+          ],
+          "position": 7,
+          "id": "f9c5145e-d5e5-4209-9d9f-fcc096070100"
+        },
+        {
+          "term": "3 Pangunahing Relihiyon sa Pilipinas",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Katoliko",
+            "Muslim",
+            "Protestante"
+          ],
+          "position": 8,
+          "id": "2a8dbeef-6a5a-4b6d-975c-a8f496ebb68e"
+        },
+        {
+          "term": "5 Halimbawa ng Pagdiriwang Panrelihiyon",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Pasko",
+            "Semana Santa",
+            "Flores de Mayo",
+            "Debosyon",
+            "Pilgrimage"
+          ],
+          "position": 9,
+          "id": "32ffe746-ad2c-4cb7-9751-35cd2a174945"
+        },
+        {
+          "id": "567df819-43fb-48e3-bd45-785911f79c46",
+          "term": "5 Uri ng Sining at Musika",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Biswal na Sining",
+            "Katutubong Sining",
+            "Sining Pampanitikan",
+            "Sining sa Pagganap",
+            "Musika"
+          ],
+          "position": 10,
+          "updatedAt": 1783971504483
+        },
+        {
+          "term": "Biswal na Sining",
+          "kind": "standard",
+          "definition": "Pintura at eskultura; halimbawa: Amorsolo, Juan Luna at ang Spoliarium, at Carlos \"Botong\" Francisco.",
+          "answers": null,
+          "position": 11,
+          "id": "7a58a732-79d0-4a63-899d-0b7879380783"
+        },
+        {
+          "term": "Katutubong Sining",
+          "kind": "standard",
+          "definition": "Ukit, habi, at palamuti ng mga pangkat tulad ng Ifugao, T'boli, at Maranao.",
+          "answers": null,
+          "position": 12,
+          "id": "634ea4e0-b9fe-42c1-9698-6a3ca8b1a505"
+        },
+        {
+          "term": "Sining Pampanitikan",
+          "kind": "standard",
+          "definition": "Tula, kwento, epiko, at awit; halimbawa: Biag ni Lam-ang at mga tula ni Rizal.",
+          "answers": null,
+          "position": 13,
+          "id": "aec85e71-d37e-4e2d-bd2a-d71b93b8b218"
+        },
+        {
+          "term": "Sining sa Pagganap",
+          "kind": "standard",
+          "definition": "Teatro, sayaw, at dula; halimbawa: bodabil, komedya, at senakulo.",
+          "answers": null,
+          "position": 14,
+          "id": "ed2d6eb2-3f50-41a4-aee2-54e2e9cd9529"
+        },
+        {
+          "term": "Musika",
+          "kind": "standard",
+          "definition": "Kundiman, harana, at awiting-bayan tulad ng Bahay Kubo at Leron-Leron Sinta.",
+          "answers": null,
+          "position": 15,
+          "id": "d78af452-e850-4322-8a23-8e83c81f53b7"
+        },
+        {
+          "term": "5 Halimbawa ng Kasuotang Pilipino",
+          "kind": "enumeration",
+          "definition": "",
+          "answers": [
+            "Barong Tagalog",
+            "Baro't Saya",
+            "Balintawak",
+            "Malong",
+            "Bahag"
+          ],
+          "position": 16,
+          "id": "aa73e0a5-7487-488a-a481-e5f29c268792"
+        }
+      ],
+      "id": "284e8636-f7bc-49db-b50c-edfb6765130d"
+    }
+  ]
+}
